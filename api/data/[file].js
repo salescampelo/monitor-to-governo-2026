@@ -20,9 +20,10 @@ export default async function handler(req, res) {
   }
 
   const token = auth.slice(7);
+  const stripBom = (s) => (s || '').replace(/^﻿/, '').trim();
   const supabase = createClient(
-    process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL,
-    process.env.SUPABASE_ANON_KEY || process.env.VITE_SUPABASE_ANON_KEY
+    stripBom(process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL),
+    stripBom(process.env.SUPABASE_ANON_KEY || process.env.VITE_SUPABASE_ANON_KEY)
   );
 
   const { data: { user }, error } = await supabase.auth.getUser(token);
