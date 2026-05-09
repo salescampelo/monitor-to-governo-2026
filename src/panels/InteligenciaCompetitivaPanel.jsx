@@ -50,6 +50,20 @@ const BlocoBadge = ({ bloco }) => (
   </span>
 );
 
+const fmtDateBR = (s) => {
+  if (!s) return '';
+  const d = new Date(s);
+  if (isNaN(d)) {
+    const m = String(s).match(/^(\d{4})-(\d{2})-(\d{2})\s*(.*)/);
+    if (m) return `${m[3]}/${m[2]}/${m[1]}${m[4] ? ' ' + m[4] : ''}`;
+    return s;
+  }
+  const dd = String(d.getDate()).padStart(2, '0');
+  const mm = String(d.getMonth() + 1).padStart(2, '0');
+  const yy = d.getFullYear();
+  return `${dd}/${mm}/${yy}`;
+};
+
 export default function InteligenciaCompetitivaPanel({ adversariosData, advMentionsData }) {
   const isMobile = useWW() < 768;
   if (!adversariosData) return null;
@@ -76,7 +90,7 @@ export default function InteligenciaCompetitivaPanel({ adversariosData, advMenti
         </div>
         {data_atualizacao && (
           <p style={{ margin: '8px 0 0', fontSize: 11, color: 'var(--text-secondary)' }}>
-            Atualizado em {data_atualizacao}
+            Atualizado em {fmtDateBR(data_atualizacao)}
           </p>
         )}
       </Card>
@@ -215,7 +229,7 @@ export default function InteligenciaCompetitivaPanel({ adversariosData, advMenti
                         {m.title}
                       </a>
                       <span style={{ fontSize: 10, color: 'var(--text-secondary)' }}>
-                        {m.source} &middot; {m.published}
+                        {m.source} &middot; {fmtDateBR(m.published)}
                       </span>
                     </div>
                   ))}

@@ -98,7 +98,7 @@ export default function AppHeader({
             <span style={{ color: 'rgba(255,255,255,0.4)', display: 'block' }}>2026.</span>
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: 12, margin: '14px 0 0' }}>
-            8 pré-candidatos monitorados · {lastUpdate || new Date().toLocaleDateString('pt-BR')}
+            8 pré-candidatos monitorados · {lastUpdate ? lastUpdate.replace(/^(\d{4})-(\d{2})-(\d{2})/, (_, y, m, d) => `${d}/${m}/${y}`) : new Date().toLocaleDateString('pt-BR')}
           </p>
         </div>
         <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', justifyContent: 'flex-end', flex: '1 1 500px', maxWidth: 750 }}>

@@ -16,6 +16,11 @@ export default function App() {
   const isMobile = useWW() < 768;
 
   useEffect(() => {
+    if (import.meta.env.DEV) {
+      setSession({ dev: true });
+      setUserEmail('dev@localhost');
+      return;
+    }
     supabase.auth.getSession().then(({ data: { session: s } }) => setSession(s));
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, s) => {
       setSession(s);
@@ -27,9 +32,12 @@ export default function App() {
   const loadData = useCallback(async () => {
     setRefreshing(true);
     try {
+      const fetcher = import.meta.env.DEV
+        ? (u) => fetch(u).then(r => r.ok ? r.json() : null).catch(() => null)
+        : fetchJ;
       const [adv, advM] = await Promise.all([
-        fetchJ(URLS.adversarios),
-        fetchJ(URLS.adversariosMentions),
+        fetcher(URLS.adversarios),
+        fetcher(URLS.adversariosMentions),
       ]);
       if (adv) setAdversariosData(adv);
       if (advM) setAdvMentionsData(advM);
@@ -98,7 +106,7 @@ export default function App() {
         imprensa48h={headerMetrics.imprensa48h}
         crises={headerMetrics.crises}
       />
-      <main style={{ maxWidth: 1200, margin: '0 auto', padding: isMobile ? '16px 12px' : '32px 40px' }}>
+      <main style={{ maxWidth: 1600, margin: '0 auto', padding: isMobile ? '16px 12px' : '32px 40px' }}>
         {adversariosData ? (
           <InteligenciaCompetitivaPanel
             adversariosData={adversariosData}
