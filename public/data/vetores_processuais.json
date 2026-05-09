@@ -1,7 +1,7 @@
 {
   "version": "2026-05-09",
   "metodo": "fuzzy_match_4_camadas",
-  "gerado_em": "2026-05-09T09:52:11.559486",
+  "gerado_em": "2026-05-09T10:46:35.329892",
   "alertas_qa": [],
   "dorinha": {
     "votos_2022": 395408,
@@ -12,9 +12,9 @@
     },
     "num_doadores": 8,
     "trajetoria_eleitoral": 1.0,
-    "severidade_processual": 0.0,
-    "vetor_doadores": 0.0,
-    "capital_positivo": 0.0
+    "vetor_doadores": 0.973,
+    "capital_positivo": 0.619,
+    "sobreposicao": 0.906
   },
   "vicentinho": {
     "votos_2022": 55292,
@@ -25,27 +25,27 @@
     },
     "num_doadores": 111,
     "trajetoria_eleitoral": 0.36,
-    "severidade_processual": 0.0,
-    "vetor_doadores": 0.0,
-    "capital_positivo": 0.0
+    "vetor_doadores": 0.868,
+    "capital_positivo": 0.444,
+    "sobreposicao": 0.592
   },
   "laurez": {
     "votos_2022": 0,
     "votos_historico": {},
     "num_doadores": 0,
     "trajetoria_eleitoral": 0.5,
-    "severidade_processual": 0.0,
     "vetor_doadores": 0.0,
-    "capital_positivo": 0.0
+    "capital_positivo": 0.0,
+    "sobreposicao": 0.0
   },
   "cinthia": {
     "votos_2022": 0,
     "votos_historico": {},
     "num_doadores": 0,
     "trajetoria_eleitoral": 0.5,
-    "severidade_processual": 0.0,
     "vetor_doadores": 0.0,
-    "capital_positivo": 0.0
+    "capital_positivo": 0.0,
+    "sobreposicao": 0.0
   },
   "mourao": {
     "votos_2022": 88143,
@@ -56,9 +56,9 @@
     },
     "num_doadores": 16,
     "trajetoria_eleitoral": 1.0,
-    "severidade_processual": 0.0,
-    "vetor_doadores": 0.0,
-    "capital_positivo": 0.0
+    "vetor_doadores": 0.839,
+    "capital_positivo": 0.0,
+    "sobreposicao": 0.813
   },
   "katia": {
     "votos_2022": 145104,
@@ -68,18 +68,18 @@
     },
     "num_doadores": 5,
     "trajetoria_eleitoral": 0.13,
-    "severidade_processual": 0.0,
-    "vetor_doadores": 0.0,
-    "capital_positivo": 0.0
+    "vetor_doadores": 0.855,
+    "capital_positivo": 0.37,
+    "sobreposicao": 0.842
   },
   "witer": {
     "votos_2022": 0,
     "votos_historico": {},
     "num_doadores": 0,
     "trajetoria_eleitoral": 0.5,
-    "severidade_processual": 0.0,
     "vetor_doadores": 0.0,
-    "capital_positivo": 0.0
+    "capital_positivo": 0.0,
+    "sobreposicao": 0.0
   },
   "ataides": {
     "votos_2022": 69420,
@@ -90,8 +90,8 @@
     },
     "num_doadores": 18,
     "trajetoria_eleitoral": 0.93,
-    "severidade_processual": 0.0,
-    "vetor_doadores": 0.0,
-    "capital_positivo": 0.0
+    "vetor_doadores": 0.752,
+    "capital_positivo": 0.486,
+    "sobreposicao": 0.827
   }
 }
