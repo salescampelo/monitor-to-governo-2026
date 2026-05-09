@@ -42,15 +42,15 @@ export default function LoginScreen() {
     }
     setLoading(true);
     try {
-      const { error: err } = await supabase.auth.signInWithPassword({ email, password });
+      const { data, error: err } = await supabase.auth.signInWithPassword({ email, password });
       if (err) {
         recordAttempt(email);
-        setError(err.message === 'Invalid login credentials' ? 'E-mail ou senha incorretos.' : 'Erro ao entrar.');
+        setError(err.message === 'Invalid login credentials' ? 'E-mail ou senha incorretos.' : `Erro: ${err.message}`);
       } else {
         clearAttempts(email);
       }
-    } catch {
-      setError('Erro de conexão.');
+    } catch (ex) {
+      setError(`Erro de conexão: ${ex.message}`);
     } finally {
       setLoading(false);
     }
