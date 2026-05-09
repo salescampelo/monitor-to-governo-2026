@@ -1,122 +1,113 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
+import { supabase } from './lib/supabase.js';
+import { fetchJ, URLS } from './lib/fetch.js';
+import { CONFIG } from './lib/config.js';
+import { CSS, useWW, PanelSkeleton } from './components/ui.jsx';
+import LoginScreen from './components/LoginScreen.jsx';
+import AppHeader from './components/AppHeader.jsx';
+import InteligenciaCompetitivaPanel from './panels/InteligenciaCompetitivaPanel.jsx';
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [session, setSession] = useState(undefined);
+  const [userEmail, setUserEmail] = useState(null);
+  const [adversariosData, setAdversariosData] = useState(null);
+  const [advMentionsData, setAdvMentionsData] = useState(null);
+  const [refreshing, setRefreshing] = useState(false);
+  const isMobile = useWW() < 768;
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session: s } }) => setSession(s));
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, s) => {
+      setSession(s);
+      if (s) setUserEmail(s.user?.email);
+    });
+    return () => subscription.unsubscribe();
+  }, []);
+
+  const loadData = useCallback(async () => {
+    setRefreshing(true);
+    try {
+      const [adv, advM] = await Promise.all([
+        fetchJ(URLS.adversarios),
+        fetchJ(URLS.adversariosMentions),
+      ]);
+      if (adv) setAdversariosData(adv);
+      if (advM) setAdvMentionsData(advM);
+    } catch (err) {
+      if (err.message?.includes('Sessão expirada')) {
+        await supabase.auth.signOut();
+      }
+    } finally {
+      setRefreshing(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (session) loadData();
+  }, [session, loadData]);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    setSession(null);
+    setAdversariosData(null);
+    setAdvMentionsData(null);
+  };
+
+  const daysToElection = useMemo(() => {
+    const election = new Date(CONFIG.ELECTION_DATE);
+    const now = new Date();
+    return Math.ceil((election - now) / (1000 * 60 * 60 * 24));
+  }, []);
+
+  const headerMetrics = useMemo(() => {
+    const ranking = adversariosData?.ranking || [];
+    const totalCandidatos = ranking.length || 8;
+    const engajamentoMedio = ranking.length > 0
+      ? ranking.reduce((sum, r) => sum + (r.taxa_engajamento_pct || 0), 0) / ranking.length
+      : 0;
+
+    let imprensa48h = 0;
+    if (advMentionsData?.candidatos) {
+      const cutoff = new Date(Date.now() - 48 * 60 * 60 * 1000);
+      Object.values(advMentionsData.candidatos).forEach(c => {
+        (c.mentions || []).forEach(m => {
+          if (m.captured_at && new Date(m.captured_at) >= cutoff) imprensa48h++;
+        });
+      });
+    }
+
+    return { totalCandidatos, engajamentoMedio, imprensa48h, crises: 0 };
+  }, [adversariosData, advMentionsData]);
+
+  if (session === undefined) return null;
+  if (!session) return <><style>{CSS}</style><LoginScreen /></>;
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+    <div style={{ minHeight: '100vh', background: 'var(--bg, #F8F7F4)' }}>
+      <style>{CSS}</style>
+      <AppHeader
+        isMobile={isMobile}
+        refreshing={refreshing}
+        handleRefresh={loadData}
+        userEmail={userEmail}
+        onLogout={handleLogout}
+        lastUpdate={adversariosData?.data_atualizacao}
+        daysToElection={daysToElection}
+        totalCandidatos={headerMetrics.totalCandidatos}
+        engajamentoMedio={headerMetrics.engajamentoMedio}
+        imprensa48h={headerMetrics.imprensa48h}
+        crises={headerMetrics.crises}
+      />
+      <main style={{ maxWidth: 1200, margin: '0 auto', padding: isMobile ? '16px 12px' : '32px 40px' }}>
+        {adversariosData ? (
+          <InteligenciaCompetitivaPanel
+            adversariosData={adversariosData}
+            advMentionsData={advMentionsData}
+          />
+        ) : (
+          <PanelSkeleton rows={8} />
+        )}
+      </main>
+    </div>
+  );
 }
-
-export default App
