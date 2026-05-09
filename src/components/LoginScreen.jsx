@@ -45,12 +45,12 @@ export default function LoginScreen() {
       const { data, error: err } = await supabase.auth.signInWithPassword({ email, password });
       if (err) {
         recordAttempt(email);
-        setError(err.message === 'Invalid login credentials' ? 'E-mail ou senha incorretos.' : `Erro: ${err.message}`);
+        setError('E-mail ou senha incorretos.');
       } else {
         clearAttempts(email);
       }
     } catch (ex) {
-      setError(`Erro de conexão: ${ex.message}`);
+      setError('Erro de conexão. Tente novamente.');
     } finally {
       setLoading(false);
     }
