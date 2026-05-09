@@ -1,0 +1,81 @@
+{
+  "dorinha": {
+    "votos_2022": 0,
+    "votos_historico": {},
+    "num_doadores": 0,
+    "trajetoria_eleitoral": 0.5,
+    "severidade_processual": 0.0,
+    "vetor_doadores": 0.0,
+    "capital_positivo": 0.0
+  },
+  "vicentinho": {
+    "votos_2022": 176012,
+    "votos_historico": {
+      "2014": 249666,
+      "2018": 176012
+    },
+    "num_doadores": 26,
+    "trajetoria_eleitoral": 0.23,
+    "severidade_processual": 0.0,
+    "vetor_doadores": 0.0,
+    "capital_positivo": 0.0
+  },
+  "laurez": {
+    "votos_2022": 0,
+    "votos_historico": {},
+    "num_doadores": 0,
+    "trajetoria_eleitoral": 0.5,
+    "severidade_processual": 0.0,
+    "vetor_doadores": 0.0,
+    "capital_positivo": 0.0
+  },
+  "cinthia": {
+    "votos_2022": 0,
+    "votos_historico": {},
+    "num_doadores": 0,
+    "trajetoria_eleitoral": 0.5,
+    "severidade_processual": 0.0,
+    "vetor_doadores": 0.0,
+    "capital_positivo": 0.0
+  },
+  "mourao": {
+    "votos_2022": 0,
+    "votos_historico": {},
+    "num_doadores": 0,
+    "trajetoria_eleitoral": 0.5,
+    "severidade_processual": 0.0,
+    "vetor_doadores": 0.0,
+    "capital_positivo": 0.0
+  },
+  "katia": {
+    "votos_2022": 372085,
+    "votos_historico": {
+      "2014": 372085
+    },
+    "num_doadores": 0,
+    "trajetoria_eleitoral": 0.5,
+    "severidade_processual": 0.0,
+    "vetor_doadores": 0.0,
+    "capital_positivo": 0.0
+  },
+  "witer": {
+    "votos_2022": 0,
+    "votos_historico": {},
+    "num_doadores": 0,
+    "trajetoria_eleitoral": 0.5,
+    "severidade_processual": 0.0,
+    "vetor_doadores": 0.0,
+    "capital_positivo": 0.0
+  },
+  "ataides": {
+    "votos_2022": 69420,
+    "votos_historico": {
+      "2022": 69420
+    },
+    "num_doadores": 7,
+    "trajetoria_eleitoral": 0.5,
+    "severidade_processual": 0.0,
+    "vetor_doadores": 0.0,
+    "capital_positivo": 0.0
+  }
+}
