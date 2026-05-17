@@ -1,0 +1,44 @@
+{
+  "version": "2026-05-17",
+  "fonte": "Varredura fontes abertas TO 10-17/05/2026",
+  "vices": {
+    "amelio_cayres": {
+      "nome": "Amélio Cayres",
+      "partido_atual": "MDB",
+      "partido_anterior": "Republicanos (saiu para MDB em maio/2026 para compor com Vicentinho)",
+      "vice_de": "vicentinho",
+      "chapa_governador": "vicentinho",
+      "cargo_pretendido_status": "confirmado",
+      "oficializado_em": "2026-05-15",
+      "local_oficializacao": "Porto Nacional",
+      "slogan": "Lealdade não se negocia",
+      "cargo_atual": "Presidente da Assembleia Legislativa do Tocantins",
+      "carreira": "4º mandato deputado estadual, prefeito de Esperantina (1996), agropecuarista",
+      "idade": 64,
+      "instagram": "@ameliocayres",
+      "seguidores_ig": 27000
+    }
+  },
+  "vices_em_negociacao": {
+    "chapa_dorinha": {
+      "nomes_em_disputa": [
+        {"nome": "Lucas Campelo", "partido": "Republicanos", "vinculo": "núcleo de Wanderlei"},
+        {"nome": "Jair Farias", "partido": "Republicanos", "vinculo": "núcleo de Wanderlei"},
+        {"nome": "Ato Gomes", "partido": "Republicanos", "vinculo": "núcleo de Wanderlei"},
+        {"nome": "Lázaro Botelho", "partido": "PP", "vinculo": "ex-deputado federal Araguaína"}
+      ],
+      "decisao_prazo_legal": "2026-08-15"
+    },
+    "chapa_laurez": {
+      "nomes_em_disputa": [
+        {"nome": "(nome do PT)", "partido": "PT", "vinculo": "negociação aliança PSD+PT"},
+        {"nome": "Irajá Abreu", "partido": "PSD", "vinculo": "alternativa caso não vá para Senado"}
+      ],
+      "decisao_prazo": "2026-07"
+    },
+    "chapa_witer": {"nomes_em_disputa": [], "status": "sem informações públicas"},
+    "chapa_ataides": {"nomes_em_disputa": [], "status": "sem informações públicas"},
+    "chapa_mourao": {"nomes_em_disputa": [], "status": "dependente da definição do cargo"}
+  },
+  "gerado_em": "2026-05-17"
+}

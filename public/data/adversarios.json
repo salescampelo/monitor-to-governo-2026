@@ -1,5 +1,5 @@
 {
-  "data_atualizacao": "2026-05-09 12:48",
+  "data_atualizacao": "2026-05-17 11:01",
   "cargo": "Governador",
   "vagas": 1,
   "eleicao": "2026-10-04",
@@ -7,7 +7,7 @@
     {
       "id": "dorinha",
       "username": "profdorinha",
-      "nome": "Professora Dorinha",
+      "nome": "Professora Dorinha Seabra Rezende",
       "partido": "UB",
       "bloco": "Governista",
       "cargo_label": "Senadora",
@@ -26,8 +26,68 @@
       "vetor_doadores": 0.0,
       "capital_positivo": 0.619,
       "trajetoria_eleitoral": 0.9,
+      "chapa": {
+        "vice": {
+          "nome": null,
+          "partido": "Republicanos ou PP",
+          "status": "indefinido",
+          "nomes_em_disputa": [
+            "Lucas Campelo",
+            "Jair Farias",
+            "Ato Gomes",
+            "Lázaro Botelho (PP)"
+          ]
+        },
+        "senado": [
+          {
+            "nome": "Eduardo Gomes",
+            "partido": "PL",
+            "status": "confirmado"
+          },
+          {
+            "nome": "Carlos Gaguim",
+            "partido": "UB",
+            "status": "confirmado"
+          }
+        ],
+        "coligacao": [
+          "UB",
+          "PL",
+          "Republicanos",
+          "PP",
+          "Podemos"
+        ],
+        "lancada_em": "2026-03-27",
+        "local_lancamento": "ATM Palmas (114 prefeitos)"
+      },
+      "cargo_pretendido_status": "confirmado",
+      "trust_score": 1.0,
+      "trust_score_motivo": null,
+      "trust_score_revisao": null,
+      "vetor_reputacional_recente": [
+        {
+          "data": "2026-04-25",
+          "tipo": "deepfake_contra_adversario",
+          "descricao": "Apoiador da Dorinha criou perfil com deepfake contra Vicentinho. Justiça mandou retirar do ar.",
+          "impacto_severidade": 0.1
+        }
+      ],
+      "ranking_caveat": null,
       "score": 85.8,
       "nivel_dinamico": "alta",
+      "confidence": 0.958,
+      "confidence_dims": {
+        "votos_2022": 1.0,
+        "seguidores": 1.0,
+        "sobreposicao": 0.85,
+        "nivel_base": 1.0,
+        "engajamento": 1.0,
+        "mandato": 1.0,
+        "severidade": 0.9,
+        "vetor_doadores": 1.0,
+        "capital_positivo": 0.85,
+        "trajetoria": 0.85
+      },
       "ranking": 1
     },
     {
@@ -38,7 +98,7 @@
       "bloco": "Esquerda",
       "cargo_label": "Senadora",
       "nivel_base": "alta",
-      "descricao": "Cotada em alguns cenários. Experiência como senadora e ministra.",
+      "descricao": "Filiou-se ao PT em 04/04/2026. Cargo final dependerá de barganha por palanque de Lula. Senado mais provável.",
       "abreviacao": "KA",
       "seguidores": 62483,
       "taxa_engajamento_pct": 1.24,
@@ -52,8 +112,28 @@
       "vetor_doadores": 0.0,
       "capital_positivo": 0.37,
       "trajetoria_eleitoral": 0.1,
+      "chapa": {},
+      "cargo_pretendido_status": "incerto",
+      "trust_score": 1.0,
+      "trust_score_motivo": null,
+      "trust_score_revisao": null,
+      "vetor_reputacional_recente": [],
+      "ranking_caveat": "candidatura governador é cenário B; Senado é cenário A",
       "score": 67.6,
       "nivel_dinamico": "média",
+      "confidence": 0.958,
+      "confidence_dims": {
+        "votos_2022": 1.0,
+        "seguidores": 1.0,
+        "sobreposicao": 0.85,
+        "nivel_base": 1.0,
+        "engajamento": 1.0,
+        "mandato": 1.0,
+        "severidade": 0.9,
+        "vetor_doadores": 1.0,
+        "capital_positivo": 0.85,
+        "trajetoria": 0.85
+      },
       "ranking": 2
     },
     {
@@ -64,7 +144,7 @@
       "bloco": "Independente",
       "cargo_label": "Dep. Federal",
       "nivel_base": "alta",
-      "descricao": "Oficializou pré-candidatura em janeiro/2026. Trocou Progressistas → PSDB. Base no interior.",
+      "descricao": "Oficializou pré-candidatura em janeiro/2026. Trocou Progressistas → PSDB. Base no interior. Preside PSDB-TO.",
       "abreviacao": "VJ",
       "seguidores": 106950,
       "taxa_engajamento_pct": 0.92,
@@ -78,35 +158,49 @@
       "vetor_doadores": 0.0,
       "capital_positivo": 0.444,
       "trajetoria_eleitoral": 0.5,
+      "chapa": {
+        "vice": {
+          "nome": "Amélio Cayres",
+          "partido": "MDB",
+          "status": "confirmado"
+        },
+        "senado": [
+          {
+            "nome": "Alexandre Guimarães",
+            "partido": "MDB",
+            "status": "confirmado"
+          }
+        ],
+        "coligacao": [
+          "PSDB",
+          "Cidadania (federação)",
+          "MDB"
+        ],
+        "lancada_em": "2026-05-15",
+        "local_lancamento": "Centro de Convenções Comandante Vicentão, Porto Nacional"
+      },
+      "cargo_pretendido_status": "confirmado",
+      "trust_score": 0.7,
+      "trust_score_motivo": "seguidores IG ainda +23% acima baseline pré-04/05/2026 (ataque)",
+      "trust_score_revisao": "2026-06-04",
+      "vetor_reputacional_recente": [],
+      "ranking_caveat": null,
       "score": 64.2,
       "nivel_dinamico": "média",
+      "confidence": 0.958,
+      "confidence_dims": {
+        "votos_2022": 1.0,
+        "seguidores": 1.0,
+        "sobreposicao": 0.85,
+        "nivel_base": 1.0,
+        "engajamento": 1.0,
+        "mandato": 1.0,
+        "severidade": 0.9,
+        "vetor_doadores": 1.0,
+        "capital_positivo": 0.85,
+        "trajetoria": 0.85
+      },
       "ranking": 3
-    },
-    {
-      "id": "cinthia",
-      "username": "cinthia__ribeiro",
-      "nome": "Cinthia Ribeiro",
-      "partido": "PSDB",
-      "bloco": "Independente",
-      "cargo_label": "Ex-prefeita Palmas",
-      "nivel_base": "alta",
-      "descricao": "Terceira via PSDB. Ex-prefeita de Palmas. Em conversas com Vicentinho e Irajá.",
-      "abreviacao": "CR",
-      "seguidores": 95677,
-      "taxa_engajamento_pct": 0.89,
-      "media_likes_recentes": 767.2,
-      "data_coleta": "2026-05-09",
-      "votos_2022": 0,
-      "cargo_2022": "governo",
-      "sobreposicao": 0.0,
-      "is_mandato_atual": false,
-      "severidade_processual": 0.05,
-      "vetor_doadores": 0.0,
-      "capital_positivo": 0.0,
-      "trajetoria_eleitoral": 0.5,
-      "score": 44.2,
-      "nivel_dinamico": "média",
-      "ranking": 4
     },
     {
       "id": "laurez",
@@ -130,9 +224,58 @@
       "vetor_doadores": 0.0,
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.5,
+      "chapa": {
+        "vice": {
+          "nome": null,
+          "status": "indefinido",
+          "nomes_em_disputa": [
+            "Cinthia Ribeiro (foi p/ Vicentinho)",
+            "Irajá Abreu",
+            "nome do PT em negociação"
+          ]
+        },
+        "senado": [
+          {
+            "nome": "Mauro Carlesse",
+            "partido": "PSD",
+            "status": "confirmado"
+          },
+          {
+            "nome": "Irajá Abreu",
+            "partido": "PSD",
+            "status": "confirmado"
+          }
+        ],
+        "coligacao": [
+          "PSD",
+          "PDT",
+          "buscando PT"
+        ],
+        "lancada_em": "2026-05-14",
+        "local_lancamento": "Clube da Caixa, Gurupi (parte Senado)"
+      },
+      "cargo_pretendido_status": "confirmado",
+      "trust_score": 1.0,
+      "trust_score_motivo": null,
+      "trust_score_revisao": null,
+      "vetor_reputacional_recente": [],
+      "ranking_caveat": null,
       "score": 43.1,
       "nivel_dinamico": "média",
-      "ranking": 5
+      "confidence": 0.619,
+      "confidence_dims": {
+        "votos_2022": 0.3,
+        "seguidores": 1.0,
+        "sobreposicao": 0.0,
+        "nivel_base": 1.0,
+        "engajamento": 1.0,
+        "mandato": 1.0,
+        "severidade": 0.9,
+        "vetor_doadores": 1.0,
+        "capital_positivo": 0.5,
+        "trajetoria": 0.3
+      },
+      "ranking": 4
     },
     {
       "id": "ataides",
@@ -142,7 +285,7 @@
       "bloco": "Outsider",
       "cargo_label": "Empresário",
       "nivel_base": "média",
-      "descricao": "Empresário, outsider. Mencionado por NDMais e outros veículos.",
+      "descricao": "Empresário, outsider. Preside Novo-TO. Movimento 'Todos Contra a Corrupção'.",
       "abreviacao": "AO",
       "seguidores": 36000,
       "taxa_engajamento_pct": 0,
@@ -156,9 +299,39 @@
       "vetor_doadores": 0.0,
       "capital_positivo": 0.486,
       "trajetoria_eleitoral": 0.9,
+      "chapa": {
+        "vice": {
+          "nome": null,
+          "status": "indefinido"
+        },
+        "senado": [],
+        "coligacao": [
+          "Novo"
+        ],
+        "lancada_em": null
+      },
+      "cargo_pretendido_status": "confirmado",
+      "trust_score": 1.0,
+      "trust_score_motivo": null,
+      "trust_score_revisao": null,
+      "vetor_reputacional_recente": [],
+      "ranking_caveat": null,
       "score": 42.7,
       "nivel_dinamico": "média",
-      "ranking": 6
+      "confidence": 0.858,
+      "confidence_dims": {
+        "votos_2022": 1.0,
+        "seguidores": 1.0,
+        "sobreposicao": 0.85,
+        "nivel_base": 1.0,
+        "engajamento": 0.0,
+        "mandato": 1.0,
+        "severidade": 0.9,
+        "vetor_doadores": 1.0,
+        "capital_positivo": 0.85,
+        "trajetoria": 0.85
+      },
+      "ranking": 5
     },
     {
       "id": "mourao",
@@ -168,7 +341,7 @@
       "bloco": "Esquerda",
       "cargo_label": "Candidato PT",
       "nivel_base": "média",
-      "descricao": "Candidato natural da esquerda no Tocantins. Sem mandato federal.",
+      "descricao": "Candidato natural da esquerda no Tocantins. Cargo final (Governo ou Senado) depende do PT nacional.",
       "abreviacao": "PM",
       "seguidores": 9456,
       "taxa_engajamento_pct": 0,
@@ -182,9 +355,40 @@
       "vetor_doadores": 0.0,
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.9,
+      "chapa": {
+        "vice": {
+          "nome": null,
+          "status": "n/a — cargo do candidato indefinido"
+        },
+        "senado": [],
+        "coligacao": [
+          "PT",
+          "PV",
+          "PCdoB (federação)"
+        ]
+      },
+      "cargo_pretendido_status": "indefinido",
+      "trust_score": 1.0,
+      "trust_score_motivo": null,
+      "trust_score_revisao": null,
+      "vetor_reputacional_recente": [],
+      "ranking_caveat": null,
       "score": 39.7,
       "nivel_dinamico": "baixa",
-      "ranking": 7
+      "confidence": 0.844,
+      "confidence_dims": {
+        "votos_2022": 1.0,
+        "seguidores": 1.0,
+        "sobreposicao": 0.85,
+        "nivel_base": 1.0,
+        "engajamento": 0.0,
+        "mandato": 1.0,
+        "severidade": 0.9,
+        "vetor_doadores": 1.0,
+        "capital_positivo": 0.5,
+        "trajetoria": 0.85
+      },
+      "ranking": 6
     },
     {
       "id": "witer",
@@ -194,7 +398,7 @@
       "bloco": "Esquerda",
       "cargo_label": "Federação esquerda",
       "nivel_base": "baixa",
-      "descricao": "Representante da federação de esquerda (PSOL). Menor expressão eleitoral. Sem perfil ativo no Instagram (verificado 2026-05-09).",
+      "descricao": "Mestre em Geografia Eleitoral (UFRJ), Doutor em produção de espaço urbano. Professor IFTO + rede municipal.",
       "abreviacao": "WN",
       "seguidores": 0,
       "taxa_engajamento_pct": 0,
@@ -208,35 +412,100 @@
       "vetor_doadores": 0.0,
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.5,
+      "chapa": {
+        "vice": {
+          "nome": null,
+          "status": "indefinido"
+        },
+        "senado": [
+          {
+            "nome": "Bernadete Aparecida",
+            "partido": "PSOL",
+            "status": "confirmado"
+          },
+          {
+            "nome": "Fábio Ribeiro",
+            "partido": "Rede",
+            "status": "confirmado"
+          }
+        ],
+        "coligacao": [
+          "PSOL",
+          "Rede (federação)"
+        ],
+        "lancada_em": "2026-04-27"
+      },
+      "cargo_pretendido_status": "confirmado",
+      "trust_score": 1.0,
+      "trust_score_motivo": null,
+      "trust_score_revisao": null,
+      "vetor_reputacional_recente": [],
+      "ranking_caveat": null,
       "score": 16.0,
       "nivel_dinamico": "baixa",
-      "ranking": 8
+      "confidence": 0.349,
+      "confidence_dims": {
+        "votos_2022": 0.3,
+        "seguidores": 0.0,
+        "sobreposicao": 0.0,
+        "nivel_base": 1.0,
+        "engajamento": 0.0,
+        "mandato": 1.0,
+        "severidade": 0.9,
+        "vetor_doadores": 0.5,
+        "capital_positivo": 0.5,
+        "trajetoria": 0.3
+      },
+      "ranking": 7
+    }
+  ],
+  "desistentes": [
+    {
+      "nome": "Cinthia Ribeiro",
+      "cand_key": "cinthia",
+      "desistente_em": "2026-05-16",
+      "motivo": "Apoia Vicentinho Júnior. Migrou para pré-candidatura a Deputada Federal.",
+      "apoia_governador": "vicentinho",
+      "cargo_atual": "Deputada Federal"
     }
   ],
   "nomes_fronteira": [
     {
-      "nome": "Amélio Cayres",
-      "partido": "Republicanos",
-      "username": "ameliocayres",
-      "nota": "Presidente da ALETO. Monitorar se virar titular."
-    },
-    {
       "nome": "Alexandre Guimarães",
       "partido": "MDB",
       "username": "alexandreguimaraes15",
-      "nota": "Deputado federal. Adicionar se anunciar candidatura."
+      "nota": "Deputado federal. Confirmado para Senado na chapa Vicentinho."
     },
     {
       "nome": "Irajá Abreu",
       "partido": "PSD",
       "username": "irajasenador",
-      "nota": "Alinhado mais ao Senado."
+      "nota": "Confirmado para Senado na chapa Laurez. Alternativa para vice se não for Senado."
+    },
+    {
+      "nome": "Eduardo Gomes",
+      "partido": "PL",
+      "username": "eduardogomes",
+      "nota": "Confirmado para Senado na chapa Dorinha."
+    },
+    {
+      "nome": "Carlos Gaguim",
+      "partido": "UB",
+      "username": "carlosgaguim",
+      "nota": "Confirmado para Senado na chapa Dorinha."
+    },
+    {
+      "nome": "Mauro Carlesse",
+      "partido": "PSD",
+      "username": "",
+      "nota": "Confirmado para Senado na chapa Laurez."
     }
   ],
-  "total_candidatos": 8,
+  "total_candidatos": 7,
   "stats": {
     "forca_alta": 1,
-    "forca_media": 5,
-    "forca_baixa": 2
+    "forca_media": 4,
+    "forca_baixa": 2,
+    "confidence_media": 0.792
   }
 }

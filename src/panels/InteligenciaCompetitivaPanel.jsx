@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, useWW, fmtK } from '../components/ui.jsx';
-import { Target, Newspaper, Eye } from 'lucide-react';
+import ConfidenceBadge, { ConfidenceDims } from '../components/ConfidenceBadge.jsx';
+import { Target, Newspaper, Eye, AlertTriangle } from 'lucide-react';
 
 const FORCA_C = {
   alta:  { bg: 'rgba(239,68,68,0.1)',  c: '#ef4444' },
@@ -68,7 +69,7 @@ export default function InteligenciaCompetitivaPanel({ adversariosData, advMenti
   const isMobile = useWW() < 768;
   if (!adversariosData) return null;
 
-  const { ranking = [], stats = {}, nomes_fronteira = [], total_candidatos, vagas, data_atualizacao } = adversariosData;
+  const { ranking = [], stats = {}, nomes_fronteira = [], total_candidatos, vagas, data_atualizacao, desistentes = [] } = adversariosData;
   const candidatos = advMentionsData?.candidatos || {};
 
   return (
@@ -123,8 +124,11 @@ export default function InteligenciaCompetitivaPanel({ adversariosData, advMenti
                       </span>
                     </div>
                   </div>
-                  <span style={{ padding: '3px 8px', borderRadius: 6, fontSize: 11, fontWeight: 700, background: fc.bg, color: fc.c, fontFamily: 'var(--font-mono)', flexShrink: 0 }}>
-                    {c.score.toFixed(1)}
+                  <span style={{ display: 'flex', alignItems: 'center', gap: 4, flexShrink: 0 }}>
+                    <span style={{ padding: '3px 8px', borderRadius: 6, fontSize: 11, fontWeight: 700, background: fc.bg, color: fc.c, fontFamily: 'var(--font-mono)' }}>
+                      {c.score.toFixed(1)}
+                    </span>
+                    <ConfidenceBadge value={c.confidence} />
                   </span>
                 </div>
               );
@@ -146,6 +150,12 @@ export default function InteligenciaCompetitivaPanel({ adversariosData, advMenti
                 <span style={{ color: 'var(--text-secondary)' }}>Candidatos</span>
                 <span style={{ fontWeight: 700, fontFamily: 'var(--font-mono)' }}>{total_candidatos}</span>
               </div>
+              {stats.confidence_media != null && (
+                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 13 }}>
+                  <span style={{ color: 'var(--text-secondary)' }}>Confiança média</span>
+                  <ConfidenceBadge value={stats.confidence_media} showLabel />
+                </div>
+              )}
               <div style={{ borderTop: '1px solid var(--surface-border)', paddingTop: 10, display: 'flex', flexDirection: 'column', gap: 6 }}>
                 {[['Força alta', stats.forca_alta, '#ef4444'], ['Força média', stats.forca_media, '#f59e0b'], ['Força baixa', stats.forca_baixa, '#64748b']].map(([l, v, c]) => (
                   <div key={l} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 12 }}>
@@ -198,14 +208,95 @@ export default function InteligenciaCompetitivaPanel({ adversariosData, advMenti
                     </div>
                   ))}
                 </div>
+                {c.confidence != null && (
+                  <div style={{ marginBottom: 8 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 2 }}>
+                      <span style={{ fontSize: 10, color: '#8C93A8', textTransform: 'uppercase', fontWeight: 600 }}>Confiança</span>
+                      <ConfidenceBadge value={c.confidence} showLabel />
+                    </div>
+                    <ConfidenceDims dims={c.confidence_dims} />
+                  </div>
+                )}
+                {(c.trust_score ?? 1.0) < 1.0 && (
+                  <div style={{ marginTop: 8, padding: 8, background: '#FEE2E2', borderRadius: 4 }}>
+                    <strong style={{ color: '#B91C1C', fontSize: 12 }}>⚠ Trust Score: {(c.trust_score * 100).toFixed(0)}%</strong>
+                    {c.trust_score_motivo && <div style={{ fontSize: 11, marginTop: 4, color: '#7F1D1D' }}>{c.trust_score_motivo}</div>}
+                    {c.trust_score_revisao && <div style={{ fontSize: 10, marginTop: 2, color: 'var(--text-secondary)' }}>Revisão: {c.trust_score_revisao}</div>}
+                  </div>
+                )}
+                {c.vetor_reputacional_recente && c.vetor_reputacional_recente.length > 0 && (
+                  <div style={{ marginTop: 8, padding: 8, background: 'rgba(245,158,11,0.08)', borderRadius: 4 }}>
+                    <div style={{ fontSize: 11, fontWeight: 700, color: '#A16207', marginBottom: 4 }}>Vetor Reputacional</div>
+                    {c.vetor_reputacional_recente.map((vr, i) => (
+                      <div key={i} style={{ fontSize: 11, color: 'var(--text-secondary)' }}>
+                        <span style={{ color: 'var(--text)' }}>{vr.data}</span> — {vr.descricao}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {c.chapa && Object.keys(c.chapa).length > 0 && (
+                  <div style={{ marginTop: 10, paddingTop: 8, borderTop: '1px solid var(--surface-border)' }}>
+                    <div style={{ fontSize: 11, fontWeight: 700, color: '#0B3D91', marginBottom: 4 }}>Chapa</div>
+                    <div style={{ fontSize: 12, color: 'var(--text-secondary)' }}>
+                      Vice: {c.chapa.vice?.nome || <em>indefinido</em>}
+                      {c.chapa.vice?.partido && <span> ({c.chapa.vice.partido})</span>}
+                    </div>
+                    {c.chapa.senado && c.chapa.senado.length > 0 && (
+                      <div style={{ fontSize: 12, color: 'var(--text-secondary)', marginTop: 2 }}>
+                        Senado: {c.chapa.senado.map(s => `${s.nome} (${s.partido})`).join(', ')}
+                      </div>
+                    )}
+                    {c.chapa.coligacao && (
+                      <div style={{ fontSize: 11, color: 'var(--text-secondary)', marginTop: 2 }}>
+                        Coligação: {c.chapa.coligacao.join(', ')}
+                      </div>
+                    )}
+                    {c.chapa.lancada_em && (
+                      <div style={{ fontSize: 10, color: 'var(--text-secondary)', marginTop: 2 }}>
+                        Lançada em {c.chapa.lancada_em}
+                      </div>
+                    )}
+                  </div>
+                )}
+                {c.ranking_caveat && (
+                  <div style={{ marginTop: 6, fontSize: 10, color: '#A16207', fontStyle: 'italic' }}>
+                    Nota: {c.ranking_caveat}
+                  </div>
+                )}
                 {c.descricao && (
-                  <p style={{ fontSize: 12, color: 'var(--text-secondary)', margin: 0, lineHeight: 1.5 }}>{c.descricao}</p>
+                  <p style={{ fontSize: 12, color: 'var(--text-secondary)', margin: '8px 0 0', lineHeight: 1.5 }}>{c.descricao}</p>
                 )}
               </Card>
             );
           })}
         </div>
       </div>
+
+      {/* Movimentos Recentes (Desistentes) */}
+      {desistentes.length > 0 && (
+        <Card style={{ background: '#FEF3C7', border: '1px solid #FDE68A' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
+            <AlertTriangle size={16} style={{ color: '#A16207' }} />
+            <span style={{ fontSize: 13, fontWeight: 700, color: '#A16207' }}>Movimentos recentes</span>
+          </div>
+          {desistentes.map(d => (
+            <div key={d.cand_key} style={{ fontSize: 13, marginBottom: 6, color: '#78350F' }}>
+              <strong>{d.nome}</strong> — desistiu da disputa ao Governo em {d.desistente_em}.
+              {d.motivo && <span> {d.motivo}</span>}
+              {d.apoia_governador && (
+                <span style={{ marginLeft: 4 }}>
+                  Apoia <strong>{d.apoia_governador}</strong>.
+                </span>
+              )}
+              {d.cargo_atual && (
+                <span style={{ marginLeft: 4, color: '#92400E' }}>
+                  Agora pré-candidato(a) a {d.cargo_atual}.
+                </span>
+              )}
+            </div>
+          ))}
+        </Card>
+      )}
 
       {/* Press Mentions */}
       {advMentionsData && Object.keys(candidatos).length > 0 && (

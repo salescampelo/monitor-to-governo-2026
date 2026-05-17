@@ -6,6 +6,8 @@ import { CSS, useWW, PanelSkeleton } from './components/ui.jsx';
 import LoginScreen from './components/LoginScreen.jsx';
 import AppHeader from './components/AppHeader.jsx';
 import InteligenciaCompetitivaPanel from './panels/InteligenciaCompetitivaPanel.jsx';
+import VicesPanel from './panels/VicesPanel.jsx';
+import { Target, Users } from 'lucide-react';
 
 export default function App() {
   const [session, setSession] = useState(undefined);
@@ -13,6 +15,7 @@ export default function App() {
   const [adversariosData, setAdversariosData] = useState(null);
   const [advMentionsData, setAdvMentionsData] = useState(null);
   const [refreshing, setRefreshing] = useState(false);
+  const [activePanel, setActivePanel] = useState('inteligencia');
   const isMobile = useWW() < 768;
 
   useEffect(() => {
@@ -107,14 +110,40 @@ export default function App() {
         crises={headerMetrics.crises}
       />
       <main style={{ maxWidth: 1600, margin: '0 auto', padding: isMobile ? '16px 12px' : '32px 40px' }}>
-        {adversariosData ? (
-          <InteligenciaCompetitivaPanel
-            adversariosData={adversariosData}
-            advMentionsData={advMentionsData}
-          />
-        ) : (
-          <PanelSkeleton rows={8} />
+        <div style={{ display: 'flex', gap: 8, marginBottom: 20 }}>
+          {[
+            { key: 'inteligencia', label: 'Inteligência Competitiva', icon: Target },
+            { key: 'vices', label: 'Vices', icon: Users },
+          ].map(({ key, label, icon: Icon }) => (
+            <button
+              key={key}
+              onClick={() => setActivePanel(key)}
+              style={{
+                display: 'flex', alignItems: 'center', gap: 6,
+                padding: '8px 16px', borderRadius: 20, fontSize: 12, fontWeight: 700,
+                border: activePanel === key ? '1.5px solid #0B3D91' : '1.5px solid rgba(26,39,68,0.15)',
+                background: activePanel === key ? 'rgba(11,61,145,0.1)' : 'rgba(26,39,68,0.04)',
+                color: activePanel === key ? '#0B3D91' : '#5A6478',
+                cursor: 'pointer', fontFamily: 'inherit',
+              }}
+            >
+              <Icon size={14} />
+              {label}
+            </button>
+          ))}
+        </div>
+
+        {activePanel === 'inteligencia' && (
+          adversariosData ? (
+            <InteligenciaCompetitivaPanel
+              adversariosData={adversariosData}
+              advMentionsData={advMentionsData}
+            />
+          ) : (
+            <PanelSkeleton rows={8} />
+          )
         )}
+        {activePanel === 'vices' && <VicesPanel />}
       </main>
     </div>
   );
