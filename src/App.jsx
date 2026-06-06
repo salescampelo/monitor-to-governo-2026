@@ -1,8 +1,9 @@
-import React, { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useEffect, useCallback } from 'react';
 import { supabase } from './lib/supabase.js';
 import { fetchJ, URLS } from './lib/fetch.js';
 import { CONFIG } from './lib/config.js';
-import { CSS, useWW, PanelSkeleton } from './components/ui.jsx';
+import { CSS, PanelSkeleton } from './components/ui.jsx';
+import { useWW } from './lib/ui-helpers.js';
 import LoginScreen from './components/LoginScreen.jsx';
 import AppHeader from './components/AppHeader.jsx';
 import InteligenciaCompetitivaPanel from './panels/InteligenciaCompetitivaPanel.jsx';
@@ -20,6 +21,7 @@ export default function App() {
 
   useEffect(() => {
     if (import.meta.env.DEV) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-shot DEV-only session bootstrap on mount; intentional
       setSession({ dev: true });
       setUserEmail('dev@localhost');
       return;
@@ -54,6 +56,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- intended data-fetch effect; loadData sets loading/data state on mount and session change
     if (session) loadData();
   }, [session, loadData]);
 
@@ -79,6 +82,7 @@ export default function App() {
 
     let imprensa48h = 0;
     if (advMentionsData?.candidatos) {
+      // eslint-disable-next-line react-hooks/purity -- Date.now() needed for the rolling 48h press window; recomputed when mention data changes
       const cutoff = new Date(Date.now() - 48 * 60 * 60 * 1000);
       Object.values(advMentionsData.candidatos).forEach(c => {
         (c.mentions || []).forEach(m => {

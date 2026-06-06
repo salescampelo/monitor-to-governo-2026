@@ -1,6 +1,4 @@
-import React from 'react';
 import { RefreshCw, LogOut, Calendar, Users, TrendingUp, Newspaper, AlertTriangle } from 'lucide-react';
-import { CONFIG } from '../lib/config.js';
 
 const getKpiColor = (type, value) => {
   switch (type) {

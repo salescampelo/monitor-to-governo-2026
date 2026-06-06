@@ -1,5 +1,5 @@
-import React from 'react';
-import { Card, useWW, fmtK } from '../components/ui.jsx';
+import { Card } from '../components/ui.jsx';
+import { useWW, fmtK } from '../lib/ui-helpers.js';
 import ConfidenceBadge, { ConfidenceDims } from '../components/ConfidenceBadge.jsx';
 import { Target, Newspaper, Eye, AlertTriangle } from 'lucide-react';
 

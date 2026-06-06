@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ShieldAlert, Mail, Lock, LogIn, AlertCircle } from 'lucide-react';
 import { supabase } from '../lib/supabase.js';
 import { checkRateLimit, recordAttempt, clearAttempts } from '../lib/rateLimit.js';
@@ -42,14 +42,14 @@ export default function LoginScreen() {
     }
     setLoading(true);
     try {
-      const { data, error: err } = await supabase.auth.signInWithPassword({ email, password });
+      const { error: err } = await supabase.auth.signInWithPassword({ email, password });
       if (err) {
         recordAttempt(email);
         setError('E-mail ou senha incorretos.');
       } else {
         clearAttempts(email);
       }
-    } catch (ex) {
+    } catch {
       setError('Erro de conexão. Tente novamente.');
     } finally {
       setLoading(false);

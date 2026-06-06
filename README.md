@@ -3,13 +3,13 @@
 Dashboard de inteligência eleitoral para a corrida ao Governo do Tocantins 2026.
 
 ## Modos de operação
-- **B2B neutro** (default): visão simétrica dos 8 pré-candidatos a Governador.
+- **B2B neutro** (default): visão simétrica dos pré-candidatos a Governador.
 - **Unilateral**: visão por cliente, definida em `VITE_TARGET_CANDIDATE`.
 
 ## Stack
-- React 18 + Vite
+- React 19 + Vite
 - Supabase Auth
-- Recharts + Lucide
+- Lucide (ícones)
 - Vercel (deploy)
 
 ## Setup local

@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
-const SUPABASE_URL  = (import.meta.env.VITE_SUPABASE_URL || '').replace(/^﻿/, '').trim();
-const SUPABASE_ANON = (import.meta.env.VITE_SUPABASE_ANON_KEY || '').replace(/^﻿/, '').trim();
+const SUPABASE_URL  = (import.meta.env.VITE_SUPABASE_URL || '').replace(/^\uFEFF/, '').trim();
+const SUPABASE_ANON = (import.meta.env.VITE_SUPABASE_ANON_KEY || '').replace(/^\uFEFF/, '').trim();
 
 if (!SUPABASE_URL || !SUPABASE_ANON) {
   throw new Error('VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY devem estar configurados no .env.local');
