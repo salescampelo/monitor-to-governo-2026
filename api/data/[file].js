@@ -10,6 +10,7 @@ const ALLOWED_FILES = new Set([
   'adversarios_mentions.json',
   'social_metrics.json',
   'vetores_processuais.json',
+  'vices_config.json',
 ]);
 
 export default async function handler(req, res) {

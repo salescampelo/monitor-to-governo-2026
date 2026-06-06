@@ -6,6 +6,7 @@ export const URLS = {
   adversarios:         `${DATA_BASE}/adversarios.json`,
   adversariosMentions: `${DATA_BASE}/adversarios_mentions.json`,
   social:              `${DATA_BASE}/social_metrics.json`,
+  vices:               `${DATA_BASE}/vices_config.json`,
 };
 
 const FETCH_TIMEOUT = 10000;

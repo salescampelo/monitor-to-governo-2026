@@ -1,18 +1,20 @@
 import { useEffect, useState } from 'react';
 import { Users, UserCheck, Clock } from 'lucide-react';
 import { Card } from '../components/ui.jsx';
+import { fetchJ, URLS } from '../lib/fetch.js';
 
-const DATA_URL = import.meta.env.DEV
-  ? '/data/vices_config.json'
-  : '/api/data/vices_config.json';
+// Mirrors App.jsx: in DEV there is no real Supabase session, so fetch the
+// static file via the Vite proxy; in prod go through the authed /api/data endpoint.
+const fetchVices = import.meta.env.DEV
+  ? () => fetch('/data/vices_config.json').then(r => (r.ok ? r.json() : null)).catch(() => null)
+  : () => fetchJ(URLS.vices);
 
 export default function VicesPanel() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(DATA_URL)
-      .then(r => r.ok ? r.json() : null)
+    fetchVices()
       .then(setData)
       .catch(() => null)
       .finally(() => setLoading(false));
