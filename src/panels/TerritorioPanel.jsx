@@ -138,7 +138,7 @@ export default function TerritorioPanel() {
 
       {resumo && (
         <div style={{ display: 'flex', gap: isMobile ? 6 : 8, flexWrap: 'wrap' }}>
-          <Met icon={BarChart3} label="Cobertura" value={`${resumo.n}/139`} accent="#0B3D91" compact={isMobile} />
+          <Met icon={BarChart3} label="Cobertura" value={`${resumo.n}/${municipios.length}`} accent="#0B3D91" compact={isMobile} />
           <Met icon={BarChart3} label="Média estadual" value={resumo.media ?? '—'} accent="#0B3D91" compact={isMobile} />
           <Met icon={BarChart3} label="Mín" value={resumo.min ?? '—'} accent="#15803d" compact={isMobile} />
           <Met icon={BarChart3} label="Máx" value={resumo.max ?? '—'} accent="#b91c1c" compact={isMobile} />
@@ -150,7 +150,7 @@ export default function TerritorioPanel() {
           <MapContainer center={CENTER_TO} zoom={ZOOM_INITIAL} style={{ height: isMobile ? 380 : 560, width: '100%' }} zoomControl>
             <TileLayer
               url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-              attribution='&copy; OpenStreetMap &copy; CARTO'
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
               subdomains="abcd" maxZoom={19}
             />
             {valid.map(m => {
@@ -210,7 +210,7 @@ export default function TerritorioPanel() {
         <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'minmax(0,1.5fr) minmax(0,1fr)', gap: 12 }}>
           <Card noHover style={{ padding: 0, overflow: 'hidden' }}>
             <MapContainer center={CENTER_TO} zoom={ZOOM_INITIAL} style={{ height: isMobile ? 380 : 560, width: '100%' }} zoomControl>
-              <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" attribution='&copy; OpenStreetMap &copy; CARTO' subdomains="abcd" maxZoom={19} />
+              <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>' subdomains="abcd" maxZoom={19} />
               {valid.map(m => (
                 <CircleMarker key={m.cod_ibge} center={[m.lat, m.lon]}
                   radius={Math.max(5, Math.min(22, Math.sqrt(m.populacao || 1) / 30))}
@@ -247,7 +247,7 @@ export default function TerritorioPanel() {
                 <div key={i.chave} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8, padding: '6px 8px', borderLeft: `3px solid ${nivelCor(cell.nivel)}`, background: 'var(--surface-hover)', borderRadius: 6 }}>
                   <div style={{ minWidth: 0 }}>
                     <div style={{ fontSize: 12, color: 'var(--text)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{i.rotulo}</div>
-                    <div style={{ fontSize: 11, color: '#8c93a8' }}>{fmtValor(cell.valor, i.unidade)} · {cell.rank ? `#${cell.rank}/139` : 'sem dado'}</div>
+                    <div style={{ fontSize: 11, color: '#8c93a8' }}>{fmtValor(cell.valor, i.unidade)} · {cell.rank ? `#${cell.rank}/${municipios.length}` : 'sem dado'}</div>
                   </div>
                   {i.tem_serie ? <Sparkline pontos={pontos} /> : <span style={{ fontSize: 10, color: '#cbd5e1' }}>—</span>}
                 </div>
