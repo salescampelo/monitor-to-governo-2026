@@ -48,6 +48,9 @@ const NIVEL_COR = {
 };
 const nivelCor = (n) => NIVEL_COR[n] || '#9ca3af';
 
+const CLUSTER_COR = ['#0B3D91', '#15803d', '#a16207', '#b91c1c', '#7c3aed', '#0891b2'];
+const clusterCor = (id) => CLUSTER_COR[(id ?? 0) % CLUSTER_COR.length];
+
 const fmtValor = (v, unidade) => (v == null ? '—' : `${v} ${unidade || ''}`.trim());
 
 export default function TerritorioPanel() {
@@ -56,6 +59,7 @@ export default function TerritorioPanel() {
   const [loading, setLoading] = useState(true);
   const [chave, setChave] = useState('tx_homicidios');
   const [selected, setSelected] = useState(null);
+  const [modo, setModo] = useState('indicador'); // 'indicador' | 'tipologia'
 
   useEffect(() => {
     fetchInd().then(setData).catch(() => null).finally(() => setLoading(false));
@@ -113,6 +117,13 @@ export default function TerritorioPanel() {
         </div>
       </Card>
 
+      <div style={{ display: 'flex', gap: 6 }}>
+        <Bt active={modo === 'indicador'} color="#0B3D91" onClick={() => setModo('indicador')}>Indicador</Bt>
+        <Bt active={modo === 'tipologia'} color="#0B3D91" onClick={() => setModo('tipologia')}>Tipologia</Bt>
+      </div>
+
+      {modo === 'indicador' && (
+      <>
       {/* seletor de indicador por domínio */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
         {Object.entries(porDominio).map(([dom, inds]) => (
@@ -192,6 +203,35 @@ export default function TerritorioPanel() {
           </div>
         </Card>
       </div>
+      </>
+      )}
+
+      {modo === 'tipologia' && (
+        <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'minmax(0,1.5fr) minmax(0,1fr)', gap: 12 }}>
+          <Card noHover style={{ padding: 0, overflow: 'hidden' }}>
+            <MapContainer center={CENTER_TO} zoom={ZOOM_INITIAL} style={{ height: isMobile ? 380 : 560, width: '100%' }} zoomControl>
+              <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" attribution='&copy; OpenStreetMap &copy; CARTO' subdomains="abcd" maxZoom={19} />
+              {valid.map(m => (
+                <CircleMarker key={m.cod_ibge} center={[m.lat, m.lon]}
+                  radius={Math.max(5, Math.min(22, Math.sqrt(m.populacao || 1) / 30))}
+                  pathOptions={{ color: clusterCor(m.cluster_id), fillColor: clusterCor(m.cluster_id), fillOpacity: 0.6, weight: 1.2 }}>
+                  <Popup><div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 13 }}><strong>{m.municipio}</strong><div style={{ fontSize: 12 }}>{m.cluster_nome}</div></div></Popup>
+                </CircleMarker>
+              ))}
+            </MapContainer>
+          </Card>
+          <Card noHover>
+            <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', color: 'var(--text-secondary)', marginBottom: 10 }}>Tipologia municipal (PCA)</div>
+            {(data.clusters_meta || []).map(c => (
+              <div key={c.cluster_id} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 4px', borderBottom: '1px solid var(--surface-border)' }}>
+                <span style={{ width: 12, height: 12, borderRadius: '50%', background: clusterCor(c.cluster_id), display: 'inline-block' }} />
+                <span style={{ fontSize: 13, color: 'var(--text)', flex: 1 }}>{c.cluster_nome}</span>
+                <span style={{ fontSize: 12, fontWeight: 700, color: '#8c93a8' }}>{c.n}</span>
+              </div>
+            ))}
+          </Card>
+        </div>
+      )}
 
       {selMuni && (
         <Card noHover>
