@@ -11,7 +11,8 @@ import VicesPanel from './panels/VicesPanel.jsx';
 import GeografiaPanel from './panels/GeografiaPanel.jsx';
 import RadarPanel from './panels/RadarPanel.jsx';
 import CoberturaPanel from './panels/CoberturaPanel.jsx';
-import { Target, Users, MapPin, Radar, ShieldCheck } from 'lucide-react';
+import TerritorioPanel from './panels/TerritorioPanel.jsx';
+import { Target, Users, MapPin, Radar, ShieldCheck, Map as MapaIcon } from 'lucide-react';
 
 export default function App() {
   const [session, setSession] = useState(undefined);
@@ -125,6 +126,7 @@ export default function App() {
             { key: 'inteligencia', label: 'Inteligência Competitiva', icon: Target },
             { key: 'radar', label: 'Radar', icon: Radar },
             { key: 'geografia', label: 'Geografia', icon: MapPin },
+            { key: 'territorio', label: 'Território', icon: MapaIcon },
             { key: 'cobertura', label: 'Cobertura', icon: ShieldCheck },
             { key: 'vices', label: 'Vices', icon: Users },
           ].map(({ key, label, icon: Icon }) => (
@@ -158,6 +160,7 @@ export default function App() {
         )}
         {activePanel === 'radar' && <RadarPanel />}
         {activePanel === 'geografia' && <GeografiaPanel />}
+        {activePanel === 'territorio' && <TerritorioPanel />}
         {activePanel === 'cobertura' && <CoberturaPanel />}
         {activePanel === 'vices' && <VicesPanel />}
       </main>
