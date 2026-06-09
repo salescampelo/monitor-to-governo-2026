@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-06-09 15:53",
+  "updated_at": "2026-06-09 16:13",
   "adversarios": {
     "dorinha": {
-      "total": 51,
+      "total": 52,
       "positivos": 38,
       "negativos": 1,
-      "neutros": 12,
-      "sentimento_liquido": 0.725,
-      "relevancia_media": 0.965
+      "neutros": 13,
+      "sentimento_liquido": 0.712,
+      "relevancia_media": 0.963
     },
     "vicentinho": {
-      "total": 63,
-      "positivos": 36,
+      "total": 62,
+      "positivos": 37,
       "negativos": 3,
-      "neutros": 24,
-      "sentimento_liquido": 0.524,
-      "relevancia_media": 0.934
+      "neutros": 22,
+      "sentimento_liquido": 0.548,
+      "relevancia_media": 0.937
     },
     "laurez": {
       "total": 34,

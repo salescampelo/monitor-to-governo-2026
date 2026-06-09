@@ -1,5 +1,5 @@
 {
-  "data_atualizacao": "2026-06-09 15:53",
+  "data_atualizacao": "2026-06-09 16:13",
   "cargo": "Governador",
   "estado": "Tocantins",
   "vagas": 1,
@@ -27,7 +27,7 @@
       "vetor_doadores": 0.0,
       "capital_positivo": 0.619,
       "trajetoria_eleitoral": 0.9,
-      "sentimento_liquido": 0.725,
+      "sentimento_liquido": 0.712,
       "chapa": {
         "vice": {
           "nome": null,
@@ -163,7 +163,7 @@
       "vetor_doadores": 0.0,
       "capital_positivo": 0.444,
       "trajetoria_eleitoral": 0.5,
-      "sentimento_liquido": 0.524,
+      "sentimento_liquido": 0.548,
       "chapa": {
         "vice": {
           "nome": "Amélio Cayres",
@@ -191,7 +191,7 @@
       "trust_score_revisao": "2026-06-04",
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 43.3,
+      "score": 43.4,
       "nivel_dinamico": "média",
       "confidence": 0.708,
       "confidence_dims": {
