@@ -11,6 +11,7 @@ const ALLOWED_FILES = new Set([
   'social_metrics.json',
   'vetores_processuais.json',
   'vices_config.json',
+  'geo_electoral.json',
 ]);
 
 export default async function handler(req, res) {

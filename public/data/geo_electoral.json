@@ -1,0 +1,16 @@
+{
+  "_fixture": true,
+  "data_atualizacao": "2026-06-09 12:00",
+  "municipios": [
+    {"cod_ibge": "1721000", "municipio": "Palmas", "lat": -10.18, "lon": -48.33, "populacao": 306296, "lean_2022": "conservador", "pct_lula_2t": 0.41, "pct_bolsonaro_2t": 0.59, "roi_score": 0.93, "ranking_roi": 1},
+    {"cod_ibge": "1702109", "municipio": "Araguaína", "lat": -7.19, "lon": -48.21, "populacao": 183381, "lean_2022": "dividido", "pct_lula_2t": 0.48, "pct_bolsonaro_2t": 0.52, "roi_score": 0.88, "ranking_roi": 2},
+    {"cod_ibge": "1709500", "municipio": "Gurupi", "lat": -11.73, "lon": -49.07, "populacao": 86647, "lean_2022": "conservador", "pct_lula_2t": 0.43, "pct_bolsonaro_2t": 0.57, "roi_score": 0.81, "ranking_roi": 3},
+    {"cod_ibge": "1718204", "municipio": "Porto Nacional", "lat": -10.71, "lon": -48.42, "populacao": 53010, "lean_2022": "dividido", "pct_lula_2t": 0.47, "pct_bolsonaro_2t": 0.53, "roi_score": 0.74, "ranking_roi": 4},
+    {"cod_ibge": "1716109", "municipio": "Paraíso do Tocantins", "lat": -10.18, "lon": -48.88, "populacao": 51252, "lean_2022": "conservador", "pct_lula_2t": 0.44, "pct_bolsonaro_2t": 0.56, "roi_score": 0.69, "ranking_roi": 5},
+    {"cod_ibge": "1705508", "municipio": "Colinas do Tocantins", "lat": -8.06, "lon": -48.48, "populacao": 35110, "lean_2022": "dividido", "pct_lula_2t": 0.49, "pct_bolsonaro_2t": 0.51, "roi_score": 0.63, "ranking_roi": 6},
+    {"cod_ibge": "1709005", "municipio": "Guaraí", "lat": -8.83, "lon": -48.51, "populacao": 25281, "lean_2022": "conservador", "pct_lula_2t": 0.42, "pct_bolsonaro_2t": 0.58, "roi_score": 0.57, "ranking_roi": 7},
+    {"cod_ibge": "1707108", "municipio": "Dianópolis", "lat": -11.62, "lon": -46.82, "populacao": 21376, "lean_2022": "progressista", "pct_lula_2t": 0.55, "pct_bolsonaro_2t": 0.45, "roi_score": 0.49, "ranking_roi": 8},
+    {"cod_ibge": "1721208", "municipio": "Tocantinópolis", "lat": -6.32, "lon": -47.41, "populacao": 22619, "lean_2022": "progressista", "pct_lula_2t": 0.58, "pct_bolsonaro_2t": 0.42, "roi_score": 0.44, "ranking_roi": 9},
+    {"cod_ibge": "1713205", "municipio": "Miracema do Tocantins", "lat": -9.57, "lon": -48.39, "populacao": 18908, "lean_2022": "progressista", "pct_lula_2t": 0.56, "pct_bolsonaro_2t": 0.44, "roi_score": 0.38, "ranking_roi": 10}
+  ]
+}

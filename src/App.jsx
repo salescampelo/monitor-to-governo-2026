@@ -8,7 +8,8 @@ import LoginScreen from './components/LoginScreen.jsx';
 import AppHeader from './components/AppHeader.jsx';
 import InteligenciaCompetitivaPanel from './panels/InteligenciaCompetitivaPanel.jsx';
 import VicesPanel from './panels/VicesPanel.jsx';
-import { Target, Users } from 'lucide-react';
+import GeografiaPanel from './panels/GeografiaPanel.jsx';
+import { Target, Users, MapPin } from 'lucide-react';
 
 export default function App() {
   const [session, setSession] = useState(undefined);
@@ -117,6 +118,7 @@ export default function App() {
         <div style={{ display: 'flex', gap: 8, marginBottom: 20 }}>
           {[
             { key: 'inteligencia', label: 'Inteligência Competitiva', icon: Target },
+            { key: 'geografia', label: 'Geografia', icon: MapPin },
             { key: 'vices', label: 'Vices', icon: Users },
           ].map(({ key, label, icon: Icon }) => (
             <button
@@ -147,6 +149,7 @@ export default function App() {
             <PanelSkeleton rows={8} />
           )
         )}
+        {activePanel === 'geografia' && <GeografiaPanel />}
         {activePanel === 'vices' && <VicesPanel />}
       </main>
     </div>
