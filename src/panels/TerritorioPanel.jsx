@@ -19,6 +19,25 @@ const fetchInd = import.meta.env.DEV
   ? () => fetch('/data/territorio_indicadores.json').then(r => (r.ok ? r.json() : null)).catch(() => null)
   : () => fetchJ(URLS.territorioIndicadores);
 
+const fetchSeries = import.meta.env.DEV
+  ? () => fetch('/data/territorio_series.json').then(r => (r.ok ? r.json() : null)).catch(() => null)
+  : () => fetchJ(URLS.territorioSeries);
+
+function Sparkline({ pontos }) {
+  if (!pontos || pontos.length < 2) return <span style={{ fontSize: 11, color: '#9ca3af' }}>série indisponível</span>;
+  const xs = pontos.map(p => p.ano), ys = pontos.map(p => p.valor);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+  const W = 120, H = 28;
+  const sx = a => (x1 === x0 ? 0 : ((a - x0) / (x1 - x0)) * W);
+  const sy = b => (y1 === y0 ? H / 2 : H - ((b - y0) / (y1 - y0)) * H);
+  const d = pontos.map((p, i) => `${i ? 'L' : 'M'}${sx(p.ano).toFixed(1)},${sy(p.valor).toFixed(1)}`).join(' ');
+  return (
+    <svg width={W} height={H} style={{ display: 'block' }}>
+      <path d={d} fill="none" stroke="#0B3D91" strokeWidth="1.5" />
+    </svg>
+  );
+}
+
 const CENTER_TO = [-10.25, -48.25];
 const ZOOM_INITIAL = 6;
 
@@ -42,7 +61,11 @@ export default function TerritorioPanel() {
     fetchInd().then(setData).catch(() => null).finally(() => setLoading(false));
   }, []);
 
+  const [series, setSeries] = useState(null);
+  useEffect(() => { fetchSeries().then(setSeries).catch(() => null); }, []);
+
   const municipios = useMemo(() => data?.municipios || [], [data]);
+  const selMuni = useMemo(() => municipios.find(m => m.cod_ibge === selected), [municipios, selected]);
   const meta = useMemo(
     () => (data?.indicadores_meta || []).find(i => i.chave === chave),
     [data, chave],
@@ -169,6 +192,30 @@ export default function TerritorioPanel() {
           </div>
         </Card>
       </div>
+
+      {selMuni && (
+        <Card noHover>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
+            <strong style={{ fontSize: 16, color: 'var(--text)' }}>{selMuni.municipio}</strong>
+            <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 10px', borderRadius: 10, background: 'rgba(11,61,145,0.08)', color: '#0B3D91' }}>{selMuni.cluster_nome || '—'}</span>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: 8 }}>
+            {(data.indicadores_meta || []).map(i => {
+              const cell = selMuni.indicadores[i.chave] || {};
+              const pontos = series?.series?.[selMuni.cod_ibge]?.[i.chave];
+              return (
+                <div key={i.chave} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8, padding: '6px 8px', borderLeft: `3px solid ${nivelCor(cell.nivel)}`, background: 'var(--surface-hover)', borderRadius: 6 }}>
+                  <div style={{ minWidth: 0 }}>
+                    <div style={{ fontSize: 12, color: 'var(--text)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{i.rotulo}</div>
+                    <div style={{ fontSize: 11, color: '#8c93a8' }}>{fmtValor(cell.valor, i.unidade)} · {cell.rank ? `#${cell.rank}/139` : 'sem dado'}</div>
+                  </div>
+                  {i.tem_serie ? <Sparkline pontos={pontos} /> : <span style={{ fontSize: 10, color: '#cbd5e1' }}>—</span>}
+                </div>
+              );
+            })}
+          </div>
+        </Card>
+      )}
     </div>
   );
 }
