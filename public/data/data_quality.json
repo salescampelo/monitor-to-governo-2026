@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-09 15:36",
-  "fonte": "adversarios.json (2026-06-09 15:36)",
+  "updated_at": "2026-06-09 15:53",
+  "fonte": "adversarios.json (2026-06-09 15:53)",
   "n_candidatos": 7,
-  "confidence_media": 0.507,
+  "confidence_media": 0.606,
   "dimensao_valor_mais_fraca": "seguidores",
   "dimensoes": [
     {
@@ -27,10 +27,10 @@
       "dim": "sobreposicao",
       "peso": 0.15,
       "tipo": "valor",
-      "com_sinal": 0,
+      "com_sinal": 5,
       "n": 7,
-      "cobertura_pct": 0.0,
-      "conf_media": 0.0
+      "cobertura_pct": 71.4,
+      "conf_media": 0.607
     },
     {
       "dim": "nivel_base",
@@ -83,18 +83,18 @@
       "dim": "capital_positivo",
       "peso": 0.04,
       "tipo": "valor",
-      "com_sinal": 0,
+      "com_sinal": 4,
       "n": 7,
-      "cobertura_pct": 0.0,
-      "conf_media": 0.5
+      "cobertura_pct": 57.1,
+      "conf_media": 0.7
     },
     {
       "dim": "trajetoria",
       "peso": 0.04,
       "tipo": "traj",
-      "com_sinal": 0,
+      "com_sinal": 4,
       "n": 7,
-      "cobertura_pct": 0.0,
+      "cobertura_pct": 57.1,
       "conf_media": 0.693
     }
   ],
@@ -102,30 +102,45 @@
     {
       "id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "confidence": 0.566,
+      "confidence": 0.708,
       "dims_fracas": [
         "seguidores",
-        "sobreposicao",
         "engajamento"
       ]
     },
     {
       "id": "katia",
       "nome": "Kátia Abreu",
-      "confidence": 0.566,
+      "confidence": 0.708,
       "dims_fracas": [
         "seguidores",
-        "sobreposicao",
         "engajamento"
       ]
     },
     {
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "confidence": 0.566,
+      "confidence": 0.708,
       "dims_fracas": [
         "seguidores",
-        "sobreposicao",
+        "engajamento"
+      ]
+    },
+    {
+      "id": "mourao",
+      "nome": "Paulo Mourão",
+      "confidence": 0.694,
+      "dims_fracas": [
+        "seguidores",
+        "engajamento"
+      ]
+    },
+    {
+      "id": "ataides",
+      "nome": "Ataídes Oliveira",
+      "confidence": 0.708,
+      "dims_fracas": [
+        "seguidores",
         "engajamento"
       ]
     },
@@ -139,26 +154,6 @@
         "engajamento",
         "votos_2022",
         "trajetoria"
-      ]
-    },
-    {
-      "id": "mourao",
-      "nome": "Paulo Mourão",
-      "confidence": 0.566,
-      "dims_fracas": [
-        "seguidores",
-        "sobreposicao",
-        "engajamento"
-      ]
-    },
-    {
-      "id": "ataides",
-      "nome": "Ataídes Oliveira",
-      "confidence": 0.566,
-      "dims_fracas": [
-        "seguidores",
-        "sobreposicao",
-        "engajamento"
       ]
     },
     {

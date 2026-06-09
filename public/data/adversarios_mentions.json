@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09 15:36",
+  "updated_at": "2026-06-09 15:53",
   "candidatos": {
     "dorinha": {
       "nome": "Professora Dorinha Seabra Rezende",
@@ -862,29 +862,15 @@
     "vicentinho": {
       "nome": "Vicentinho Júnior",
       "partido": "PSDB",
-      "total_mentions": 62,
+      "total_mentions": 63,
       "new_this_run": 22,
       "mentions": [
         {
           "title": "Apoiador e parceiro da Guarda, Vicentinho Júnior comemora aprovação do PCCR da categoria em Palmas",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS0tFM3Qzanp6SXBaeTh5WjF0NTVBM1NvU1gyOUhaNnlGRnlYeXJyWUlXN0p6eXZOZ2JENWdwSVh5NFg2UHQ2WEtPWXdneEhoeUdqQ2oyQy1IN0M1cU9lem0xX0x6aWE2NmxoX0dJb2tYdGJsUWVMYmlUbXAxM3dpTzVIeVlqQ3lSLXNlZlZVZDVWT0Jyc29GTk8zYjJOUTY1SXM2TUJ4WjR4VWRGMTNST3loU084SEcyLWxYbk9Ib2F1LVQw?oc=5",
-          "source": "RR10 NOTÍCIAS |",
-          "published": "Wed, 03 Jun 2026 21:21:02 GMT",
-          "hash": "4b77cda56ee0",
-          "captured_at": "2026-06-09",
-          "sentimento": "Positivo",
-          "confianca_sentimento": 0.7,
-          "relevancia": 0.9,
-          "relevancia_rotulo": "DIRETA",
-          "escopo": "focado",
-          "tipo": "institucional"
-        },
-        {
-          "title": "Política | Apoiador e parceiro, Vicentinho Jr comemora aprovação do PCCR da Guarda de Palmas",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTjhOajBQUUVQVHdTRWpLNm1KcjRrckF1R1FZdkFPY09NY195Q3hTRkktazlCOTdtZHJyRUVOUTZlYVdDWHdXR2dGb2VPRlNscVlvcm5rdmJWM0hLLXJMQ0FjQ3BPbXNkaGk4eDdXUzVDUFBxczhha3hxSGZETWFtV0o0ZXpUdHVLMk1KUF9DU0FuOXNSRDdXQXUyV3RYWFJYSVFOeE9ZdjFoLVUyUDM0emZiSTZCMGg2YUFRV3k1M1g?oc=5",
-          "source": "T1 Notícias",
-          "published": "Wed, 03 Jun 2026 15:00:42 GMT",
-          "hash": "6411dea6923a",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNm5CYVBneXZTVllpMjJOYVpxZ0lPQkxlb1R0RTBycXJfaFdSbF80ZWUwUERBWnJLelJiOFE4dXRVWC1lN3J0aExvel9ZTGVGaHRnVmptTHhhX09NQk5GNWFIUlQtZVpDM3hZWHZoY3R4bmhfR2NIaVBRRm5DZmFoS2txZ3gtWVpLNFVEU2gxQV9HOUFEcWV0d0g3RlFWUm1vQk9rM0JVamdwN05ZS3NmeUxHWVpNV09sY2t5MFNOTVM?oc=5",
+          "source": "JORNAL O COLETIVO",
+          "published": "Wed, 03 Jun 2026 19:20:00 GMT",
+          "hash": "217946ea88ae",
           "captured_at": "2026-06-09",
           "sentimento": "Positivo",
           "confianca_sentimento": 0.7,
@@ -1137,6 +1123,20 @@
           "source": "Araguaína Notícias",
           "published": "Mon, 08 Jun 2026 11:24:00 GMT",
           "hash": "f1cd950c5c48",
+          "captured_at": "2026-06-09",
+          "sentimento": "Positivo",
+          "confianca_sentimento": 0.7,
+          "relevancia": 0.9,
+          "relevancia_rotulo": "DIRETA",
+          "escopo": "focado",
+          "tipo": "institucional"
+        },
+        {
+          "title": "Vicentinho Júnior participará das cavalgadas de Pindorama, Formoso e Araguaína",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTUR1UVBlY3NkZ2U5cUg1TnVack1qbXVUclc4Vl8tRW12MllDUUw3enNNY01MX3RKOTctemkxVXdoTFV5VDNYemVxRGtYSG96ZjNXQkxfWTZYWjdnV3o3RGxpUE93eVBtS1UweERWbjdwNHdIM21BeE1maXgzdlRyay0tMGVmdTgxN3FqY2ZROW51OXVqZUVqRWhWdW1vcGNnZTFFMQ?oc=5",
+          "source": "Portal Agora Tocantins",
+          "published": "Fri, 05 Jun 2026 17:53:52 GMT",
+          "hash": "456bc3748310",
           "captured_at": "2026-06-09",
           "sentimento": "Positivo",
           "confianca_sentimento": 0.7,
@@ -1892,13 +1892,31 @@
           "relevancia_rotulo": "DIRETA_ELEITORAL",
           "escopo": "focado",
           "tipo": "campanha"
+        },
+        {
+          "title": "Atividade Parlamentar",
+          "url": "https://folhadojalapao.com.br/category/atividades-parlamentar/",
+          "source": "Folha do Jalapão",
+          "published": "",
+          "hash": "b5571b406714",
+          "captured_at": "2026-06-09",
+          "snippet": "Evelyne Borges, filha de Raimundo Moreira, […] Compartilhe no: Vicentinho Júnior viabiliza R$ 26,8 milhões em emendas para a saúde no Tocantins Vicentinho Júnior articula R$ 1 milhão para a saúde de Araguatins Deputados aprovam isenção de IPVA para veículos com 20 anos ou mais Vicentinho Júnior anuncia voto favorável ao fim da escala 6×1 Aleto realiza evento voltado ao fort",
+          "source_type": "direct_scrape",
+          "site_key": "folhadojalapao",
+          "fonte_peso": 2,
+          "sentimento": "Neutro",
+          "confianca_sentimento": 0.5,
+          "relevancia": 0.812,
+          "relevancia_rotulo": "INSTITUCIONAL",
+          "escopo": "focado",
+          "tipo": "pessoal"
         }
       ]
     },
     "laurez": {
       "nome": "Laurez Moreira",
       "partido": "PSD",
-      "total_mentions": 33,
+      "total_mentions": 34,
       "new_this_run": 17,
       "mentions": [
         {
@@ -2424,6 +2442,24 @@
           "confianca_sentimento": 0.7,
           "relevancia": 1.0,
           "relevancia_rotulo": "DIRETA_ELEITORAL",
+          "escopo": "focado",
+          "tipo": "institucional"
+        },
+        {
+          "title": "Atividade Parlamentar",
+          "url": "https://folhadojalapao.com.br/category/atividades-parlamentar/",
+          "source": "Folha do Jalapão",
+          "published": "",
+          "hash": "b5571b406714",
+          "captured_at": "2026-06-09",
+          "snippet": "Inauguração de Anexo da Assemblei tem discursos de homenagem a Moreira e reconhecimento a Amélio A Assembleia Legislativa do Tocantins (Aleto) inaugura nesta terça-feira, 2, o novo prédio de expansão da Casa, ampliando a infraestrutura física do Parlamento estadual.",
+          "source_type": "direct_scrape",
+          "site_key": "folhadojalapao",
+          "fonte_peso": 2,
+          "sentimento": "Positivo",
+          "confianca_sentimento": 0.7,
+          "relevancia": 0.812,
+          "relevancia_rotulo": "INSTITUCIONAL",
           "escopo": "focado",
           "tipo": "institucional"
         }
