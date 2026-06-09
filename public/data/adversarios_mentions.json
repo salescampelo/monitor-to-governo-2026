@@ -1,738 +1,707 @@
 {
-  "updated_at": "2026-05-09 13:02",
+  "updated_at": "2026-06-09 04:30",
   "candidatos": {
     "dorinha": {
       "nome": "Professora Dorinha",
       "partido": "UB",
       "total_mentions": 30,
-      "new_this_run": 11,
+      "new_this_run": 30,
       "mentions": [
         {
-          "title": "Professora Dorinha confirma presença no debate da FIETO e se destaca como a pré-candidata com maior histórico de trabalho entre os concorrentes",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOdld4cW0tcFc3dmt3R0RnbVlzUER1QjlDd25nRXlNeDZ6U181NVBRTzdHS3VBOW9EUEtCdzdRX3JIcnhYTllPTGJMdVZRX2hPcWJiUDM0YVN0OXFhZnR4Q3NscW9POUxaUGpFcFJWZ094VHlOai1lMWJZbzZGMXN1U1k3Tm1wMXMydGlnQ29SWXF5YktLOEo0THBRLTE5MC1FR1J1bDhzYW9nVWY2QXpXaUpPUF9WUzVFblFLZ2ptZk9RRm1laTlXUC1sZ1NrM3lTX1FhOTZwX2J4bFdKZVR2WWRjbGJrR1JjR2pZMjB1UjBTZXVyckduRnJaRTg5ajZVNlRCUEN1NEtfdXMzYXIw?oc=5",
-          "source": "tonoticia.com.br",
-          "published": "Wed, 06 May 2026 18:17:00 GMT",
-          "hash": "fe29b9ab5735",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Professora Dorinha confirma presença em debate da FIETO e reforça trajetória no Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRXNCWHp3c2NTMTJhcUN3M1gyb2RyV2NZcGQ5V0g0b21HUEVNTm9laDllUFlPcG11Um1kTXE1NlRfNzA0VWlDNzBlM1kzWFpCNWpiSUFiWmpxdFhsUm5TSHhPQnIzQ3V2Z054NUh3UVJfQ0YtQjJHdFp6TU9hcXgyU3dxUURNWlNab3JBNnhYMzhDczJOQUZsOHBWWWJIT2FWaEVJb0pkdzB6dEl1UUhnbmllaDF4c1U2V1lWRDdwakg?oc=5",
-          "source": "Surgiu",
-          "published": "Wed, 06 May 2026 17:48:00 GMT",
-          "hash": "11172f61f232",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Grupo de Dorinha discute licença do Senado para ampliar pré-campanha no Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPXzVfbHNTOUpQWGoxWnZxOTVYU2RzU2hPQ24wRTl6b0U0UjNDTVhSeGlaWFVCY0Mzc0FBcE9FVXFfclBsUkc3UWU5eGRTRk9FS2pxbXk3bmxGT0F3NFN4SWJlNHJad1M4NUhkRlVjU2hxWFZEZ2FvZTVIeS1JUDdCeTVELXhVMDFlQlYzQnZvZGwyNHlWekNjUmtSb3ZmQXQ2M3p1YmdrUW9rZkF5LUxRUFlHNWxzQlYyeUF1aFNVX1VXbHdDMGVmWXgyRTVvOWhtSDFj?oc=5",
-          "source": "Jornal Opção | Tocantins",
-          "published": "Wed, 06 May 2026 12:50:00 GMT",
-          "hash": "a0cb12eda3fd",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Com prefeitos ao redor da mesa, Dorinha fortalece articulação direta municipalista na sua pré-campanha",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmwtNEFsbzJPaFJQZXA3QWk3ZVNtWXdNV3MyM1NZTFR5SGY2a2Z1RnBaRzBZUTlFMjRCTnA3cHhXeU1JRWs3ZnNIUlF0RERuMTZpeUZONWRfRkNvTjFfWW9HZ2NyQ0NGZmVtWE5mb3p2WVFHYWhNd24tenBENzJfMzhiam5VaTlWaUtITGhlVUtkWjhsSklTakxocWJxM1VidkRwU3FvTmNiZzFyZTd5XzdiY2pLc3VzT1BsTnc3anlIaFdjZUtvWmpPcVFHRVZqYVAwWGhMNkpqdw?oc=5",
+          "title": "Justiça eleitoral determina remoção de vídeos falsos contra pré-candidata Dorinha",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYloyeVlmWEhjN25JZVFBYlBaMmRWcUs4N3BLUm05RGtyUkx6R0ZkVU9BZlN4Smp5eEZnYzZxOWJqZGJTUlEyYnRCeGhqNGJ2WGc2SWZvaVM2ZUNRa2p5VWxPVzg0RE9KNllfUkl1bHZsSzM4T1RSZ2lIcTJDNmZYRXBRS3ZDZVl6UGxkd19hQXQxZUtZOW8xWWUwY0FwMzMzbU1MaGlGNWdjNW9WUmotVEhfTTJWZlpYWElYWmU5NUY?oc=5",
           "source": "Gazeta do Cerrado",
-          "published": "Wed, 06 May 2026 11:40:45 GMT",
-          "hash": "a475a76695b5",
-          "captured_at": "2026-05-09"
+          "published": "Wed, 03 Jun 2026 23:38:49 GMT",
+          "hash": "7e7d18a3162e",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Prefeito da 5ª maior cidade e apoiador de Dorinha e Gomes, Celso Morais declara apoio para Irajá na 2ª vaga ao Senado",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTDIyMGpTV0JWWVNoeVJpUnJZQVJ1RHZOa0xOc0xaa2stU2hpRV85SWxUUFRsS2FFdlBHRF9XMWJXRXA0cEk1eE0tUGxuRl9SUkVMTERIejNSdkNwbVJmSlpxeUR0Ym5PQ0xlem9JdjY0d0JFejF5NzJZNFhRUnN3b0g4QzVaZXBqdGkxXzVNbHJDMjBETmFiVWhCaDZIQ1FQcThBclFFSXlMREZ3dGtaZGNUUnMtQWFXdG5QWjNHNnB4bUlLQzFaUDBBUWJDNG5yNDl5U0d4a2JQbFhaQ3RYczZzcm1sLXZCU1dqc3d5RQ?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Tue, 05 May 2026 10:37:06 GMT",
-          "hash": "d974f3122317",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Dorinha assume relatoria de MP que reajusta Piso do Magistério no Congresso Nacional",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUE1JOE1nRXV3b0gxdy1IMTN5OWZtblRkYnliNS1ZTXdmWFM1MFNvQjBlVDdZU291WTRFMzFFVWlqUjE1Z1dYbHZoNF9TbWdJVXRRblpGNThvYVZ6ZUxTUDM5YlJjeWJQVFo2MVBEckJBOEFpR253RjZnM2NfdllkSjdSZXk1dlpTWmVSdld0bFN1NmQ5VS0wMmlldmF5aDh3V0YxWXI2WkJJVmd6Q3Bia3h5UlZsNi1PYjU1RU1vamRQdjQ0dFpEMlhtbFpZbzc5?oc=5",
+          "title": "Relatora, senadora Dorinha garante manutenção de benefícios fiscais para entidades sociais, culturais e esportivas",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNQnU3blZjUUVYR3NDRmdVX28ydEdDM2YxZU5HV3F2bkd6Wl84eEJKTFRJTDM2VGRzN0IzbWdoSDNZX0ZJZ0VZUTBHT2VLUGVWeU9TZERnM3F0MmUyNktRSkpmSkFkMno0endxN3AzM2JwX05TNEpqNllCQ195TkM5QW1JMWwwV1JMMlRib1ctb1VXcWdZMXQ5YWNaX2VaMnVtTVJQLWtBakQ5SzRYWHd3T0tBZHdfVjNXN3BwRXZGMjV3VG13UnE3Qk91ZktIQWNQRC1YbjM3cktuOVQ4clJCeVF2QjRYUUFBMHNnOS1kVFFBdGlxVkE?oc=5",
           "source": "Agência Tocantins",
-          "published": "Thu, 07 May 2026 19:26:42 GMT",
-          "hash": "dcfd650fba00",
-          "captured_at": "2026-05-09"
+          "published": "Wed, 03 Jun 2026 20:51:29 GMT",
+          "hash": "39b99a0249b8",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Professora Dorinha confirma presença em debate da FIETO e reforça propostas para o desenvolvimento do Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbERVTnM5Y1RzMXVMenZ4bVVaMUhFcXM4dzVGLXNydHh0SFV3bWx0OE9jQm5LMDJ0eTFSVjdNRGo1b0hfSmtCVjBQMHdpOEFlMW9fSFdGVkFsYnBjRHppSHlLam5EeWdXZjFxMmVZZmRFN2ZYbllkZ1ItVXdTVlBhT1NEZXEwaWp4Y1NkR3JxTllQRkY1NHBYNHJPZEJfU3ItdUx2RDdYNlVpNG1obm1WTDNKZ2pjVnRrYjcydWt4WkI4SE9aMTROR3JBRlprN2NOYmZjTDg0NkJCbUJpQjY1TmUzc2VrM3JzM2ZXcXBuMHVyWUxV?oc=5",
-          "source": "Agência Tocantins",
-          "published": "Thu, 07 May 2026 19:20:05 GMT",
-          "hash": "81a8de2539b8",
-          "captured_at": "2026-05-09"
+          "title": "Senadora Dorinha defende manutenção de incentivo tributário para livros",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcklvekRXM0g4ejUwc1pWN29oWUZUSi1LY2F4VEdLOHNnMzRrSEhJYmRFNEtyWmVnY0hHUk5waFpYZFlZQWc5SDN5SnFCQzhZTFczMjFBSlE0djdjM1ctTGNfSk43cVo3UnhhYVNHZEZSTUJaUm5RZllBQmhvbmk3QXdmc0prSmZmckVXQ18zanRhS1NqeHBzaXJVb2dTTXdIdmZVZGI0WmZWMFk?oc=5",
+          "source": "Conexão Tocantins",
+          "published": "Wed, 03 Jun 2026 12:44:00 GMT",
+          "hash": "3f2079cd480a",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Saiba quem pode assumir vagas de Vicentinho Júnior e Dorinha em mudanças para 2026",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY0J0N1BtM1pJVS1PS25obnY1MUtzU2R4cGxNNk5PU3l5SWRhTFhjMHVjMmFOdFBjbUJBcDBEaEZTUFNmN1dFM3pTNkVPZmpxSl9WU1hjZDNkRW41Y0tmNVQxTGZPLWhJMEZBbE91bVJpOWRiaFRwZmJndm5OZVlTSG5jVTRVWG8ydm5ncDJOSDY3cmRrRVR0dTViQWwzZjQ4UHVYN0h3SjNOdnBBNlAxT2hkNEN4RmJzRW1oSWZzUW9hTHhCWEZj?oc=5",
-          "source": "Diário Tocantinense",
-          "published": "Thu, 07 May 2026 16:50:37 GMT",
-          "hash": "caf636a8d188",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Dorinha assume relatoria da MP que reajusta o Piso do Magistério",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeFVDSlVzX2k0UUxHbDVPRVRkMFZ3Mmc2MF9FVVNYTmJXTWhkOWI3SVNveXpCMDRWa3FMdkVQRGo4SlQxcjJfQmlhRjduUWE5blN5cUhGQ2R1b0h1ZXIxd3M1SXBhcG5tLXBDbWdhQ1ZuUXhrYzJKcGNMdHR5b201U1ByV3lrY3ZsUXZDcDd5YW9KUUpiZ3JCdDdzZjdvUlZSbDZJMkxnVno?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Thu, 07 May 2026 14:06:55 GMT",
-          "hash": "e0aa3c3a93ea",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Dorinha assume relatoria de MP que reajusta piso nacional do magistério",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYTk1VlB6ZG5LbVotb3FVUTJGVkZYT3RSWC1Ua01VdkUwOVVIYzVvcFVPMEZzUVM0Uk5vbDFIcDJCNTJQTGZ3bTNRNjhQR3Q5X1J6S3RYVTlwN1I3V2pMeFlBNzdwMHRnbVY4b2EwaFR2SE5PakcwazdTRzU0dk5OYTFBVGNGbWtqMDROLS1xVnhFem81VGFzazc0SE1aMW9UdUJ5bGxDYm0?oc=5",
-          "source": "Surgiu",
-          "published": "Thu, 07 May 2026 13:56:00 GMT",
-          "hash": "1377b4abbe06",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Professora Dorinha confirma presença no debate da Fieto em agosto",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWXA5Z0YtMDNRQVR0MGpyc2M2MFg1Q3NnQ2lVMzlvUlBOWVpLSW9YYXdwSnN5UnUyMTNfSlJUanFCS2JuekVmZzg5bGtNNFdueVBrUVN2dU9hZEdoQ1h4YVVWOHVJckt3TGU5OHRmTHFMbVdzMDVXX3I3SXpvZWwyZDYxRU4zUE1jM2lpMFljZFMxODdz?oc=5",
-          "source": "Portal Agora Tocantins",
-          "published": "Thu, 07 May 2026 03:49:13 GMT",
-          "hash": "2c59a452aa94",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Política | Dorinha destaca investimentos de R$ 5 mi e apoio à produção rural em Nova Rosalândia",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZ3ZyRENmTHN0T2xEai1FTzctSHV0ZkFJYzc5amx6V0xQMUYzSnNMajRxTjlyblBMZUxaRnFZV05YbEdFWW1hSUp1TVNJdXdpaTk5dUM4cjY0TTYzc293YTlVRldFV1M5MGpDTEdpTGlGMUxZcmlzUXpkQW1IT3lwa2ZhZDVLX0FpaFRZbjh1a2twOFh1SUtkeHRGdVZTZUk0aThGOWF5VWM1eGRYMkJrc1M0dXJRaTBHTHJmV19vcTBrdkhV?oc=5",
+          "title": "Política | Prefeito de Taguatinga, Paulo Roberto, declara apoio a Dorinha",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaGkwdlRsYndHNFZ4MmRqVHBuV0ppZ3VwVE5JUFpNQy1zY21McG5mc2tzWGtiU2pMem1NeHA2OElISWRNWHRlQmpsZUQxQWNMM1o0RHp5QjN1bGMyVnhaSHA0RTBXR2M4aFBpdndQU2wzalZhUjhIemZ1WlJTSE5uNURRUVFCZDNRX3E4TC1JaUhLNDRyR3VPN3JNWXgzNXRkTWE3WnBB?oc=5",
           "source": "T1 Notícias",
-          "published": "Sun, 03 May 2026 12:00:00 GMT",
-          "hash": "57e357a6c0e2",
-          "captured_at": "2026-05-09"
+          "published": "Wed, 03 Jun 2026 12:12:22 GMT",
+          "hash": "7f6cea0bcd0e",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "PRÉ-CAMPANHA: Dorinha diz em Rio dos Bois: “vou ser a 1ª governadora não por vaidade mas porque posso fazer a diferença na vida do Estado”; Veja vídeo!",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPcnhDOEgtYU5OajAwRndKd0VSVTV0Rm4tSzA2ak5KZE5sYTQ1OTZ3ZHlQWEhsa3hsbXRFZVZqSU5YWmF4RnU3U2U4S0NxR0Jpc1BwTW9XVFNUS2JvMi1OZzM2eW9TUlIwRDJzWTNGdWk1MERGTE9oa0c0T1JOeHlOZjZRZFpSaExlSWVSQ1JxM19sSWpDengtVFpWeG5SaVZrT3NJclpnMTlSdlJXckxkaFVYVWlOMnJwT1RPekcwTGpiYTVjUG8tTGZlSkh0bHVDRGJEaHE5VFp1bWtmT3RXaG1qR1JOT0tsNkRMd1YtRnJnTzQwZ29MNF9pLXFwSlB2YkFBRGRCLWFWbXdadHB5N3JmeEZEQQ?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Sun, 03 May 2026 00:01:52 GMT",
-          "hash": "25ad69fed349",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Dorinha reúne lideranças em Araguaína durante o lançamento das pré-candidaturas de Dra. Ângela e Sandoval Cardoso",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONk5EcVJDOC1GanhkQVZ5UkFEdnBoX3hOT0JidXZ5TWhqbS1BZmMxNkxRcV9GX0U3OUNlUzlxTDhOdmc5TDNqNm1aNk8ycVEwSlUybTk1VEM4dXI4MnljNWloR3MyZWRrQkVEUEJTQVZJZG1VbjBxSTRmNk1USkxhTzFjc1Ewcnpvcy0tNXVUMF9zdUM2ZWZOSEVxZnlnWm5lZkpTdl9EZ3plNW5KbEZiV2diSGRPampVRGZ2VGk5UmF1SzRJelh4MWtUUXN5MFFTRzdSMkw5ZVp6b2p3VmlBNUM3bVJIV3p1?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Sat, 09 May 2026 14:24:07 GMT",
-          "hash": "5efea66231df",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Eleições | Evento em Araguaína sela dobradinha entre Sandoval e Dra. Ângela com apoio de Dorinha",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObmZ4QVctcjJqNG9qNkNFdVFEVE14VkZobTRhdnhabk84TkhNS0R6UXdCSXRudEtubTVpemdaWHFIcHFQc0Vfbi01V3dmVG1RN1NmSmZvQ1NRQnhMZ0hLS1R1bjc3QTNGaXdzSUhPNFpNa2tNSkYzYmNRZEl1bWdoTzBGYnJzUENNZzQ1NmJINjdwRDQ5Q3ZKSGRUWXExdjQ3dXJzOHpaUkdkZG9lNkFDVWQ5aHhlY29xR1hJ?oc=5",
-          "source": "afnoticias.com.br",
-          "published": "Sat, 09 May 2026 14:20:00 GMT",
-          "hash": "e6db0982b50d",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Dorinha participa da entrega de novo Colégio Militar em Araguaína ao lado do governador",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTnFhTC1QTUVydGhtWFZaZHkwekVkVnFCckpxYV8tMnJVV0dyWDVtR2pmUEpSclYwWG5lZkxhYUFXZ0NfQkQ1b0FTTU5UYXRFRWNLRUEzRUxZZ3RRYVZvanlJemhsS2lHMHVmSU93V3ppMEpWMWNtZlFTajNRcTlraGRsVXZyR290UDZOcXhTM0doeXJ4cTNoMlVzaE5xVkVVckVnbi1ya3lTdmV5T3A3dHVKb1JKc0Rp?oc=5",
-          "source": "T1 Notícias",
-          "published": "Sat, 09 May 2026 14:12:38 GMT",
-          "hash": "24a9278768a0",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Dorinha destaca valorização dos servidores após progressões no Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdHhHN0x4dXZFbi10MWpWRjhFMFZwWkpOdU9SZWxVT3ltSGZWMkY5OWpxRkVxeUNrV0o2cWhScGdQWmRmX3BBZHp6V1FFWmdEdEVwQjhvWjNsdGJMUV9EY2RRWkRaQkt4eFFCeVZlQjV6X285YXNXVE1ubkZJMXc1OG5IZXdvXzVTcEV0VmFqZnk4NE9aeHRNclVWZ3VWY19pek5sLTVvc1ZGQQ?oc=5",
-          "source": "Surgiu",
-          "published": "Sat, 09 May 2026 12:25:00 GMT",
-          "hash": "84bdc0ec9de6",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Ao lado de Wanderlei Barbosa, Dorinha participa da inauguração do novo Colégio Militar de Araguaína",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNzRkb1M0YUhJNVQ5WmFHeGN5TlA5UHBmcGRycmlYdTUwZUhKODJDX2ltVU1JcjFRblRaSFp0MFU5SkE3cWdrXzN5RkVkVmRyeWp0NXFmbXFaZVdibUJqdmlBR1N2VVpDZkZEdlpSWURlaVBLb3RnNHFtNkx4RDR4c2tHb1hqWUdJYnYxcEM2MHZaNG82cW54TzNyT1VBdXNpWl9WWGVBbWJLZkVzZUsybXhaM1JKcTZaaE9rM0xVdWltX2ZfYjUxMllvTkc?oc=5",
-          "source": "Surgiu",
-          "published": "Sat, 09 May 2026 09:16:00 GMT",
-          "hash": "4b3c4f8e2135",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Gazeta Eleições: Juntos, Dorinha, Gaguim e Gomes recebem apoio de prefeito e maioria dos vereadores em Rio dos Bois: “aqui é maioria absoluta fechada 100% com os três”",
-          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPdlBOd2hWcjh3V0lxblFJUFFwa19mSERIczFYWlZkTk5LY3Ytd0JEZGZSX2xnR2k2eWZkNHVuMWh3Zk0tcWtDblJvZm1qVlZWeFEzTFVlblhsWlUwd29NOFBTMFI3ZjhBNHpvN0hTRGVQMDFtb1dqR2xVRlJ3LUNsU2pBRHl3QlNDdThjNDRvLWRRYmVxc0dZN09vcDNYZllFRWNHZTA4NkN3UzF2WDBzQlZmUGpNNFpSTjJ4elJiTEY3MU81b05xSmJ5bDlSNGZ0ck1fY2pFeUtROWFobTFCT2RDdkVfbVkzSUxFcnNldmI2SGZVUmwyQll1R3VCLUMtQ0Nzektpd3JpZTVTSVhaYkx1VEM3VF9OYVdhWnlTdEhkZzVFaFdtajFR?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Sat, 02 May 2026 23:47:33 GMT",
-          "hash": "bf720c0f6b88",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Dorinha participa da FESNOR em Nova Rosalândia e reforça agenda política no interior do Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOY05HMlZBN1FjaUF2UHRFRFd0S2ZHNDlVNjdmdmdGRjdVSUJGdUZJcHNIbzQ0c2ZiQld6UmlKei1sd09PZkpGVXRCbFpMWjBULUZ0UHltcnJOWFd2U05YVjVsNjhma2dRaGtwcWpQaFJfVVZwZ1cwUnloeTd2Rjdkc0JEUzh0a1NrNFpIYTdISEhUY1ZTR2lyWnd1WUtXeHpzelpMdXFISWNKX25YV0N6M2EzbzdXMmQ4OXV6Y1FwODMtZFpkQWVMY2U2a0N5OHVSY2tJcWk3S0lzTl9XZWVXN0F3?oc=5",
+          "title": "Dois novos prefeitos exaltam capacidade de realização de Dorinha e anunciam apoio à pré-candidata",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxON0F2QVRDN2Z1c0pCcF80SlF2TURyZlZrRG1NZ3pRcHBhOFJnaVJVN0VKNkVtc1FlWlRnNWV2U2dfNTVubEJ5ejVnWXVWVTlNRU90Rkx4SWVaRzFEOU5PMDBiY0lDR2VtTnBmMWI2bjEzb0tVcXpST3I2QzdZV3ZldGVKSV81X2kzOGhSME5TTlJ2MWFjajNsUlBPcVl5M0p6RkN2VFZYQVVKUXEzcFVGMERycWpIWFF4WERBWDlWSFBVZ2kzMGtvWUExU2JUb2xrLVJ3VmlHSVg4a0JwNm5weFl3?oc=5",
           "source": "Agência Tocantins",
-          "published": "Sat, 02 May 2026 19:59:44 GMT",
-          "hash": "f0accbf3dedc",
-          "captured_at": "2026-05-09"
+          "published": "Tue, 09 Jun 2026 01:02:02 GMT",
+          "hash": "e07afeb90d7a",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Dorinha participa de Feira em Nova Rosalândia e destaca força do produtor e potencial do Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNFhKeUxpbE5DWnZCZzBKQmQ1TW5MRGdLWjRqX2FvN1FjN1JJejdWR29xdWd5anV2SnlDalpuaHY2MXdab2dQN1hmdnlyRE9mY3hZNmUwUkdZc3RPRUpvMVU3ZVFGVDhyTFBNeklxenNUZGg5bjBMTmZrXzAxZzJlSzZ3YnF5NjJXaW1xQ01renBrLTQ2ajlQZ0NlNGtsc3N6b2V4dnhMUE1kS0ZxaFpIX29LWWtOVHYtTTdiNDlWRkU2cEJ5Yzk5eGpRNkdkaU5IWEVZRTV3?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Sat, 02 May 2026 16:17:39 GMT",
-          "hash": "d2b709d6088e",
-          "captured_at": "2026-05-09"
+          "title": "Dois novos prefeitos exaltam capacidade de realização de Dorinha e anunciam apoio à pré-candidata",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUkE1LVNNSURuay1wVEJvdjY3NG9zd0NEbnlZd081RkVWTFdIUFd3Xzh4STYwQ3VaYUlTTjFleUhzMTJOWE04Z2ctaGc2TUZKN2xpYzdtanlUV2N3dkhZb2tVNWJMS3VCQUV4aFdlU3BhRUpUTDMtT2pock9tRHVHRUZsU2tHV3hDLTZybVl2NC1Yc1FIcmFVaEtSdkZ3OWZXUGl3S2NKWi13bXdoT0dfOWRZeWdERTRVUF9Ha0JKOF9oaG5nVFpEam51aDNGNEFidGR0YUlMdzd5NWJoZE1pQ3JxalZMY2M?oc=5",
+          "source": "Agência Tocantins",
+          "published": "Tue, 09 Jun 2026 01:02:00 GMT",
+          "hash": "5a09f98634ce",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Dorinha marca presença em Araguaína no Dia do Trabalhador e destaca R$ 187 milhões destinados à cidade",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPakk2QUpKNV9BY0ppWmNaN0E4ZW1SWndCalRaOGYyVmJIeGQzZXhhVlVPdE1YUFE4WGNlSUlnS25JcHNJNWtZeWN5TEhQQnJEbGlMallUYzlYMnc4czgzU0JGUjFycjRrcUtCc2JvdVk4LUZzVktJUjBkUkNZOVRGeUxlYzNtb2hxUmFUYlNUaFMyLUFHT2t6R0VVMlZJc0FfRG1sRUxSTHNxSU5pb1Z1SnlRY1kwU3psajN3Y29DRFN2UHl0V0RiRERHMkV4Qmx1dGhvekRReG82ZmVQ?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Sat, 02 May 2026 11:41:03 GMT",
-          "hash": "bcc7df62ca63",
-          "captured_at": "2026-05-09"
+          "title": "Perfil pró-Dorinha entra na mira da Justiça após divulgar pesquisa suspensa e pedir votos antes do prazo",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMlh1NTNkVFVVXzlIaDhSV0ZyVk90SFM1V2lxcHUxYkZHendEcmdfM3hwS0xFREVHb190RmE1ZlhZQzUzZ0NHX0c2SHc2T3N6cmhyOXBLcnV1QTJXTE95azl1anJ0NmdtQTlBVFVkRE11b3V1ck16X1ZKN0hJWnk5ZHg4cjRTS3l6X1NrdlBldXljQU9DWjBhNVZFNU5xbjlPY3JLaHlCOGQ2dzR2bkY5ZUhlc0FqSFNzUmFIeUlJdzIwQ0IteC1sVWl4V1d3UnJ3Tkp1dFltVkoxbGUyUGJsQUF3aWRuekd3eUE?oc=5",
+          "source": "Luiz Armando Costa",
+          "published": "Thu, 04 Jun 2026 20:51:23 GMT",
+          "hash": "cbcbb8eb7d6a",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Pré-candidata ao Governo, Dorinha mostra força no interior e chega com protagonismo em Abreulândia",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcnVjMlFWV3FwT3hoT3ZmS1pRc2IyOWdNWGVjY1Z3QTZTSTBxWndQT3EyMGRTZ3NPVGk3eVAxcUw1QTNuVEpUdHhOazU0eDJVSmFaNUtrZjNQNExibTZ2ZkJ6a1JpS0RHS3lXc2ZCSi1aRU5IcU1IdHRDckZDWGo4V21CTHhLeFBSMUN6cGpPRzJYT3piUUVCSUZuYks2a1U0SlBkc0RRS0VxV1dYMW5PWlcxUGRXR3JTYVJnT01kRUVvQQ?oc=5",
-          "source": "portal lj",
-          "published": "Sat, 02 May 2026 10:51:24 GMT",
-          "hash": "369d1a368767",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Eleições 2026 no Tocantins: perfil do Instagram de Dorinha sofre ataque digital e caso vai à Polícia Federal",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNTdpTEQ4Vm9uWEZhN28xRlhIT3FkZFJ1azE4dzVFTzJMSE9XdUZjWmVKdjloUl9aYjZkOXB0cjZleEF2RF9VcE5zeFNEbjJ4bndwaVNEU0hTRHJGMmV0bkFhemxCT2dzSUdWOXBZdXBHUXh1eTM5LVNVSUVBanZFQmxld1lxNzdtcXdlV2s1YTJGUXVKaUtHb1k2N2NONFJ6QlZxUVE2LVlOUklmdXc1TElCNGxRQ09VNnVfZG5WeHRyWHphZ0JkbVVWT1lNRjdNT29wLW9uZ1hEZ1BK?oc=5",
-          "source": "Bico 24 Horas",
-          "published": "Mon, 04 May 2026 21:14:41 GMT",
-          "hash": "2717074927ce",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Relatado pela senadora Dorinha, cadastro nacional de condenados por violência contra a mulher avança no Senado",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRzR0ZEpRT2U4NnE1WXB0SW1ySURURUY0a1Q0SlZiU1pLUFNRdW9uTy1YbE1xTkxrNExMSURlV0cybUZxdWQ3LXpsT3FfVzRhVDFKdUxZSVN0bDJ4R2t1bzZSd3AxbGEzSUVBZm9RODRBd0hIU1FUZlBiMWk2bkhwNjM2enZmRWtVb1VFR00yUWtRVURJekQ5SGxXUDhEV0staGVtemxWSDBUVjU0aGtyMGxub3RTaUtFWWRHc0wzSElBR0JpVW1NU09reHRHTFh3Nnc?oc=5",
-          "source": "portal lj",
-          "published": "Mon, 04 May 2026 18:27:15 GMT",
-          "hash": "10660f2f8237",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Ataque digital atinge perfil da senadora Professora Dorinha com robôs e seguidores falsos",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbnVOeVQzMmVvaUtlTGx6MmFkelpSYUUtR0RwbkVTWXFPampkMk1PanRiN2ZFb3FvYkFrVDBTSlJyYTd6OGpjMmJ0bDB5X3FYTXRsLTFCeXdBSVdSVXBDVV9wQlFBREJidUhuUU1NWEFfcmdQS0FzWlNVYzY5WGhxeDhKUGVhRTVteVN5QjdJZlk4cGVXaHRfR3M4YTl3Qkd5RzdqZWI2ME80U3JlSnVqb0RmSU0yZw?oc=5",
+          "title": "Justiça eleitoral determina remoção de vídeos falsos contra pré-candidata Dorinha e determina quebra de sigilo de envolvidos",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSHUtNWNHNTNqdU1hUWlOak9lMUNocFhWS3JGNWpJbTJpVVllRkptVE5EUXI0ZTRuRjgyZlpCUTRVOVFMSl9xVXlUdEhsYUNfU3ZhaDdBWGVpbjdxM2xzTFY4WHRROFY1MU9WNzBpNGpiLVIwNVJTcjktMzF5bkR6VkFNLXJQcFNkeWJlNGc3VDJVaFZwWU9Ob2VYRUhPOUYzX0FxT1VhNzZLREFMZ3JpNHVXc2xBOWZlc05OZzRvLTZuOVhUX1dXMFkzS1BuRzFudDFLRVlLM0pSMC1seWsyWDZ5dFE?oc=5",
           "source": "JORNAL O COLETIVO",
-          "published": "Mon, 04 May 2026 18:19:00 GMT",
-          "hash": "92e8f17f6ad0",
-          "captured_at": "2026-05-09"
+          "published": "Thu, 04 Jun 2026 13:25:00 GMT",
+          "hash": "4cc6fc99fd71",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Política | Equipe de Dorinha aciona PF após ataque de seguidores falsos no Instagram",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWTU2T0JuUjM5QmY3Yl9ESXdDRzBmNW03Vm1XV3hwVDhhZWRtQUZKdGEzbGQzemw2SzV0NWQwYkg3dUgyU0NmN2M5bUJOQnNOT0YwTjM3VnJWbWVwYzk4SDJyN3hmRTVoSksyMWVucU5JbGFickZnM0xzTWR6S09JWEJualJtSWRHcXplMzE2VVNUMXpNUmFaYVB3UDVVRGhfelNwVWRzNllnSnBqY2ptMEx4dnEtbVE?oc=5",
+          "title": "Jair Farias reúne lideranças e defende pré-candidaturas de Dorinha, Eduardo Gomes e Gaguim em Sítio Novo do Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbEZnVmJfejdNOV8tZU5TVTV0bW9TNU51c3BVRldqUWdNWjdhTFhrdlpIWDZUOGRsYjgzeTliY2J5a05YU2M3OVQzb1c2ZEVOTHJnTWNrUXJydDRiQUhhMDlSZTAyNUNzb00yQnA5Y3NSaWY0MEIwbS10U1hUemJPMElzeWFZNmhlR3FHSmU5dy1vOUhhTkFFX24xODRDV0ZWd2FMdVBfdXVuSmRZaXd0aHRDeTJzRWJjcXAxM2NqajI4dUZBWUZGOTBVRmJ4M2o4N0pIM2lNaWVOVzgtbWFhOFV4NC1qSWhtZ3ZqSDZn?oc=5",
+          "source": "Gazeta do Cerrado",
+          "published": "Thu, 04 Jun 2026 13:21:18 GMT",
+          "hash": "79db393a7755",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "TRE-TO determina remoção de vídeos contra senadora Professora Dorinha e quebra sigilo de números no WhatsApp",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTkZfcnBrZE10Y0llNUdUb2hfYi1MTzFOUFlVQngtSGhMdjB3VVNQckZYZG5qRTJrcFJXUFBySW5HWUQ3d29MQlgzYlYtQktJWDM1cE9mMG96b25BakxFYUtSeE5IWDJyNkZvVGdwbWdfem9qMTIwZW5VVWVxUWNWQ2dKcEV2TkVDUmg5dnF6YngzZk90WEFNWHpEN1R6SGotMnZmdFVLQXNMbHkwaGxzS3pwVUhWazFaa1d1cjJFcXlGUVZLdDJTbm9oUDZDTjZGaE9IVVo5X3BRU2c?oc=5",
+          "source": "Atitude Tocantins",
+          "published": "Thu, 04 Jun 2026 01:39:32 GMT",
+          "hash": "57a1608947c6",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "“Dorinha vai fazer o melhor governo que o Tocantins já teve”, diz prefeita Fátima ao exaltar obras e emendas da senadora em Guaraí",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVTlHREJPeEViYThTYjNaUzU5aGluU2dmWGx2WUYxblB3Ni1oN2RHci0yeEdyLWlMMjhqT2ZMT1VNSmNLeTFrcVk0Q1o4OUIzUk0wRk5HdjdnbjVNaDhHTUVxLTJfU19mdUJ4Q1Vuc0VLSS1XTlVJcmJrdUQtYXc2UzJVY3psSndVQmp3Wl9fSnN1LWRXdUFHSUU3cXYtMTZ5OHpHYW9CM1B3ak1RTGZzLS1BTFFQWmU1ZEEzbXA3MmlsNTVMMGdySFQyT0d6OGw1S1dvMktWdFBtejFMckwtTUc5dDJhUEZa0gHuAUFVX3lxTE5ZWDFLVFdPOW5jVlRZTm56dVhKaHRLWldzUWJCeVVRSnJwdjJUOWY2Qm9hd3hGZ1gyUjJES2RKeVRUcjNRbUlLN25VWEtwWEYxS1dvSmx0WF9ycEUxbGJrZUFCS1dTUWdZZTlESHd2N3c0NHEyVDlYdUhRakg4eDR1SDZ3Rm9uUlU0YzVXeE5tR0RUQW5FSk5ycHl6eUJSaWMyNlg0Rnkwb1hpZjd0QVNoUlpFUnF6SHlpWmE4UVllWTNiUVZPTUp0NUp3MlhWcUpKaHdYbVVKaW9BSFJ2ZGFBSGwwZWhnVnpQZnpDVHc?oc=5",
+          "source": "jm notícia",
+          "published": "Sun, 07 Jun 2026 18:13:00 GMT",
+          "hash": "799d0d63c3fe",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "“Dorinha vai fazer o melhor governo que o Tocantins já teve”, diz prefeita Fátima ao exaltar obras e emendas da senadora em Guaraí",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWVgxS1RXTzluY1ZUWU5uenVYSmh0S1pXc1FiQnlVUUpycHYyVDlmNkJvYXd4RmdYMlIyREtkSnlUVHIzUW1JSzduVVhLcFhGMUtXb0psdFhfcnBFMWxia2VBQktXU1FnWWU5REh3djd3NDRxMlQ5WHVIUWpIOHg0dUg2d0ZvblJVNGM1V3hObUdEVEFuRUpOcnB5enlCUmljMjZYNEZ5MG9YaWY3dEFTaFJaRVJxekh5aVphOFFZZVkzYlFWT01KdDVKdzJYVnFKSmh3WG1VSmlvQUhSdmRhQUhsMGVoZ1Z6UGZ6Q1R30gHuAUFVX3lxTE5ZWDFLVFdPOW5jVlRZTm56dVhKaHRLWldzUWJCeVVRSnJwdjJUOWY2Qm9hd3hGZ1gyUjJES2RKeVRUcjNRbUlLN25VWEtwWEYxS1dvSmx0WF9ycEUxbGJrZUFCS1dTUWdZZTlESHd2N3c0NHEyVDlYdUhRakg4eDR1SDZ3Rm9uUlU0YzVXeE5tR0RUQW5FSk5ycHl6eUJSaWMyNlg0Rnkwb1hpZjd0QVNoUlpFUnF6SHlpWmE4UVllWTNiUVZPTUp0NUp3MlhWcUpKaHdYbVVKaW9BSFJ2ZGFBSGwwZWhnVnpQZnpDVHc?oc=5",
+          "source": "jm notícia",
+          "published": "Sun, 07 Jun 2026 15:13:59 GMT",
+          "hash": "347f5223ffdb",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Em Guaraí, prefeita Fátima Coelho reforça apoio a Dorinha e destaca preparo para governar o Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQLXdxZW1pS2xWUTY1YVN5M0loczNiTjgxVE5DS3Rob2U1R2pxZ2ExeUU3dFB4bkI4b0p4UWw3Z3Nhblg1LV9xNEMtLU9TSU1Dak5kcVZLWVVZcHRJLTlSTk9LMFBudDF3Yko2M3J4dXBHT051c05aZXJxbFVIRDVhNXNpMW9hRVRvcEtxTGxCMkJPUVNmNG1SR0RPcXphZFpoWVdkUFB0RkZXeExza1VlajJobGx1ZFhBa1hHRk5GS3M4Z095Tkg5N0ltTFpxdWc?oc=5",
+          "source": "Surgiu",
+          "published": "Sun, 07 Jun 2026 13:30:00 GMT",
+          "hash": "9c2b437e9071",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Clima de gratidão e festa: Fátima Coelho destaca carinho de Dorinha por Guaraí e exalta confiar no preparo da senadora para governar o Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQb0lJZ0p3MUFYbngtQ1FzS05FenZPY1B0RzJUZXVxSXk2dDVILXRCQXpoUmZuUkZtVjBQbDg3cl9ZaXlYWTZIQzRyYkVoVi1NcEJSVWpBLXJkT3pNcVZKYnRIY2loTkxNVnNBNG9oYW5rWkNjTGRlWmJqX1BOc0RmMC1RbXBHOEM2bl9pdXM2RngzYUROV1BRcDF1WndhM0lqd284XzZhOHdYbXJpcTFRRnJHdUNxTkREeTFFU3BydVhEem5jblNXaXUtSC1OU09tQXk5VVpnVVBTVzZzeUY1bkNLNlhFbWR3OGFMTFFiV04xZDB2UXZYZnFGNDZOc1VoWHhxVDdFQVdGb0xRWE5MMFdXTQ?oc=5",
+          "source": "Gazeta do Cerrado",
+          "published": "Sun, 07 Jun 2026 11:16:34 GMT",
+          "hash": "b901410858d2",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "“Taquaruçu é um patrimônio do Tocantins”: Dorinha participa de evento e defende investimentos no potencial turístico da região",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMlVBb3FxeDlCTDJVb3pYWlNHUlJ3eXJfY2xqOVhKWkYzcmJTbDdDR1JlcnZ0NGNkTS1IZ2RpZVBmS2k1N1B1cjdtN1Y5bmdBX21CR3N0bjlRYm03aE5GWWxrV3ZST1FrZHlQbkRxdkFLdk9wVlhNU1c5VnV3MVRQUmw0NllKbEN5dGxWRG9KUV91QXB4MDRmRFdKZXNqQWdudnh2bWVkZnVZcEJCTElvd2NxLWtZRFA1Rmx6YnFTVDBxdF95WWczSll4c1BBamRZSFQ0ZEVMX0RhVGlraTR2WE1sMNIB6AFBVV95cUxNc0U5M3h2X3hoS3RIQ1NIejVLYmZSdm5SYWsxQno3c04wOXlNQnIxVkdqeVpSRkF4RFo4c0hjUjAwZ0xXQzRTZW5NNjV0ajJPOFpkY21NVS1ncGw3ZHdFcHl1LWFnTzBkc0FGb240MEhwaTRVRnVSUGZjeXgzVjNPcDB1alpGSGR5ZExxUkpzQ3l2ZGxvOGp5MHFTWS1XalJlQ2czWURLUmRBR2VnMFZvakdIUzBBaG1NTTM5ZWFJUkhxVnNXb2RTTElMTVpHcnRhZTl1NTRlSENqOExtb21DendreXFpdko4?oc=5",
+          "source": "jm notícia",
+          "published": "Sat, 06 Jun 2026 18:15:00 GMT",
+          "hash": "e68b9a51fb65",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Política | Em agenda no Rodeio Show, Dorinha reforça potencial de Taquaruçu para o Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQalg1QTdZMHROQnRXMl9sUFhMYXozTjdWc0hrM1V4S0R1V003T2hSRmw2WkFfczY5MzRvZUtaQWVBWWx4TlF0azVIdjlBcEFtM0pJMm1FWGRsSVRVUm9rRHZWSWhMcE4zdlBiWWZ0elJydzlfd3IwUi1Ecjd4V2VIOVhhREp6YTNxY2hPdW5ndGN1anROZGp6VGp2NC1IRjJOZFh4Y1d5MWRTR1JUOVdPUTl2U3BCUzE2bTRDcmtQV18?oc=5",
           "source": "T1 Notícias",
-          "published": "Mon, 04 May 2026 18:04:05 GMT",
-          "hash": "1fd8b0cbe708",
-          "captured_at": "2026-05-09"
+          "published": "Sat, 06 Jun 2026 14:57:30 GMT",
+          "hash": "5e86658af043",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Perfil de Dorinha no Instagram sofre ataque digital e PF será acionada",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2M1XzZNYks0YlVSOEx5MkdnNnJ4VWFxWGRxNkk2c1BDZ1paSHA3c1E3NnlVblRPUjhvaTBzOTZSWGR3eW5md1BDM1BTUEs3MTAtWUtTT3c4T29BTENsMVJ3X3VUMEpVZnN6MXc0dHZMVnh0UkNiaEZYWXpiY1h1STdNb2VDUWp2VlpZa2k4NGktTW13ZTdmbmp0UG1PSUluTV92R2pTbjBMaHczT2E0dDZn?oc=5",
+          "title": "Educação que transforma: Senadora Dorinha parabeniza IFTO por título mundial em competição de tecnologia na China",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeHJZTkxWVXA5OUlIZ05tUXUwUmdYd08zMzFCczNRaXpjSThOMVhHWHJoZzY5LXA0Q2thTkFKTUx4cWNJbHc5ekREdFNwdWRwZEdiTFl4d3NublU5YXI2c0trMXBiNThXcUN2Tm05U0h2RGpsdHA5bTRXeTJIMFpSd0F5ZDF3eHlNclM1OWJuYTVKOG14MXY1VEhhZjFTV1gtZm9MSHZFRDJqU3hocnZGVEYxQ2dmTWg4NUI0dVVHa1J1cU9tQTVZUVI2UlNTaXR4QXFr?oc=5",
+          "source": "Portal Agora Tocantins",
+          "published": "Sat, 06 Jun 2026 13:36:02 GMT",
+          "hash": "d7e9e67c985c",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Eduardo Gomes, Dorinha, Gaguim e Barbosas prestigiam juntos abertura do Rodeio Show 2026 em Taquaruçu; Senador destaca vocação turística do distrito",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNNWtyOFAxbEl0c2dXSEtQU2FyRlJqYXNjM3I1a2xhZXpxSy1RQmR4N1dTd2RXcW1URU5HSDItRzJ3SmpBeTdkNVRWX2NaZmhoM3NHMldDSlF0SVhPSzdmcnNZLS1BZGx0RzJHVURLcjlPZUtEV0NodE1aUWs4UWZfN0pzd09vZkdpOHMtdGhjMlVSS2VJVmVlakc3VmNudzR3Vjg1YkFzenBvVUZtN0lCbEkzTmJoUGNkOFgzdzdKR3dwNGZhSW44eEhxSTlWS2pjSnhYb3BzR2FiN1BaeF9qOXczMVhZaElNaGtQYVQ2WkRWSzc2LVRmQk9UdmQyVDBZdWdkdjRuWkk3cEVoYmd1cTBfYWw?oc=5",
           "source": "Gazeta do Cerrado",
-          "published": "Mon, 04 May 2026 17:45:31 GMT",
-          "hash": "429c41fc9fc9",
-          "captured_at": "2026-05-09"
+          "published": "Sat, 06 Jun 2026 13:28:22 GMT",
+          "hash": "9b7c7c5ec3e6",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Relatado pela senadora Dorinha, cadastro nacional de condenados por violência contra a mulher avança no Senado",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaHJTLWl0amR2SjJQN19FZEV0ZE5QbldUek9uUGdkRk9kUkQ0ZkVJaF94UHBNOThrTFdvZmpkWnB4b2xndXpRenQzWW8yVUhpOWZpcVNheUhsUDdScHE4dHFrSHFJTWc2VDFMblB6dXhFYmREY3plSXhfTTRuSEVEV0xLVGZ1RGNOb1Q3Zmt0b3NLZUVaU2dLMGZHYkk1ZnVyZUdKdE1PUTNCSklyUW5jWDhSSUVCY1VEaDNRMkhjQWNMazJ6TUdTVkpDQ3hLMWU2WndSbzAyUXV1NkRTX2d2YldMaUQ?oc=5",
+          "title": "Política | Dorinha parabeniza IFTO por título mundial em competição de tecnologia na China",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMGRORHJCYmsweUR3MXZkVXg5UzJnZmZfajFMdHJDLTFPQ2Jzdks4MlNqeEVMYUNyMGQ4M20zZTVyRTV1LXN5ODc5RnpkdlNTQWtqOWZYQ21NWGNmWE1OWjVhUnMyUUN4SmRDelh3eGU3ajRPcWRiaEZRck5tbGpEY19ualN0YU1oaFczbWNjVnBrV21TNWtpZC1sbEZXc3VvQ1lWY0VQMFFaVER0eE9qTW5NakhoSTE0dWRmd2x6Yw?oc=5",
+          "source": "T1 Notícias",
+          "published": "Sat, 06 Jun 2026 13:09:37 GMT",
+          "hash": "79b701f709b3",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Dorinha recebe adesão de mais dois prefeitos na disputa ao governo: “a população apoia a senhora”",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcHdWb2ZZbGxRYTNocFo3azBGeUNhaFN4bGtVdmtDMUZmUXprYmNOWGt0ZExpVVc1NU5fS05yaEY4b1p2dnJWam9sSUpseVlKY094ODhWT1h3TEFXSGM4ODJ3ZExTREdYVjJQcFU5SHlVNTE2cGRDU1Mwb3ZwZ2ZNbXRUSVlSSnEwVVQxRzVXdEc2TmVCNFBUSE0zSlByZ2lGUWphUUs2bU5RWlFEazhIdW9lVk9UY0VlelpTVExOQTNIT3dXSFI0bjRKZEVmdThC?oc=5",
           "source": "Gazeta do Cerrado",
-          "published": "Mon, 04 May 2026 13:59:12 GMT",
-          "hash": "5a6cc8cee8a6",
-          "captured_at": "2026-05-09"
+          "published": "Mon, 08 Jun 2026 20:44:41 GMT",
+          "hash": "ac0b46104d76",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Dorinha participa do aniversário de Rio dos Bois, destaca investimentos e reforça apoio ao município",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOak9qcWEyVFo0UUw2SUhETUlDSjlzSDJ6aWRNVlpCTHV2Q0FKd2hwOTlmN29aUTJZcGZkRVN4ellLTk5QZVF5TEozSVo2R2RmdEF0dHlnN01ZUkttNG95UVVTTTA3b293aTIzN2NTdUlWV3U0UlFRSmY0NUduc1phc2txUGV2SVU4VkcwN0I3eHpvUnVETVNScDFBMk1sb1JpaXJyZ1JTdm1RODRwTW5NQXAzTl9JWGFldlRGR3lGM0hnVW5hZVBrTmo5aFhibm00SG5mVU52WEVPTXE4NVEtMERRQnY?oc=5",
-          "source": "Agência Tocantins",
-          "published": "Mon, 04 May 2026 13:14:01 GMT",
-          "hash": "4fa8e213b983",
-          "captured_at": "2026-05-09"
+          "title": "Recebida pela comunidade: Dorinha prestigia Festejo de Santo Antônio, no Aureny III",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWWdZVHV1NTRMRElLSTZkZzVuaC01b1pTV1FqdDI0S2lTaGlTNWFGZ1hMdEozdjh1MjNPUVFOaWVwRUNFdk4yMnNTSURXWE1yUWZfNlpUdnlIeEpHQkZHckJLUERFZTZFVC1JdWhyc3k3S3dmQkhOdkRadXo1azFoV1lhcmFsdGplWGdpLXBGUl9HTnRUS2RmTTNWYXI1YXFKekpwdHIwZGlDTEtKWi1rTnVLeWx2NnE3QmNrc2s5X2t6OXIyVV9qUnpR?oc=5",
+          "source": "Gazeta do Cerrado",
+          "published": "Mon, 08 Jun 2026 17:05:32 GMT",
+          "hash": "ee2b03f1ebfe",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Segurança pública: Vicentinho fala em sobrecarga policial e facções; Dorinha destaca estruturação das forças policiais",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYkFHWnFFbFYyQkRKRFVoZ1dSNUZHQTZMaENCYmExV1lYV083bmE1ZVo3ZkNMMGJWSGd4TEV0R3o5T3BoUFczMVUxRzhONnlwV0ZBNmxySDdIdllhaVdncGlYZ253RDFoXzdnUmxhMWVfNDl1dDdRYnZaYXNDSlNXSzJoZnZISU1QVnYzMlpwOG4ydkJaRWpQWVZIcUhib3lTcWZETGwtczVraDRNV1VpaXpKRGFaLWtScDR5SmdCdXFocVFybzl0ZWw1VmlVYlMwMFU4cUJZa3hHVXJmMXVESXZrM2Nfb0NjblFTWi1ST0dOai1LVHpIMzFiY1hqVlppTmc?oc=5",
+          "source": "Jornal Opção | Tocantins",
+          "published": "Mon, 08 Jun 2026 15:53:00 GMT",
+          "hash": "ed1f27e3448b",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Ao lado de Wagner, Dorinha acompanha cavalgada e destaca papel estratégico de Araguaína",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNkd3N2tVam1ncU0wNEtlZnBkWEtqUVZHZlBSZHZaOGpPb3l6MUx5d0ZtMHFHaUNYeFFEVmpqOWNSQTNPUGNxLWRpc01Fenlha3RNb0VvR1drekhKR2pfVlRkS21xaTNwUzdTdGM5dWtMeF9sTGJyZFhWTWVqNnJqNjhvdEdhVnIyS0lRTVNVLXlOUDhON2FZQlBtOGZ1UzR5N0V0TktuM3l4STA2NEJGUHpRR2I0ZkxHeXFSbE11bFZPWVU2NTNuVnhPdXNnMVE?oc=5",
+          "source": "afnoticias.com.br",
+          "published": "Mon, 08 Jun 2026 12:04:00 GMT",
+          "hash": "ce8493d715e1",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Ao lado de Wagner, Tiago Dimas e aliados, Dorinha prestigia a tradicional cavalgada de Araguaína",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPb2RQRmNfazVfRC02eWVhZTRPck5OUFNwb1ZYT3JiQUU2SnJoNlJ3VDl3aU15Q3owejQ3OE90Ykl6RTJOb0RwQUhCWGlZb3FDYTZoOU1IZDJzQ191encyQmx2VDBUY2lZNGtfSmxTOTV6dm5Fd2w5emFsdGFWT1VXMHJvZUNFX08yc0x1QVFoU3puYmdwS3AxUkhaSUZXWUhucmc3ajVLdURMYWpLd3Y1TFo1V09FRkp6dFNuMi0zNE1xR0FCdENPOFZSQmNnNE1UTTZ6M2RXZlM?oc=5",
+          "source": "Araguaína Notícias",
+          "published": "Mon, 08 Jun 2026 11:26:00 GMT",
+          "hash": "4693e32c48fe",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Política | Prefeita exalta competência de Dorinha para o governo e destaca recursos para Guaraí",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYlBBLWtUYWRWNVJSQklHQnE5TDZYMDlpTFk2YTdMRUM1LWV0aEhKZkFfWTJfWUV0b0swTFJtbGFtQ01rc3RCbmx0UDBkVHhoUGZoQ2w5NksyUjFDdVV1T1RnZmwtZi1QWTBvN3ZVdjFaWmh3TUVoaGh6eWVOWW53a0xYbk1sYXBNbEFYeHk2RndaVkxNYW9Kc3RTWHZVdDhhLW1SMnlkZzJnSE9uTHI2U0tqb3V5a3lpdlp4ajRrRUxPT1k0Vnc?oc=5",
+          "source": "T1 Notícias",
+          "published": "Mon, 08 Jun 2026 11:20:20 GMT",
+          "hash": "49a21708fffa",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Ao lado de Wagner Rodrigues e Eduardo Gomes, Dorinha percorre cavalgada em Araguaína e é ovacinoada",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT2NNQzF2enNlb3FyOEczY2VlQVlla1h2TFcwZEQ2Y3MydDRYN3lhOFVxTEVoS2J0WDJwdDJLcmFvUUEwaXJnV0hxckNlTHVFTE93d2d4MDc3d0tIdnUyckVGWjUzRHJ4MUx2Qm9QVVJQX3NCVG15ajdjUnBzVmM3THAwT29Qa3VzOVYzVEhmRnBtRndMTzl2MG9ZT2luM0NVNkxPbEhVeHhNVzZTbDc1YW9SS1NISF9hTGtWLVplNmdpQdIBxwFBVV95cUxPOFZsYVkzLVd4N1JrQnBLMXhabFhrQnNYbnZ4MzZjUGlCcTBVLXhXaVRBdkpRWFF3UUVxUFRXUmVzc0M5cHQxNjI1N2VUWTQyd2xHamFiWm42dkVrUEVKRGRjeFl1ckxPZVJ6Y2Z4ZzlBT3lDSUwxLXljMENnQkp3NlJUdjNyRFdsLVNXM2hsUUpwTTNBNDFxUHhRY2FNZkRMb2s2MktkUDBWTXNFa041RWd4Z1JXWmc4dnlhWEMyQjlfUlpXMzdn?oc=5",
+          "source": "jm notícia",
+          "published": "Mon, 08 Jun 2026 09:38:00 GMT",
+          "hash": "e6d9ca6ce540",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Professora Dorinha e prefeito Wagner Rodrigues reforçam parceria e liderança na Cavalgada de Araguaína",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaUVfSE5QWXRJVE1zRUV6Uk9iejdybl9ENzd0YlpibXZPemVSOFJVYWk5bktVekZBeVBRcFY4LWVRRGg4NkI0NXJWdk9EbmQwZDQ0XzRuak03Z2xnckROX1BLQ0c4eV9WMWZGWmdoUE53SUFIdE56VzRqdWhHU3BLRWNHbDZINFZfUDFqWE9RQzZhcXJHSWRTZEVKczRLT3AwUGh5aWZxSk5LV0Q4SlA0YlphU3R2VUV1UXVuZWhuckwxWkttLW1hNXFQbVJZTjctS09CdQ?oc=5",
+          "source": "Conexão Tocantins",
+          "published": "Mon, 08 Jun 2026 01:39:00 GMT",
+          "hash": "b3580ff784fa",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Perfil de Dorinha sofre novo ataque virtual e recebe 14 mil seguidores falsos em poucas horas",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVGFzODVERS1YMXUwQVlhUWZSTnZyS2JiaXVyZFBKMW9rckwtX0U0S0pmdlJmY0w5Vl9lcVZaNXZpQ1dFbEZTc0NaSFlDanZkNTlCWE1xbVV4UkFoUlNEMzVpTGJJSTlYSXlLZTdjclhCQkxEWFR0ZFV5M0ZzVkhVc04zZ0kybzZPUUpBOWNMOWxOQXlsRC1tLWhZaGRLd2JhWU9ieWtRQUhoS3lGWHdOWFQzTzJrRHRJQTY0RGgtWFN1QU5MSzViV0R4ZXNGdjAwN3JrdFN0TG8?oc=5",
+          "source": "afnoticias.com.br",
+          "published": "Fri, 05 Jun 2026 18:28:00 GMT",
+          "hash": "770071eec69c",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Perfil pró-Dorinha entra na mira da Justiça após divulgar pesquisa suspensa e pedir votos antes do prazo",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLWNBQlJxeW5GMUdsdlFfUjFyckF4Y1FuLV94aDlWbTk0T3dzcEdIcGg0UDJkV0d5ZWJ0ZVpYT3F4Q2VuNnBwSXpDZ3UwYXhwdzN6cWl6anFUNUlHdWJzWU51XzRwNXctN3d1R2FCdDU0N2ZRTV9yaXBXZjVzVXZpTUVVQW9FRnhCUHlwSlpMTlMtalBuT3p2VWtVNXQtemJ4SGpNYkhkWF9ybm9CR1JpWGJ2SnNyaG1KeGo1SzRIVlQwTS1HenFhMzZDUQ?oc=5",
+          "source": "portal lj",
+          "published": "Fri, 05 Jun 2026 14:40:41 GMT",
+          "hash": "225a2f7547fa",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Perfil da senadora Dorinha volta a sofrer manipulação artificial de seguidores nas redes sociais",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWHNUcDhJOWl5MWtTYWZJZVRObDRTY1Z0cW9RVFNha2FXdGwzblVvdFk3Vnh5UFZtcU0xM1ByYjJBUEpZSTVHVXhzSHNBWnRNdE5Sd1RVMUk3OXJMbzZZYzRvdGZyTVhWMEtnYmxfdXRobXlpZ05UU0NSaXdjeXFHNG92LWNNaTIyWGljblVHS3Z0N1ZHVnVFTEx6akpIR3BfUjVwbTA1Si15ZW8tbVlRQ1J6MlRFY3A0UDREYzcwclBCdGJWWTFtc21VaTRwU2x0VjY1ZA?oc=5",
+          "source": "Gazeta do Cerrado",
+          "published": "Fri, 05 Jun 2026 14:18:48 GMT",
+          "hash": "76a3dec22266",
+          "captured_at": "2026-06-09"
         }
       ]
     },
     "vicentinho": {
       "nome": "Vicentinho Júnior",
       "partido": "PSDB",
-      "total_mentions": 30,
-      "new_this_run": 18,
+      "total_mentions": 25,
+      "new_this_run": 25,
       "mentions": [
         {
-          "title": "Vicentinho Júnior defende debates públicos entre pré-candidatos ao governo do Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObmg2TDRNaWpLdXc2TG1sa3RoYjJ5YUNXS2tvUE9lNXcxOWNnamJVeVFiU0xZeDFiWmoyYkhBQjg5R3VVaE81SEtMOXdmT25QbFU0UWRqV21pX0Y0Y0lmNTA4cWdvSzh3b3ExR19nMXQxQWdYQVkyb1FlWTFYbGFacjZYX3Y4ZjQ0dXUzUGhzSTJad24wbkNWdUczazlwdmtMbUQtZ2VXTlVZcUZiUDQxN1JZMHFyY3BzbXJEbzE2ZDhNb0hSeWVKSzloalM2UQ?oc=5",
-          "source": "Diário Tocantinense",
-          "published": "Wed, 06 May 2026 18:51:00 GMT",
-          "hash": "0dfbf7f1cc67",
-          "captured_at": "2026-05-09"
+          "title": "Apoiador e parceiro da Guarda, Vicentinho Júnior comemora aprovação do PCCR da categoria em Palmas",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNm5CYVBneXZTVllpMjJOYVpxZ0lPQkxlb1R0RTBycXJfaFdSbF80ZWUwUERBWnJLelJiOFE4dXRVWC1lN3J0aExvel9ZTGVGaHRnVmptTHhhX09NQk5GNWFIUlQtZVpDM3hZWHZoY3R4bmhfR2NIaVBRRm5DZmFoS2txZ3gtWVpLNFVEU2gxQV9HOUFEcWV0d0g3RlFWUm1vQk9rM0JVamdwN05ZS3NmeUxHWVpNV09sY2t5MFNOTVM?oc=5",
+          "source": "JORNAL O COLETIVO",
+          "published": "Wed, 03 Jun 2026 19:20:00 GMT",
+          "hash": "217946ea88ae",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "PSDB e Cidadania oficializam colegiado no Tocantins sob liderança de Vicentinho Júnior",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNUs5dVMzTF9YZENGRGo1RjIzREhOZnJYUUNQN1BnVnZQc2gzWTdQcU1JYjVvZ2hPdFRUNXB3eGFiSXA2ZEVXb0h6WEwxbVBoNnBwTFFxdHQ5cnZiSHRxeWZoOWdfeWZHMURNWUJacXlXd0lfNmJZbVVmS3d2TXNHMkpPVk1fY1FVMGpOcHVZMGVIaElodXI2TUxVOFBFLTBFbzhRTGs2b216bVlwbExxQWxuMU9ialFYZS1fWjhyZw?oc=5",
+          "title": "Política | Vicentinho Alves elogia Amélio Cayres por nova obra da Aleto",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOemdEellHbFVMT095UWQ1OXlDQ2JHTGRhTVFGT3hUYjFqcG1kSDBGRl9uNS15cnVqWEY5OU1Xb2Q0V0VCQmhOZHZ2SWtpVDR5RG1Wd3VaTDFWejJpUjdKWFlSNWtwd1pvVXh0V09Xa3FjZllUWUNRVk1wYnJUbGNsQzhENVVLazFlUVVLc1pLNVhSNnc3VWxETUlZWTBEbE5TYWk0cXdR?oc=5",
           "source": "T1 Notícias",
-          "published": "Wed, 06 May 2026 18:22:00 GMT",
-          "hash": "5f21949293a5",
-          "captured_at": "2026-05-09"
+          "published": "Wed, 03 Jun 2026 13:21:11 GMT",
+          "hash": "0d333b078bc5",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "“Reforço da base e do projeto em prol do Estado”, diz Vicentinho Júnior sobre Federação PSDB/Cidadania no Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaHEtb1FuaDBiby12WHVJNkY4bXNqeTkwQllUY1g3dUFjQkQ4NXgwSFZhZ3YyOElTQTJ0UFkwSVMxNkJPelJvQmJjZkhuUE5jNnZSbUdTYURnZnVCNzNQUlhsbDc4NC1TOXlSR2hKTGw4LTd3aGNXRnh6Q01UdUNLUEthNWpSbnRKN2RJUVB5X1Z3MGFMOGlaRG5tSWhjblpMaFUtQmlEWTVzM2dydXgyeW9oQktEdEhqeGNRTlplaENBQ1BYRXNKdG9HeV9xdHFZek9NLWJ4LVVEQUp1WkRlQXJiU2R0bjdLaF9IRmhJMA?oc=5",
-          "source": "Diário Tocantinense",
-          "published": "Wed, 06 May 2026 18:00:22 GMT",
-          "hash": "6cc8b8a6b175",
-          "captured_at": "2026-05-09"
+          "title": "Carlesse rebate ataques de Vicentinho e defende debate sério para o futuro do Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeWVhZkhuOTVqLUo2R0NPZHN5RXBWQk9PeFNmb1VnR1dVVnUwc3B4b0gzQUpWSW9feEhNdFQ3NjVfRmNBMVg1Z1BUMGNsSVVueWVibG1GYlJrYWI3ZXlWTjZ5eWJwUHVCY3NMVVJIQnFLY1VRb0w0a3Vub2JzbE9Zam12TmdKRTFZN2lEQTdSazV2NVFoRW9SMlVZU2VHTGZlWFBIajBibW1FOEtEWE5seVhCaWxMbm82YjdDZExEbDJRZw?oc=5",
+          "source": "Bico 24 Horas",
+          "published": "Wed, 03 Jun 2026 12:40:34 GMT",
+          "hash": "ac9e21fbbbc5",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Federação PSDB-Cidadania é formalizada no Tocantins com Vicentinho Júnior no comando; Cinthia compõe colegiado como membro",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTUEzS1BJZHQxUS1xcWZOZ0xMRGN0NTcwVl9MZERaNGxOVVlsSjJOM3E4cGVXSUFxMVZMXzN3bGpZUTFzYzU0YnFrU0hfVEVvNzlWX29nY3hURXlSWFMwUzNaREo5VUhOYVk3c3J2Y203c1h4aTdqaTdhZlVqLUFqRnJIcFoxcnV1TnVYRmU3NTNKV09VN0JCamIzYWptbXJjWm5OTGpuZ3VSVm5semlsWFItRGR2TDdmZV9ZWHh2bjJCUUt1M0xkUmxjSHRVQ3pwZmwyb1NlUkJDd3RkVWR0UEpJbGczOVpCMlo0WnIzN3k?oc=5",
+          "title": "Pré-campanha de Vicentinho Júnior volta a denunciar ofensiva de seguidores falsos nas redes",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSnBodmJialFiOWxyN0FpcFdMUU9BR2QzM3JJbEJrU1lSa1JkMEp4WVF3MDRTc0pwY3pudTJCU2hnUE5qNExoN2NJUnl0aWhydmluZzdoZ0ZQMjB2RWI5SnoxOVQyQVdmVjFBYVF3bjNPUjd0OGZHbURPRzhFakxoUXcwTE10VkVKYWYxOTNIdmluMzE5ZjlRQUNSVkhxZFRZbjRfVnhidVdORFctZ2VPTDlqU0Zma3d5a1UweW94OGNodVVHdVB6Ug?oc=5",
           "source": "Cleber Toledo",
-          "published": "Wed, 06 May 2026 17:31:00 GMT",
-          "hash": "2ac0e4102af2",
-          "captured_at": "2026-05-09"
+          "published": "Wed, 03 Jun 2026 12:37:00 GMT",
+          "hash": "f01037e9ee3a",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Câmara de Vereadores de Paraíso vai homenagear deputado Vicentinho Junior nesta sexta, dia 8.",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUEZHOEx3ajAyYzlQY0RDalBFV0IwTkNHakpYalY2djVESm1wVmpENndYQzRlXzB4ZEFoVEtpYzNZekZUakZSN0t1SzZMZkJZaTJTMU5HeW05UGgxYXBBamZWOXBtME9QLXBQT2psbGl4MFQ0d3lUQ19NejZpRXdnOENCdnZuZE5YMWpFd2NISmtUdUFWUmdQT2FSd09RTmozRVJZ?oc=5",
-          "source": "Portal Benício",
-          "published": "Wed, 06 May 2026 12:11:05 GMT",
-          "hash": "3b8a8ec097b7",
-          "captured_at": "2026-05-09"
+          "title": "Com histórico de afastamento do governo e prisão, Carlesse reage a críticas de Vicentinho Júnior",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQnNoY1ZZVkd0bTRNYUM3dXk5b3ltN2VNVXdUVmtFMjBFbDRWRjlFV3piUmctNmpXR1JILXU5aXcwekFkM3FlMk1WbXpqUzJPcHpXZkI5OUJybUw2cWs0T3ZzRVZfMGZIYTRURGVxQ24zZEI0VkxsaHNCNGZHRVY3WkhYM2JzdklCWUFfU29FTDliZzJLWWhPN2FZd2hlVzNkWnFzQzRMeG1nOXBZZkNoQUtubzZneENSUUM5cGRsMDVDWjI0bEtxd04zcXlacUtacmt0eA?oc=5",
+          "source": "Folha Capital",
+          "published": "Tue, 02 Jun 2026 22:12:27 GMT",
+          "hash": "bc65312c08d8",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Vicentinho Júnior repudia ataque de hackers nas redes e celebra com entusiasmo ampliação da base de apoio à aliança PSDB/MDB",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaHF4WE9JN3JzUDR6UVZnX2oxMGpjWU9oU0JjczZDQXQ0M3R1NlpEWjVJTkdjZ0NwZFJBSnZrZ25pWkpIVnZfYVVfZ0xvVDZHeVRka2R5VUc1LXdjZkRPd1lyTU15d2hXQjB2Z21pNjRRNEFobUdDbTI2cVkxbWNDRkotWUNLemwzT1VGa1gzM2NnODNQR1N3VVhUQjNEdUE4eWQxWUVrMmN4OE1pajJrSkloSjB4ZktaeFJ2N2h3dVpmYUo0MlNiZ21MRExPYVNiQ1JKS05Gb2tZRUVSNl85dHJ5UVZpUQ?oc=5",
-          "source": "portal lj",
-          "published": "Wed, 06 May 2026 10:42:27 GMT",
-          "hash": "88e8787b2f3f",
-          "captured_at": "2026-05-09"
+          "title": "Overclean no palanque: Carlesse acusa Vicentinho de usar ataques pessoais para blindar a própria imagem",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeW5WTEZoQ1JNaXlIZ19xajdfckZxNER3YUdMV1NsNThMVG8tdzVLR3NyZk9MYXFtdldhVUEwZGxvVzhyUUxfN0ctdERZUjBPNVV3c3EzN0ZFZU1ndGlZOHM0M21Ib3NRejk3NlNQVmJxMnp6Nkl5RFFhemhzWWxnZ3cxZXpVcHprMGNkRlI1Zm9uUmRnd3BiTjRuWmxEb1RvQzJoWHNMbFZ4Wlp5YlN6RHFoMTc2MGowc0FBYkpxcVdmdGtrQk1YVVgxNk9uS2Q3a1dF?oc=5",
+          "source": "Atitude Tocantins",
+          "published": "Tue, 02 Jun 2026 22:12:08 GMT",
+          "hash": "cedf6581ffca",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Política | Vicentinho Júnior propõe realização de debates entre pré-candidatos ao Governo",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNDd1VnRYcUpxeEdTWGRrOGtwbGJLOUJJVGgtdzltdGo4VUIzY0dQMTlQMUhHamhtaE5QOGtXZzByd05DUU10RU5pSWJQOTR1TENhMUp2cXpjdnl4OUsxa0lhUTg1NEJJMFptTDF4UkRVenRHZkZKUHN3cll4WGkybW9vQVYwQktMdWtxSi0zUElZTUs1YWhpSDFMQ084dVNEWmc5b1hLWlM3MTdTQVk4WjkwdG5GdlJONTFrM0Zn?oc=5",
+          "title": "Atuação de Vicentinho Júnior garante aporte de mais R$ 5 milhões para a saúde de Araguaína",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONUJVTnRzMXpDQjdNUzhZYzg3ZlhOaXF6ZEFkZzN0amVhX0hXNWQ2Qjk5em5zWmpKckF3LU10WnJJVUpqeWJFLVNBT2Z5Q3NJVFZCb1E0Y25qZ2JncERsRmVMOVdLTkQxcC1GX3dWeDdHWTgxcTZONTNlLVNMLUJoUlQ2NUVZLVF2R0RFUlpRektGdW15SWx5aXNMN0Q5QjVxYm1zTHRpcWFPMlZyNTRIRFVsNmhzMkF2YVhwa3hPNVFsaTF5NVFiNEhlcHh2WXhGSTFXWm1XVQ?oc=5",
+          "source": "Agência Tocantins",
+          "published": "Tue, 02 Jun 2026 19:36:52 GMT",
+          "hash": "4bada4244c0f",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Mauro Carlesse rebate críticas de Vicentinho Júnior",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObFFDQXQwVHpLSW5UOXRWSHpZU1ZQOURXUWxoTEF2a0x6c2dXZlVPNDg5OHlEX0w4ZWRLMjh2Qm9pRF9ZWWRab0MyV1pyX2ZKNnAzdlBJdFpYNUM1YlZBbjA1YUYtRExfNFBvSFh2T3B3eGRZME1MZGNGZ1hGUnI0U2N5SWhtS2ppaDZxdHdMUEZTQmVi?oc=5",
+          "source": "tonoticia.com.br",
+          "published": "Tue, 02 Jun 2026 18:25:00 GMT",
+          "hash": "0437da3c0b7f",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Pré-campanha de Vicentinho diz ser alvo de novo ciberataque nas redes sociais e pede apuração à Meta",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRnFYQm5qYlNTb0FnU0w4OWo0NFhYUFY0aXpVNTA3eE9HcWdxaV9OeGNQRVNGUW5vcl9OYmROM25MNmtwaG5zQTFaTVVkVEFqT3FXcW9fWGlHVTdXaHY5U0VoeDA5TnhRZ0xUV1FwY2w1ZXgzdXBIVTZkRm0zWUwyN1JldDZfbzk1RTZtLVktNnBNS2JMWF9Fc1Jtb1c2OTg1ZFRDbWU2dzFWbW02TlNEMFUxb2VrSk9uY3AtRjNqVHRpcmJzME1NR2FsejVLQU9FM3ByQ1pXeWg?oc=5",
+          "source": "Gazeta do Cerrado",
+          "published": "Tue, 02 Jun 2026 18:01:59 GMT",
+          "hash": "7a904ec942f1",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "“Não vai me usar pela terceira vez”, diz Vicentinho ao comentar suposta articulação com Dimas",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ05ja0NVNDU5d2xFUWhTTFpFT3J5UUJsR1BzcmhMSktDcmNDVmJGTnNpTFdVaFlCV0UwZlVuU2NmRmJhVDNObTBCUzlWSDdablZ5dEctM1c1eG1abUc2elozUW8zU3BqbkZ1TEZXdWtiNTZ3aE5tMGJyQm5CY0NYTUJRTzdNRzE2OHpyNnNLdnZEQ3lJMkg2Ym1CSVItdzlsMmV1OTZ1ZWFVYmU0S01BREZESnRoeTd3bVE?oc=5",
+          "source": "Folha do Bico",
+          "published": "Tue, 02 Jun 2026 16:42:07 GMT",
+          "hash": "cf4171e0301d",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Vicentinho Júnior viabiliza R$ 26,8 milhões em emendas para a saúde no Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc3NOQUdRZ3NxajVTWVdEc0JGTjN0cmhGWXpXRVNxYVpyVzFUMU9qd29hYW9yc04wTHZZLW9qU2RjeE91ZXVQcmFhSmF0RlVqbUxzX0N3TUpCTW5KdjQyTWxZckFyQ1ZSbm1NVkFMamZHTjRxLXY4a1pOYlI1MUFYRmIzdkdmZUprUDJqMW5wLTFQVTZvUExqRFFHNXdjcl9oVmdfSGxGdVJoeUdkbHc?oc=5",
+          "source": "Folha do Jalapão -",
+          "published": "Tue, 02 Jun 2026 11:26:00 GMT",
+          "hash": "3bcbcce80832",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Política | Vicentinho Júnior destaca força de Araguaína e prega união das regiões do Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZGxlV0FGdjF0MjUtVnRQajdrNHFXdmZxX2ZLU1FGRk9ZVER5SmE3bGhuRklCa3JKNUpCdjc3di0yQXFjdVk5LXlFX3NranFZNUpSZEJFcHlURVpkd3VWQUlCTWFWX1BSX3RFZmtNdzZpQUJDX1ozMEQ2TDVCUFdrWXhlSGFINHBjc0JUcnlOUE1POVpGZDNiSmRjS25ROGxFNXk1OGFia0c4QmVSbE44bzlmdlh6MXhqNHBram9kcEJkSDRz?oc=5",
           "source": "T1 Notícias",
-          "published": "Tue, 05 May 2026 20:46:39 GMT",
-          "hash": "be3559c955a6",
-          "captured_at": "2026-05-09"
+          "published": "Sun, 07 Jun 2026 14:55:40 GMT",
+          "hash": "6eebf786bd9b",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Mais um prefeito do Republicanos declara apoio oficial a Vicentinho Júnior e Amélio Cayres para o governo do Estado",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZFlGdU14eGNrMGc5YklsY1d6dUQtVHpKaGZaU0FEOC1YYnVvRXVXbDNDbGpxN3QwOVpUS2RBS3ZkckdraWd1alJ2RkpxaHBDcHhFeWluUW1HbTlwSWJhcWJLRm1DNlNNMEZTWkRUSnVYMEVVOWF1T0NnNEF3NGx4N2JZUWFKSGZqSDJ2ckpkaXFuRlVUTU5KYWNzdEw4TTNjbldnc3g1aVpEQnNfTkVuVGlULUREczNPdFVJTjMyVTZpVFhXOWJxTG9tREF5S0NfNUxheG1NNA?oc=5",
+          "title": "Vicentinho destaca força de Araguaína e afirma que “futuro do Tocantins será construído por todas as regiões, sem distinção",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSWk1RERPclRCX0hEUnV5TlVVcTJkazJZOTBoM1pDWnUxRmJNQUtibzdvWE1BampYSC1ScHJNblUzekcwRTNLaW1xN254NU15RjI3cjhjanBHN1ptUWhWRjd4QjRHNmJiNE1qUU9hQkFKR3R6N1plYnFsaG43RE03M25LMkN6YmdfYWd6bk50am85ZG9zNXZXaUdzQlpzSjVYMXVYVS01SEk3MS1mMHpzV00xTThKRlN3dmhMeXkxcEdUZFkwTE5JZXg2OVJxQXpSZTRqZXB3NUlFaHB3bkJj?oc=5",
           "source": "Portal Agora Tocantins",
-          "published": "Thu, 07 May 2026 22:35:36 GMT",
-          "hash": "99141b860e74",
-          "captured_at": "2026-05-09"
+          "published": "Sun, 07 Jun 2026 14:49:01 GMT",
+          "hash": "785e7eb1f128",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Sudeste: Lideranças de Almas formalizam apoio à pré-candidatura de Vicentinho Júnior",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZjFFZ1lDdzJDd3JNMGVBRFhsZGxSMldRdFN4bkVHbWw0SGhGNDdkcE0tbjlwZW9JWjhzczRGLWdqOW1ITUZZWmxnWHlmS25xUHlvRm84aXF6bGxoQ2RQNFZKSWpLRXd4VmFOZUFqaFdKSEVqMUs4ZEFhVERhczdiaFVMb2hfa3RJbkFsLUlnUDFZemMxai05T01IRXBfc05xS3VZWURVaHJHbWlGblA3OTRzTGxxdjBBX2c?oc=5",
-          "source": "Atitude Tocantins",
-          "published": "Thu, 07 May 2026 20:49:15 GMT",
-          "hash": "3b41970ba977",
-          "captured_at": "2026-05-09"
+          "title": "Vicentinho Jr participa de cavalgadas em Pindorama e Formoso e destaca tradições: “com fé e coração cheio de gratidão”",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOU01hMVE1UXJkUmJheEdQaEptOEh2R0hsM3BIM09ndzF2b0xWOUM3NDdVUHVqVzdQUFNkWXliR1RuNGthQU90QmFnM2VRdHJlUVJPbjN1QnZzY2t1NXlhT3l2YzdfM2tGeUhiUWJaREZ6SUc0dFY2VWd3cjlxWXg4Y3ZDNXBXZlhlSUpqdGtQeWhhNkZWZV9zbi1fY3lfYk82clk0U0c2WU5wUC1oVVpfbjY0d2s0VHJxT2FkNWFuOTBZRi1hcUY5YVJna0FDdnZnLXFjU05tbjJFVjFDRHZ2U1p4eDlwYUt3a3RfTUpn?oc=5",
+          "source": "Gazeta do Cerrado",
+          "published": "Sun, 07 Jun 2026 12:44:32 GMT",
+          "hash": "98e7c915aa60",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Eleições | Mais um prefeito do Republicanos declara apoio a Vicentinho Júnior; Almas também adere",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNFZ0RXZnS1BFcHZCaDZhV05PVlFqTDMwNFpqRVU1cnRRTVI3Tl9saUF4dG5zYVZ0UjFVMHJGUjdEV0lPUkQxUW9iV2hqZm4yWFc1QlJfNlZVRjB3bzlqWVlTUE11bTQ1QnhsdW5TVFdBaHZrWlpVenlka2ZEcE1NZlBLaXM0RWlfbi1rSmNrSV81cnk0UVdicncwVnluR1FaXzFzSlRNZGlhR3F2ZFotcUszNC1qVzZMXzhmWQ?oc=5",
+          "title": "Vicentinho critica falta de planejamento estratégico que põe Tocantins como piores do país em qualidade de rodovias, e garante amplo programa de recuperação",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPeldyQkllejVKZjRMVXA3dXBJa0YyeUY1RjkyR2UtY0FLNFdyUEM2SWdnbEJ0dUkzWGZwOENGazVSYkFIdzN2Y0RYQ09ZaU8zN1djYUJ2YTlEUHNmN0owRVpLOHdoaHZqaDNrZ2RFV3hhaVZ2ZHlUUl9DVlp0TmJJWldvbU9lalNYWjMzYmdEQUlfU1BBdWk5SEtIcms5MGxjQy13TkRqaFRGZUZ2d3NsRXViQWowbGpiZDBMUmtOeFRKakR1bEl0alRJcFdXVnFhNGpGUXYyQmx0Yk1oQW1veFp0TXRJSk5SVmVCNkhtbEJ4ejJnbG9PRUFoQWloNmxYYjUzS0c5WlFNdUlHeXplbkY3Si1WdVJKQXlDTFlfUXVxV2drVS1jQlpld0xaQQ?oc=5",
+          "source": "Luiz Armando Costa",
+          "published": "Sun, 07 Jun 2026 12:38:59 GMT",
+          "hash": "ae4d270e0c64",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Após baixa avaliação das rodovias, Vicentinho propõe plano de recuperação e duplicação da BR-153",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOemtqX056NEszWmF6TU5hTFlId1N5U1VHOWdlb0JjZXpmeW5odnloNVYwVWlNLU9ES1RrN0xmSlZtSG55Qlhrcmh2dm1pQ3hDazh3Ul9IUFhROUFfQXF3b3oybzJDb0RCLXdCT0l5OEYzalZ3VHZEbnZKeUVtcHFPQkxpRl9FRzBCYTVSQWplb3ZqZl9scUFXejRneXhlNkVoX2NmUmVERnVaNmo2NnE4VDgwZ09lOHRfRTNjdnNkaFBWbDVvcDNQRV9BR2Ywd210SktvUl80YklNaGs?oc=5",
           "source": "afnoticias.com.br",
-          "published": "Thu, 07 May 2026 20:00:00 GMT",
-          "hash": "6c69b30eefe8",
-          "captured_at": "2026-05-09"
+          "published": "Sun, 07 Jun 2026 12:20:00 GMT",
+          "hash": "e85ddef9e0e1",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Base política do prefeito de Almas anuncia apoio a Vicentinho Júnior",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ3hmbUhJSGZGaEdmblNvNW9sZTRpbkM5cnpoQUlGajJzWWM1WXUzaXJXSFp1aXNUTWVWZjBhVEJ5LVBRMkdaUkV1VXpTQks4X2RocjJTaXlwclJXN1dBMmh1OXN0VE5weFhsUnl2WFlBOURIajRlSmIxMGtldE1ITmktR2lpS0RVZVVhSnppMFAwOWFSV2hsdTZuNS04TEFNSnpnaHlCb2w1OHU4V3c?oc=5",
+          "title": "Vicentinho reage a ranking que coloca Tocantins entre os piores do país em rodovias e fala em prioridades equivocadas",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNeVpaOWNfbkdIZGRTNVZGNDM4TmJESmNsdkM5c3M1RFlVZkF2ZnBGeTN5Tk1fLWZCSTBpdGM5cWliWnA4bUFpSDFQbW1mNFlHXzFpdDJqc2tFRWpRVlNuRGFENjBEYlJ6NVY1ajU2d0YxRUpEZHdZdUZMX0ktWkwxaXhLdG9uR2RsRWR5UW5fdkhsUkpESlR5YUJnMmZCUXNUYzNmUHh4dmtYRXgwV0hQeXktOGNCbUZPb1pIa0h5WG91T0dlV1NyN2F2TExJYWpES1lKMXMzakJYMGlrR1BJOHg5X2JBRE0ySGFXYWlfZkZWSFYxVlRiU0VhZmY4aVR4?oc=5",
+          "source": "Jornal Opção | Tocantins",
+          "published": "Sat, 06 Jun 2026 13:30:00 GMT",
+          "hash": "fee8f1a2da2b",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Ex prefeita Cínthia passa a ocupar vice presidência nacional do PSDB Mulher e articula lançamento de pré campanha de federal em Palmas com majoritária de Vicentinho",
+          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPYWFyMnh3S0ZyYmFmMkpWdmpmRkZBYXBMckU3a0FfOWNjT1ZlaGoxczBMdmFrOUdBVEJTRHZGelBTdHVPMXVZdF8wZVNMWC1JQjhjMVRlZE5CVmRjTFdGclJYSEI3TFNGR1dtZnNWRXpRUk9EZ2ZVcTA3Yy1nd2p0OVBtWDdjcy1tVkphSXZaRElxbDhZOEtCTndJY0NxNG0xZFltNDl1N2JmZlVLRS1IYTJWaXhaNlhYdEhtTkgwczRTTnpYdnZZNDF0OWR5RmtNYzVLeVJsbDlnd1BleWNOTVJWYUk0MjlKYlZqU1I1UXFnRVVVMThNMVA0cUdvc0pGUThmZVZsLWg0MVJKX1RfdTNYYUpRRFBtNmxLTnI2bkxVUWRRS2hDN0pzVTZoMHM?oc=5",
           "source": "Gazeta do Cerrado",
-          "published": "Thu, 07 May 2026 19:04:20 GMT",
-          "hash": "644bb31c2e13",
-          "captured_at": "2026-05-09"
+          "published": "Sat, 06 Jun 2026 12:37:53 GMT",
+          "hash": "c29457c84d15",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Prefeito de Xambioá, Maycky Câmara declara oficialmente apoio a Vicentinho Júnior e Amélio Cayres para o governo do Estado",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZnBsOHZkaGZSQzVKNS0zekIzenRwRGM4c29acjVrUzQyak9tYnY2VWFrd0lzUndWc01vX0JlcFJpQkp2ZTI3aUdEbmdUdllwRWFQMkctcWhOaVh4MFA4RVF4aDh5ZUQ1VFktcnBlZng1dE5sTG5pcFpnVWpaS25XelFMR3pZcUdrOTFnWEZmdTdkbGJXOG0xUW10OGlzRHRyUDFwSld4Rlc2N3lGb3FPU0lNWk5RakNkWWhpNURiam5KTXlTcGs5amVXOHU4UXhOWk5lZ0xwRWxRdEJETUhBOVppQ2o5blhTSlBhVEJvTmprOWkxT084MnlxYw?oc=5",
-          "source": "Diário Tocantinense",
-          "published": "Thu, 07 May 2026 18:42:35 GMT",
-          "hash": "a000ff08ede1",
-          "captured_at": "2026-05-09"
+          "title": "Segurança pública: Vicentinho fala em sobrecarga policial e facções; Dorinha destaca estruturação das forças policiais",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYkFHWnFFbFYyQkRKRFVoZ1dSNUZHQTZMaENCYmExV1lYV083bmE1ZVo3ZkNMMGJWSGd4TEV0R3o5T3BoUFczMVUxRzhONnlwV0ZBNmxySDdIdllhaVdncGlYZ253RDFoXzdnUmxhMWVfNDl1dDdRYnZaYXNDSlNXSzJoZnZISU1QVnYzMlpwOG4ydkJaRWpQWVZIcUhib3lTcWZETGwtczVraDRNV1VpaXpKRGFaLWtScDR5SmdCdXFocVFybzl0ZWw1VmlVYlMwMFU4cUJZa3hHVXJmMXVESXZrM2Nfb0NjblFTWi1ST0dOai1LVHpIMzFiY1hqVlppTmc?oc=5",
+          "source": "Jornal Opção | Tocantins",
+          "published": "Mon, 08 Jun 2026 15:53:00 GMT",
+          "hash": "ed1f27e3448b",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Do Republicanos, prefeito de Xambioá oficializa seu apoio a Vicentinho e Amélio: “simbolizam o que o Estado precisa”",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNFozYTR0anREaVRKODJNX211YWgybWN2UzNyWk53QWxQMlFHcFlJM003SlVVbHFOTjd2cEoweVdCOHVNZ0ItVWQ0bGx6Qk9EUEZXdU1yeWNELTJ5NUpLbnY5OWFUcThKYUNUSXpPR2NzSVpMUnZRVHVNRTZaR2FfYV85bTI3dzczQkNYNXM1LUVXNnYxRnF3MGo4c2h1b1ZDV0ZVZWR0aU1Eb1U4bkZfbVIzWWJqTlNCQm9OY3QwOUZvSmZvbzlxZXo4ejB1a0M5bkNEcU43V1lWWGUyd0NqTk9FTC1vUEdm?oc=5",
+          "title": "Pré-candidato a governo, Vicentinho Júnior exalta força econômica de Araguaína ao participar de cavalgada",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZl9MeUJEd20zbG9XcUFqTDNaVEVCRjNzbGlYdVB2Y3BfY0lhX1NmQ0Z2REFRbzg1YklZNERfRVh5bG5VSXBzTnYzc2R4MG1LYXZ1cy1DazFZZkFzbWk2WGlFUjRiTXZwVVg2NmZyUGZRdHRtMm4xYzJaRW90ampIUzFIZEJjV0M5U1Y3WVdVeUFvZXlQS3FyNTM2TnZlcGQ5WmhnUW1malhjb3NDWW5OQkZrZGpYSl92Qk9SWTFZVEZoV09wejZqVjNOMUJ2WC1GU2FXV011U3QxdkN6RTRrYnVzbm5ZNWVKWDJz?oc=5",
+          "source": "Cleber Toledo",
+          "published": "Mon, 08 Jun 2026 12:12:00 GMT",
+          "hash": "d3ff918c7713",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Vicentinho participa da tradicional Cavalgada de Araguaína e destaca força econômica da cidade",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZVQ4OFlXYXVrSWdkMElxd1dOWUNLM3Y1NWVTY0J0NjRuMHk2VGRjRDRSNG5tTmpGWXZ0OXhEMGdCUnIxa2JEN0RzdC1BZGFyeWp1dTBNOWp1aUxUVGJKVlpmbHdfaFhDV1lRT0h3bEd1cFYxM3N2aGhMY3M4dWs5b2pObTdNRTFRd0pQaHZEa2FqS0I5djZVaWVJcWFPNkhUNUcxa3MtaVBlSld5ckkzaWVMZ2tpLUQ0VHFKMElIenpvZnRPb2Y5WkxtU2tRdy1sWXBwV09OdEo?oc=5",
+          "source": "Araguaína Notícias",
+          "published": "Mon, 08 Jun 2026 11:24:00 GMT",
+          "hash": "f1cd950c5c48",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Vicentinho Júnior participará das cavalgadas de Pindorama, Formoso e Araguaína",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTUR1UVBlY3NkZ2U5cUg1TnVack1qbXVUclc4Vl8tRW12MllDUUw3enNNY01MX3RKOTctemkxVXdoTFV5VDNYemVxRGtYSG96ZjNXQkxfWTZYWjdnV3o3RGxpUE93eVBtS1UweERWbjdwNHdIM21BeE1maXgzdlRyay0tMGVmdTgxN3FqY2ZROW51OXVqZUVqRWhWdW1vcGNnZTFFMQ?oc=5",
+          "source": "Portal Agora Tocantins",
+          "published": "Fri, 05 Jun 2026 17:53:52 GMT",
+          "hash": "456bc3748310",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Vicentinho Júnior participará das cavalgadas de Pindorama, Formoso e Araguaína",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUTExLTFBdlFnN1Q1Wk03Z053MS1KMG5sWlItRGNXWFRiZEpncmRQcW90Y2JadGVNc0kwdG5JWnlXLVlESEd4S3dJT1Y2X3VNc19iMjdJQ0ZlTGZhLVF1bVd3V2tNNEFjeEdsZ21ITU1zby11VG5qRUUzQTdta2IwbV84NVFYelZCZXhZQVl4d3EzMjdpZmt1Y0NNSmUtZnRmdHpxQUhn?oc=5",
+          "source": "JORNAL O COLETIVO",
+          "published": "Fri, 05 Jun 2026 15:57:00 GMT",
+          "hash": "4da1c76a6d42",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Pré-candidato, Vicentinho Júnior participará das cavalgadas de Pindorama, Formoso e Araguaína",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX0xNeFotVHR2ckNwamhMNTRONHdlQnJKVjNvX1NaanNHRW1EaGd1SFJwS2E3MUdFSHRJX0hERFloYjAwRllzVk9oNFN1RDRYaDY1WU5tWllRd0NWVGt4VUNhRUFFS2JDNE9idzBrZkxIQ2Q2N2hKdGVhWmdpdlVISXJqdHlsVnlUSnBVUWduazFvZk9wR0FSN1Z6d01RaVVTaXdGc2lRNGNvT2lkN25vTzB3czJQUEg2bzgySFlMYmZmMDhBLUh0QXByY1hlUQ?oc=5",
           "source": "Gazeta do Cerrado",
-          "published": "Thu, 07 May 2026 16:58:11 GMT",
-          "hash": "22093e7b0193",
-          "captured_at": "2026-05-09"
+          "published": "Fri, 05 Jun 2026 14:22:01 GMT",
+          "hash": "b011d6e3c71a",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Saiba quem pode assumir vagas de Vicentinho Júnior e Dorinha em mudanças para 2026",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY0J0N1BtM1pJVS1PS25obnY1MUtzU2R4cGxNNk5PU3l5SWRhTFhjMHVjMmFOdFBjbUJBcDBEaEZTUFNmN1dFM3pTNkVPZmpxSl9WU1hjZDNkRW41Y0tmNVQxTGZPLWhJMEZBbE91bVJpOWRiaFRwZmJndm5OZVlTSG5jVTRVWG8ydm5ncDJOSDY3cmRrRVR0dTViQWwzZjQ4UHVYN0h3SjNOdnBBNlAxT2hkNEN4RmJzRW1oSWZzUW9hTHhCWEZj?oc=5",
-          "source": "Diário Tocantinense",
-          "published": "Thu, 07 May 2026 16:50:37 GMT",
-          "hash": "caf636a8d188",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Política | Prefeito de Xambioá anuncia apoio à pré-campanha de Vicentinho Júnior e Amélio Cayres",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNamxITXYxVmMyLTFDN3R2bkdHNFprSmw2dU9IRHQzd2J0TnQ1bFhWV0lQTVFQN2ZFWWJudEIxd215dTZRS2RlVVIzeFQxUGpyMUNDYW1JaWJHNVNBS2hfcEZWa0pVYTg1U3c1OENnVFR5bjFSTmNac3ZyQTFkUC0tSEJCTFJVM2hjZVZBQU5GVk1zN0JpeUtnRkZBMkhaMHdWQmNfWl9RUFRhbFV6Z1g0cHJsTEJpUkR3ZXRlX1pUbmlnRl9vS1Fj?oc=5",
-          "source": "T1 Notícias",
-          "published": "Thu, 07 May 2026 16:35:00 GMT",
-          "hash": "86fcb51be04e",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Prefeito de Xambioá oficializa apoio à chapa Vicentinho Júnior e Amélio Cayres",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNb1ZCN1dqeHl2SlBuTW0wZ0g1UzM0bG55VXRjYkYzS1p5MVFzUVRyNXBmdXJPbDV3N1pVV1FkSllSdjUwVkdwY25EcHJVcHIxbTV5LUFXbXRGcmpUWmNQSjdiNnZ5U2paUlBzWHBTdmFCN01DQ09qWTJLMktuX1N0WkRpdmlSNFNsQkZETmVDQ1A1N0JzczJFdDNCdnRiTE0wdDZ3YkdEeU1JeGJVWlNSSU9ZTUVsUGdmdjhEdmVCOA?oc=5",
+          "title": "Vicentinho Júnior cumpre agenda em cavalgadas de Pindorama a Formoso do Araguaia neste fim de semana",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOU2F2OTlFQ3BzbWRCWVdOTzlNczlyd2w4cThGc3B3dk1RQkhnSV9BVWJjcTlaa1NKZWE4N1lzb1BUTU53cWRfcnBZVm9aUU81bk5RZXczMDNmR1Bma2V4ZXlJR2dQejQwanFEbzctVklPcWswa2FhSENvclJVek9iRldSMjNNMVI5bXpFc2VGVnhJSXFUdzZSSXUtYWZQaGlUVEd4NWNDXzFMckRyOVpPU2NLYXN3N05DRXRaRF9OdTZJbW9GUmkyWTdRa2pYOHZx?oc=5",
           "source": "Atitude Tocantins",
-          "published": "Thu, 07 May 2026 15:20:26 GMT",
-          "hash": "828b9740a14a",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Vicentinho Júnior repudia ataque de hackers nas redes e celebra com entusiasmo ampliação da base de apoio à aliança PSDB/MDB",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNM3NweUd6bXhzcmlvYmFqM0QtTzdCb2RBLXF2WnpiSDlwazF1Y3lVYS1yMHJCeHZQUXcxWnR1bmdzVEV3OUY3RWJzQWNvYzZ5NnVkN0xjRUM2cGFyYkZhNTUwb0RvdEY0Z0VXb0w5WWIyOVkwcGYtV3NkaFlEYVB0MGtjbFM0V29FN1BETGUwUFJvY0V2WnJIWFZLU3VpbTFsZnhKZVplUVBYQ0RpVjdvZWx0dDVnME5DMldTX05TQ2l3MjgyRGhmZFJWT0UyWFdiNllnV0dkRXREbjBKaHhud2FPWjZHN3NVSTdnTzd5Wlo3Nng1?oc=5",
-          "source": "Jornal Folha Capital",
-          "published": "Thu, 07 May 2026 13:53:31 GMT",
-          "hash": "77a43dc2ae38",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Vicentinho Júnior garante ao Sindjor-TO respeito e valorização da categoria",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZVJ6c3kxbzhsbE5oRGVpTF9aUnVnd3QtV2xDZVh4NjQ2cDhOQnc5ZnRkXzdkVDg2ZHRCUzRIYndoWXdmSFpreHVsTEV2WnFob3dWMzJ5MGtqZUEwUEp4aDhDZ1BxTTk5SExKd3hLNlRtZW1hRFNGSTJILW1FMy15dWprd2lBcDhmUEczS1ZRTllOVE9fTzJaLWlJYVE2eE85ck9kbVVXaHBOU0FSMVE?oc=5",
-          "source": "Surgiu",
-          "published": "Sun, 03 May 2026 00:03:00 GMT",
-          "hash": "f3c2c1f763db",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Amélio Cayres reforça valorização das mães em agendas com Vicentinho Júnior no Bico do Papagaio",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNODZCWG5vZzEzLTAtV3FjVXZrdGZQMi1sc096U0haNzNFU2VGSU45VzIwcUxoTEp5SFpGQUhZdTA3U2ZaeTNYR0kwcTBGSEwyanZhN3VHcTY2RWxJSkYwcnRza2xjTHJpM2xjVXc4SUliekZybUsxS3JVSmUxZjVTVHZPaTg3dXJPcS0xMm1jMTNDQWI0eWl2RTc3WXFmS1BfUGMxNWMxMHNGVEtEV0lRZ2drZ0xHQi1YckhBcFlyeTBPQ3AzS2VMLUlHcUpkNjh1dzh3?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Sat, 09 May 2026 13:57:59 GMT",
-          "hash": "2c25f322951e",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Vicentinho chama prefeito de amigo, mas diz que não vai “passar pano” após confusão com vereadora agredida em Paranã",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSzVMU1JWMnhBeTFuS09uVC1MYllwUHNhMWNLSnFnYVl3TnJRQ2pYcm4yRmJNZUZVRFF3LUsxeGJ0a0ZneXZKZWRYSnFiS0RUVE9rTkZ3WGtYaEREYl9fbG5kblVXUzNRVUhQUHF3SlRzQmtvaUliQjJGOTNMd2U0SHRXSGlLYTVObUtHRWtFUnpyb0ZwcEx5aUc1dVNISnMwbEloZkRQQ0ZDa2R2QTlCeHRXYk9WTE5qM2tSRkNndUFzZ254N3RUV1ZyMVBIdkNqUmpYN296ZV9TRGpRNzEwb0JMMVZPdUY5S1ExTzMyaGpCQWZUMWk2ZktILWI2dw?oc=5",
-          "source": "Jornal Opção | Tocantins",
-          "published": "Sat, 09 May 2026 13:28:00 GMT",
-          "hash": "6a94b28adc5b",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Moção de aplausos marca encontro entre Danilo Alencar, Vicentinho Júnior e Amélio Cayres em Paraíso",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUlBqNG0yOURwRGc5VUg2cHJQc1JfOEw0bHhBOC1tbFh3ZUhXOHM3ZjNtRnVlbHRkajJLUU1vT21MS3dhYklYS3FSamlfNi1nSFNHaEpwVVBwN2Mza1p2dTBvY1ZqRE84SFBrVUR0Vks3YVJYOWt1TF9kRF8ySG1jS1g3NnNQdktENmNMdnMxc1FzdHpBWERDUFVjcUw1aVdJcnRNMEN2STdvVS1IQ1JKenpIMnJZUlhLTktzRGZoOFZnM3Rwd1V1V2JrRmk?oc=5",
-          "source": "Surgiu",
-          "published": "Sat, 09 May 2026 12:43:00 GMT",
-          "hash": "bff7cc9aca79",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Osires Damaso reúne Vicentinho Júnior, Amélio Cayres e lideranças políticas em Paraíso",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYkZaTW1CZEFOengtNTFqQzRIbnhCWlREb1k0U2VUTHF6N053cGN0c2xaN0NuNWVPQVVSb3pzTVMtWnNCYV85V3Bzam1nYU5mMGRHZnVNeWp0U0xuMGxhWVh5bmJsU3BuOE5jdmttcnVoNW1OUXUxdExkUDZaeEVOcXJ0RHFoQjZWTjFNdGdKbmc4dXpWYVhUbWpmY1dSb0l3OHBjaXJWdHNZSkhiZm1hb0x0cmFPVmdQVlBZ?oc=5",
-          "source": "Surgiu",
-          "published": "Sat, 09 May 2026 12:34:00 GMT",
-          "hash": "8668b439a153",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Política | Câmara de Paraíso concede Moção de Aplausos a Vicentinho Jr por serviços prestados",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYzE5alh0SlZjYUYxdFB4d2k4ZXlnVzZLZl9yZnhWVXBSNkZHQk1iX0VFX2JIdzJGcVBXNUwzMlZWYm1QbU40dFNTVnVfdG5sZkttTTVQeWt0YkhXS09uOThaMW5MU2thdTBjUUJfQWVpMUgzMGNOemJoXzJESGJSaGtJQld1WmszZTQwdXpjalByaWtIZTVYUmU1Q1FoYkFDakVzTUtfeUo0a1NuUkNwVVVCeEd4Uld1cjk5Z1RZdGlVZGM?oc=5",
-          "source": "T1 Notícias",
-          "published": "Sat, 09 May 2026 10:57:23 GMT",
-          "hash": "ae5f08aa7511",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Vicentinho Jr comenta episódio entre prefeito e vereadora em Paranã: “é meu amigo mas não vou passar pano num episódio tão ruim”",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNUUtcHpsOXhZSnhRQ2dOWktsQnhUc1B3UEJXVW1SSnA5ZnZMM0UtWWhDeVI0VURpNHZVMVYzeV9xNWpWQkhJLS1vVEVuTjRYM0lrX3V6emVHXy1lbFpsRm5xVTFTZl9vbkFySXdYM3hmbUEzbjdoc1I1MDJ4dVhFWFBrbjRqY2sxQUd1ZkhpTVNnTDItWnlCa2xSNVYza2tKVEczM0NYVUdJMEhpQ3ViQWoxcU9DTUVqbWZNc1VtXzBVbHlibWdyQVRDOXYzVlVYWWY4bzdYUkRFb1ZjX1l2V01xRDR3Sm9RVHBIa2dIZ3ZzY3dHYmo2RnFEYw?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Sat, 09 May 2026 10:04:03 GMT",
-          "hash": "10591c4dab67",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Passagem de Vicentinho Jr pelo Bico tem fanfarra puxada por prefeito e recepção de Aquiles; Pré-candidato diz que faz pré-campanha “de casa em casa”",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPOVdRNkVtaDNTLUM0ZEtPOXZSYUxmSlJUMkNSMklaYkVHVHM0ZlczWjkzeWc2d2NjSTJmMGZzdTdPMV9HVlctRkxzUnBZYV9laUpPeDZ6TE5hS0FfVFlhbEVpeFRhaGEwdGJNLW10WEtsUkFwY1o5WTlyY1V5bGx3SGVzVUIwU0VMRHJCMDE4RXRmMENRMl9TTnR0VHo2RXVsMk8tdDVEZll2SnNOUnkzSk1wc2ZuWVFHNlpYajBwSmxTcmk1TXIzQWtKWnRGMXdvd0FrUWhMcE9BQl9MNnlsM1A5UGFjdUI5SFR3dWQ2cnhsbzZXYkNWN3UyWFpPeUpTVUNHaGtvcHRJNElNLU8zb3UyWlk?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Sat, 02 May 2026 14:09:51 GMT",
-          "hash": "2da2bd58ead4",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Carta de jornalistas a Vicentinho Júnior defende critérios técnicos na publicidade do governo",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSFJUWThyajh3a2RsbG5nclI3bEtJU01ldDBsbGE2SWVVUV9PWkk3RGlSODNHdk1vUzREVjktLUZ4UHRIbkQ2LWJCbzl5emRyUmc4blotaWF4WUNzcFhMSG5JS2stZ1NEOTBUZ1lYTXlDOEkyUzdHMFpCNzhyU1UzMFZyWUtoandON1ZCUEJKOURJVC1fcjFTWXZxUjVUTldEUlZaUkpIZ3hiOGMxbldZV0o0cHpVZ0lGMi13WTJkcGFhZm56OXAw?oc=5",
-          "source": "afnoticias.com.br",
-          "published": "Sat, 02 May 2026 12:50:00 GMT",
-          "hash": "f09d36df1360",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Política | Vicentinho Júnior assegura apoio às demandas do Sindjor-TO em plano de governo",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTlZXdFI5a2ROWjR5dnp4MXkzdlhsbmJIT0ZYV3ItbzhqZ1hpZ3F6MmhTMW4yT0xxWkZVcVdCZUx2bDZuV3o2bE9wRy1Sa1lfS2VCUUg5UlJHVFdpUWh6X2oxQ09Idm5qdk1aVExEOWxpQzhISTFEc2pBbURjZzFZUGkxVjFBTlBZb000R0UxNFBzSEhuZkljcGtaLTRtU1RjVGVoMG5KZ01DWlhPX1pOWl9nVGRlNWh0bWpEaHZB?oc=5",
-          "source": "T1 Notícias",
-          "published": "Sat, 02 May 2026 12:16:24 GMT",
-          "hash": "b18b2970530b",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Ataque de \"seguidores fakes\": Dorinha e Vicentinho Jr. denunciam invasão em perfis oficiais",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUEo4VFk0dkdYdm4wWEUwNDBGa3hFNkFmaHQ2YU1BMV9ZRmhJTm1yS0RPRXBtSEx4Nm1TanRYbWlmeE03UVluRHRHY3otTnFOeXBhVEMwcXcxTzJ4NjNqaTBVUW5BUDNMMGZIQjVxUW1PNmg2Q2Q1NFVDNXlVWjRQMWZWeGNpakQxSzdhVGhKZU5sZnRUU19aeFBDbWcwOVhKZ0lzQTkyQkk5MXV0WGRkNUhIREVETkdDRkhhMW1n?oc=5",
-          "source": "Surgiu",
-          "published": "Mon, 04 May 2026 22:21:00 GMT",
-          "hash": "0d2e643be1d5",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Vicentinho Júnior repudia ataque de hackers nas redes e comemora ampliação da base de apoio à aliança PSDB/MDB",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQaEljYkwwVV92UXBrLUl5MTY1bmktdVlTLUhlZ2dNT0c5RUg2MU1SY3NHdkE4Um93d05LVnpGZTVWeWtreWJQSEdVWHV4bm15ZGdueUxyYWVDVUJYV2JzUWZ0YlB0RzFlZFBuVjJtSEh1eVFXdUZOUW9Jd3J2SUxEUzhuTlBHTWM1WFZiYzNGei1NSVJISDFDdndSbUw1a19PcWttWG5vcm9WQUx0b01DLUI5YUVVejdQaE1EWHJwU2N2MGJFZzFjOGQ0OFA2WDNsRVRrbjEzZzVwNklHR19WNnp2NVBPdU0?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Mon, 04 May 2026 20:44:29 GMT",
-          "hash": "e5061a723d76",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Ataques com seguidores falsos atingem perfis de Dorinha e Vicentinho Júnior no Instagram",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRUZic05Nd3R3WXMyVnpGd1hrZk8tOE5nTFFWWEhtTTlVTzZOc29XaVpfQVpGYkpYZG9RMGZrWFdLLWpPVHZnNHhmMTF1dHFtTHk1ZW5jSzljbEZ4V2ZfTUM1MEY0QzJiLUczblExTTdIWEJoNnMxbWlGOWZVSVFiNFR5alU0STJWc0ttV3V5Y1FxT1lwbVhLa0poV1dHS2NUdDZjWmF6RjNxcmxGdHRtZDJXSnV2R3h5TkJOLXpUeG9xaThGVnhqUFNFcEk0eUtscjl0SGNMVmsyMVVo?oc=5",
-          "source": "Jornal Opção | Tocantins",
-          "published": "Mon, 04 May 2026 20:05:00 GMT",
-          "hash": "d52d4980b4d4",
-          "captured_at": "2026-05-09"
+          "published": "Fri, 05 Jun 2026 13:52:54 GMT",
+          "hash": "a654f318e28f",
+          "captured_at": "2026-06-09"
         }
       ]
     },
     "laurez": {
       "nome": "Laurez Moreira",
       "partido": "PSD",
-      "total_mentions": 18,
-      "new_this_run": 1,
+      "total_mentions": 19,
+      "new_this_run": 19,
       "mentions": [
         {
-          "title": "Gutierres leva discurso à tribuna e reage a dúvidas sobre candidatura de Laurez ao governo",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV2NZbDZKM3A5bmtYQ2p4VGdZZ3FObkJWYjljTmVMTVNxQ1dSa2xRdWxHVjI4NnYzQThVR1ZQeHpYbkhBM0RUUllLVFl5bi1jM2hQU1ZrRlZFbEM0aF9wcVNsV2szOXQtdG9qR2lFa2RSSzVNNmlyem9lMXkwOFNQMU1FeS1ZY01DWm5rRmhmY3Y5Q2RFWEg4Z1hydWJZOHlIZUtlM1c0bFltclhyVjl6dXRHcENNYm1NaE93M0J6TnpMcnh3TmJDZlF4TFFpUTlTWjkzZ3RqM0pKM0Zn?oc=5",
-          "source": "Jornal Opção | Tocantins",
-          "published": "Tue, 05 May 2026 16:56:00 GMT",
-          "hash": "d8198353d0ed",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Nome ligado a Raul Filho entra em circulação e pode reforçar chapa federal do PSD de Laurez",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYkRORF82eGJLbUhHRlpJazVEa2lieUlUc09TZW1yTmVudW1vcFRLQ05yVmZwVXl5ZU5HQ2w0T3JWNXNWX2hKYkZLckR1Z21zd2ZnNjJXSjVEVUt5SWdldml6aDhqMm1ZOGg5RG1kVzUtRzN1U2JEQ2ptQUdJV2QyU0h4SkZSTVh6QV9peC04MUVPeV9oVTlWb1hyYWg1Nk9tcmFZaVdFOVl2MHoxQk41NHFKakVQMGtHdWpPWE0xRUdfNnFGQk1EWG1OMDhvbzZoRy16Y3pVTHRJNDBMcVE?oc=5",
-          "source": "Jornal Opção | Tocantins",
-          "published": "Tue, 05 May 2026 12:52:00 GMT",
-          "hash": "c235ac030b33",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Laurez Moreira e César Halum discutem soluções para fortalecer o agronegócio no Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZjc2enJqdjRJSjl1OEYyM3NFYlRtQUxqNHptRmJOdlVyOHJSSHFlMkdSTFBDVm9qYjR2b19ISWNHT1Z0REsyUDlzNGJNNFpfT1lRcUdzVFhuNTBxRHpIVFFrNGRjQUdLNDFhcFliNUE4a0NESnRvZFhBQ3RKT3VzVFhQREFkZmc4eHJiUFRhdXFLWE5aQ1pHcTQ3amd3cnJOVlRpclU0S3JCRkExTWRrYlk1T1FBVWpVd1NfcVQ1NHNhVWs?oc=5",
-          "source": "T1 Notícias",
-          "published": "Thu, 07 May 2026 14:05:04 GMT",
-          "hash": "152ed0e90ec2",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Após críticas públicas, Laurez Moreira e César Halum se reúnem para debater fortalecimento do agronegócio no Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQb0JxOFRhZUlMVmhQMmVvejFaVnpCamdQX1U1cm4wc1NwMllqb0RDMEFpZHMzQlNMbzVZdUZIVGVxNFoxWDJSZWhHclVYNW1tNDB0MGxhU3o4eVctVHJTTk4zQk9KWEZEVVBLOWRtRndJX2tYWDl0NDBmbFUybWgyUjQzWlp1WHVMLXQ1NS0tQVFPeXpzRVlaMzQwWmtrQjBUYktld3F1eEQ3NGZJREJ4RnNkNWFibHhwUHBhNjc0NnVkclZvUVlZTlN4VFhnWXBhajFudjJGR2s2dVU4WUJ3MEt3?oc=5",
-          "source": "portaldoamaral.com.br",
-          "published": "Thu, 07 May 2026 14:00:00 GMT",
-          "hash": "8b62a0ba113c",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Mauro Carlesse consolida apoio de vereadores de Laurez Moreira e lideranças de Josi Nunes em Gurupi",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMjRGMUJDUGNtZGhZdWRMdDlzbWNNWGY5SGVlWUstVkxoN0FvQi1RLWM1T0QtQm13czFXYXZaQXlPOGFKakIwdGJOanpmbWU4UXZQWWg0S2xNWGNQVHhXM25FNTFmd2tNRGtKVUljVmVzMnJMem5iYUxyeHJ3Y202Rkl4ZHctTkNKNzUwWUU1WmRST09GM051SE5ULWxqMVVHbnE4RlVrQjN1WjRsSVRKVkM0eUJhYzBaeFdiMlFBVTRhbmpZQUZobkM5bklEdE0?oc=5",
-          "source": "Atitude Tocantins",
-          "published": "Thu, 07 May 2026 02:34:46 GMT",
-          "hash": "b48d20962d2e",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "“Lá o grupo do Laurez enfraqueceu”: Áudio de Halum a aliado repercute e ele se manifesta: “disse sem maldade”",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZnp4X01MbEZKRXdIZUxrb25UZTJsdldVc1BpcHQ3VlVST3RnOGFoeHJXbk5JNmZaT2ZTTVQzVEFBQWE5NFFZT2FHNkp3ekhnWFdlMGVITW5uMk5zYnBSOTdvcGRmbzM2N0xKSWQwazRLVHRNUDRWc3ZaZUY1TjY2cE1hOVBQR1VwRUFXemhqN01ULWJ6VVJ2T1JhMUFBNExaWUZXQ3IzTjZlOWZzdHdZcWZvUEs5eDhNWkNYMXVMSUc1T3NMV2JfZWVsano0eDN0M0MzZ2hSQ0tGNXBqRlE?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Sun, 03 May 2026 20:49:22 GMT",
-          "hash": "17e68451b839",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Prisão de empresário goiano leva tremores a setores da classe política do Estado. Medo de conexão com o Renapsi expurgado por Laurez Moreira e ressuscitado por Wanderlei Barbosa não é uma ficção",
-          "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOTFFhc3FZTWRWT0VvdDVrMkUzeXZ6SGVtSENwamVkNm1CMWh0eFV4N25HTUdSSlQyWjVkLXZTaDRlR1NJazVhdVZfZmVTa1hfZm96TVJFQnVEcWw2bDlrN01Lbzc5bkp5WlRabWJ1a19uVkZHcnZFYjZYdEMxUlVRcWxndUZSSnNNaTd6YmxUYzFhSHhaQ0wwTk1CUUJLWkJjYzhrdW5qWW1DTXRENmRnRTZkT0tWdXNnRWtCc3ZBSFgxX1R6WmxkTzBLLWFab2NyNTVWalhPNHRqbjh1ZFQyZXJ6eDZvYmFQM2k0ZkZ5dk9CMmpYRzJJTkI5bDVGRVJyOU41SVNrSnNROHZzbmxLXzlSSDBGblBQcldwVzR5UDExOEtlMHVweXlPQWFaOXFudUpQVm9HZ2RvWkl5MHZIc2NCSm54Q3lRaDN4cWdyc2JCLWI5M2ExZFE2VkR0UEV0?oc=5",
-          "source": "Luiz Armando Costa",
-          "published": "Sat, 02 May 2026 15:31:05 GMT",
-          "hash": "70682d68c9f8",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Áudio vazado de pré-candidato repercute e expõe racha interno no grupo político de Laurez Moreira",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWlN4aFdYN3d0YjFUaVZ4RkRXc2FicU5IdWZ1SkxwNURYTlRGWlpoNlo3Sm0wREw2Y0NhX2I3M28ySm5XSzQtMUZoWWEzT190cnpzRksxUVV0a1JIbGQzSWFDVkZNd25BeUlGcTcySWJWVW95bktqZUhKMGhqT2d6SjNWeEpwSVJJdHlZTW1fZVh5TXRfNEFKdnlSNDJWaFpMYWpsRTdMdWdlMFlBMFZ6OWVJTkZCRTNoX0xBYVhsa09hbkNIVUVTbmZEbTZ5OFo0QkhCVWxDVE50WVI3a0FQZVFR?oc=5",
-          "source": "Agência Tocantins",
-          "published": "Mon, 04 May 2026 23:32:28 GMT",
-          "hash": "7c366537505d",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Laurez critica elo entre Governo e empresário preso; Estado cita respaldo do MPTO",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcHlmYTFZakJJdEc3UTZUMWwwNTZBMUszcHl5Smd1TTVYN1lGZXRrNTVGUHFSa2EzNExsOEJzVm9xWlFSRU5jUlY0OVdaM1lhejZCTDMzVVV4aFlxZnBzaFZLeU0zaXU3c2dtdE9nRmJlRmlueGFNTjg1aVZLTTNHYUdJbE9aTzFQMExtUVR5QzV3MWNaODhqSEZmblR1RXFuNU0xQ1FTaVJJbXJrTktnbWJ2TnVGc2NVWVVBUjNR?oc=5",
-          "source": "T1 Notícias",
-          "published": "Mon, 04 May 2026 21:31:38 GMT",
-          "hash": "3eeae5a72240",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Direto ao Ponto | Laurez nega enfraquecimento do grupo e diz que PSD tem 'frente competitiva' no Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUVZZMDA3ZmttNENUOTVYcTFCMXVCdXJOV0I4MzVVTmhrSjN1dUllWUtjV1Fyd29PLVlVU1dMWUViODQtUGlSdkIxWjFRZGNQQmJ5QW9LTGJyOUJkWXppaHRZbmliRlJfUTN1YWZWUHhWcTYxOFN6YUhmZzUxbHhJMjJrNHRGVWhIVGtFaXFCNzl3eEQ0VUl0dFlSN01UY3pubmo4bGNPLVpmNEhnS1hNclhGaXRwY0FZdmJxZWJJNFBNSXNfaXVNSHdBa1IySTg?oc=5",
+          "title": "Com Irajá e Carlesse, Laurez reúne base política e acelera articulação para disputa ao governo",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeHdtQ0o4c0hzQWR5Y2VVQlFQODRTYlRYb2s3SENUdVUxMzU1eGhSR3IzZDFwMVo4YjRTeDBFTzk1X0pGWGs4UEc0cXh0aXZpVFlpOHNqU01GSFp5XzFyZXlKeXJLN3ljekZoWURJQnhhYUdTZDFsdWlobC1rS2Q1dkVqeHhMS3lHa0w2TEJ6TnFzTmYxSGlaVVBmaF9zUW5ja1l2Nk1kM3AtVTEwZWFTTFpFTk5BRUVoeGRFUFczT0IwRHVRaGVv?oc=5",
           "source": "afnoticias.com.br",
-          "published": "Mon, 04 May 2026 20:44:00 GMT",
-          "hash": "1eba98c6d372",
-          "captured_at": "2026-05-09"
+          "published": "Wed, 03 Jun 2026 20:28:00 GMT",
+          "hash": "d546aefbb79f",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Halum relata “chapa desidratada” e pressiona PSD; Laurez responde sem citar crise",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSFhlbkVZOW05NGdfV0NFMDc4Vm40VV9nTkRySzVZRWZjQ19aN1UtV1FpNFc1RFkzRXo0MXZCc3RHV00xSEUzWU0xT3h1blUyS0dvX1Npck1zdno0VVdUQllwUDlvWmVQSVczd2xrWVh3VlZ5ODU4ZUxybl95ZThwbDJXREU4OG03eGNVbElYZTRhdTI1amR5dVNJc3JmMWJ1bGREVlhkeXFLR2E4Y1NLdTYzUEgxNjg?oc=5",
-          "source": "Jornal Folha Capital",
-          "published": "Mon, 04 May 2026 19:50:54 GMT",
-          "hash": "97b063890697",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Laurez Moreira rebate especulações da oposição e reafirma projeto majoritário para o Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdGw4UXJkZ1dhN2VXb3A5U1d6eWFkZm1YVERqLWc3cmhyMGszRzVLcEJRTF9qcFJpY0ZtWnlSNXp0eVBLVmdONVZoeFZDTTBadXQySUNrVkxoNXA0X2xmeUJTRU9sYTdIaWxyeWRRZjctX0VXaG84cnJnVDR0QU1QMmIzcjZaYnRFTDBucERsYlVHSjFFWnRzWm9sLURUYy1HWWNiTHlSSS1YaE1aZHlfbWxHX3RyZ3hxd18wMFNLU3IzSHhYaDF3bw?oc=5",
-          "source": "Atitude Tocantins",
-          "published": "Mon, 04 May 2026 19:44:11 GMT",
-          "hash": "df0ff760653d",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Laurez fala em “indignação” com debate eleitoral focado em chapa e não em problemas do estado",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeFhNOUtSNEUyN3VQSFdrVlFZMkdIOHhtNXB0c3VMT1FuaEhyeGVuZVBKT0hwSUVaZk15TDlkX0hNU2N1T25HUFUwbUFWb3Nsal9BSzFqeXJtMDVJdW9vSG1va25Ca2ZOdFIwRmV5RGZ6bnZpTF92WXg5QldmRm4xMGZSN2NuX25kLXI2aWVWOThVRFZNYldjeFZXR25FTFBILVJrVU15QU1sSEdTNlFkdU5xYUhfWDVuNlZFMEg4bUtVTzlHbzQtWC1pd0tHV0QtX01aaEZ3VUhIYjd0UTJmSA?oc=5",
-          "source": "Jornal Opção | Tocantins",
-          "published": "Mon, 04 May 2026 19:22:00 GMT",
-          "hash": "2b60a6c6d69a",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Laurez repercute prisão do fundador da Renapsi, instituição responsável pelo Jovem Trabalhador: “Precisa ser investigado a fundo”",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNURTZWVQWUtlY1BTcTF4NUs1RDY0M19kYTJ2ZmUyWnJJanYtbnMtNEE3NXBqcTRxcmlTQzVkaVJ0TV9sU056eFBEejhYdDNBYXd0TFJxTFUtRHlBcHZGRlFNN1NOM3V3c0VxTUl6UDVqdjM5d2RCQXloa1l6czRsMG1VVmdPTXF0WXNsbHZkWW4wRmFoZklRSW1KR0x1YzRsTzczc255WWNPMXFjX0dYaktOQ0V2NHZYSUVLUzlRUm5jSHFkQ2pLSnA4TWlqbjJpc2tVM09SMnpzcmkzdGJOYnM4Qy1qXzliT1NfSmd6Y1A2bkcxQUE?oc=5",
-          "source": "Cleber Toledo",
-          "published": "Mon, 04 May 2026 18:53:00 GMT",
-          "hash": "24cab28c9fc3",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Após áudio de Halum, Laurez dispara nota falando em “indignação” por discussão sobre chapa de federal do PSD",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWGNYaEstNDBOQ0NXczZsdGs3ZFFRVHlkNnRjcXZkTTJ1UWdfd1U1bXBaZ0Z0d1VsZkNpcTByUm82VnpnRmV4R1NRY3J6bkJNSzktT3BYVXNTbndzZ0Q1aFVwc1FDdVZWaU5RWlgxOTlleWJxTW5kNWlTUWI1elAtUmJfV3JyR3FyT0hGQ0dRMUtfck9TWFQxZDZDWkFBRFh1ZmRhWVltLUpjd0x0alVNa1JGYi1qT3VqWjVUVVB3c2pUVHpEUURBaXNld2tqZm8wQnlyTGhfc0xFUTF6TVpN?oc=5",
+          "title": "Laurez Moreira reúne pré-candidatos e lideranças: “buscando os melhores caminhos para o futuro do Tocantins”",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQb0JwOEs1S3NBYkdWN2F1YmE3MTZHTjhkUWtQOXRtUVRHckVVVVAwM3JJel81SGgyVXg5MW9vUFQ2WGlGekFuWjFFNlJ5clB5X3dhWkczV19FT2VnSjlmdGpTd0s2UzlFbS15SE5hM1JGUjBBZE5HeVpZYTN0WHJNZ0V4V19wdm4zMGNtMGZoaWxqTW9Cck5LN1k0UEpyaFBpMFJ1ZHViWEhUUWUyYVViNUVIVzk0MkluWDFDTW5GMFoyeDJqQmxfVkFtT3hNOTE0QXBidTVhbHFLT0hrekVB?oc=5",
           "source": "Gazeta do Cerrado",
-          "published": "Mon, 04 May 2026 17:50:11 GMT",
-          "hash": "a3f1b07e2cbd",
-          "captured_at": "2026-05-09"
+          "published": "Wed, 03 Jun 2026 20:25:00 GMT",
+          "hash": "7e15d1c5d7e3",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Laurez critica \"discussão política alheia\" e reafirma pré-candidatura com chapa do PSD",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOHN3T08xWldNd0VpM25QTXVQSTVXVmU4RkxyRVFCUHFiMDkzZmpNTzEyVDhPOHVPdkkyelpPSDd3YzFHdjlpUDc0UWprZHhlZWwwRnpENDY3ZTdaUEgtaUktTXBlcS1JSUNocHpaYzYwRmxCQWFKa1FqMXR0b0JSYUVQYVk2R1A0cks2d29NM1BOWnNwQjJOclpvSGYzVDdDZTR0S2RyRTd5TGJaZlltblRjUXF1MUt6UXo2dw?oc=5",
+          "title": "Laurez prestigia inauguração de novo prédio da Aleto e exalta Parlamento: “Debates que ajudam a definir os rumos do TO”",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNS0hxZDVMUnk1b3BMZUR1Zl8takxuYlIxeEl5MFJWTHU1aFN3bjJocjV5SWd2VlBpdTJIOFNQS3UxN0I3ckJ0UFlJeGJaaVBCaFY4ZlJ1dDF1UTFaaEZMUXFWZ2pDaHFCTUgxN1dWeWJQNTZkcElvWVVDS0lObFlLd3lKSjVYM1llRndSVnZ6TV9FalNhZ2hmTEpyUVhDRFYxM0p5Zno1M3ZGbU9UeWZYeW1xVkd0OG5GNl82SFNTbENGNGliMjdtelo1blQxQ0hNVDI3WVNzWVozUkxPbU5iT2xyQ3plYzZhbVE?oc=5",
+          "source": "Cleber Toledo",
+          "published": "Wed, 03 Jun 2026 12:36:00 GMT",
+          "hash": "0666d31fe4d6",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Laurez prestigia inauguração e lembra a importância da Assembleia Legislativa para o Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSVg2S1FNY2ZKMFJ4OGZreG5zVDNOVzhwOFh2Q1NlXzVKcElIbng3RXJZRm5DV3l3dlozZDZQVGJfSWxLNnJxOTBwNDNTWWVmZWJxaU5ETmZHX1UyejJxeXRyNWlfOUZHQzhoWnl1YWh4bW5ZV0lXQU1lUExqSkJxeThsRGR2enVtNEJIS29zcXlaTDhURGE2UjBnaE5iV3RYWWNwZXMwOHRraEF2OS1FT0kxOE5Iek56cy1tcTRERHRxUjFGdEdmQ1ZR?oc=5",
           "source": "Conexão Tocantins",
-          "published": "Mon, 04 May 2026 17:46:00 GMT",
-          "hash": "c576ba2a293d",
-          "captured_at": "2026-05-09"
+          "published": "Wed, 03 Jun 2026 12:02:00 GMT",
+          "hash": "021c76a96e6e",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Blog da Tum | Laurez prepara nome a federal, fortalece chapa estadual e descarta desistência",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdHNsaF9yOTQtbXdxbFlhcTZPM3dQbTVsVmd4WjBuMGxGV1MwNHc2MFc1VktHRVluSkJhY0drT2R6V2ZPLTJkZEpWMTlpc0hlN25SRms1SDBMRzhZX2l2bUM5NUx6aW1ZbVFjNzdCS0ZRMlU4VDd2NjFyd3o3THhLUGZIbEkwZV84amVkY0huUm8yY2RUcWhKRnZwd3BIV0lrTnBVaC0wOFRhUW1WQno3WVlFRkEtMFphQkV0LXhmZG8?oc=5",
-          "source": "T1 Notícias",
-          "published": "Mon, 04 May 2026 12:53:25 GMT",
-          "hash": "f7e66ad44985",
-          "captured_at": "2026-05-09"
+          "title": "Laurez chega ao segundo semestre sem alianças consolidadas e vê espaço político encolher na disputa de 2026",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOek1ZSlZHYXpDSWduYk42bENUZkZLalF0ZU5SQXZ2d3YtSC05SFRPWURpM1pROXhWNkx6d2NGOVllMVZiN1Z5Z3MtV0ktY0tFYXFIaTJBQ2xWMWxBTTN5NXJMRF9IN2owc3BWeG9qamhOcFVEdC05a1Q5UEl3c1YxbGJTRUIyVlVLNVMtb3p3c0ppRTBBUllhQmFiaFdEYlFMQUliZ2Z4c2RKVzExaTh5OGZ6UXlnMUZYUDdobkc2U2d5dXpCNDdINEZBXzhDc2JrcGptVWZBYkE1aFI3X3c?oc=5",
+          "source": "Folha Capital",
+          "published": "Thu, 04 Jun 2026 15:27:26 GMT",
+          "hash": "f2498a81afc9",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Política | Laurez destaca protagonismo feminino em sessão do Dia da Mulher na Aleto",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd05TYkUzY2dtUnJoZXVpSGdYOXZ5eVNadnJ1dWw4Mm5RbmQ0bXlSeDVIMXpjQ3RtNXA3NHh3T2s5VFlRUXVkaElOU0Q2MHJoT0FCSHBYQ241TkJMNEx0YnJfV0V1MFJMTmdZOWw2NjV5VmVvVEdYcHgyTy1KVzVLZUl1S0pVd0FFS2V2MVpYT0ctbWJpR1U0Uzcwek9lVHE5alF2STJXaHNUWlh0YnN0SFFQam52Zw?oc=5",
+          "title": "População abraça pré-campanha de Laurez Moreira com demonstrações de respeito e apoio a projeto pelo desenvolvimento do Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNWlhGdWFJZ1RSbjAzcHJuazE3R255Qm1PTlAwQUttVEVBYUN3c3QtX3Q4MWJ4d2dYaFM3ZjhmV0Ffd0QzeWxNUUZDLUxIVVhjd0UtUXJMNU9YLVFYbE41b3BZRDMyZ2lGcWxPVkVYd0FQbTRTdE9xN3BUY1FxOHdXRHRKLVJYVjE4REMzUmJHWG1sYkJ0a3kxdmg1WExxX3p0OTVtNFI3WGp6NEgxMlNlaS1uSmtVVnV2V3lZQlRiZVRlX013bE1kRjE1anJ2b25tV0dSakJLekdSVUpFYU9Wa09rd0JPRV9XM2lsTVpLTVI2bUFDeHdBQm90b1o3Z9IB_gFBVV95cUxNWlhGdWFJZ1RSbjAzcHJuazE3R255Qm1PTlAwQUttVEVBYUN3c3QtX3Q4MWJ4d2dYaFM3ZjhmV0Ffd0QzeWxNUUZDLUxIVVhjd0UtUXJMNU9YLVFYbE41b3BZRDMyZ2lGcWxPVkVYd0FQbTRTdE9xN3BUY1FxOHdXRHRKLVJYVjE4REMzUmJHWG1sYkJ0a3kxdmg1WExxX3p0OTVtNFI3WGp6NEgxMlNlaS1uSmtVVnV2V3lZQlRiZVRlX013bE1kRjE1anJ2b25tV0dSakJLekdSVUpFYU9Wa09rd0JPRV9XM2lsTVpLTVI2bUFDeHdBQm90b1o3Zw?oc=5",
+          "source": "jornalprimeirapaginato.com",
+          "published": "Sun, 07 Jun 2026 15:50:09 GMT",
+          "hash": "0286f0a98f6d",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Estado | Laurez Moreira aponta Tocantins em baixa no Ranking de Competitividade de rodovias",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUV9LRnpFRHlPbkhONkZtVHJvWUpEYm9paGhHZTcxdzdjS2tOUnZHc1pCMUJOc2ZDbnZHRG9DclV6d0pMcXp1bHV4Wk03TVpiSDZRRDZvbXVOeW1EU3JaMll3azBCS0dCVGxVT24zREFWc2NSNlhHR0FSYWY3N0E2N1RlaGQ2SFNzR3ktUk9weVNlZmNVNFBpdElPZ2duTlk4M2pIQ19XTTBBLWNKT3c4ZTZUT0ZvdjFVZzQycFktM1A?oc=5",
           "source": "T1 Notícias",
-          "published": "Mon, 04 May 2026 10:57:02 GMT",
-          "hash": "af217bbd2d7a",
-          "captured_at": "2026-05-09"
+          "published": "Sun, 07 Jun 2026 14:10:15 GMT",
+          "hash": "d08ad83f24cb",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "População abraça pré-campanha de Laurez Moreira com demonstrações de respeito e apoio a projeto pelo desenvolvimento do Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQRGhVSTVZaTM1aVczS3J2Ymg0N3FWNWpQdndRMjZTS2ZDSk1LSGJmRDFmZ3dacTg1aFR3ajdXbEwtNXc4LWcxNk44M2dlZEFxUmtRMkhSb3FZUjRvcl9BbUN4cXdyd3hqbUFoNGZ6WUhVRHozY2xoNDFkVHBZcGhLeEl6ajhyUnA1RHlGdTEyUzRvelppSmFVZ2JjbEwzUFFBZzBVLTBFTXZ3MXpRSjhVbC10TVN3SWJuRDBVUERxT3RaaFFBUjJfeHRRQ2V4djhkRGEtalU2ZlhoeHl1Ull1M3J0UG5ET3Zra1NaREcxb0xxSjhnVndVRW5oQTZqU213NzNMY3o0T0w3VnM?oc=5",
+          "source": "Luiz Armando Costa",
+          "published": "Sun, 07 Jun 2026 12:38:59 GMT",
+          "hash": "fa3d519d8fc5",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Laurez diz que situação das estradas está entre as principais queixas recebidas no interior",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNXzFkMldjalZzR3BuOTAyLUVxVU1GN0ZVcmxuZXhUTC1PQ3dBQWJ5Vjl1dkxBXzJPa0dCS05kenhGaS13aFhKRTJnaVc0NTExTXoxSjZoM3doQXE5UzFfRWxnb3BjNWtGTzBmbDY1R3JZdFI5VDBidFJ6U1NtVm1rQmczSV9fV2xyLTJQd0F6VzBLRU9IbXJBa29FNEZ5REhfVmNEcXFtRm85bXRRZTRjaTg1Yzh1Z3o1Y3Boam92THdiMFE3ZS1rb1Q4eW85bXp6LUdwaDhaRXhHZFlzeFE?oc=5",
+          "source": "Jornal Opção | Tocantins",
+          "published": "Sun, 07 Jun 2026 12:38:00 GMT",
+          "hash": "efff767d82fd",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Laurez cobra atenção às rodovias após malha viária do Tocantins aparecer entre as piores do país",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObHZBVnBJcEVIQkMzbzcxc09Db0hRS3I3QkF4NVFuczN3VHJVckdVX21XQ1lnVWFhZGlXYjliM202SFMtUmNsWjVrcG5HNFhaRzJtVEkxazNYQm41Q1UtMTVGcTV1NXBzYmVoX3ZVTzhMNWxLTmVOMzJrQ1JnSzF5cFoxWk9IOU5jUnEyZGljODQ4ZGZNZjJHTG1pNGVCNXZobmJMSGZKNmdHczl6c0F3aVZoVl9zQy1nSkVsMS12VkxOOG9IRGNQcw?oc=5",
+          "source": "afnoticias.com.br",
+          "published": "Sun, 07 Jun 2026 12:05:00 GMT",
+          "hash": "b1acdb09fe97",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Laurez Moreira participa da 5ª Cavalgada de Pequizeiro e celebra tradição do interior tocantinense",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN1VOZXN5X2dyYWZFV2hXaXNBb1FsVnRWbjFNTHFKc0s1aTNHRFJud3ZHT3FiM2Z6X0F3ZkFuczI0WDBzXzlCZ0ExQkl0UXJsWEhJREVPSTdYdlhINkRLQjZFRXptbERHWmlFOVZlRGNDVDg1VEtRZE02Z3BYLVU4OXpkMXBTMmlCTjE3My1GX3gxaVhsa2ZlaU5udm9HaFpWdkFndHpidzZXeml3bjJ2OUdSU25nSFE1ejBfT2FnZ3FGR1JBbU9aT19WNXlZNkp4amtZWHFaMA?oc=5",
+          "source": "Gazeta do Cerrado",
+          "published": "Sun, 07 Jun 2026 11:47:30 GMT",
+          "hash": "6f53efa77885",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Laurez Moreira destaca economia e recebe apoio durante visitas a Miranorte e Pequizeiro",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdGpJdE9zUE1jNTl5MFpUcFlSWHB1czFmYVNfX0ZORUw1SC1OZWhfU2tFNWszb0tIZXgwY25WRUQ3cV9TMWNmdU8wOF8yck1VeXZFalZDOG1FV2FBSWdqcURTLUh4Z0xlVERJUDNfSGJsRGhmSTVWZnhibzhoY2VFUU9HelBFWVVHNHVjOE1sclFVZ3BSSnd6MnFsTWU5UVk1S2FZSU1ENlFQMHJ0VVplYlJsMU85c2c1bTVVRzJB?oc=5",
+          "source": "Surgiu",
+          "published": "Sat, 06 Jun 2026 22:03:00 GMT",
+          "hash": "a6e8355a7395",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Laurez cumprirá agenda nesta segunda e terça no Bico",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdG9zYnRlcmVpNzM1cWRsX3VzeGE4WFpDR1RHbG1HSnc1UnpXaXZQdXdHSUhiSE11aHgzVXNhRUI1cWVqWW1za0UxMWRITS1fcy1VTHEwN2Zja0E3RWtycmRJdHpTaVZlX3k1RnNTNDV5c0wydGNLMVFkVjZFUk45MDlhV21sN0k?oc=5",
+          "source": "Folha do Bico",
+          "published": "Sat, 06 Jun 2026 15:03:21 GMT",
+          "hash": "a50f1b34997d",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Vice-governador Laurez Moreira destaca união e tradição durante a 36ª Cavalgada de Araguaína; assista",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNN3NvWU1sYzl0Nmh4RFZSZFJLcDE0RnJnZFpUSEN0NFZiUHNnREZYR19pTEZMVC1IV3d5a04tc2xpY0ZpM3JRQWQ1Y0pIZ2p3VVdmSmVhR2hyTWhwUDRqcERkS3JKWC1qWUZJOV9aZ19ZRnlVZ0gxWUtIbTNFMUZlRWhPZFJ5LTdfYkRCTTNUYnA5Z2VSMG5obWwxZWZBZ3FrY214RFZFS3hXczVsVHU5WVl3ZUtET0xTcEhWbGNYcEpOdUltV3NHOE1hLXNhelhNWEhHYTlOTTZCN3ItMkJ1Wg?oc=5",
+          "source": "Portal Gilberto Silva",
+          "published": "Mon, 08 Jun 2026 22:55:58 GMT",
+          "hash": "080f29e3ce6b",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Laurez Moreira leva à Cavalgada de Araguaína mensagem de desenvolvimento e oportunidades para o Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa2dZXy1QMU5RQlRKMmZDSFVQcGlmU0JPb1JzU1dhYlpJMmdWeHdpWHEwSG9NVmNCRmkwUEJVcGY2SDk3U1VBQ25fRlN6dWczcG84ZGEwN1ZhdTR5UEk1V0o5RzVRcWFETlNwcE1MX0hScjQtTkczNEFGbmZMdEs5OHFyeXNUS2ptOEVCUDlWRm9WY2dFRUJJZXFIMUZBTl9tOXlhUGNlZnVLZk54cWozdG5LUFRYQjBZTjc0ZHNmZ2syWHZOQnZCcFdSX2JfLUEtRmdTcEdNbXRPSVJpOGfSAd4BQVVfeXFMTWtnWV8tUDFOUUJUSjJmQ0hVUHBpZlNCT29Sc1NXYWJaSTJnVnh3aVhxMEhvTVZjQkZpMFBCVXBmNkg5N1NVQUNuX0ZTenVnM3BvOGRhMDdWYXU0eVBJNVdKOUc1UXFhRE5TcHBNTF9IUnI0LU5HMzRBRm5mTHRLOThxcnlzVEtqbThFQlA5VkZvVmNnRUVCSWVxSDFGQU5fbTl5YVBjZWZ1S2ZOeHFqM3RuS1BUWEIwWU43NGRzZmdrMlh2TkJ2QnBXUl9iXy1BLUZnU3BHTW10T0lSaThn?oc=5",
+          "source": "jornalprimeirapaginato.com",
+          "published": "Mon, 08 Jun 2026 17:51:08 GMT",
+          "hash": "9cb5e8a42246",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Laurez Moreira leva à Cavalgada de Araguaína mensagem de desenvolvimento e oportunidades para o Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSXU5UnRKa0Yzazk4WndNQzc2YXlURnFzMDI5bXl2R3h2RU53T3N6T09uZUxCUTBzVzVBY1RPN3FWY1lsOW93YkZXNUdOOTRORzFpcklEU0QtQ196Skt0TkFqakEwZFV6cEhGRGstQkl1eUNPb2ZzSkM2dEZQZ1pjSWQwb1RlT3B3WlA4S2xOeEx3N0lXSmVvVWZHb3NmVExhOTcyVU9YSEM5OG1GWEM4MXZubEtvaFlIWUZDb3NJZHRMRnlRQ0lyRnpvd2dOd3MwdkhBcFpQbjfSAd4BQVVfeXFMTWtnWV8tUDFOUUJUSjJmQ0hVUHBpZlNCT29Sc1NXYWJaSTJnVnh3aVhxMEhvTVZjQkZpMFBCVXBmNkg5N1NVQUNuX0ZTenVnM3BvOGRhMDdWYXU0eVBJNVdKOUc1UXFhRE5TcHBNTF9IUnI0LU5HMzRBRm5mTHRLOThxcnlzVEtqbThFQlA5VkZvVmNnRUVCSWVxSDFGQU5fbTl5YVBjZWZ1S2ZOeHFqM3RuS1BUWEIwWU43NGRzZmdrMlh2TkJ2QnBXUl9iXy1BLUZnU3BHTW10T0lSaThn?oc=5",
+          "source": "jornalprimeirapaginato.com",
+          "published": "Mon, 08 Jun 2026 17:32:00 GMT",
+          "hash": "1ed2e388f0bf",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Laurez amplia agenda no Bico do Papagaio e estende visitas até quarta-feira",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY1JHTWtPMHBwdThlRzRVOVNyUUpUS0Q5UjhnVDdiX0hISlRRSk51TjlQRkF1OG55VDBMbG5zX1k5V043QTQtNjNBNW9NdGI4alBuWWJ0S05MdDM2aHh4dmVtLWNHM1h4bjFsNFZaNFpycnF6OWxwMjdPQmR6U1Axa05sSE91bl95WEFKaHpqZ24ySkUwd0I2aVBSLTN5bFNBbmRzVG9n?oc=5",
+          "source": "Folha do Bico",
+          "published": "Mon, 08 Jun 2026 17:24:56 GMT",
+          "hash": "998bd9a4e25e",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "'Araguaína é uma das locomotivas do desenvolvimento do Tocantins', diz Laurez na cavalgada",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNnhXd0xDVHJhNlZlM01Vc1VIWUlDd3JlSXNVaklYU1NxaUxmLWJOd1p4TmtqNWdSLVBGUFJKblo3NEZHWEgwZ0JLTnlEZ1ZLQ3RlV2xkbk1ELWJfNkJoSEhLRWpjMjZJdG1zN2IycTg3djZudmZ6djJ6M2U2Zm1ScjNuVGkyZUJ1dDYxYVpqV25XSS0xd2toeFVoREZ1aG5aZy0wbDYyX3hYYzhwVXZDRzBiUUZDcHdvbzdVaDMtMA?oc=5",
+          "source": "afnoticias.com.br",
+          "published": "Mon, 08 Jun 2026 13:54:00 GMT",
+          "hash": "a34fcadcdff5",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Laurez Moreira reúne pré-candidatos do PSD, PDT e PSB em Palmas: “Projeto coletivo”",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeUJPT2hCaEtja0diR3Z4eU9xd1hhc1duX2dqeWRzYzN3bXFPejVlVkEtNWVXQlVySmpJMURCVFpXNnY4d1MwUjhlZEJyUkl4WVRLYUQ2VFh0X29WQ2VROV83SUdGT2RyRnFoVG1yMEJ0ZE1zYkZhNHRMQUN2UFBmSFQxb2ZXME9zb01UdEJsaW03bDhzdjhIM1hVZERsUFJVR1lZTkNyMkh4MEVVZ0x0cWhxLTBrMTBs?oc=5",
+          "source": "Cleber Toledo",
+          "published": "Fri, 05 Jun 2026 13:39:00 GMT",
+          "hash": "17d900d26752",
+          "captured_at": "2026-06-09"
         }
       ]
     },
     "cinthia": {
       "nome": "Cinthia Ribeiro",
       "partido": "PSDB",
-      "total_mentions": 4,
-      "new_this_run": 0,
+      "total_mentions": 1,
+      "new_this_run": 1,
       "mentions": [
         {
-          "title": "Federação PSDB-Cidadania é formalizada no Tocantins com Vicentinho Júnior no comando; Cinthia compõe colegiado como membro",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTUEzS1BJZHQxUS1xcWZOZ0xMRGN0NTcwVl9MZERaNGxOVVlsSjJOM3E4cGVXSUFxMVZMXzN3bGpZUTFzYzU0YnFrU0hfVEVvNzlWX29nY3hURXlSWFMwUzNaREo5VUhOYVk3c3J2Y203c1h4aTdqaTdhZlVqLUFqRnJIcFoxcnV1TnVYRmU3NTNKV09VN0JCamIzYWptbXJjWm5OTGpuZ3VSVm5semlsWFItRGR2TDdmZV9ZWHh2bjJCUUt1M0xkUmxjSHRVQ3pwZmwyb1NlUkJDd3RkVWR0UEpJbGczOVpCMlo0WnIzN3k?oc=5",
-          "source": "Cleber Toledo",
-          "published": "Wed, 06 May 2026 17:31:00 GMT",
-          "hash": "2ac0e4102af2",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Ex-prefeita Cinthia pode mesmo disputar vaga de federal pelo PSDB e deve alinhar detalhes sobre nominata",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbGszRXBJdVZGWWRxV1R3Nk1HZWlsZlNqamtnVEE4ZzNMbVpzX2pQdEdodkVFNVQ1MEdlYTZKVDdkblBSdGpYaG9KMDZrbGN6MDhEMXFMajdYUlRyYjd0MWNQX210WFdyb2NOTU8xcDRTeWJPZDZiaU1KcE1MeUs1RGlvUlRNM1djV05ZN0ZMVll2V2JaOTlRR2M3M0ZoZ0k2UW4xSU0wYnNDOHBtZk5zYTVfOUVJUjNaUVBWVWFjMHhzdVVZd2JoR1BfUm5kNXVHYnY1VGVEbkVNZW1rQ000?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Tue, 05 May 2026 09:25:42 GMT",
-          "hash": "c6d8e0ddaff8",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Janad e ex-prefeita Cinthia se abraçam em clima de civilidade",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS1h5NU9GRDVTUkVYZk8tSEx3czh1VV9fSDBOOEttREdfMjhwQTN1WHhONVJjN29ZeHpMSXNhMU5UMVVpV1F6SFMxMWdDWkF0SDcwTDA1S2E0ZkxINkV2aWhfdVQ5VVB0Y0p4d0N0LUFDVndNdHl1SVY1SENVcWtaV0tOb2szS0pTR2gxQ3lBUE5nLWdVcDNxbW5VQWRqalF4REZXTHF3?oc=5",
-          "source": "Gazeta do Cerrado",
-          "published": "Thu, 07 May 2026 09:20:56 GMT",
-          "hash": "b721f2bcd6e8",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Política | No sistema, Cinthia permanece no PSDB e pode candidatar-se ao Senado ou a Federal",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdnNtaU9iUm5qckVFckxNSHlSV3hjUnE2cU5LNlVITUpJd09Db0hqWWZKMEhjQi03UlFZNTlfWFNjVHpNWS10T3VBcHRFX21CZFRqVkhjQms5czhyTFRyQzZyZWNhaDh1SVE2TkZqTXJLaEpUZU5HRnk0RUQtcHh6b3dubmxDT0NpX2FTRlp3UVpqbzRlTXpmMnhLeENmLTBzQmxOeWEycmVEM0FnMGZEYWZnQ1g4OHBFc2RCbmtaR3o?oc=5",
-          "source": "T1 Notícias",
-          "published": "Mon, 04 May 2026 07:00:00 GMT",
-          "hash": "795bb2fec6e0",
-          "captured_at": "2026-05-09"
+          "title": "Cinthia Ribeiro deixa comando nacional do PSDB Mulher",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVExrMUZsN0F2cXJpSnVBWlRDanhpVmpRV05seWFrdW9pZF9fVGhCNE8tcFJwVmNZaGR2U2Q4dlNkQl94d0xNNGx2dUIzSkxwTjRrNS10QWs0TDlCNUFndGFWeTM4d2FLWHZMMTJMMENDY1ZaVWVTc3dHeHU2aUVJYUlUU29mSmRHeWxKUUhFTVFrTVdHTzNDemYtRV84NzZzVFRQYUg2N2lncWw2VlE?oc=5",
+          "source": "Jornal Opção | Tocantins",
+          "published": "Sat, 06 Jun 2026 11:52:00 GMT",
+          "hash": "e63b786c1444",
+          "captured_at": "2026-06-09"
         }
       ]
     },
     "mourao": {
       "nome": "Paulo Mourão",
       "partido": "PT",
-      "total_mentions": 0,
-      "new_this_run": 0,
-      "mentions": []
+      "total_mentions": 3,
+      "new_this_run": 3,
+      "mentions": [
+        {
+          "title": "Mourão não confirma nem nega chapa que Kátia diz desconhecer e a denominou de lacração!!! Saberia Mourão o destino de Kátia que ela diz não ter sido comunicada!! Ou teria outro projeto em mente!!",
+          "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNV0RjQVl3aDhSNzR2emZCVHpQaDRKb1VwWGFVcF8wZlpPc3ZNdkN5XzBJSlZoZmRZX3ZDd0JmNkt6TWJINTRnQ0dQeTBKX0JYaExCZ2ROekdHSDlxQTZEelJySmdtNkdKVzhOVDRnM2dtWDZxdFhFYy12RTBIUDV1SUp0bFNOSXBaYkFJVUlwSDBrd3VDQWgzSHd4UFBWOTdERmxsZ1U3dUxQZlg0UHRVN2hzQkRtNWhVX1luU0VwR1ZNNGsyOXNLcUItOGNlQnhmbkp2dUxYZUtDN1hXdV9HVEFNQmpNdnM1bkNuT0o2Y0VxNzlXamNrQVpZYnBHUGplSlFhZVVEOF9rZUNRc1RzeFhkYkViaFJiSTRVejYwNmV1MXZFbjRRMFZfc1A4bUVLTWhiRDZ0YXFzSW5lYVJ5YjFlUFFDZ3NleGhUWUotUnh0bnVxbC0xTmF3?oc=5",
+          "source": "Luiz Armando Costa",
+          "published": "Tue, 02 Jun 2026 12:38:48 GMT",
+          "hash": "7bddce4658d3",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "\"Estão lacrando errado, estou em Lisboa\", reagiu ex-senadora Kátia Abreu à informação de que seria candidata do PT ao governo com Mourão ao Senado. E que chapa teria sido fechada com Lula",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQY2lwbkJVQk1iUjVJd2k0Rl9hVkJBaVRUVnVSSFZoS3JsY201dms0X09aTTAycUpkM29HblRGWl9ZSHZLLUpDRUs5MUdjejlGUTZGOFlPOU5yVjROMmZVUWRUOG1HOUlJdDhxOC13TUt1bzYtMVBBbGJUemRJTEZqb1p0TnlpOGFZNmVaN3ZxVm5rM1FwaW14UVJxbWIydTdEYXNsbzJpNDV1S1p5ZDJLQlN1RWhyUmxuUTU2UEhqVDlEdEhmeW5tNFNsR25LaUhJU0gzSDVkZUE4UEIwY1BILTIxTkNBaGRSenpuM2FZNVRQMmhfWHFuZVNQWHB3X2xDdXp6aTl6RWkwaWVXTG9nUGNkcjRFSmxLeUczNGJSdkVrdHdoUVF2cUFHRV9iem9BY3FqYUNZQnA5aWxWZU9mUlIxRFZmMU1oaF9zT3hSVklaQQ?oc=5",
+          "source": "Luiz Armando Costa",
+          "published": "Tue, 02 Jun 2026 04:44:26 GMT",
+          "hash": "cc221f17d200",
+          "captured_at": "2026-06-09"
+        },
+        {
+          "title": "Paulo Mourão entra no embate sobre tarifas dos EUA e chama Flávio Bolsonaro de “TariFlávio”",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTXZKcWpUUFJDaGE2WGdlRXV2cmk5eDRrS2VDalBCdGJQU3FnV3pxVWVRMDZrbG1KNHpzbFA2VWxJS1RmRVhHUlpzMGIzd1RzVDVQa3ZYQUd5ai1YZGt4TGZOYmtmeGJ5bVNjSERJRXNOd2F3ZnNkN3RiMmxzUmNTUFY3d2Vrb1AzYzRTQWh5UkdEV25HSzlPSXNfVlRXTEVIMHU1aTBySXdwTnpDb29DVzZZTnlhUzNFTGJrWmNHUmVEc1dsNUVTcGZTbXJBVFhTdTdrRXI0TEtSRzB0UXc?oc=5",
+          "source": "Jornal Opção | Tocantins",
+          "published": "Thu, 04 Jun 2026 23:37:00 GMT",
+          "hash": "3541549c5401",
+          "captured_at": "2026-06-09"
+        }
+      ]
     },
     "katia": {
       "nome": "Kátia Abreu",
       "partido": "PT",
       "total_mentions": 4,
-      "new_this_run": 1,
+      "new_this_run": 4,
       "mentions": [
         {
-          "title": "Ministro André de Paula recebe ex-ministra Kátia Abreu e presidente de grupo angolano para tratar de cooperação no agro",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNWNLWnJVd1JSR25SQmZzalA5SjZWNEZxbE1lazZiOEFWQzhPNjdoYVFySHBQQlRaUnhuVGRaX01xUjI4ZFV4RGlfS0tteGRXdF9sYnBoTWduTXVzbmpscDYxa09YQXhrbVpyQTc3Rk5PRDlzeHlxamZZQjFTVjhWdVp0SHM0dUJHeGlsQURNZWJDY0FGRHZfUHFwYldHbnpGVTFpQldfMHZDaUh6emhCMGFQN0huRWlZUHBfcllGcGVVUklqTGVFUVBjNFhxRmtsZS16LWpPRXdGWlNFZnU0aEY2VTJLaVo3N1c3ZWVGRQ?oc=5",
-          "source": "MOMENTO MT",
-          "published": "Wed, 06 May 2026 23:30:00 GMT",
-          "hash": "52f7e729e94d",
-          "captured_at": "2026-05-09"
+          "title": "Flávio ‘esconde’ agenda com Eduardo Cunha, e Kátia Abreu provoca",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRFExLTJhQUd5ZS1pUDA2bFo3Mk03aS1sWncwUVlqd2NNUndnakRsUkdfbDNFSjFpNGdnTGxlSllfeGFBSnVtY0Q4cXFxaG9RWmxXOENIb3FsOHpDQVFoZDN4VHVXazNqZm5vUldkd2gzSmdtR09yWXF3SmhYNHBERDVBcWRESlFwSl9GRQ?oc=5",
+          "source": "PlatôBR",
+          "published": "Wed, 03 Jun 2026 12:13:13 GMT",
+          "hash": "e28e6fb46da1",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Ministro André de Paula recebe ex-ministra Kátia Abreu e presidente de grupo angolano para tratar de cooperação no agro — Ministério da Agricultura e Pecuária",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQLThTVnUzY2MtMWxHcS1LUnRNbTZjbEJuVXJYWGVXdms1cHhETmRLLUJENHhUcEpjUm4wTzlkenBVeUxja0lqRWhycTM5dHBWaGhNemhuQ0hVb1lTTDYwUnlpQV91TkJSeU1GREhFQjB0TEVNUVZ4VWNZb0djVW50WWZ5Wm9PN0I3MkI5VGswc0FlNzVhckg2dC1ZM0I3MTI3Qmt3U0pyVjhJX0daMmRSTi1xaFdqX3ZMb0N4NWpaOW9DYVBWWTltRE5xckVGcFA0dFVtaHBGUVpVNmRfRzR2Zm0tUW1FSGZWVjhOcXpLb1ExaHpXb01VTWFnWW1uZWdLVjRkRw?oc=5",
-          "source": "GOV.BR",
-          "published": "Wed, 06 May 2026 22:29:14 GMT",
-          "hash": "c22d683302e0",
-          "captured_at": "2026-05-09"
+          "title": "Política | Chegada surpresa de Kátia Abreu ao PT gera anseio por candidatura própria ao Governo",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTVhNbV9pWXhYWlZxazFJVWtjcEIzVklQbDJkdEZjWndwRUxncVFVZWVmWTRpWmpEclRFSG1TcXlwYVJsdzRHREhVc0dzQ1EtbWpTVkxLTEpmN2M4c0xQTlc1MGVjZVFMRHhGdDFGVVFmVjNmTGotZkpvMXlOSTNOaXR5cy1jVmhIcjJweVg4SWs2M3E5NmFGcU1hYW9GQjdfWDl2SDFxOVQ0b2ZRaUdxUXlLcEoyeUNtaHVoR19LbGFRcUVpVHc?oc=5",
+          "source": "T1 Notícias",
+          "published": "Wed, 03 Jun 2026 09:12:10 GMT",
+          "hash": "514310d5fae5",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Força Feminina: tocantinenses são homenageadas por Mantoan e Kátia Abreu recebe título de Cidadania",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNdUxHdWNWNGEyRzJUQzVQY05RSi16emRfeGMxU2NtYW9kRHhUSld3VDd4a3hGdFdBS0tBTGdkMkhLY2g4M3RmUnRoNTlfUHJXN19pOFY2Q2liZ2FUT04wWVlSVVBUbjE0bmloZEVTaFZNSFAzeFVsX1hFdWFqU2pMQTFYNGRYb1RjZXBXc2oyT3I5TUJqY0NkQXZpblY4MGVTRUs0OGhLY0x0dWl1a1pycktPd3FfLUpTd1UyYkxqdGRwTFJQN182MDR2eFJKUUNQa3NSdzM5cVBlTlRzS0lfMTZEei1TSjl1dkZKc0lSSDlkZ3ZT?oc=5",
-          "source": "Assembleia Legislativa do Tocantins",
-          "published": "Sun, 03 May 2026 07:00:00 GMT",
-          "hash": "e45b60dc21d1",
-          "captured_at": "2026-05-09"
+          "title": "\"Estão lacrando errado, estou em Lisboa\", reagiu ex-senadora Kátia Abreu à informação de que seria candidata do PT ao governo com Mourão ao Senado. E que chapa teria sido fechada com Lula",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQY2lwbkJVQk1iUjVJd2k0Rl9hVkJBaVRUVnVSSFZoS3JsY201dms0X09aTTAycUpkM29HblRGWl9ZSHZLLUpDRUs5MUdjejlGUTZGOFlPOU5yVjROMmZVUWRUOG1HOUlJdDhxOC13TUt1bzYtMVBBbGJUemRJTEZqb1p0TnlpOGFZNmVaN3ZxVm5rM1FwaW14UVJxbWIydTdEYXNsbzJpNDV1S1p5ZDJLQlN1RWhyUmxuUTU2UEhqVDlEdEhmeW5tNFNsR25LaUhJU0gzSDVkZUE4UEIwY1BILTIxTkNBaGRSenpuM2FZNVRQMmhfWHFuZVNQWHB3X2xDdXp6aTl6RWkwaWVXTG9nUGNkcjRFSmxLeUczNGJSdkVrdHdoUVF2cUFHRV9iem9BY3FqYUNZQnA5aWxWZU9mUlIxRFZmMU1oaF9zT3hSVklaQQ?oc=5",
+          "source": "Luiz Armando Costa",
+          "published": "Tue, 02 Jun 2026 04:44:26 GMT",
+          "hash": "cc221f17d200",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Kátia Abreu abre o jogo sobre decisão de entrar no PT",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOekI5aWR3M1JXSm1wTE9IeEFVcldjWllYQ0REM016UXVFZzNDdGZTUGhycGVqeklCNDQweVVIbmhxVHhVTHBxaF9rN3BPMFpkY2RwTHdMMFZablJtQXBueEZEbm96Z0Y2N1pGTFVFeHh2c3VCdVQxZXRLX0NfVDJCSkd5X1M5TWZuUVNxUmZuU2E3V3gwX3c?oc=5",
-          "source": "Revista Fórum",
-          "published": "Mon, 04 May 2026 07:00:00 GMT",
-          "hash": "3be2131a2e9e",
-          "captured_at": "2026-05-09"
+          "title": "Três palanques armados, o beijo negado ao presidente Lula e uma Kátia Abreu vivíssima para o afago",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWUFJdWpIa1dTTV9mN2JnVHl1UGptakg0WFJ4dVBfTDJ1Y0RjWEl2MUJ6cTdJVlVOQjBKYWV2UTF2Q0JjcE9BUk91TTBvWUtGSzB4X3plVXQwNlYzLVMxZzZYZUl2bVNTYXZibnAxR1M1Q0VUcE8xQWtHZkZyUmpHRlBYRlc4c0ptcC1sZTNYQnVleDV5ZlhYWmlMOTVTbE96Rm5ORWI5elN4VFRtSXZXTURDYlN5b0VCTmdxaW81eENTMkJ5V2JudjBiUQ?oc=5",
+          "source": "Portal O Girassol",
+          "published": "Mon, 08 Jun 2026 10:21:22 GMT",
+          "hash": "aa6e1364c66d",
+          "captured_at": "2026-06-09"
         }
       ]
     },
@@ -746,64 +715,24 @@
     "ataides": {
       "nome": "Ataídes Oliveira",
       "partido": "Novo",
-      "total_mentions": 7,
-      "new_this_run": 1,
+      "total_mentions": 2,
+      "new_this_run": 2,
       "mentions": [
         {
-          "title": "Ataídes nega uso de estrutura profissional e recorre contra decisão que removeu vídeos de pré-campanha",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeXNJWHl0bjM5MjYyTnA4bjA1MlRHVnl5VTFITDVUWXE4N0FYSm1vX2JvdndoRW1lTFBpODJTRVlRc3JsMzhZN0p0ZmtOcGFnN29mN0phX3NEYWFwX0pBblJudlZXSUNHX3FHZWZmdDlKalZyTTViV2NmS21VcldXY291UDJCN0J4SHFrdHgzT0RHZXNDVXE0QTNORXJxaDR4TFFoclJES1p6cllsMXpTYUE5MHgzSTQ3c3IwWjU0S3ZKbHlOMXVIWXBoQW0xV3RMQWxNMmt4Skw4ei1fMEJB?oc=5",
-          "source": "Atitude Tocantins",
-          "published": "Wed, 06 May 2026 19:53:59 GMT",
-          "hash": "2607348548c8",
-          "captured_at": "2026-05-09"
+          "title": "Se o PSDB praticou misoginia contra Cínthia ao entregar o partido a Vicentinho Jr, Ataídes teria sofrido misandria quando enfrentou intervenção para entregar legenda à ex-prefeita? É cada tese que se enfrenta!!",
+          "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPaDBXZ09zclp4X1hzVnBvenhlaThWZWZkYzE3aEFxXzBUWFR3RmtZVHRTS0FPeS1RMTR2ZlBQRDJyRndKam9GbW5CMlRSSnFMVmRTQks2NkgtaDJaUmZhRzFqQV9scV92amE3ZXdDWW1QOUVGTzFfM1VieXBaMGQyWFhSRGkxbjF5dEc4RzZGQ1dmM29EbkpHWXcyank3ekFOZVlxYjBHRzFyM1NCWmFpVG55M2p6bnJ5RkxxVzlDSnBUVm5hS1MySG1mbUhWR1RqUFFzWTRONmk0dmozUHVENVhRLXlvSzBmTnZiZHB4VUh4blZVNmF0TTlyX2tEcS13UkRMQVFHcTZIdkdjRUJ6MGdRRUFYRy1VOWV1dUFQRmVoSURhRGlCdWNtSVBjZ283Y2lUeDVLZS1aSVdZRHBTR2lwQjBWMmJITTAtSWZFdktIQjM3N2V5STVUX3BvMzRXYWU4R0hFY0tvRUJqMXpXX2hR?oc=5",
+          "source": "Luiz Armando Costa",
+          "published": "Wed, 03 Jun 2026 20:05:17 GMT",
+          "hash": "0c01005f2570",
+          "captured_at": "2026-06-09"
         },
         {
-          "title": "Justiça Eleitoral determina que Ataídes Oliveira remova publicações que caracterizam propaganda antecipada",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM0daVmhmMFFaTV83WG1UWjZXT3BHR2RIZGJTOENZMWdhZ1lWXzJTY1FMODRyNDVwM25xNFdxZk4xNVZJR1NqN05ZTExIOEdyOWVoOTFuc3UzSVk2WEV5VEpCTVdNRE93dzJUZVhLVUtFS1ctRVprT3U0dkVNNi1XRktNQzFrOC1Vcy1JMU9xVFotV0Z3UV9rNVJFTnhDVXdlTjYtSlU5UGVEekVxczBpcU8xYVBiQlBwSGJoU3V6al9xYzdIVERIeG51MFY3cGpQTkhfMHpxVzdZOTM1?oc=5",
+          "title": "Em resposta ao quadro “Resumo”, Ataídes nega ameaça e diz que recuo em investimentos no TO seria “desabafo e escolha pessoal”",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdTBqbm4xRzlYZFNxeDk4T0lOdllXWVJUaDJKbEgyMnRvdm54M0FBT1VZQ0JyaEFvNzFvc3B2Z3RXc0ZoNDZCVlBZTjhHcWNmSnJabWtobVN4eEVUTnlWai1yZnloVTFoUDVfM2RwaWJHZklGOG1NSkIxR3V3c1VGaUt5VWdLUWIzdFprTEp1UDNYLWwteG5jdWpZdWItTzlhbkFlU0VjTzNfVVZzNld2bU43YlJkVUdGMVduWjFWOFBlbEFuXzFabGJrWV9KS3FMRS1OeXMyTGRPS25sQmtlYW9IdndXenpJM0lUZw?oc=5",
           "source": "Cleber Toledo",
-          "published": "Wed, 06 May 2026 13:59:00 GMT",
-          "hash": "bf5585c92ea5",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "TRE determina retirada de vídeos de Ataídes de Oliveira por indícios de propaganda eleitoral antecipada",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSkRqbDRpQVFSSUNLd2c3NDNxbDR2OHV2bG1MelZUdHdCSHlOQjNJVlBDTE5fYU9KYXByRjhhTE9ZdzQ3SUdWMElZU2h3MFNRNXdjWFlOYXM2c1VxWlhicWJybS1xdHNFeFNfRXdUbmMwc05xMnVqUFJfeXRaU1dqdlpsVkF0OWp5dmd5Wnp2eDJ5TXFSWEYyLVBxN21XOWEzRklTUnVyTWl4UXlxTXRITXNVbm1LZ3dvOWtvVWRRSVp1d2tqMVZnV0NwN28zYWlJV2FCZWhZRjJQcmxwSEQ2ancxS3JDTTJHMnlwZ3l3?oc=5",
-          "source": "Jornal Opção | Tocantins",
-          "published": "Wed, 06 May 2026 13:52:00 GMT",
-          "hash": "b8397d4512cc",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Ataídes Oliveira remove vídeos, diz que recorrerá e nega \"alto padrão de produção\"",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbHozMW5iTnFwS1puWndZamRicEE4MXVVOVB6c29YY2doUTBxbXpNUzBWQU9LdTA2eHdTV01meEZiUWNjZVZmcDRCTHpDR1JORWEzcUFnQV9GS3lMaDFQV21NbGJoVGNybFNFZll4MzFLTUViZi1PazRaQU5kRzR2NDFsUGRNT3VtNGVGcndRT01kZEJoZHpyZThLOXpaYVhNdW5kY1BXdXdYWURrSlI2b09MMHktUQ?oc=5",
-          "source": "Conexão Tocantins",
-          "published": "Thu, 07 May 2026 13:28:00 GMT",
-          "hash": "817375874766",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Ataídes promete recorrer de decisão que excluiu vídeos nas redes e questiona: “Proibido de levar plano enquanto outros utilizam estruturas gigantescas”",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNSjYtT3J4ZjJaZEZLanl2YTJYTWJ4SHFQOFF6akRCNldCamExZkNVTDNkQTBSaEc5QXRWakp6R3E2c1pYNS1iX1dpc3ZRQ2E4MTEzNXpUaXVzYmM0OGkzWWp4ZEJRYjdha2psNzlPZHNua1M1UEFwajQwWERrb3djaUdTWWxPOHZaVzhuMkxqbFZoY0tNWTBBb3R3X3pJRmdFd3lCZkZqUnRiR1JEZld0UER0QkpWemVYQzJTSF9mSUxhazFVTWRCam0xWG54Q1d3NEpJbW12QmMtWTN5OWdlSHI4aFVMSllZUlc1WnBVRWFLYUstS2VVTmkwQ1h3czlaNG9KQmpQR1hSVnpfNXg2ZzRUZHg?oc=5",
-          "source": "Cleber Toledo",
-          "published": "Thu, 07 May 2026 11:44:00 GMT",
-          "hash": "08c265f907d6",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Ataídes reage à decisão do TRE-TO e nega propaganda eleitoral antecipada",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONUZsM0hwTDBQSlRaUzZJeWIwVjBVYVNXVGczLW1yRW9uU3VuTkRHdVlQZnVRYlUydzVDUVNEUFRkSUZZWUxmWTY2eEdmTXVEVllqVFlsSWlNc1NHaFY0TFRXT1ZkeTd2YzV6NjQyeGU1THVNMDFfcUhmWk1RRFJjVm5ENGpyS01Rb19pSjFYNWkxR0J6UENzdHpvdWVvUlRMNVFKRDdXWEZob2Z3b0ZNc1BFcHFSbHNncWfSAb4BQVVfeXFMUFY1d05TNUhiRW8xWVlFMVBNNFZ2OElpX25ickpDNzhEUHlQWnFqUjR2VGRWclhxRDhxbS0zcFRMdjRVNnhwV01DTFl1M09NR2tOSFRtbGhzZjRuQXpUWWUxenBSWUtNc1J0TkRudk1qcDBiZl9vMU1jVjlGczg0ZFFieklnMUxXbm94RGZDaG80UG96UTVVWDVhRTVrUEgwcWJLbk9kb1RaZXpiQ3otSFBCOGhIMTZzeld2VTBiUQ?oc=5",
-          "source": "Portal O Norte",
-          "published": "Fri, 08 May 2026 14:21:00 GMT",
-          "hash": "c034e7a8fc9f",
-          "captured_at": "2026-05-09"
-        },
-        {
-          "title": "Ataídes reage à decisão do TRE-TO e nega superprodução de vídeos: 'gravei na minha sala'",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUUxYUmdRWTdWWWhsQy11OEJJc1o2Ul9obUdhdHJpUTFuZ3V3M1ZkOWdSWmEzQ0NSclpBQXVjek9MUmQyeHRBSUJfNWRzdmRyMXhUcXZlZGp5RkxMS2hPLUhaM0RaVVBFYU9vNVU0eEc4N19WQ1lhb090ZU5Ed3RUSGUxMmVtRXEwNmpEZVNnZ2NkdGR0SzJiWVVUcENrLUNnZFhrd1g4UUFNdHRQOFYtWk95dmR5X3hLYUFpaGotRlB3ZUJNNE03OTNyTzZidw?oc=5",
-          "source": "afnoticias.com.br",
-          "published": "Fri, 08 May 2026 12:30:00 GMT",
-          "hash": "9846869704d0",
-          "captured_at": "2026-05-09"
+          "published": "Tue, 02 Jun 2026 17:39:00 GMT",
+          "hash": "fefb024d9cfc",
+          "captured_at": "2026-06-09"
         }
       ]
     }
