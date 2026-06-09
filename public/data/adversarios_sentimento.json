@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-06-09 12:45",
+  "updated_at": "2026-06-09 15:36",
   "adversarios": {
     "dorinha": {
-      "total": 64,
+      "total": 51,
       "positivos": 38,
       "negativos": 1,
-      "neutros": 25,
-      "sentimento_liquido": 0.578,
-      "relevancia_media": 0.943
+      "neutros": 12,
+      "sentimento_liquido": 0.725,
+      "relevancia_media": 0.965
     },
     "vicentinho": {
-      "total": 40,
-      "positivos": 17,
-      "negativos": 4,
-      "neutros": 19,
-      "sentimento_liquido": 0.325,
-      "relevancia_media": 0.938
+      "total": 62,
+      "positivos": 36,
+      "negativos": 3,
+      "neutros": 23,
+      "sentimento_liquido": 0.532,
+      "relevancia_media": 0.936
     },
     "laurez": {
-      "total": 37,
-      "positivos": 15,
+      "total": 33,
+      "positivos": 11,
       "negativos": 0,
       "neutros": 22,
-      "sentimento_liquido": 0.405,
-      "relevancia_media": 0.942
+      "sentimento_liquido": 0.333,
+      "relevancia_media": 0.932
     },
     "cinthia": {
-      "total": 17,
-      "positivos": 14,
+      "total": 23,
+      "positivos": 18,
       "negativos": 1,
-      "neutros": 2,
-      "sentimento_liquido": 0.765,
-      "relevancia_media": 0.978
+      "neutros": 4,
+      "sentimento_liquido": 0.739,
+      "relevancia_media": 0.967
     },
     "mourao": {
       "total": 2,
@@ -42,12 +42,12 @@
       "relevancia_media": 0.95
     },
     "katia": {
-      "total": 5,
-      "positivos": 2,
+      "total": 6,
+      "positivos": 3,
       "negativos": 0,
       "neutros": 3,
-      "sentimento_liquido": 0.4,
-      "relevancia_media": 0.962
+      "sentimento_liquido": 0.5,
+      "relevancia_media": 0.935
     },
     "witer": {
       "total": 3,
@@ -58,12 +58,12 @@
       "relevancia_media": 0.812
     },
     "ataides": {
-      "total": 10,
+      "total": 12,
       "positivos": 4,
-      "negativos": 0,
-      "neutros": 6,
-      "sentimento_liquido": 0.4,
-      "relevancia_media": 0.942
+      "negativos": 1,
+      "neutros": 7,
+      "sentimento_liquido": 0.25,
+      "relevancia_media": 0.889
     }
   }
 }

@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-06-09 12:45",
+  "updated_at": "2026-06-09 15:36",
   "alertas": [
     {
       "adversario_id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "detectado_em": "2026-06-09 12:45",
+      "detectado_em": "2026-06-09 15:36",
       "tipo": "spike_negativo",
-      "severidade": 0.4155,
+      "severidade": 0.3118,
       "nivel": "alerta",
-      "evidencia": "4 menções negativas em 4 veículo(s) nas últimas 72h (Atitude Tocantins, Folha Capital, Gazeta do Cerrado, tonoticia.com.br)"
+      "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Atitude Tocantins, Folha Capital, Gazeta do Cerrado)"
     },
     {
       "adversario_id": "laurez",
       "nome": "Laurez Moreira",
-      "detectado_em": "2026-06-09 12:45",
+      "detectado_em": "2026-06-09 15:36",
       "tipo": "evento_judicial",
       "severidade": 0.15,
       "nivel": "alerta",

@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-09 12:05",
-  "fonte": "adversarios.json (2026-06-09 12:05)",
+  "updated_at": "2026-06-09 15:36",
+  "fonte": "adversarios.json (2026-06-09 15:36)",
   "n_candidatos": 7,
-  "confidence_media": 0.828,
-  "dimensao_valor_mais_fraca": "capital_positivo",
+  "confidence_media": 0.507,
+  "dimensao_valor_mais_fraca": "seguidores",
   "dimensoes": [
     {
       "dim": "votos_2022",
@@ -18,19 +18,19 @@
       "dim": "seguidores",
       "peso": 0.15,
       "tipo": "valor",
-      "com_sinal": 7,
+      "com_sinal": 0,
       "n": 7,
-      "cobertura_pct": 100.0,
-      "conf_media": 1.0
+      "cobertura_pct": 0.0,
+      "conf_media": 0.0
     },
     {
       "dim": "sobreposicao",
       "peso": 0.15,
       "tipo": "valor",
-      "com_sinal": 5,
+      "com_sinal": 0,
       "n": 7,
-      "cobertura_pct": 71.4,
-      "conf_media": 0.607
+      "cobertura_pct": 0.0,
+      "conf_media": 0.0
     },
     {
       "dim": "nivel_base",
@@ -45,10 +45,10 @@
       "dim": "engajamento",
       "peso": 0.1,
       "tipo": "valor",
-      "com_sinal": 5,
+      "com_sinal": 0,
       "n": 7,
-      "cobertura_pct": 71.4,
-      "conf_media": 0.714
+      "cobertura_pct": 0.0,
+      "conf_media": 0.0
     },
     {
       "dim": "mandato",
@@ -83,18 +83,18 @@
       "dim": "capital_positivo",
       "peso": 0.04,
       "tipo": "valor",
-      "com_sinal": 4,
+      "com_sinal": 0,
       "n": 7,
-      "cobertura_pct": 57.1,
-      "conf_media": 0.7
+      "cobertura_pct": 0.0,
+      "conf_media": 0.5
     },
     {
       "dim": "trajetoria",
       "peso": 0.04,
       "tipo": "traj",
-      "com_sinal": 4,
+      "com_sinal": 0,
       "n": 7,
-      "cobertura_pct": 57.1,
+      "cobertura_pct": 0.0,
       "conf_media": 0.693
     }
   ],
@@ -102,35 +102,41 @@
     {
       "id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "confidence": 0.958,
-      "dims_fracas": []
+      "confidence": 0.566,
+      "dims_fracas": [
+        "seguidores",
+        "sobreposicao",
+        "engajamento"
+      ]
     },
     {
       "id": "katia",
       "nome": "Kátia Abreu",
-      "confidence": 0.958,
-      "dims_fracas": []
+      "confidence": 0.566,
+      "dims_fracas": [
+        "seguidores",
+        "sobreposicao",
+        "engajamento"
+      ]
     },
     {
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "confidence": 0.958,
-      "dims_fracas": []
-    },
-    {
-      "id": "ataides",
-      "nome": "Ataídes Oliveira",
-      "confidence": 0.858,
+      "confidence": 0.566,
       "dims_fracas": [
+        "seguidores",
+        "sobreposicao",
         "engajamento"
       ]
     },
     {
       "id": "laurez",
       "nome": "Laurez Moreira",
-      "confidence": 0.619,
+      "confidence": 0.369,
       "dims_fracas": [
+        "seguidores",
         "sobreposicao",
+        "engajamento",
         "votos_2022",
         "trajetoria"
       ]
@@ -138,17 +144,31 @@
     {
       "id": "mourao",
       "nome": "Paulo Mourão",
-      "confidence": 0.844,
+      "confidence": 0.566,
       "dims_fracas": [
+        "seguidores",
+        "sobreposicao",
+        "engajamento"
+      ]
+    },
+    {
+      "id": "ataides",
+      "nome": "Ataídes Oliveira",
+      "confidence": 0.566,
+      "dims_fracas": [
+        "seguidores",
+        "sobreposicao",
         "engajamento"
       ]
     },
     {
       "id": "witer",
       "nome": "Witer Naves",
-      "confidence": 0.599,
+      "confidence": 0.349,
       "dims_fracas": [
+        "seguidores",
         "sobreposicao",
+        "engajamento",
         "votos_2022",
         "trajetoria"
       ]
