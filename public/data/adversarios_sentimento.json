@@ -1,0 +1,69 @@
+{
+  "updated_at": "2026-06-09 12:45",
+  "adversarios": {
+    "dorinha": {
+      "total": 64,
+      "positivos": 38,
+      "negativos": 1,
+      "neutros": 25,
+      "sentimento_liquido": 0.578,
+      "relevancia_media": 0.943
+    },
+    "vicentinho": {
+      "total": 40,
+      "positivos": 17,
+      "negativos": 4,
+      "neutros": 19,
+      "sentimento_liquido": 0.325,
+      "relevancia_media": 0.938
+    },
+    "laurez": {
+      "total": 37,
+      "positivos": 15,
+      "negativos": 0,
+      "neutros": 22,
+      "sentimento_liquido": 0.405,
+      "relevancia_media": 0.942
+    },
+    "cinthia": {
+      "total": 17,
+      "positivos": 14,
+      "negativos": 1,
+      "neutros": 2,
+      "sentimento_liquido": 0.765,
+      "relevancia_media": 0.978
+    },
+    "mourao": {
+      "total": 2,
+      "positivos": 1,
+      "negativos": 0,
+      "neutros": 1,
+      "sentimento_liquido": 0.5,
+      "relevancia_media": 0.95
+    },
+    "katia": {
+      "total": 5,
+      "positivos": 2,
+      "negativos": 0,
+      "neutros": 3,
+      "sentimento_liquido": 0.4,
+      "relevancia_media": 0.962
+    },
+    "witer": {
+      "total": 3,
+      "positivos": 0,
+      "negativos": 1,
+      "neutros": 2,
+      "sentimento_liquido": -0.333,
+      "relevancia_media": 0.812
+    },
+    "ataides": {
+      "total": 10,
+      "positivos": 4,
+      "negativos": 0,
+      "neutros": 6,
+      "sentimento_liquido": 0.4,
+      "relevancia_media": 0.942
+    }
+  }
+}
