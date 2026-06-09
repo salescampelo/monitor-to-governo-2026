@@ -8,6 +8,8 @@ export const URLS = {
   social:              `${DATA_BASE}/social_metrics.json`,
   vices:               `${DATA_BASE}/vices_config.json`,
   geoElectoral:        `${DATA_BASE}/geo_electoral.json`,
+  territorioIndicadores: `${DATA_BASE}/territorio_indicadores.json`,
+  territorioSeries:      `${DATA_BASE}/territorio_series.json`,
   radar:               `${DATA_BASE}/radar_vulnerabilidade.json`,
   vetores:             `${DATA_BASE}/vetores_processuais.json`,
   dataQuality:         `${DATA_BASE}/data_quality.json`,
