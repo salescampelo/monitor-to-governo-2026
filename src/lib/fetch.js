@@ -8,6 +8,7 @@ export const URLS = {
   social:              `${DATA_BASE}/social_metrics.json`,
   vices:               `${DATA_BASE}/vices_config.json`,
   geoElectoral:        `${DATA_BASE}/geo_electoral.json`,
+  radar:               `${DATA_BASE}/radar_vulnerabilidade.json`,
 };
 
 const FETCH_TIMEOUT = 10000;

@@ -9,7 +9,8 @@ import AppHeader from './components/AppHeader.jsx';
 import InteligenciaCompetitivaPanel from './panels/InteligenciaCompetitivaPanel.jsx';
 import VicesPanel from './panels/VicesPanel.jsx';
 import GeografiaPanel from './panels/GeografiaPanel.jsx';
-import { Target, Users, MapPin } from 'lucide-react';
+import RadarPanel from './panels/RadarPanel.jsx';
+import { Target, Users, MapPin, Radar } from 'lucide-react';
 
 export default function App() {
   const [session, setSession] = useState(undefined);
@@ -118,6 +119,7 @@ export default function App() {
         <div style={{ display: 'flex', gap: 8, marginBottom: 20 }}>
           {[
             { key: 'inteligencia', label: 'Inteligência Competitiva', icon: Target },
+            { key: 'radar', label: 'Radar', icon: Radar },
             { key: 'geografia', label: 'Geografia', icon: MapPin },
             { key: 'vices', label: 'Vices', icon: Users },
           ].map(({ key, label, icon: Icon }) => (
@@ -149,6 +151,7 @@ export default function App() {
             <PanelSkeleton rows={8} />
           )
         )}
+        {activePanel === 'radar' && <RadarPanel />}
         {activePanel === 'geografia' && <GeografiaPanel />}
         {activePanel === 'vices' && <VicesPanel />}
       </main>

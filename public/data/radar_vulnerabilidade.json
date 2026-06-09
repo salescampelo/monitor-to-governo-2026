@@ -1,0 +1,38 @@
+{
+  "_fixture": true,
+  "updated_at": "2026-06-09 06:00",
+  "alertas": [
+    {
+      "adversario_id": "laurez",
+      "nome": "Laurez Moreira",
+      "tipo": "queda_engajamento",
+      "severidade": 0.38,
+      "nivel": "alerta",
+      "evidencia": "Engajamento IG caiu de 0.34% para 0.21% (-38%) entre 2026-05-09 e 2026-05-18",
+      "detectado_em": "2026-06-09 06:00"
+    },
+    {
+      "adversario_id": "ataides",
+      "nome": "Ataídes Oliveira",
+      "tipo": "spike_negativo",
+      "severidade": 0.72,
+      "nivel": "critico",
+      "evidencia": "5 menções negativas em 3 veículo(s) nas últimas 72h (t1noticias, clebertoledo, gazetadocerrado)",
+      "detectado_em": "2026-06-09 06:00"
+    },
+    {
+      "adversario_id": "cinthia",
+      "nome": "Cinthia Ribeiro",
+      "tipo": "evento_judicial",
+      "severidade": 0.45,
+      "nivel": "critico",
+      "evidencia": "Severidade processual subiu para 0.45 (+0.40 vs. snapshot anterior)",
+      "detectado_em": "2026-06-09 06:00"
+    }
+  ],
+  "resumo": {
+    "total_alertas": 3,
+    "criticos": 2,
+    "por_adversario": { "laurez": 1, "ataides": 1, "cinthia": 1 }
+  }
+}
