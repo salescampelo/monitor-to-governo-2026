@@ -9,6 +9,8 @@ export const URLS = {
   vices:               `${DATA_BASE}/vices_config.json`,
   geoElectoral:        `${DATA_BASE}/geo_electoral.json`,
   radar:               `${DATA_BASE}/radar_vulnerabilidade.json`,
+  vetores:             `${DATA_BASE}/vetores_processuais.json`,
+  dataQuality:         `${DATA_BASE}/data_quality.json`,
 };
 
 const FETCH_TIMEOUT = 10000;

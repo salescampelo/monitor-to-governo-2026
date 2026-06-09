@@ -13,6 +13,7 @@ const ALLOWED_FILES = new Set([
   'vices_config.json',
   'geo_electoral.json',
   'radar_vulnerabilidade.json',
+  'data_quality.json',
 ]);
 
 export default async function handler(req, res) {

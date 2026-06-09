@@ -46,6 +46,7 @@ export default function AppHeader({
   isMobile, refreshing = false, handleRefresh, userEmail = null, onLogout = null,
   lastUpdate = null, daysToElection = null, totalCandidatos = 8,
   engajamentoMedio = 0, imprensa48h = 0, crises = 0,
+  raceOffice = 'Governador', raceState = 'Tocantins', raceYear = '2026',
 }) {
   const kpis = [
     { icon: Calendar,       value: daysToElection ?? '—', label: 'DIAS P/ ELEIÇÃO',       color: getKpiColor('dias', daysToElection ?? 0) },
@@ -88,15 +89,15 @@ export default function AppHeader({
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 40, flexWrap: 'wrap' }}>
         <div style={{ flex: '1 1 280px', minWidth: 0 }}>
           <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: 11, fontWeight: 500, letterSpacing: '2px', textTransform: 'uppercase', margin: '0 0 12px' }}>
-            INTELIGÊNCIA ELEITORAL · GOVERNO 2026
+            INTELIGÊNCIA ELEITORAL · {raceOffice} {raceYear}
           </p>
           <h1 style={{ fontSize: 'clamp(26px, 3.5vw, 42px)', fontWeight: 800, lineHeight: 1.05, margin: 0, fontFamily: "'DM Sans',sans-serif" }}>
-            <span style={{ color: '#FFFFFF', display: 'block' }}>GOVERNO DO</span>
-            <span style={{ color: '#FFFFFF', display: 'block' }}>TOCANTINS</span>
-            <span style={{ color: 'rgba(255,255,255,0.4)', display: 'block' }}>2026.</span>
+            <span style={{ color: '#FFFFFF', display: 'block' }}>{raceOffice.toUpperCase()}</span>
+            <span style={{ color: '#FFFFFF', display: 'block' }}>{raceState.toUpperCase()}</span>
+            <span style={{ color: 'rgba(255,255,255,0.4)', display: 'block' }}>{raceYear}.</span>
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: 12, margin: '14px 0 0' }}>
-            8 pré-candidatos monitorados · {lastUpdate ? lastUpdate.replace(/^(\d{4})-(\d{2})-(\d{2})/, (_, y, m, d) => `${d}/${m}/${y}`) : new Date().toLocaleDateString('pt-BR')}
+            {totalCandidatos} pré-candidatos monitorados · {lastUpdate ? lastUpdate.replace(/^(\d{4})-(\d{2})-(\d{2})/, (_, y, m, d) => `${d}/${m}/${y}`) : new Date().toLocaleDateString('pt-BR')}
           </p>
         </div>
         <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', justifyContent: 'flex-end', flex: '1 1 500px', maxWidth: 750 }}>

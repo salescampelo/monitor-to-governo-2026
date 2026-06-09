@@ -10,7 +10,8 @@ import InteligenciaCompetitivaPanel from './panels/InteligenciaCompetitivaPanel.
 import VicesPanel from './panels/VicesPanel.jsx';
 import GeografiaPanel from './panels/GeografiaPanel.jsx';
 import RadarPanel from './panels/RadarPanel.jsx';
-import { Target, Users, MapPin, Radar } from 'lucide-react';
+import CoberturaPanel from './panels/CoberturaPanel.jsx';
+import { Target, Users, MapPin, Radar, ShieldCheck } from 'lucide-react';
 
 export default function App() {
   const [session, setSession] = useState(undefined);
@@ -110,6 +111,9 @@ export default function App() {
         onLogout={handleLogout}
         lastUpdate={adversariosData?.data_atualizacao}
         daysToElection={daysToElection}
+        raceOffice={adversariosData?.cargo || 'Governador'}
+        raceState={adversariosData?.estado || 'Tocantins'}
+        raceYear={adversariosData?.eleicao?.slice(0, 4) || '2026'}
         totalCandidatos={headerMetrics.totalCandidatos}
         engajamentoMedio={headerMetrics.engajamentoMedio}
         imprensa48h={headerMetrics.imprensa48h}
@@ -121,6 +125,7 @@ export default function App() {
             { key: 'inteligencia', label: 'Inteligência Competitiva', icon: Target },
             { key: 'radar', label: 'Radar', icon: Radar },
             { key: 'geografia', label: 'Geografia', icon: MapPin },
+            { key: 'cobertura', label: 'Cobertura', icon: ShieldCheck },
             { key: 'vices', label: 'Vices', icon: Users },
           ].map(({ key, label, icon: Icon }) => (
             <button
@@ -153,6 +158,7 @@ export default function App() {
         )}
         {activePanel === 'radar' && <RadarPanel />}
         {activePanel === 'geografia' && <GeografiaPanel />}
+        {activePanel === 'cobertura' && <CoberturaPanel />}
         {activePanel === 'vices' && <VicesPanel />}
       </main>
     </div>

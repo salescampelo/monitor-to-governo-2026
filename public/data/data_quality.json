@@ -1,0 +1,157 @@
+{
+  "updated_at": "2026-06-09 12:05",
+  "fonte": "adversarios.json (2026-06-09 12:05)",
+  "n_candidatos": 7,
+  "confidence_media": 0.828,
+  "dimensao_valor_mais_fraca": "capital_positivo",
+  "dimensoes": [
+    {
+      "dim": "votos_2022",
+      "peso": 0.25,
+      "tipo": "valor",
+      "com_sinal": 5,
+      "n": 7,
+      "cobertura_pct": 71.4,
+      "conf_media": 0.8
+    },
+    {
+      "dim": "seguidores",
+      "peso": 0.15,
+      "tipo": "valor",
+      "com_sinal": 7,
+      "n": 7,
+      "cobertura_pct": 100.0,
+      "conf_media": 1.0
+    },
+    {
+      "dim": "sobreposicao",
+      "peso": 0.15,
+      "tipo": "valor",
+      "com_sinal": 5,
+      "n": 7,
+      "cobertura_pct": 71.4,
+      "conf_media": 0.607
+    },
+    {
+      "dim": "nivel_base",
+      "peso": 0.1,
+      "tipo": "estrutural",
+      "com_sinal": 7,
+      "n": 7,
+      "cobertura_pct": 100.0,
+      "conf_media": 1.0
+    },
+    {
+      "dim": "engajamento",
+      "peso": 0.1,
+      "tipo": "valor",
+      "com_sinal": 5,
+      "n": 7,
+      "cobertura_pct": 71.4,
+      "conf_media": 0.714
+    },
+    {
+      "dim": "mandato",
+      "peso": 0.05,
+      "tipo": "estrutural",
+      "com_sinal": 7,
+      "n": 7,
+      "cobertura_pct": 100.0,
+      "conf_media": 1.0
+    },
+    {
+      "dim": "severidade",
+      "peso": 0.08,
+      "tipo": "risco",
+      "com_sinal": 2,
+      "n": 7,
+      "cobertura_pct": 28.6,
+      "conf_media": 0.9,
+      "nota": "0 = limpo/sem sanção (determinado, não ausente)"
+    },
+    {
+      "dim": "vetor_doadores",
+      "peso": 0.04,
+      "tipo": "risco",
+      "com_sinal": 0,
+      "n": 7,
+      "cobertura_pct": 0.0,
+      "conf_media": 0.929,
+      "nota": "0 = limpo/sem sanção (determinado, não ausente)"
+    },
+    {
+      "dim": "capital_positivo",
+      "peso": 0.04,
+      "tipo": "valor",
+      "com_sinal": 4,
+      "n": 7,
+      "cobertura_pct": 57.1,
+      "conf_media": 0.7
+    },
+    {
+      "dim": "trajetoria",
+      "peso": 0.04,
+      "tipo": "traj",
+      "com_sinal": 4,
+      "n": 7,
+      "cobertura_pct": 57.1,
+      "conf_media": 0.693
+    }
+  ],
+  "por_candidato": [
+    {
+      "id": "dorinha",
+      "nome": "Professora Dorinha Seabra Rezende",
+      "confidence": 0.958,
+      "dims_fracas": []
+    },
+    {
+      "id": "katia",
+      "nome": "Kátia Abreu",
+      "confidence": 0.958,
+      "dims_fracas": []
+    },
+    {
+      "id": "vicentinho",
+      "nome": "Vicentinho Júnior",
+      "confidence": 0.958,
+      "dims_fracas": []
+    },
+    {
+      "id": "ataides",
+      "nome": "Ataídes Oliveira",
+      "confidence": 0.858,
+      "dims_fracas": [
+        "engajamento"
+      ]
+    },
+    {
+      "id": "laurez",
+      "nome": "Laurez Moreira",
+      "confidence": 0.619,
+      "dims_fracas": [
+        "sobreposicao",
+        "votos_2022",
+        "trajetoria"
+      ]
+    },
+    {
+      "id": "mourao",
+      "nome": "Paulo Mourão",
+      "confidence": 0.844,
+      "dims_fracas": [
+        "engajamento"
+      ]
+    },
+    {
+      "id": "witer",
+      "nome": "Witer Naves",
+      "confidence": 0.599,
+      "dims_fracas": [
+        "sobreposicao",
+        "votos_2022",
+        "trajetoria"
+      ]
+    }
+  ]
+}
