@@ -1,0 +1,1688 @@
+{
+  "data_atualizacao": "2026-06-09 22:54",
+  "parametros": {
+    "piso_votos": 200,
+    "over_index_fator": 1.0,
+    "fonte_voto": "tse_votacao_munzona_serie",
+    "ponderacao": "votos_no_reduto"
+  },
+  "indicadores_meta": [
+    {
+      "chave": "tx_homicidios",
+      "rotulo": "Taxa de homicídios",
+      "dominio": "Segurança",
+      "sentido": "maior_pior",
+      "unidade": "por 100 mil hab."
+    },
+    {
+      "chave": "taxa_cvli_100k",
+      "rotulo": "CVLI (crimes violentos letais)",
+      "dominio": "Segurança",
+      "sentido": "maior_pior",
+      "unidade": "por 100 mil hab."
+    },
+    {
+      "chave": "taxa_viol_domestica_100k",
+      "rotulo": "Violência doméstica",
+      "dominio": "Segurança",
+      "sentido": "maior_pior",
+      "unidade": "por 100 mil hab."
+    },
+    {
+      "chave": "mortalidade_infantil",
+      "rotulo": "Mortalidade infantil",
+      "dominio": "Saúde",
+      "sentido": "maior_pior",
+      "unidade": "por mil nasc."
+    },
+    {
+      "chave": "tx_mort_csap",
+      "rotulo": "Mortes evitáveis (atenção básica)",
+      "dominio": "Saúde",
+      "sentido": "maior_pior",
+      "unidade": "por 100 mil hab."
+    },
+    {
+      "chave": "cobertura_esf",
+      "rotulo": "Cobertura Saúde da Família",
+      "dominio": "Saúde",
+      "sentido": "maior_melhor",
+      "unidade": "% da população"
+    },
+    {
+      "chave": "ideb_ai",
+      "rotulo": "IDEB anos iniciais",
+      "dominio": "Educação",
+      "sentido": "maior_melhor",
+      "unidade": "0–10"
+    },
+    {
+      "chave": "ideb_af",
+      "rotulo": "IDEB anos finais",
+      "dominio": "Educação",
+      "sentido": "maior_melhor",
+      "unidade": "0–10"
+    },
+    {
+      "chave": "ifgf_geral",
+      "rotulo": "Gestão fiscal (Firjan IFGF)",
+      "dominio": "Fiscal",
+      "sentido": "maior_melhor",
+      "unidade": "0–1"
+    },
+    {
+      "chave": "iegm_geral",
+      "rotulo": "Gestão municipal (TCE IEGM)",
+      "dominio": "Fiscal",
+      "sentido": "maior_melhor",
+      "unidade": "0–1"
+    },
+    {
+      "chave": "saldo_caged_1k",
+      "rotulo": "Saldo de empregos formais",
+      "dominio": "Econômico",
+      "sentido": "maior_melhor",
+      "unidade": "por mil hab."
+    },
+    {
+      "chave": "pib_per_capita",
+      "rotulo": "PIB per capita",
+      "dominio": "Econômico",
+      "sentido": "maior_melhor",
+      "unidade": "R$"
+    },
+    {
+      "chave": "rdpc",
+      "rotulo": "Renda domiciliar per capita",
+      "dominio": "Econômico",
+      "sentido": "maior_melhor",
+      "unidade": "R$"
+    },
+    {
+      "chave": "gini",
+      "rotulo": "Desigualdade (Gini)",
+      "dominio": "Desigualdade",
+      "sentido": "maior_pior",
+      "unidade": "0–1"
+    },
+    {
+      "chave": "deter_desmat_pct",
+      "rotulo": "Desmatamento (DETER)",
+      "dominio": "Ambiental",
+      "sentido": "maior_pior",
+      "unidade": "% do território"
+    },
+    {
+      "chave": "focos_queimada_km2",
+      "rotulo": "Focos de queimada",
+      "dominio": "Ambiental",
+      "sentido": "maior_pior",
+      "unidade": "por km²"
+    }
+  ],
+  "adversarios": [
+    {
+      "id": "dorinha",
+      "nome": "Professora Dorinha Seabra Rezende",
+      "arquetipo": "legislador",
+      "sem_base": false,
+      "base": {
+        "ano": "2022",
+        "cargo": "Senador",
+        "votos_total": 395408,
+        "municipios_disputados": 139,
+        "share_medio": 0.5302
+      },
+      "reduto": {
+        "n_municipios": 73,
+        "votos_reduto": 184278,
+        "cod_ibge": [
+          "1700251",
+          "1700301",
+          "1700350",
+          "1700400",
+          "1700707",
+          "1701051",
+          "1701101",
+          "1702000",
+          "1702158",
+          "1703057",
+          "1703073",
+          "1703107",
+          "1703206",
+          "1703305",
+          "1703909",
+          "1704105",
+          "1705508",
+          "1706001",
+          "1706258",
+          "1707009",
+          "1707108",
+          "1707207",
+          "1707553",
+          "1708205",
+          "1708254",
+          "1709005",
+          "1709302",
+          "1710706",
+          "1710904",
+          "1711100",
+          "1711803",
+          "1711902",
+          "1712009",
+          "1712157",
+          "1712454",
+          "1712504",
+          "1712702",
+          "1712801",
+          "1713205",
+          "1713304",
+          "1713700",
+          "1713809",
+          "1714880",
+          "1715002",
+          "1715101",
+          "1715150",
+          "1715507",
+          "1715754",
+          "1716109",
+          "1716505",
+          "1716703",
+          "1718204",
+          "1718402",
+          "1718451",
+          "1718501",
+          "1718550",
+          "1718709",
+          "1718758",
+          "1718840",
+          "1718865",
+          "1718881",
+          "1718899",
+          "1718907",
+          "1719004",
+          "1720309",
+          "1720499",
+          "1720655",
+          "1720804",
+          "1720937",
+          "1720978",
+          "1721109",
+          "1721257",
+          "1721307"
+        ]
+      },
+      "composto_vulnerabilidade": 46,
+      "dossie": [
+        {
+          "chave": "tx_homicidios",
+          "rotulo": "Taxa de homicídios",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": -0.317,
+          "nivel": "bom",
+          "cobertura": "73/73",
+          "rank_ataque": 13
+        },
+        {
+          "chave": "taxa_cvli_100k",
+          "rotulo": "CVLI (crimes violentos letais)",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.223,
+          "nivel": "neutro",
+          "cobertura": "73/73",
+          "rank_ataque": 2
+        },
+        {
+          "chave": "taxa_viol_domestica_100k",
+          "rotulo": "Violência doméstica",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.266,
+          "nivel": "ruim",
+          "cobertura": "73/73",
+          "rank_ataque": 1
+        },
+        {
+          "chave": "mortalidade_infantil",
+          "rotulo": "Mortalidade infantil",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": 0.065,
+          "nivel": "neutro",
+          "cobertura": "73/73",
+          "rank_ataque": 3
+        },
+        {
+          "chave": "tx_mort_csap",
+          "rotulo": "Mortes evitáveis (atenção básica)",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": 0.052,
+          "nivel": "neutro",
+          "cobertura": "73/73",
+          "rank_ataque": 4
+        },
+        {
+          "chave": "cobertura_esf",
+          "rotulo": "Cobertura Saúde da Família",
+          "dominio": "Saúde",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.123,
+          "nivel": "neutro",
+          "cobertura": "73/73",
+          "rank_ataque": 8
+        },
+        {
+          "chave": "ideb_ai",
+          "rotulo": "IDEB anos iniciais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.411,
+          "nivel": "bom",
+          "cobertura": "63/73",
+          "rank_ataque": 14
+        },
+        {
+          "chave": "ideb_af",
+          "rotulo": "IDEB anos finais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.303,
+          "nivel": "bom",
+          "cobertura": "55/73",
+          "rank_ataque": 12
+        },
+        {
+          "chave": "ifgf_geral",
+          "rotulo": "Gestão fiscal (Firjan IFGF)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.221,
+          "nivel": "neutro",
+          "cobertura": "70/73",
+          "rank_ataque": 10
+        },
+        {
+          "chave": "iegm_geral",
+          "rotulo": "Gestão municipal (TCE IEGM)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.413,
+          "nivel": "bom",
+          "cobertura": "67/73",
+          "rank_ataque": 15
+        },
+        {
+          "chave": "saldo_caged_1k",
+          "rotulo": "Saldo de empregos formais",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.183,
+          "nivel": "neutro",
+          "cobertura": "73/73",
+          "rank_ataque": 9
+        },
+        {
+          "chave": "pib_per_capita",
+          "rotulo": "PIB per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.266,
+          "nivel": "bom",
+          "cobertura": "73/73",
+          "rank_ataque": 11
+        },
+        {
+          "chave": "rdpc",
+          "rotulo": "Renda domiciliar per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.589,
+          "nivel": "bom",
+          "cobertura": "73/73",
+          "rank_ataque": 16
+        },
+        {
+          "chave": "gini",
+          "rotulo": "Desigualdade (Gini)",
+          "dominio": "Desigualdade",
+          "sentido": "maior_pior",
+          "z_reduto": -0.001,
+          "nivel": "neutro",
+          "cobertura": "73/73",
+          "rank_ataque": 5
+        },
+        {
+          "chave": "deter_desmat_pct",
+          "rotulo": "Desmatamento (DETER)",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.034,
+          "nivel": "neutro",
+          "cobertura": "73/73",
+          "rank_ataque": 7
+        },
+        {
+          "chave": "focos_queimada_km2",
+          "rotulo": "Focos de queimada",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.01,
+          "nivel": "neutro",
+          "cobertura": "73/73",
+          "rank_ataque": 6
+        }
+      ]
+    },
+    {
+      "id": "vicentinho",
+      "nome": "Vicentinho Júnior",
+      "arquetipo": "legislador",
+      "sem_base": false,
+      "base": {
+        "ano": "2022",
+        "cargo": "Deputado Federal",
+        "votos_total": 55292,
+        "municipios_disputados": 139,
+        "share_medio": 0.1048
+      },
+      "reduto": {
+        "n_municipios": 42,
+        "votos_reduto": 39709,
+        "cod_ibge": [
+          "1700350",
+          "1701002",
+          "1702158",
+          "1703800",
+          "1703842",
+          "1705557",
+          "1709807",
+          "1710706",
+          "1710904",
+          "1711951",
+          "1712454",
+          "1713601",
+          "1713957",
+          "1714203",
+          "1714302",
+          "1715259",
+          "1715507",
+          "1715754",
+          "1716208",
+          "1716307",
+          "1716505",
+          "1716703",
+          "1717008",
+          "1717503",
+          "1717800",
+          "1717909",
+          "1718006",
+          "1718204",
+          "1718402",
+          "1718550",
+          "1718808",
+          "1718840",
+          "1718865",
+          "1718907",
+          "1719004",
+          "1720150",
+          "1720200",
+          "1720259",
+          "1720804",
+          "1720903",
+          "1721257",
+          "1721307"
+        ]
+      },
+      "composto_vulnerabilidade": 50,
+      "dossie": [
+        {
+          "chave": "tx_homicidios",
+          "rotulo": "Taxa de homicídios",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": -0.069,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 13
+        },
+        {
+          "chave": "taxa_cvli_100k",
+          "rotulo": "CVLI (crimes violentos letais)",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.155,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 3
+        },
+        {
+          "chave": "taxa_viol_domestica_100k",
+          "rotulo": "Violência doméstica",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.107,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 5
+        },
+        {
+          "chave": "mortalidade_infantil",
+          "rotulo": "Mortalidade infantil",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": -0.007,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 8
+        },
+        {
+          "chave": "tx_mort_csap",
+          "rotulo": "Mortes evitáveis (atenção básica)",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": 0.172,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 2
+        },
+        {
+          "chave": "cobertura_esf",
+          "rotulo": "Cobertura Saúde da Família",
+          "dominio": "Saúde",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.041,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 10
+        },
+        {
+          "chave": "ideb_ai",
+          "rotulo": "IDEB anos iniciais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.071,
+          "nivel": "neutro",
+          "cobertura": "34/42",
+          "rank_ataque": 14
+        },
+        {
+          "chave": "ideb_af",
+          "rotulo": "IDEB anos finais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.111,
+          "nivel": "neutro",
+          "cobertura": "29/42",
+          "rank_ataque": 4
+        },
+        {
+          "chave": "ifgf_geral",
+          "rotulo": "Gestão fiscal (Firjan IFGF)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.223,
+          "nivel": "neutro",
+          "cobertura": "40/42",
+          "rank_ataque": 1
+        },
+        {
+          "chave": "iegm_geral",
+          "rotulo": "Gestão municipal (TCE IEGM)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.135,
+          "nivel": "neutro",
+          "cobertura": "35/42",
+          "rank_ataque": 15
+        },
+        {
+          "chave": "saldo_caged_1k",
+          "rotulo": "Saldo de empregos formais",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.15,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 16
+        },
+        {
+          "chave": "pib_per_capita",
+          "rotulo": "PIB per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.063,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 12
+        },
+        {
+          "chave": "rdpc",
+          "rotulo": "Renda domiciliar per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.014,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 9
+        },
+        {
+          "chave": "gini",
+          "rotulo": "Desigualdade (Gini)",
+          "dominio": "Desigualdade",
+          "sentido": "maior_pior",
+          "z_reduto": 0.093,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 6
+        },
+        {
+          "chave": "deter_desmat_pct",
+          "rotulo": "Desmatamento (DETER)",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": 0.055,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 7
+        },
+        {
+          "chave": "focos_queimada_km2",
+          "rotulo": "Focos de queimada",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.05,
+          "nivel": "neutro",
+          "cobertura": "42/42",
+          "rank_ataque": 11
+        }
+      ]
+    },
+    {
+      "id": "laurez",
+      "nome": "Laurez Moreira",
+      "arquetipo": "executivo_local",
+      "sem_base": false,
+      "base": {
+        "ano": "2016",
+        "cargo": "Prefeito",
+        "votos_total": 20640,
+        "municipios_disputados": 1,
+        "share_medio": null
+      },
+      "reduto": {
+        "n_municipios": 1,
+        "votos_reduto": 20640,
+        "cod_ibge": [
+          "1709500"
+        ]
+      },
+      "composto_vulnerabilidade": 35,
+      "dossie": [
+        {
+          "chave": "tx_homicidios",
+          "rotulo": "Taxa de homicídios",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": -0.89,
+          "nivel": "bom",
+          "cobertura": "1/1",
+          "rank_ataque": 12
+        },
+        {
+          "chave": "taxa_cvli_100k",
+          "rotulo": "CVLI (crimes violentos letais)",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.553,
+          "nivel": "ruim",
+          "cobertura": "1/1",
+          "rank_ataque": 3
+        },
+        {
+          "chave": "taxa_viol_domestica_100k",
+          "rotulo": "Violência doméstica",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.773,
+          "nivel": "ruim",
+          "cobertura": "1/1",
+          "rank_ataque": 1
+        },
+        {
+          "chave": "mortalidade_infantil",
+          "rotulo": "Mortalidade infantil",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": -0.464,
+          "nivel": "bom",
+          "cobertura": "1/1",
+          "rank_ataque": 9
+        },
+        {
+          "chave": "tx_mort_csap",
+          "rotulo": "Mortes evitáveis (atenção básica)",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": -0.169,
+          "nivel": "neutro",
+          "cobertura": "1/1",
+          "rank_ataque": 7
+        },
+        {
+          "chave": "cobertura_esf",
+          "rotulo": "Cobertura Saúde da Família",
+          "dominio": "Saúde",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.376,
+          "nivel": "bom",
+          "cobertura": "1/1",
+          "rank_ataque": 8
+        },
+        {
+          "chave": "ideb_ai",
+          "rotulo": "IDEB anos iniciais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -2.604,
+          "nivel": "muito_bom",
+          "cobertura": "1/1",
+          "rank_ataque": 16
+        },
+        {
+          "chave": "ideb_af",
+          "rotulo": "IDEB anos finais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -1.793,
+          "nivel": "muito_bom",
+          "cobertura": "1/1",
+          "rank_ataque": 14
+        },
+        {
+          "chave": "ifgf_geral",
+          "rotulo": "Gestão fiscal (Firjan IFGF)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.969,
+          "nivel": "bom",
+          "cobertura": "1/1",
+          "rank_ataque": 13
+        },
+        {
+          "chave": "iegm_geral",
+          "rotulo": "Gestão municipal (TCE IEGM)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.601,
+          "nivel": "ruim",
+          "cobertura": "1/1",
+          "rank_ataque": 2
+        },
+        {
+          "chave": "saldo_caged_1k",
+          "rotulo": "Saldo de empregos formais",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.137,
+          "nivel": "neutro",
+          "cobertura": "1/1",
+          "rank_ataque": 6
+        },
+        {
+          "chave": "pib_per_capita",
+          "rotulo": "PIB per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.057,
+          "nivel": "neutro",
+          "cobertura": "1/1",
+          "rank_ataque": 5
+        },
+        {
+          "chave": "rdpc",
+          "rotulo": "Renda domiciliar per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -2.555,
+          "nivel": "muito_bom",
+          "cobertura": "1/1",
+          "rank_ataque": 15
+        },
+        {
+          "chave": "gini",
+          "rotulo": "Desigualdade (Gini)",
+          "dominio": "Desigualdade",
+          "sentido": "maior_pior",
+          "z_reduto": -0.023,
+          "nivel": "neutro",
+          "cobertura": "1/1",
+          "rank_ataque": 4
+        },
+        {
+          "chave": "deter_desmat_pct",
+          "rotulo": "Desmatamento (DETER)",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.477,
+          "nivel": "bom",
+          "cobertura": "1/1",
+          "rank_ataque": 10
+        },
+        {
+          "chave": "focos_queimada_km2",
+          "rotulo": "Focos de queimada",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.801,
+          "nivel": "bom",
+          "cobertura": "1/1",
+          "rank_ataque": 11
+        }
+      ]
+    },
+    {
+      "id": "cinthia",
+      "nome": "Cinthia Ribeiro",
+      "arquetipo": "executivo_local",
+      "sem_base": false,
+      "base": {
+        "ano": "2020",
+        "cargo": "Prefeito",
+        "votos_total": 46243,
+        "municipios_disputados": 1,
+        "share_medio": null
+      },
+      "reduto": {
+        "n_municipios": 1,
+        "votos_reduto": 46243,
+        "cod_ibge": [
+          "1721000"
+        ]
+      },
+      "composto_vulnerabilidade": 30,
+      "dossie": [
+        {
+          "chave": "tx_homicidios",
+          "rotulo": "Taxa de homicídios",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": -0.995,
+          "nivel": "bom",
+          "cobertura": "1/1",
+          "rank_ataque": 11
+        },
+        {
+          "chave": "taxa_cvli_100k",
+          "rotulo": "CVLI (crimes violentos letais)",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.39,
+          "nivel": "ruim",
+          "cobertura": "1/1",
+          "rank_ataque": 3
+        },
+        {
+          "chave": "taxa_viol_domestica_100k",
+          "rotulo": "Violência doméstica",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 1.115,
+          "nivel": "muito_ruim",
+          "cobertura": "1/1",
+          "rank_ataque": 1
+        },
+        {
+          "chave": "mortalidade_infantil",
+          "rotulo": "Mortalidade infantil",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": -0.217,
+          "nivel": "neutro",
+          "cobertura": "1/1",
+          "rank_ataque": 7
+        },
+        {
+          "chave": "tx_mort_csap",
+          "rotulo": "Mortes evitáveis (atenção básica)",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": -1.119,
+          "nivel": "muito_bom",
+          "cobertura": "1/1",
+          "rank_ataque": 12
+        },
+        {
+          "chave": "cobertura_esf",
+          "rotulo": "Cobertura Saúde da Família",
+          "dominio": "Saúde",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.264,
+          "nivel": "ruim",
+          "cobertura": "1/1",
+          "rank_ataque": 4
+        },
+        {
+          "chave": "ideb_ai",
+          "rotulo": "IDEB anos iniciais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -2.604,
+          "nivel": "muito_bom",
+          "cobertura": "1/1",
+          "rank_ataque": 15
+        },
+        {
+          "chave": "ideb_af",
+          "rotulo": "IDEB anos finais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -2.297,
+          "nivel": "muito_bom",
+          "cobertura": "1/1",
+          "rank_ataque": 13
+        },
+        {
+          "chave": "ifgf_geral",
+          "rotulo": "Gestão fiscal (Firjan IFGF)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.988,
+          "nivel": "bom",
+          "cobertura": "1/1",
+          "rank_ataque": 10
+        },
+        {
+          "chave": "iegm_geral",
+          "rotulo": "Gestão municipal (TCE IEGM)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": -2.411,
+          "nivel": "muito_bom",
+          "cobertura": "1/1",
+          "rank_ataque": 14
+        },
+        {
+          "chave": "saldo_caged_1k",
+          "rotulo": "Saldo de empregos formais",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.845,
+          "nivel": "bom",
+          "cobertura": "1/1",
+          "rank_ataque": 9
+        },
+        {
+          "chave": "pib_per_capita",
+          "rotulo": "PIB per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.224,
+          "nivel": "neutro",
+          "cobertura": "1/1",
+          "rank_ataque": 8
+        },
+        {
+          "chave": "rdpc",
+          "rotulo": "Renda domiciliar per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -3.65,
+          "nivel": "muito_bom",
+          "cobertura": "1/1",
+          "rank_ataque": 16
+        },
+        {
+          "chave": "gini",
+          "rotulo": "Desigualdade (Gini)",
+          "dominio": "Desigualdade",
+          "sentido": "maior_pior",
+          "z_reduto": 0.68,
+          "nivel": "ruim",
+          "cobertura": "1/1",
+          "rank_ataque": 2
+        },
+        {
+          "chave": "deter_desmat_pct",
+          "rotulo": "Desmatamento (DETER)",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.066,
+          "nivel": "neutro",
+          "cobertura": "1/1",
+          "rank_ataque": 6
+        },
+        {
+          "chave": "focos_queimada_km2",
+          "rotulo": "Focos de queimada",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.006,
+          "nivel": "neutro",
+          "cobertura": "1/1",
+          "rank_ataque": 5
+        }
+      ]
+    },
+    {
+      "id": "mourao",
+      "nome": "Paulo Mourão",
+      "arquetipo": "legislador",
+      "sem_base": false,
+      "base": {
+        "ano": "2022",
+        "cargo": "Governador",
+        "votos_total": 88143,
+        "municipios_disputados": 139,
+        "share_medio": 0.0958
+      },
+      "reduto": {
+        "n_municipios": 55,
+        "votos_reduto": 62481,
+        "cod_ibge": [
+          "1701903",
+          "1702208",
+          "1702406",
+          "1702554",
+          "1702703",
+          "1702901",
+          "1703008",
+          "1703107",
+          "1703701",
+          "1703800",
+          "1703891",
+          "1703909",
+          "1705102",
+          "1705508",
+          "1705607",
+          "1706100",
+          "1707009",
+          "1707108",
+          "1707207",
+          "1707405",
+          "1707553",
+          "1707652",
+          "1708205",
+          "1708254",
+          "1709500",
+          "1709807",
+          "1710706",
+          "1710904",
+          "1711506",
+          "1711951",
+          "1713304",
+          "1713601",
+          "1714203",
+          "1714880",
+          "1715002",
+          "1716109",
+          "1716208",
+          "1716604",
+          "1716653",
+          "1717008",
+          "1717909",
+          "1718006",
+          "1718204",
+          "1718659",
+          "1718758",
+          "1718808",
+          "1718865",
+          "1718907",
+          "1720200",
+          "1720259",
+          "1720804",
+          "1720903",
+          "1721000",
+          "1721208",
+          "1722081"
+        ]
+      },
+      "composto_vulnerabilidade": 41,
+      "dossie": [
+        {
+          "chave": "tx_homicidios",
+          "rotulo": "Taxa de homicídios",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": -0.703,
+          "nivel": "bom",
+          "cobertura": "55/55",
+          "rank_ataque": 12
+        },
+        {
+          "chave": "taxa_cvli_100k",
+          "rotulo": "CVLI (crimes violentos letais)",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.332,
+          "nivel": "ruim",
+          "cobertura": "55/55",
+          "rank_ataque": 3
+        },
+        {
+          "chave": "taxa_viol_domestica_100k",
+          "rotulo": "Violência doméstica",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.64,
+          "nivel": "ruim",
+          "cobertura": "55/55",
+          "rank_ataque": 1
+        },
+        {
+          "chave": "mortalidade_infantil",
+          "rotulo": "Mortalidade infantil",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": -0.097,
+          "nivel": "neutro",
+          "cobertura": "55/55",
+          "rank_ataque": 6
+        },
+        {
+          "chave": "tx_mort_csap",
+          "rotulo": "Mortes evitáveis (atenção básica)",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": -0.247,
+          "nivel": "neutro",
+          "cobertura": "55/55",
+          "rank_ataque": 9
+        },
+        {
+          "chave": "cobertura_esf",
+          "rotulo": "Cobertura Saúde da Família",
+          "dominio": "Saúde",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.056,
+          "nivel": "neutro",
+          "cobertura": "55/55",
+          "rank_ataque": 4
+        },
+        {
+          "chave": "ideb_ai",
+          "rotulo": "IDEB anos iniciais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -1.103,
+          "nivel": "muito_bom",
+          "cobertura": "44/55",
+          "rank_ataque": 15
+        },
+        {
+          "chave": "ideb_af",
+          "rotulo": "IDEB anos finais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.951,
+          "nivel": "bom",
+          "cobertura": "41/55",
+          "rank_ataque": 13
+        },
+        {
+          "chave": "ifgf_geral",
+          "rotulo": "Gestão fiscal (Firjan IFGF)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.382,
+          "nivel": "bom",
+          "cobertura": "50/55",
+          "rank_ataque": 11
+        },
+        {
+          "chave": "iegm_geral",
+          "rotulo": "Gestão municipal (TCE IEGM)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": -1.078,
+          "nivel": "muito_bom",
+          "cobertura": "44/55",
+          "rank_ataque": 14
+        },
+        {
+          "chave": "saldo_caged_1k",
+          "rotulo": "Saldo de empregos formais",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.313,
+          "nivel": "bom",
+          "cobertura": "55/55",
+          "rank_ataque": 10
+        },
+        {
+          "chave": "pib_per_capita",
+          "rotulo": "PIB per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.078,
+          "nivel": "neutro",
+          "cobertura": "55/55",
+          "rank_ataque": 5
+        },
+        {
+          "chave": "rdpc",
+          "rotulo": "Renda domiciliar per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -1.538,
+          "nivel": "muito_bom",
+          "cobertura": "55/55",
+          "rank_ataque": 16
+        },
+        {
+          "chave": "gini",
+          "rotulo": "Desigualdade (Gini)",
+          "dominio": "Desigualdade",
+          "sentido": "maior_pior",
+          "z_reduto": 0.342,
+          "nivel": "ruim",
+          "cobertura": "55/55",
+          "rank_ataque": 2
+        },
+        {
+          "chave": "deter_desmat_pct",
+          "rotulo": "Desmatamento (DETER)",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.181,
+          "nivel": "neutro",
+          "cobertura": "55/55",
+          "rank_ataque": 8
+        },
+        {
+          "chave": "focos_queimada_km2",
+          "rotulo": "Focos de queimada",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.123,
+          "nivel": "neutro",
+          "cobertura": "55/55",
+          "rank_ataque": 7
+        }
+      ]
+    },
+    {
+      "id": "katia",
+      "nome": "Kátia Abreu",
+      "arquetipo": "legislador",
+      "sem_base": false,
+      "base": {
+        "ano": "2022",
+        "cargo": "Senador",
+        "votos_total": 145104,
+        "municipios_disputados": 139,
+        "share_medio": 0.25
+      },
+      "reduto": {
+        "n_municipios": 57,
+        "votos_reduto": 70799,
+        "cod_ibge": [
+          "1701309",
+          "1701903",
+          "1702208",
+          "1702307",
+          "1702406",
+          "1702554",
+          "1702901",
+          "1703008",
+          "1703057",
+          "1703701",
+          "1703800",
+          "1703826",
+          "1703842",
+          "1703867",
+          "1703883",
+          "1703891",
+          "1704600",
+          "1705607",
+          "1706100",
+          "1706506",
+          "1707306",
+          "1707405",
+          "1707652",
+          "1708304",
+          "1709807",
+          "1710508",
+          "1711506",
+          "1711951",
+          "1712009",
+          "1712405",
+          "1713601",
+          "1713809",
+          "1713957",
+          "1714302",
+          "1715150",
+          "1715259",
+          "1715705",
+          "1716208",
+          "1716307",
+          "1716653",
+          "1717008",
+          "1717206",
+          "1717503",
+          "1717800",
+          "1718006",
+          "1718303",
+          "1718402",
+          "1718659",
+          "1718808",
+          "1720002",
+          "1720101",
+          "1720150",
+          "1720259",
+          "1720853",
+          "1720903",
+          "1722081",
+          "1722107"
+        ]
+      },
+      "composto_vulnerabilidade": 51,
+      "dossie": [
+        {
+          "chave": "tx_homicidios",
+          "rotulo": "Taxa de homicídios",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": -0.359,
+          "nivel": "bom",
+          "cobertura": "57/57",
+          "rank_ataque": 16
+        },
+        {
+          "chave": "taxa_cvli_100k",
+          "rotulo": "CVLI (crimes violentos letais)",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": -0.0,
+          "nivel": "neutro",
+          "cobertura": "57/57",
+          "rank_ataque": 11
+        },
+        {
+          "chave": "taxa_viol_domestica_100k",
+          "rotulo": "Violência doméstica",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": -0.12,
+          "nivel": "neutro",
+          "cobertura": "57/57",
+          "rank_ataque": 14
+        },
+        {
+          "chave": "mortalidade_infantil",
+          "rotulo": "Mortalidade infantil",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": -0.069,
+          "nivel": "neutro",
+          "cobertura": "57/57",
+          "rank_ataque": 13
+        },
+        {
+          "chave": "tx_mort_csap",
+          "rotulo": "Mortes evitáveis (atenção básica)",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": 0.011,
+          "nivel": "neutro",
+          "cobertura": "57/57",
+          "rank_ataque": 9
+        },
+        {
+          "chave": "cobertura_esf",
+          "rotulo": "Cobertura Saúde da Família",
+          "dominio": "Saúde",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.026,
+          "nivel": "neutro",
+          "cobertura": "57/57",
+          "rank_ataque": 8
+        },
+        {
+          "chave": "ideb_ai",
+          "rotulo": "IDEB anos iniciais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.133,
+          "nivel": "neutro",
+          "cobertura": "46/57",
+          "rank_ataque": 5
+        },
+        {
+          "chave": "ideb_af",
+          "rotulo": "IDEB anos finais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.044,
+          "nivel": "neutro",
+          "cobertura": "42/57",
+          "rank_ataque": 12
+        },
+        {
+          "chave": "ifgf_geral",
+          "rotulo": "Gestão fiscal (Firjan IFGF)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.188,
+          "nivel": "neutro",
+          "cobertura": "52/57",
+          "rank_ataque": 4
+        },
+        {
+          "chave": "iegm_geral",
+          "rotulo": "Gestão municipal (TCE IEGM)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.072,
+          "nivel": "neutro",
+          "cobertura": "48/57",
+          "rank_ataque": 6
+        },
+        {
+          "chave": "saldo_caged_1k",
+          "rotulo": "Saldo de empregos formais",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.031,
+          "nivel": "neutro",
+          "cobertura": "57/57",
+          "rank_ataque": 7
+        },
+        {
+          "chave": "pib_per_capita",
+          "rotulo": "PIB per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.27,
+          "nivel": "ruim",
+          "cobertura": "57/57",
+          "rank_ataque": 2
+        },
+        {
+          "chave": "rdpc",
+          "rotulo": "Renda domiciliar per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.278,
+          "nivel": "ruim",
+          "cobertura": "57/57",
+          "rank_ataque": 1
+        },
+        {
+          "chave": "gini",
+          "rotulo": "Desigualdade (Gini)",
+          "dominio": "Desigualdade",
+          "sentido": "maior_pior",
+          "z_reduto": 0.267,
+          "nivel": "ruim",
+          "cobertura": "57/57",
+          "rank_ataque": 3
+        },
+        {
+          "chave": "deter_desmat_pct",
+          "rotulo": "Desmatamento (DETER)",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.213,
+          "nivel": "neutro",
+          "cobertura": "57/57",
+          "rank_ataque": 15
+        },
+        {
+          "chave": "focos_queimada_km2",
+          "rotulo": "Focos de queimada",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": 0.001,
+          "nivel": "neutro",
+          "cobertura": "57/57",
+          "rank_ataque": 10
+        }
+      ]
+    },
+    {
+      "id": "witer",
+      "nome": "Witer Naves",
+      "sem_base": true,
+      "motivo": "sem votação individual registrada no TSE"
+    },
+    {
+      "id": "ataides",
+      "nome": "Ataídes Oliveira",
+      "arquetipo": "legislador",
+      "sem_base": false,
+      "base": {
+        "ano": "2022",
+        "cargo": "Senador",
+        "votos_total": 69420,
+        "municipios_disputados": 139,
+        "share_medio": 0.088
+      },
+      "reduto": {
+        "n_municipios": 54,
+        "votos_reduto": 45125,
+        "cod_ibge": [
+          "1700707",
+          "1701309",
+          "1702109",
+          "1702158",
+          "1702208",
+          "1702406",
+          "1702703",
+          "1703008",
+          "1703107",
+          "1703206",
+          "1703602",
+          "1703701",
+          "1703826",
+          "1703867",
+          "1703891",
+          "1704600",
+          "1705102",
+          "1705557",
+          "1706001",
+          "1706506",
+          "1707405",
+          "1707553",
+          "1707702",
+          "1708205",
+          "1708254",
+          "1709005",
+          "1709302",
+          "1709500",
+          "1709807",
+          "1710904",
+          "1712157",
+          "1712454",
+          "1713700",
+          "1713809",
+          "1714203",
+          "1714302",
+          "1715002",
+          "1715259",
+          "1716109",
+          "1716208",
+          "1716307",
+          "1716604",
+          "1716653",
+          "1716703",
+          "1717008",
+          "1717503",
+          "1717909",
+          "1718881",
+          "1718899",
+          "1719004",
+          "1720101",
+          "1720200",
+          "1720655",
+          "1722107"
+        ]
+      },
+      "composto_vulnerabilidade": 44,
+      "dossie": [
+        {
+          "chave": "tx_homicidios",
+          "rotulo": "Taxa de homicídios",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": -0.573,
+          "nivel": "bom",
+          "cobertura": "54/54",
+          "rank_ataque": 12
+        },
+        {
+          "chave": "taxa_cvli_100k",
+          "rotulo": "CVLI (crimes violentos letais)",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.223,
+          "nivel": "neutro",
+          "cobertura": "54/54",
+          "rank_ataque": 4
+        },
+        {
+          "chave": "taxa_viol_domestica_100k",
+          "rotulo": "Violência doméstica",
+          "dominio": "Segurança",
+          "sentido": "maior_pior",
+          "z_reduto": 0.447,
+          "nivel": "ruim",
+          "cobertura": "54/54",
+          "rank_ataque": 2
+        },
+        {
+          "chave": "mortalidade_infantil",
+          "rotulo": "Mortalidade infantil",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": -0.161,
+          "nivel": "neutro",
+          "cobertura": "54/54",
+          "rank_ataque": 8
+        },
+        {
+          "chave": "tx_mort_csap",
+          "rotulo": "Mortes evitáveis (atenção básica)",
+          "dominio": "Saúde",
+          "sentido": "maior_pior",
+          "z_reduto": -0.075,
+          "nivel": "neutro",
+          "cobertura": "54/54",
+          "rank_ataque": 6
+        },
+        {
+          "chave": "cobertura_esf",
+          "rotulo": "Cobertura Saúde da Família",
+          "dominio": "Saúde",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.533,
+          "nivel": "ruim",
+          "cobertura": "54/54",
+          "rank_ataque": 1
+        },
+        {
+          "chave": "ideb_ai",
+          "rotulo": "IDEB anos iniciais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -1.06,
+          "nivel": "muito_bom",
+          "cobertura": "47/54",
+          "rank_ataque": 15
+        },
+        {
+          "chave": "ideb_af",
+          "rotulo": "IDEB anos finais",
+          "dominio": "Educação",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.624,
+          "nivel": "bom",
+          "cobertura": "42/54",
+          "rank_ataque": 14
+        },
+        {
+          "chave": "ifgf_geral",
+          "rotulo": "Gestão fiscal (Firjan IFGF)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.602,
+          "nivel": "bom",
+          "cobertura": "50/54",
+          "rank_ataque": 13
+        },
+        {
+          "chave": "iegm_geral",
+          "rotulo": "Gestão municipal (TCE IEGM)",
+          "dominio": "Fiscal",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.353,
+          "nivel": "bom",
+          "cobertura": "48/54",
+          "rank_ataque": 11
+        },
+        {
+          "chave": "saldo_caged_1k",
+          "rotulo": "Saldo de empregos formais",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -0.114,
+          "nivel": "neutro",
+          "cobertura": "54/54",
+          "rank_ataque": 7
+        },
+        {
+          "chave": "pib_per_capita",
+          "rotulo": "PIB per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": 0.042,
+          "nivel": "neutro",
+          "cobertura": "54/54",
+          "rank_ataque": 5
+        },
+        {
+          "chave": "rdpc",
+          "rotulo": "Renda domiciliar per capita",
+          "dominio": "Econômico",
+          "sentido": "maior_melhor",
+          "z_reduto": -1.143,
+          "nivel": "muito_bom",
+          "cobertura": "54/54",
+          "rank_ataque": 16
+        },
+        {
+          "chave": "gini",
+          "rotulo": "Desigualdade (Gini)",
+          "dominio": "Desigualdade",
+          "sentido": "maior_pior",
+          "z_reduto": 0.245,
+          "nivel": "neutro",
+          "cobertura": "54/54",
+          "rank_ataque": 3
+        },
+        {
+          "chave": "deter_desmat_pct",
+          "rotulo": "Desmatamento (DETER)",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.273,
+          "nivel": "bom",
+          "cobertura": "54/54",
+          "rank_ataque": 9
+        },
+        {
+          "chave": "focos_queimada_km2",
+          "rotulo": "Focos de queimada",
+          "dominio": "Ambiental",
+          "sentido": "maior_pior",
+          "z_reduto": -0.315,
+          "nivel": "bom",
+          "cobertura": "54/54",
+          "rank_ataque": 10
+        }
+      ]
+    }
+  ]
+}
