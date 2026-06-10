@@ -23,6 +23,10 @@ const fetchSeries = import.meta.env.DEV
   ? () => fetch('/data/territorio_series.json').then(r => (r.ok ? r.json() : null)).catch(() => null)
   : () => fetchJ(URLS.territorioSeries);
 
+const fetchVuln = import.meta.env.DEV
+  ? () => fetch('/data/territorio_vulnerabilidade.json').then(r => (r.ok ? r.json() : null)).catch(() => null)
+  : () => fetchJ(URLS.territorioVulnerabilidade);
+
 function Sparkline({ pontos }) {
   if (!pontos || pontos.length < 2) return <span style={{ fontSize: 11, color: '#9ca3af' }}>série indisponível</span>;
   const xs = pontos.map(p => p.ano), ys = pontos.map(p => p.valor);
@@ -53,13 +57,19 @@ const clusterCor = (id) => CLUSTER_COR[(id ?? 0) % CLUSTER_COR.length];
 
 const fmtValor = (v, unidade) => (v == null ? '—' : `${v} ${unidade || ''}`.trim());
 
+const ARQ_COR = { executivo_local: '#b91c1c', legislador: '#0B3D91' };
+const arqCor = (a) => ARQ_COR[a] || '#0B3D91';
+const ARQ_ROTULO = { executivo_local: 'Ex-gestor local', legislador: 'Legislador' };
+
 export default function TerritorioPanel() {
   const isMobile = useWW() < 768;
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [chave, setChave] = useState('tx_homicidios');
   const [selected, setSelected] = useState(null);
-  const [modo, setModo] = useState('indicador'); // 'indicador' | 'tipologia'
+  const [modo, setModo] = useState('indicador'); // 'indicador' | 'tipologia' | 'vulnerabilidade'
+  const [vuln, setVuln] = useState(null);
+  const [advId, setAdvId] = useState(null);
 
   useEffect(() => {
     fetchInd().then(setData).catch(() => null).finally(() => setLoading(false));
@@ -67,6 +77,8 @@ export default function TerritorioPanel() {
 
   const [series, setSeries] = useState(null);
   useEffect(() => { fetchSeries().then(setSeries).catch(() => null); }, []);
+
+  useEffect(() => { fetchVuln().then(setVuln).catch(() => null); }, []);
 
   const municipios = useMemo(() => data?.municipios || [], [data]);
   const selMuni = useMemo(() => municipios.find(m => m.cod_ibge === selected), [municipios, selected]);
@@ -88,6 +100,25 @@ export default function TerritorioPanel() {
     return arr;
   }, [municipios, chave]);
   const resumo = useMemo(() => data?.resumo_estadual?.[chave], [data, chave]);
+
+  const advs = useMemo(() => vuln?.adversarios || [], [vuln]);
+  const adv = useMemo(() => advs.find(a => a.id === advId), [advs, advId]);
+  const redutoSet = useMemo(
+    () => new Set(adv && !adv.sem_base ? adv.reduto.cod_ibge : []),
+    [adv],
+  );
+  const redutoNomes = useMemo(() => {
+    if (!adv || adv.sem_base) return [];
+    return adv.reduto.cod_ibge
+      .map(c => municipios.find(m => m.cod_ibge === c)?.municipio)
+      .filter(Boolean);
+  }, [adv, municipios]);
+  const dossieRank = useMemo(() => {
+    if (!adv || adv.sem_base) return [];
+    return [...adv.dossie].sort(
+      (a, b) => (a.rank_ataque ?? 1e9) - (b.rank_ataque ?? 1e9),
+    );
+  }, [adv]);
 
   if (loading) return <div style={{ padding: 24, color: 'var(--text-secondary)' }}>Carregando inteligência territorial...</div>;
   if (!data || municipios.length === 0) return <div style={{ padding: 24, color: 'var(--text-secondary)' }}>Sem dados territoriais disponíveis.</div>;
@@ -117,9 +148,10 @@ export default function TerritorioPanel() {
         </div>
       </Card>
 
-      <div style={{ display: 'flex', gap: 6 }}>
+      <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
         <Bt active={modo === 'indicador'} color="#0B3D91" onClick={() => setModo('indicador')}>Indicador</Bt>
         <Bt active={modo === 'tipologia'} color="#0B3D91" onClick={() => setModo('tipologia')}>Tipologia</Bt>
+        <Bt active={modo === 'vulnerabilidade'} color="#b91c1c" onClick={() => setModo('vulnerabilidade')}>Vulnerabilidade do adversário</Bt>
       </div>
 
       {modo === 'indicador' && (
@@ -231,6 +263,97 @@ export default function TerritorioPanel() {
             ))}
           </Card>
         </div>
+      )}
+
+      {modo === 'vulnerabilidade' && (
+        <>
+          {/* seletor de adversário (sem_base desabilitado) */}
+          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
+            <span style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', color: '#8c93a8', minWidth: 92 }}>Adversário</span>
+            {advs.map(a => (
+              <Bt key={a.id} active={advId === a.id} color="#b91c1c"
+                  onClick={() => !a.sem_base && setAdvId(a.id)}
+                  style={a.sem_base ? { opacity: 0.4, cursor: 'not-allowed' } : undefined}
+                  title={a.sem_base ? a.motivo : undefined}>
+                {a.nome}{a.sem_base ? ' (sem base)' : ''}
+              </Bt>
+            ))}
+          </div>
+
+          {!adv && (
+            <Card noHover><div style={{ fontSize: 13, color: 'var(--text-secondary)', padding: 8 }}>
+              Selecione um adversário para ver o reduto eleitoral dele e o desempenho desse reduto nos indicadores de resultado.
+            </div></Card>
+          )}
+
+          {adv && adv.sem_base && (
+            <Card noHover><div style={{ fontSize: 13, color: 'var(--text-secondary)', padding: 8 }}>
+              <strong>{adv.nome}</strong> — sem base eleitoral individual no TSE ({adv.motivo}). Lacuna documentada: não há reduto a cruzar.
+            </div></Card>
+          )}
+
+          {adv && !adv.sem_base && (
+            <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'minmax(0,1.5fr) minmax(0,1fr)', gap: 12 }}>
+              <Card noHover style={{ padding: 0, overflow: 'hidden' }}>
+                <MapContainer center={CENTER_TO} zoom={ZOOM_INITIAL} style={{ height: isMobile ? 380 : 560, width: '100%' }} zoomControl>
+                  <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>' subdomains="abcd" maxZoom={19} />
+                  {valid.map(m => {
+                    const noReduto = redutoSet.has(m.cod_ibge);
+                    const cor = noReduto ? arqCor(adv.arquetipo) : '#cbd5e1';
+                    return (
+                      <CircleMarker key={m.cod_ibge} center={[m.lat, m.lon]}
+                        radius={Math.max(5, Math.min(22, Math.sqrt(m.populacao || 1) / 30))}
+                        pathOptions={{ color: cor, fillColor: cor, fillOpacity: noReduto ? 0.7 : 0.15, weight: noReduto ? 1.4 : 0.6, opacity: noReduto ? 0.95 : 0.4 }}>
+                        <Popup><div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 13 }}>
+                          <strong>{m.municipio}</strong>
+                          <div style={{ fontSize: 12 }}>{noReduto ? 'Reduto do adversário' : 'Fora do reduto'}</div>
+                        </div></Popup>
+                      </CircleMarker>
+                    );
+                  })}
+                </MapContainer>
+              </Card>
+
+              <Card noHover>
+                {/* composto + enquadramento por arquétipo */}
+                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
+                  <div style={{ fontSize: 28, fontWeight: 800, color: arqCor(adv.arquetipo) }}>
+                    {adv.composto_vulnerabilidade ?? '—'}
+                  </div>
+                  <div>
+                    <div style={{ fontSize: 11, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--text-secondary)' }}>Vulnerabilidade territorial (0–100)</div>
+                    <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 8px', borderRadius: 10, background: 'rgba(11,61,145,0.08)', color: arqCor(adv.arquetipo) }}>
+                      {ARQ_ROTULO[adv.arquetipo]}
+                    </span>
+                  </div>
+                </div>
+                <div style={{ fontSize: 11, color: 'var(--text-secondary)', marginBottom: 10, lineHeight: 1.4 }}>
+                  {adv.arquetipo === 'executivo_local'
+                    ? `Governou ${redutoNomes[0] || 'o município'} — indicadores sob responsabilidade de gestão.`
+                    : `Reduto eleitoral (${adv.reduto.n_municipios} municípios onde over-indexa) · base: ${adv.base.cargo} ${adv.base.ano}, ${adv.base.votos_total.toLocaleString('pt-BR')} votos. Leitura de representação, não de gestão.`}
+                </div>
+
+                <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--text-secondary)', marginBottom: 6 }}>
+                  Linhas de ataque (pior → melhor)
+                </div>
+                <div style={{ maxHeight: isMobile ? 320 : 430, overflowY: 'auto' }}>
+                  {dossieRank.map(it => (
+                    <div key={it.chave} style={{ display: 'grid', gridTemplateColumns: '28px 1fr 64px', gap: 6, alignItems: 'center', padding: '6px 4px', borderBottom: '1px solid var(--surface-border)', borderLeft: `3px solid ${nivelCor(it.nivel)}` }}>
+                      <span style={{ fontSize: 12, fontWeight: 700, color: '#8c93a8' }}>{it.rank_ataque ? `#${it.rank_ataque}` : '—'}</span>
+                      <span style={{ minWidth: 0 }}>
+                        <span style={{ fontSize: 13, color: 'var(--text)', display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{it.rotulo}</span>
+                        <span style={{ fontSize: 10, color: '#8c93a8' }}>{it.dominio} · cobertura {it.cobertura}</span>
+                      </span>
+                      <span style={{ fontSize: 12, fontWeight: 700, textAlign: 'right', color: '#1A2744', fontVariantNumeric: 'tabular-nums' }}>
+                        {it.z_reduto == null ? 'sem dado' : `z ${it.z_reduto > 0 ? '+' : ''}${it.z_reduto}`}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </Card>
+            </div>
+          )}
+        </>
       )}
 
       {selMuni && (

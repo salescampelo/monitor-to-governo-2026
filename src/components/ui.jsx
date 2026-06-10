@@ -21,8 +21,8 @@ export const Bd = ({ children, color, bg }) => (
   <span style={{ padding: '3px 8px', borderRadius: 6, fontSize: 10, fontWeight: 700, background: bg || `${color}22`, color }}>{children}</span>
 );
 
-export const Bt = ({ active, color, onClick, children }) => (
-  <button onClick={onClick} style={{ display: 'flex', alignItems: 'center', gap: 4, padding: '8px 14px', minHeight: 44, borderRadius: 20, fontSize: 12, fontWeight: 700, border: active ? `1.5px solid ${color}` : '1.5px solid rgba(26,39,68,0.15)', background: active ? `${color}1a` : 'rgba(26,39,68,0.04)', color: active ? color : '#5A6478', cursor: 'pointer', transition: 'all 0.15s ease', fontFamily: 'inherit' }}>
+export const Bt = ({ active, color, onClick, children, style, title }) => (
+  <button onClick={onClick} title={title} style={{ display: 'flex', alignItems: 'center', gap: 4, padding: '8px 14px', minHeight: 44, borderRadius: 20, fontSize: 12, fontWeight: 700, border: active ? `1.5px solid ${color}` : '1.5px solid rgba(26,39,68,0.15)', background: active ? `${color}1a` : 'rgba(26,39,68,0.04)', color: active ? color : '#5A6478', cursor: 'pointer', transition: 'all 0.15s ease', fontFamily: 'inherit', ...style }}>
     {children}
   </button>
 );
