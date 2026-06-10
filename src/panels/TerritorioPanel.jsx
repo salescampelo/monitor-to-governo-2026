@@ -323,14 +323,14 @@ export default function TerritorioPanel() {
                   <div>
                     <div style={{ fontSize: 11, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--text-secondary)' }}>Vulnerabilidade territorial (0–100)</div>
                     <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 8px', borderRadius: 10, background: 'rgba(11,61,145,0.08)', color: arqCor(adv.arquetipo) }}>
-                      {ARQ_ROTULO[adv.arquetipo]}
+                      {ARQ_ROTULO[adv.arquetipo] || 'Adversário'}
                     </span>
                   </div>
                 </div>
                 <div style={{ fontSize: 11, color: 'var(--text-secondary)', marginBottom: 10, lineHeight: 1.4 }}>
                   {adv.arquetipo === 'executivo_local'
                     ? `Governou ${redutoNomes[0] || 'o município'} — indicadores sob responsabilidade de gestão.`
-                    : `Reduto eleitoral (${adv.reduto.n_municipios} municípios onde over-indexa) · base: ${adv.base.cargo} ${adv.base.ano}, ${adv.base.votos_total.toLocaleString('pt-BR')} votos. Leitura de representação, não de gestão.`}
+                    : `Reduto eleitoral (${adv.reduto.n_municipios} municípios onde over-indexa) · base: ${adv.base.cargo} ${adv.base.ano}, ${(adv.base.votos_total ?? 0).toLocaleString('pt-BR')} votos. Leitura de representação, não de gestão.`}
                 </div>
 
                 <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--text-secondary)', marginBottom: 6 }}>
