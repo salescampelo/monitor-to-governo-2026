@@ -10,6 +10,7 @@ export const URLS = {
   geoElectoral:        `${DATA_BASE}/geo_electoral.json`,
   territorioIndicadores: `${DATA_BASE}/territorio_indicadores.json`,
   territorioSeries:      `${DATA_BASE}/territorio_series.json`,
+  territorioVulnerabilidade: `${DATA_BASE}/territorio_vulnerabilidade.json`,
   radar:               `${DATA_BASE}/radar_vulnerabilidade.json`,
   vetores:             `${DATA_BASE}/vetores_processuais.json`,
   dataQuality:         `${DATA_BASE}/data_quality.json`,

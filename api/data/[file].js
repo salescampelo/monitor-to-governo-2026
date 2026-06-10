@@ -16,6 +16,7 @@ const ALLOWED_FILES = new Set([
   'data_quality.json',
   'territorio_indicadores.json',
   'territorio_series.json',
+  'territorio_vulnerabilidade.json',
 ]);
 
 export default async function handler(req, res) {
