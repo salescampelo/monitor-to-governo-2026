@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-09 23:18",
+  "updated_at": "2026-06-10 13:39",
   "alertas": [
     {
       "adversario_id": "laurez",
       "nome": "Laurez Moreira",
-      "detectado_em": "2026-06-09 23:18",
+      "detectado_em": "2026-06-10 13:39",
       "tipo": "evento_judicial",
       "severidade": 0.15,
       "nivel": "alerta",

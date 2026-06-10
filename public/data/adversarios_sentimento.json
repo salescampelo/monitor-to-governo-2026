@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-06-09 23:18",
+  "updated_at": "2026-06-10 13:39",
   "adversarios": {
     "dorinha": {
-      "total": 58,
-      "positivos": 36,
-      "negativos": 1,
-      "neutros": 21,
-      "sentimento_liquido": 0.603,
-      "relevancia_media": 0.911
+      "total": 45,
+      "positivos": 18,
+      "negativos": 2,
+      "neutros": 25,
+      "sentimento_liquido": 0.356,
+      "relevancia_media": 0.939
     },
     "vicentinho": {
-      "total": 57,
-      "positivos": 37,
-      "negativos": 1,
+      "total": 54,
+      "positivos": 33,
+      "negativos": 2,
       "neutros": 19,
-      "sentimento_liquido": 0.632,
-      "relevancia_media": 0.948
+      "sentimento_liquido": 0.574,
+      "relevancia_media": 0.944
     },
     "laurez": {
-      "total": 41,
-      "positivos": 13,
+      "total": 36,
+      "positivos": 10,
       "negativos": 0,
-      "neutros": 28,
-      "sentimento_liquido": 0.317,
-      "relevancia_media": 0.947
+      "neutros": 26,
+      "sentimento_liquido": 0.278,
+      "relevancia_media": 0.945
     },
     "cinthia": {
-      "total": 10,
-      "positivos": 3,
+      "total": 12,
+      "positivos": 2,
       "negativos": 0,
-      "neutros": 7,
-      "sentimento_liquido": 0.3,
-      "relevancia_media": 0.925
+      "neutros": 10,
+      "sentimento_liquido": 0.167,
+      "relevancia_media": 0.937
     },
     "mourao": {
       "total": 2,
@@ -42,28 +42,28 @@
       "relevancia_media": 0.95
     },
     "katia": {
-      "total": 10,
-      "positivos": 5,
+      "total": 8,
+      "positivos": 3,
       "negativos": 0,
       "neutros": 5,
-      "sentimento_liquido": 0.5,
-      "relevancia_media": 0.942
+      "sentimento_liquido": 0.375,
+      "relevancia_media": 0.928
     },
     "witer": {
-      "total": 4,
+      "total": 5,
       "positivos": 0,
       "negativos": 1,
-      "neutros": 3,
-      "sentimento_liquido": -0.25,
+      "neutros": 4,
+      "sentimento_liquido": -0.2,
       "relevancia_media": 0.815
     },
     "ataides": {
-      "total": 14,
-      "positivos": 4,
+      "total": 10,
+      "positivos": 3,
       "negativos": 1,
-      "neutros": 9,
-      "sentimento_liquido": 0.214,
-      "relevancia_media": 0.899
+      "neutros": 6,
+      "sentimento_liquido": 0.2,
+      "relevancia_media": 0.896
     }
   }
 }
