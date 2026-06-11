@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-06-11 14:05",
+  "updated_at": "2026-06-11 23:18",
   "alertas": [
     {
       "adversario_id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "detectado_em": "2026-06-11 14:05",
+      "detectado_em": "2026-06-11 23:18",
       "tipo": "spike_negativo",
-      "severidade": 0.5931,
+      "severidade": 0.3302,
       "nivel": "alerta",
-      "evidencia": "6 menções negativas em 5 veículo(s) nas últimas 72h (Agência Tocantins, Atitude Tocantins, Blog Luiz Armando Costa, Folha do Jalapão)"
+      "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Atitude Tocantins, Folha do Jalapão)"
     },
     {
       "adversario_id": "laurez",
       "nome": "Laurez Moreira",
-      "detectado_em": "2026-06-11 14:05",
+      "detectado_em": "2026-06-11 23:18",
       "tipo": "evento_judicial",
       "severidade": 0.15,
       "nivel": "alerta",
