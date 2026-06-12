@@ -21,8 +21,11 @@ const DIM_ORDEM = Object.keys(DIM_LABELS);
 export default function ConfrontoPanel({ adversariosData, advMentionsData }) {
   const ranking = useMemo(() => adversariosData?.ranking || [], [adversariosData]);
   const ref = useRef(null);
-  const [idA, setIdA] = useState(ranking[0]?.id);
-  const [idB, setIdB] = useState(ranking[1]?.id);
+  // Guarda só a ESCOLHA do usuário; o id efetivo é derivado no render. O painel
+  // é lazy e pode montar antes do fetch — derivar (em vez de sincronizar via
+  // effect) garante que idA/idB sempre refletem o ranking atual, sem estado obsoleto.
+  const [selA, setSelA] = useState(null);
+  const [selB, setSelB] = useState(null);
 
   const norm = useMemo(() => normalizarDimensoes(ranking), [ranking]);
 
@@ -30,6 +33,8 @@ export default function ConfrontoPanel({ adversariosData, advMentionsData }) {
     return <Card><p style={{ padding: 24 }}>Sem dados de adversários.</p></Card>;
   }
 
+  const idA = ranking.some(r => r.id === selA) ? selA : ranking[0]?.id;
+  const idB = ranking.some(r => r.id === selB) ? selB : (ranking[1]?.id ?? ranking[0]?.id);
   const A = ranking.find(r => r.id === idA);
   const B = ranking.find(r => r.id === idB);
   const mesmaPessoa = idA === idB;
@@ -44,7 +49,7 @@ export default function ConfrontoPanel({ adversariosData, advMentionsData }) {
   const serieB = mencoesPorDia(advMentionsData?.candidatos?.[idB]?.mentions || []);
   const diasUnion = Array.from(new Set([...serieA, ...serieB].map(p => p.dia))).sort();
   const serie = diasUnion.map(dia => ({
-    dia: dia.slice(5),
+    dia,                                  // ISO completo (ordena certo); rótulo via tickFormatter
     A: serieA.find(p => p.dia === dia)?.n ?? 0,
     B: serieB.find(p => p.dia === dia)?.n ?? 0,
   }));
@@ -64,11 +69,11 @@ export default function ConfrontoPanel({ adversariosData, advMentionsData }) {
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
       <div style={{ display: 'flex', gap: 12, alignItems: 'center', flexWrap: 'wrap' }}>
         <GitCompare size={20} color={COR_A} />
-        <select value={idA} onChange={e => setIdA(e.target.value)} aria-label="Adversário A">
+        <select value={idA} onChange={e => setSelA(e.target.value)} aria-label="Adversário A">
           {ranking.map(r => <option key={r.id} value={r.id}>{r.nome}</option>)}
         </select>
         <span style={{ fontWeight: 600 }}>vs</span>
-        <select value={idB} onChange={e => setIdB(e.target.value)} aria-label="Adversário B">
+        <select value={idB} onChange={e => setSelB(e.target.value)} aria-label="Adversário B">
           {ranking.map(r => <option key={r.id} value={r.id}>{r.nome}</option>)}
         </select>
         <Bt onClick={() => exportarDossie(ref.current, `confronto_${idA}_${idB}.pdf`)} title="Exportar dossiê PDF">
@@ -83,8 +88,8 @@ export default function ConfrontoPanel({ adversariosData, advMentionsData }) {
       {!mesmaPessoa && (
         <div ref={ref} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-            <Bd color="#fff" bg={COR_A}>{A?.nome} ({A?.partido})</Bd>
-            <Bd color="#fff" bg={COR_B}>{B?.nome} ({B?.partido})</Bd>
+            <Bd color="#fff" bg={COR_A}>{A?.nome ?? '—'}{A?.partido ? ` (${A.partido})` : ''}</Bd>
+            <Bd color="#fff" bg={COR_B}>{B?.nome ?? '—'}{B?.partido ? ` (${B.partido})` : ''}</Bd>
           </div>
 
           <Card>
@@ -140,7 +145,7 @@ export default function ConfrontoPanel({ adversariosData, advMentionsData }) {
             <div style={{ width: '100%', height: 240 }}>
               <ResponsiveContainer>
                 <LineChart data={serie}>
-                  <XAxis dataKey="dia" tick={{ fontSize: 11 }} />
+                  <XAxis dataKey="dia" tickFormatter={d => (d || '').slice(5)} tick={{ fontSize: 11 }} />
                   <YAxis allowDecimals={false} tick={{ fontSize: 11 }} />
                   <Tooltip />
                   <Legend />

@@ -72,6 +72,19 @@ describe('mencoesPorDia', () => {
     expect(serie.length).toBe(3);
   });
 
+  it('normaliza captured_at com componente de hora (datetime ISO)', () => {
+    const mentions = [
+      { captured_at: '2026-06-10T14:30:00Z' },
+      { captured_at: '2026-06-10T09:00:00Z' },
+      { captured_at: '2026-06-11' },
+    ];
+    const serie = mencoesPorDia(mentions);
+    const por = Object.fromEntries(serie.map(p => [p.dia, p.n]));
+    expect(por['2026-06-10']).toBe(2);   // duas no mesmo dia, horas diferentes
+    expect(por['2026-06-11']).toBe(1);
+    expect(serie.length).toBe(2);
+  });
+
   it('lista vazia -> []', () => {
     expect(mencoesPorDia([])).toEqual([]);
   });

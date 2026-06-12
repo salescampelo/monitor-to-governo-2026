@@ -44,6 +44,7 @@ export function mencoesPorDia(mentions) {
   const dias = mentions
     .map(m => m.captured_at)
     .filter(Boolean)
+    .map(d => String(d).slice(0, 10))   // normaliza 'YYYY-MM-DDTHH:..' -> 'YYYY-MM-DD'
     .sort();
   if (dias.length === 0) return [];
   const cont = {};
