@@ -420,6 +420,11 @@ export default function TerritorioPanel() {
               ))}
             </select>
           </div>
+          {(eroi.adversarios_rollup || []).some(r => r.cobertura === 'sem_base') && (
+            <div style={{ fontSize: 11, color: '#9ca3af' }}>
+              Sem emendas registradas: {(eroi.adversarios_rollup || []).filter(r => r.cobertura === 'sem_base').map(r => r.autor).join(', ')}.
+            </div>
+          )}
           {rollSel && (
             <Card noHover>
               <div style={{ fontSize: 13, fontWeight: 700, color: '#1A2744' }}>{rollSel.autor} · {rollSel.partido}</div>
@@ -476,6 +481,37 @@ export default function TerritorioPanel() {
               </div>
             </Card>
           </div>
+          {selected && (() => {
+            const m = (eroi.municipios || []).find(x => x.cod_ibge === selected);
+            if (!m) return null;
+            const papelTag = { adversario: '', senado: ' · fora da corrida (Senado)', aliado: ' · aliado' };
+            return (
+              <Card noHover>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <strong style={{ fontSize: 16, color: '#1A2744' }}>{m.municipio}</strong>
+                  <button onClick={() => setSelected(null)} style={{ border: 'none', background: 'none', cursor: 'pointer', color: '#5A6478' }}>fechar ✕</button>
+                </div>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 10, marginTop: 10 }}>
+                  <Met icon={BarChart3} label="Emenda 23–26" value={`R$ ${Math.round(m.emenda.valor / 1000)}k`} accent="#0B3D91" compact />
+                  <Met icon={BarChart3} label="Distorção" value={m.distorcao_fiscal.ratio_receita == null ? 'sem base' : `${(m.distorcao_fiscal.ratio_receita * 100).toFixed(1)}%`} accent="#b91c1c" compact />
+                  <Met icon={BarChart3} label="Valor elei. (rank)" value={`#${m.valor_eleitoral.rank}`} accent="#15803d" compact />
+                </div>
+                {m.leverage.flag && (
+                  <div style={{ marginTop: 8, fontSize: 12, color: '#b91c1c', fontWeight: 700 }}>
+                    ⚑ Alavancagem alta — alto valor eleitoral + alta distorção fiscal + recebeu emenda.
+                  </div>
+                )}
+                <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', color: 'var(--text-secondary)', margin: '12px 0 6px' }}>Quem custeou</div>
+                {m.atribuicao.length === 0 && <div style={{ fontSize: 12, color: '#9ca3af' }}>Sem emendas registradas (2023–2026).</div>}
+                {m.atribuicao.map(a => (
+                  <div key={a.autor} style={{ display: 'flex', justifyContent: 'space-between', padding: '4px 0', opacity: a.papel === 'senado' ? 0.55 : 1 }}>
+                    <span style={{ fontSize: 13, color: '#1A2744' }}>{a.autor}{a.partido ? ` (${a.partido})` : ''}{papelTag[a.papel]}</span>
+                    <span style={{ fontSize: 12, fontWeight: 700, fontVariantNumeric: 'tabular-nums' }}>R$ {Math.round(a.valor / 1000)}k · {Math.round((a.share || 0) * 100)}%</span>
+                  </div>
+                ))}
+              </Card>
+            );
+          })()}
         </>
         );
       })()}
