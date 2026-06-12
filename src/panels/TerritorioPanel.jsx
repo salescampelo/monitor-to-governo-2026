@@ -27,6 +27,10 @@ const fetchVuln = import.meta.env.DEV
   ? () => fetch('/data/territorio_vulnerabilidade.json').then(r => (r.ok ? r.json() : null)).catch(() => null)
   : () => fetchJ(URLS.territorioVulnerabilidade);
 
+const fetchEmendaRoi = import.meta.env.DEV
+  ? () => fetch('/data/emenda_roi_municipio.json').then(r => (r.ok ? r.json() : null)).catch(() => null)
+  : () => fetchJ(URLS.emendaRoi);
+
 function Sparkline({ pontos }) {
   if (!pontos || pontos.length < 2) return <span style={{ fontSize: 11, color: '#9ca3af' }}>série indisponível</span>;
   const xs = pontos.map(p => p.ano), ys = pontos.map(p => p.valor);

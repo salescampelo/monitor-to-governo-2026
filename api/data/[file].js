@@ -17,6 +17,7 @@ const ALLOWED_FILES = new Set([
   'territorio_indicadores.json',
   'territorio_series.json',
   'territorio_vulnerabilidade.json',
+  'emenda_roi_municipio.json',
 ]);
 
 export default async function handler(req, res) {
