@@ -1,19 +1,28 @@
 {
-  "updated_at": "2026-06-11 23:18",
+  "updated_at": "2026-06-12 13:01",
   "alertas": [
     {
       "adversario_id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "detectado_em": "2026-06-11 23:18",
+      "detectado_em": "2026-06-12 13:01",
       "tipo": "spike_negativo",
-      "severidade": 0.3302,
+      "severidade": 0.5448,
       "nivel": "alerta",
-      "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Atitude Tocantins, Folha do Jalapão)"
+      "evidencia": "5 menções negativas em 5 veículo(s) nas últimas 72h (Agência Tocantins, Atitude Tocantins, Blog Luiz Armando Costa, Folha do Jalapão)"
+    },
+    {
+      "adversario_id": "dorinha",
+      "nome": "Professora Dorinha Seabra Rezende",
+      "detectado_em": "2026-06-12 13:01",
+      "tipo": "spike_negativo",
+      "severidade": 0.3258,
+      "nivel": "alerta",
+      "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Blog Luiz Armando Costa, Portal O Norte, RR10 Notícias)"
     },
     {
       "adversario_id": "laurez",
       "nome": "Laurez Moreira",
-      "detectado_em": "2026-06-11 23:18",
+      "detectado_em": "2026-06-12 13:01",
       "tipo": "evento_judicial",
       "severidade": 0.15,
       "nivel": "alerta",
@@ -21,10 +30,11 @@
     }
   ],
   "resumo": {
-    "total_alertas": 2,
+    "total_alertas": 3,
     "criticos": 0,
     "por_adversario": {
       "vicentinho": 1,
+      "dorinha": 1,
       "laurez": 1
     }
   }
