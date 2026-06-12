@@ -65,6 +65,25 @@ const ARQ_COR = { executivo_local: '#b91c1c', legislador: '#0B3D91' };
 const arqCor = (a) => ARQ_COR[a] || '#0B3D91';
 const ARQ_ROTULO = { executivo_local: 'Ex-gestor local', legislador: 'Legislador' };
 
+// Rampa sequencial azul p/ magnitudes (emenda, valor eleitoral).
+const seqAzul = (t) => {
+  if (t == null) return '#9ca3af';
+  const c = Math.max(0, Math.min(1, t));
+  const lerp = (a, b) => Math.round(a + (b - a) * c);
+  return `rgb(${lerp(219, 11)},${lerp(234, 61)},${lerp(254, 145)})`; // #dbeafe→#0B3D91
+};
+// Cor de uma célula do modo emenda_roi conforme o eixo ativo.
+function eroiCor(m, eixo, autorSel) {
+  if (autorSel) {
+    const a = (m.emenda?.por_autor || {})[autorSel];
+    return a ? seqAzul(Math.min(1, a / 1)) : '#e5e7eb';
+  }
+  if (eixo === 'distorcao_fiscal') return nivelCor(m.distorcao_fiscal?.nivel);
+  if (eixo === 'leverage') return m.leverage?.flag ? '#b91c1c' : seqAzul(m.leverage?.score);
+  if (eixo === 'emenda') return seqAzul(m.emenda?.norm);
+  return seqAzul(m.valor_eleitoral?.norm); // valor_eleitoral
+}
+
 export default function TerritorioPanel() {
   const isMobile = useWW() < 768;
   const [data, setData] = useState(null);
@@ -74,6 +93,9 @@ export default function TerritorioPanel() {
   const [modo, setModo] = useState('indicador'); // 'indicador' | 'tipologia' | 'vulnerabilidade'
   const [vuln, setVuln] = useState(null);
   const [advId, setAdvId] = useState(null);
+  const [eroi, setEroi] = useState(null);
+  const [eixo, setEixo] = useState('leverage');   // emenda|distorcao_fiscal|valor_eleitoral|leverage
+  const [autorSel, setAutorSel] = useState(null); // overlay por adversário
 
   useEffect(() => {
     fetchInd().then(setData).catch(() => null).finally(() => setLoading(false));
@@ -83,6 +105,7 @@ export default function TerritorioPanel() {
   useEffect(() => { fetchSeries().then(setSeries).catch(() => null); }, []);
 
   useEffect(() => { fetchVuln().then(setVuln).catch(() => null); }, []);
+  useEffect(() => { fetchEmendaRoi().then(setEroi).catch(() => null); }, []);
 
   const municipios = useMemo(() => data?.municipios || [], [data]);
   const selMuni = useMemo(() => municipios.find(m => m.cod_ibge === selected), [municipios, selected]);
@@ -156,6 +179,7 @@ export default function TerritorioPanel() {
         <Bt active={modo === 'indicador'} color="#0B3D91" onClick={() => setModo('indicador')}>Indicador</Bt>
         <Bt active={modo === 'tipologia'} color="#0B3D91" onClick={() => setModo('tipologia')}>Tipologia</Bt>
         <Bt active={modo === 'vulnerabilidade'} color="#b91c1c" onClick={() => setModo('vulnerabilidade')}>Vulnerabilidade do adversário</Bt>
+        <Bt active={modo === 'emenda_roi'} color="#0B3D91" onClick={() => setModo('emenda_roi')}>Emenda × ROI × Fiscal</Bt>
       </div>
 
       {modo === 'indicador' && (
@@ -358,6 +382,104 @@ export default function TerritorioPanel() {
             </div>
           )}
         </>
+      )}
+
+      {modo === 'emenda_roi' && (
+      <>
+      {!eroi && <Card noHover><div style={{ padding: 16, color: 'var(--text-secondary)' }}>Carregando emenda × ROI × fiscal...</div></Card>}
+      {eroi && (() => {
+        const muns = eroi.municipios || [];
+        const validE = muns.filter(m => typeof m.lat === 'number' && typeof m.lon === 'number');
+        const EIXOS = [
+          { k: 'leverage', r: 'Alavancagem' }, { k: 'emenda', r: 'Emenda recebida' },
+          { k: 'distorcao_fiscal', r: 'Distorção fiscal' }, { k: 'valor_eleitoral', r: 'Valor eleitoral' },
+        ];
+        const valEixo = (m) => (
+          eixo === 'emenda' ? m.emenda?.valor :
+          eixo === 'distorcao_fiscal' ? m.distorcao_fiscal?.ratio_receita :
+          eixo === 'valor_eleitoral' ? m.valor_eleitoral?.valor : m.leverage?.score
+        );
+        const ranqE = [...muns].sort((a, b) => (valEixo(b) ?? -1) - (valEixo(a) ?? -1));
+        const autores = eroi.adversarios_rollup || [];
+        const rollSel = autores.find(r => r.autor === autorSel);
+        return (
+        <>
+          <div style={{ fontSize: 11, color: 'var(--text-secondary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+            Emendas {eroi.emenda_janela} · base fiscal {eroi.fiscal_ano_base} · vermelho = maior distorção/alavancagem
+          </div>
+          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+            {EIXOS.map(e => (
+              <Bt key={e.k} active={eixo === e.k && !autorSel} color="#0B3D91"
+                  onClick={() => { setEixo(e.k); setAutorSel(null); }}>{e.r}</Bt>
+            ))}
+            <select value={autorSel || ''} onChange={ev => setAutorSel(ev.target.value || null)}
+                    style={{ fontSize: 12, padding: '4px 8px', borderRadius: 8, border: '1px solid #cbd5e1' }}>
+              <option value="">— sobrepor adversário —</option>
+              {autores.filter(r => r.cobertura === 'presente').map(r => (
+                <option key={r.perfil_id} value={r.autor}>{r.autor}</option>
+              ))}
+            </select>
+          </div>
+          {rollSel && (
+            <Card noHover>
+              <div style={{ fontSize: 13, fontWeight: 700, color: '#1A2744' }}>{rollSel.autor} · {rollSel.partido}</div>
+              <div style={{ fontSize: 12, color: '#5A6478', marginTop: 4 }}>
+                {rollSel.n_municipios} municípios · R$ {Math.round(rollSel.emenda_total).toLocaleString('pt-BR')} ·
+                {' '}{Math.round((rollSel.pct_em_alto_valor_eleitoral || 0) * 100)}% em alto valor eleitoral ·
+                {' '}{Math.round((rollSel.pct_em_alta_distorcao || 0) * 100)}% em alta distorção
+              </div>
+            </Card>
+          )}
+          <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'minmax(0,1.5fr) minmax(0,1fr)', gap: 12 }}>
+            <Card noHover style={{ padding: 0, overflow: 'hidden' }}>
+              <MapContainer center={CENTER_TO} zoom={ZOOM_INITIAL} style={{ height: isMobile ? 380 : 560, width: '100%' }} zoomControl>
+                <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+                  attribution='&copy; OpenStreetMap &copy; CARTO' subdomains="abcd" maxZoom={19} />
+                {validE.map(m => {
+                  const cor = eroiCor(m, eixo, autorSel);
+                  return (
+                    <CircleMarker key={m.cod_ibge} center={[m.lat, m.lon]}
+                      radius={Math.max(5, Math.min(22, Math.sqrt(m.populacao || 1) / 30))}
+                      eventHandlers={{ click: () => setSelected(m.cod_ibge) }}
+                      pathOptions={{ color: cor, fillColor: cor, fillOpacity: 0.65, weight: 1.2, opacity: 0.9 }}>
+                      <Popup maxWidth={300} minWidth={240}>
+                        <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 13, color: '#1A2744' }}>
+                          <strong style={{ fontSize: 15 }}>{m.municipio}</strong>
+                          <div style={{ fontSize: 12, marginTop: 6 }}>Emenda 23–26: <strong>R$ {Math.round(m.emenda.valor).toLocaleString('pt-BR')}</strong></div>
+                          <div style={{ fontSize: 12 }}>Distorção: <strong>{m.distorcao_fiscal.ratio_receita == null ? 'sem base fiscal' : `${(m.distorcao_fiscal.ratio_receita * 100).toFixed(1)}% da receita`}</strong></div>
+                          <div style={{ fontSize: 12 }}>Valor eleitoral: <strong>#{m.valor_eleitoral.rank}</strong></div>
+                          {m.leverage.flag && <div style={{ fontSize: 12, color: '#b91c1c', fontWeight: 700 }}>⚑ Alavancagem alta</div>}
+                        </div>
+                      </Popup>
+                    </CircleMarker>
+                  );
+                })}
+              </MapContainer>
+            </Card>
+            <Card noHover>
+              <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--text-secondary)', marginBottom: 10 }}>
+                Maior → menor · {EIXOS.find(e => e.k === eixo)?.r}
+              </div>
+              <div style={{ maxHeight: isMobile ? 360 : 510, overflowY: 'auto' }}>
+                {ranqE.map(m => (
+                  <div key={m.cod_ibge} onClick={() => setSelected(m.cod_ibge)}
+                       style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 8px', cursor: 'pointer', borderBottom: '1px solid #f1f5f9' }}>
+                    <span style={{ fontSize: 13, color: '#1A2744' }}>{m.municipio}{m.leverage.flag ? ' ⚑' : ''}</span>
+                    <span style={{ fontSize: 12, fontWeight: 700, color: '#1A2744', fontVariantNumeric: 'tabular-nums' }}>
+                      {eixo === 'emenda' ? `R$ ${Math.round(m.emenda.valor / 1000)}k`
+                        : eixo === 'distorcao_fiscal' ? (m.distorcao_fiscal.ratio_receita == null ? '—' : `${(m.distorcao_fiscal.ratio_receita * 100).toFixed(1)}%`)
+                        : eixo === 'valor_eleitoral' ? (m.valor_eleitoral.norm ?? '—')
+                        : (m.leverage.score ?? '—')}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </Card>
+          </div>
+        </>
+        );
+      })()}
+      </>
       )}
 
       {selMuni && (
