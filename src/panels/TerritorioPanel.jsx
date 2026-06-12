@@ -73,10 +73,10 @@ const seqAzul = (t) => {
   return `rgb(${lerp(219, 11)},${lerp(234, 61)},${lerp(254, 145)})`; // #dbeafe→#0B3D91
 };
 // Cor de uma célula do modo emenda_roi conforme o eixo ativo.
-function eroiCor(m, eixo, autorSel) {
+function eroiCor(m, eixo, autorSel, maxAutorVal = 1) {
   if (autorSel) {
     const a = (m.emenda?.por_autor || {})[autorSel];
-    return a ? seqAzul(Math.min(1, a / 1)) : '#e5e7eb';
+    return a ? seqAzul(maxAutorVal > 0 ? a / maxAutorVal : 1) : '#e5e7eb';
   }
   if (eixo === 'distorcao_fiscal') return nivelCor(m.distorcao_fiscal?.nivel);
   if (eixo === 'leverage') return m.leverage?.flag ? '#b91c1c' : seqAzul(m.leverage?.score);
@@ -400,6 +400,9 @@ export default function TerritorioPanel() {
           eixo === 'valor_eleitoral' ? m.valor_eleitoral?.valor : m.leverage?.score
         );
         const ranqE = [...muns].sort((a, b) => (valEixo(b) ?? -1) - (valEixo(a) ?? -1));
+        const maxAutor = autorSel
+          ? Math.max(1, ...muns.map(mm => (mm.emenda?.por_autor || {})[autorSel] || 0))
+          : 1;
         const autores = eroi.adversarios_rollup || [];
         const rollSel = autores.find(r => r.autor === autorSel);
         return (
@@ -427,7 +430,7 @@ export default function TerritorioPanel() {
           )}
           {rollSel && (
             <Card noHover>
-              <div style={{ fontSize: 13, fontWeight: 700, color: '#1A2744' }}>{rollSel.autor} · {rollSel.partido}</div>
+              <div style={{ fontSize: 13, fontWeight: 700, color: '#1A2744' }}>{rollSel.autor}{rollSel.partido ? ` · ${rollSel.partido}` : ''}</div>
               <div style={{ fontSize: 12, color: '#5A6478', marginTop: 4 }}>
                 {rollSel.n_municipios} municípios · R$ {Math.round(rollSel.emenda_total).toLocaleString('pt-BR')} ·
                 {' '}{Math.round((rollSel.pct_em_alto_valor_eleitoral || 0) * 100)}% em alto valor eleitoral ·
@@ -441,7 +444,7 @@ export default function TerritorioPanel() {
                 <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
                   attribution='&copy; OpenStreetMap &copy; CARTO' subdomains="abcd" maxZoom={19} />
                 {validE.map(m => {
-                  const cor = eroiCor(m, eixo, autorSel);
+                  const cor = eroiCor(m, eixo, autorSel, maxAutor);
                   return (
                     <CircleMarker key={m.cod_ibge} center={[m.lat, m.lon]}
                       radius={Math.max(5, Math.min(22, Math.sqrt(m.populacao || 1) / 30))}
@@ -450,7 +453,7 @@ export default function TerritorioPanel() {
                       <Popup maxWidth={300} minWidth={240}>
                         <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 13, color: '#1A2744' }}>
                           <strong style={{ fontSize: 15 }}>{m.municipio}</strong>
-                          <div style={{ fontSize: 12, marginTop: 6 }}>Emenda 23–26: <strong>R$ {Math.round(m.emenda.valor).toLocaleString('pt-BR')}</strong></div>
+                          <div style={{ fontSize: 12, marginTop: 6 }}>Emenda 23–26: <strong>R$ {Math.round(m.emenda?.valor ?? 0).toLocaleString('pt-BR')}</strong></div>
                           <div style={{ fontSize: 12 }}>Distorção: <strong>{m.distorcao_fiscal.ratio_receita == null ? 'sem base fiscal' : `${(m.distorcao_fiscal.ratio_receita * 100).toFixed(1)}% da receita`}</strong></div>
                           <div style={{ fontSize: 12 }}>Valor eleitoral: <strong>#{m.valor_eleitoral.rank}</strong></div>
                           {m.leverage.flag && <div style={{ fontSize: 12, color: '#b91c1c', fontWeight: 700 }}>⚑ Alavancagem alta</div>}
@@ -471,9 +474,9 @@ export default function TerritorioPanel() {
                        style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 8px', cursor: 'pointer', borderBottom: '1px solid #f1f5f9' }}>
                     <span style={{ fontSize: 13, color: '#1A2744' }}>{m.municipio}{m.leverage.flag ? ' ⚑' : ''}</span>
                     <span style={{ fontSize: 12, fontWeight: 700, color: '#1A2744', fontVariantNumeric: 'tabular-nums' }}>
-                      {eixo === 'emenda' ? `R$ ${Math.round(m.emenda.valor / 1000)}k`
+                      {eixo === 'emenda' ? `R$ ${Math.round((m.emenda?.valor ?? 0) / 1000)}k`
                         : eixo === 'distorcao_fiscal' ? (m.distorcao_fiscal.ratio_receita == null ? '—' : `${(m.distorcao_fiscal.ratio_receita * 100).toFixed(1)}%`)
-                        : eixo === 'valor_eleitoral' ? (m.valor_eleitoral.norm ?? '—')
+                        : eixo === 'valor_eleitoral' ? (m.valor_eleitoral?.rank ? `#${m.valor_eleitoral.rank}` : '—')
                         : (m.leverage.score ?? '—')}
                     </span>
                   </div>
@@ -492,7 +495,7 @@ export default function TerritorioPanel() {
                   <button onClick={() => setSelected(null)} style={{ border: 'none', background: 'none', cursor: 'pointer', color: '#5A6478' }}>fechar ✕</button>
                 </div>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 10, marginTop: 10 }}>
-                  <Met icon={BarChart3} label="Emenda 23–26" value={`R$ ${Math.round(m.emenda.valor / 1000)}k`} accent="#0B3D91" compact />
+                  <Met icon={BarChart3} label="Emenda 23–26" value={`R$ ${Math.round((m.emenda?.valor ?? 0) / 1000)}k`} accent="#0B3D91" compact />
                   <Met icon={BarChart3} label="Distorção" value={m.distorcao_fiscal.ratio_receita == null ? 'sem base' : `${(m.distorcao_fiscal.ratio_receita * 100).toFixed(1)}%`} accent="#b91c1c" compact />
                   <Met icon={BarChart3} label="Valor elei. (rank)" value={`#${m.valor_eleitoral.rank}`} accent="#15803d" compact />
                 </div>
@@ -502,9 +505,9 @@ export default function TerritorioPanel() {
                   </div>
                 )}
                 <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', color: 'var(--text-secondary)', margin: '12px 0 6px' }}>Quem custeou</div>
-                {m.atribuicao.length === 0 && <div style={{ fontSize: 12, color: '#9ca3af' }}>Sem emendas registradas (2023–2026).</div>}
-                {m.atribuicao.map(a => (
-                  <div key={a.autor} style={{ display: 'flex', justifyContent: 'space-between', padding: '4px 0', opacity: a.papel === 'senado' ? 0.55 : 1 }}>
+                {(m.atribuicao?.length ?? 0) === 0 && <div style={{ fontSize: 12, color: '#9ca3af' }}>Sem emendas registradas (2023–2026).</div>}
+                {(m.atribuicao ?? []).map(a => (
+                  <div key={`${a.autor}_${a.papel}`} style={{ display: 'flex', justifyContent: 'space-between', padding: '4px 0', opacity: a.papel === 'senado' ? 0.55 : 1 }}>
                     <span style={{ fontSize: 13, color: '#1A2744' }}>{a.autor}{a.partido ? ` (${a.partido})` : ''}{papelTag[a.papel]}</span>
                     <span style={{ fontSize: 12, fontWeight: 700, fontVariantNumeric: 'tabular-nums' }}>R$ {Math.round(a.valor / 1000)}k · {Math.round((a.share || 0) * 100)}%</span>
                   </div>
@@ -518,7 +521,7 @@ export default function TerritorioPanel() {
       </>
       )}
 
-      {selMuni && (
+      {selMuni && modo !== 'emenda_roi' && (
         <Card noHover>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
             <strong style={{ fontSize: 16, color: 'var(--text)' }}>{selMuni.municipio}</strong>
