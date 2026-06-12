@@ -1,5 +1,5 @@
 {
-  "data_atualizacao": "2026-06-12 13:01",
+  "data_atualizacao": "2026-06-12 23:13",
   "cargo": "Governador",
   "estado": "Tocantins",
   "vagas": 1,
@@ -28,7 +28,7 @@
       "capital_positivo": 0.619,
       "trajetoria_eleitoral": 0.7,
       "firepower_financeiro": 1.0,
-      "sentimento_liquido": 0.3,
+      "sentimento_liquido": 0.589,
       "chapa": {
         "vice": {
           "nome": null,
@@ -78,8 +78,8 @@
         }
       ],
       "ranking_caveat": null,
-      "score": 69.8,
-      "nivel_dinamico": "média",
+      "score": 70.6,
+      "nivel_dinamico": "alta",
       "confidence": 0.708,
       "confidence_dims": {
         "votos_2022": 1.0,
@@ -118,7 +118,7 @@
       "capital_positivo": 0.37,
       "trajetoria_eleitoral": 0.3,
       "firepower_financeiro": 0.718,
-      "sentimento_liquido": 0.333,
+      "sentimento_liquido": 0.357,
       "chapa": {},
       "cargo_pretendido_status": "incerto",
       "trust_score": 1.0,
@@ -126,7 +126,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": "candidatura governador é cenário B; Senado é cenário A",
-      "score": 52.8,
+      "score": 52.9,
       "nivel_dinamico": "média",
       "confidence": 0.708,
       "confidence_dims": {
@@ -166,7 +166,7 @@
       "capital_positivo": 0.444,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.852,
-      "sentimento_liquido": 0.172,
+      "sentimento_liquido": 0.362,
       "chapa": {
         "vice": {
           "nome": "Amélio Cayres",
@@ -194,7 +194,7 @@
       "trust_score_revisao": "2026-06-04",
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 44.8,
+      "score": 45.4,
       "nivel_dinamico": "média",
       "confidence": 0.708,
       "confidence_dims": {
@@ -293,7 +293,7 @@
       "capital_positivo": 0.486,
       "trajetoria_eleitoral": 0.1,
       "firepower_financeiro": 0.556,
-      "sentimento_liquido": 0.2,
+      "sentimento_liquido": 0.167,
       "chapa": {
         "vice": {
           "nome": null,
@@ -311,7 +311,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 36.7,
+      "score": 36.6,
       "nivel_dinamico": "baixa",
       "confidence": 0.708,
       "confidence_dims": {
@@ -351,7 +351,7 @@
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.0,
-      "sentimento_liquido": 0.333,
+      "sentimento_liquido": 0.273,
       "chapa": {
         "vice": {
           "nome": null,
@@ -388,7 +388,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 28.8,
+      "score": 28.6,
       "nivel_dinamico": "baixa",
       "confidence": 0.369,
       "confidence_dims": {
@@ -526,8 +526,8 @@
   ],
   "total_candidatos": 7,
   "stats": {
-    "forca_alta": 0,
-    "forca_media": 3,
+    "forca_alta": 1,
+    "forca_media": 2,
     "forca_baixa": 4,
     "confidence_media": 0.606
   }

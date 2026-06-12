@@ -1,28 +1,64 @@
 {
-  "updated_at": "2026-06-12 13:01",
+  "updated_at": "2026-06-12 23:13",
   "alertas": [
-    {
-      "adversario_id": "vicentinho",
-      "nome": "Vicentinho Júnior",
-      "detectado_em": "2026-06-12 13:01",
-      "tipo": "spike_negativo",
-      "severidade": 0.5448,
-      "nivel": "alerta",
-      "evidencia": "5 menções negativas em 5 veículo(s) nas últimas 72h (Agência Tocantins, Atitude Tocantins, Blog Luiz Armando Costa, Folha do Jalapão)"
-    },
     {
       "adversario_id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "detectado_em": "2026-06-12 13:01",
-      "tipo": "spike_negativo",
-      "severidade": 0.3258,
+      "detectado_em": "2026-06-12 23:13",
+      "tipo": "concentracao_doadores",
+      "severidade": 0.947,
+      "nivel": "critico",
+      "evidencia": "Base financeira concentrada: top-3 doadores = 95% das doações (firepower 1.00) → exposição de captura 0.95"
+    },
+    {
+      "adversario_id": "vicentinho",
+      "nome": "Vicentinho Júnior",
+      "detectado_em": "2026-06-12 23:13",
+      "tipo": "concentracao_doadores",
+      "severidade": 0.7532,
+      "nivel": "critico",
+      "evidencia": "Base financeira concentrada: top-3 doadores = 88% das doações (firepower 0.85) → exposição de captura 0.75"
+    },
+    {
+      "adversario_id": "katia",
+      "nome": "Kátia Abreu",
+      "detectado_em": "2026-06-12 23:13",
+      "tipo": "concentracao_doadores",
+      "severidade": 0.7123,
+      "nivel": "critico",
+      "evidencia": "Base financeira concentrada: top-3 doadores = 99% das doações (firepower 0.72) → exposição de captura 0.71"
+    },
+    {
+      "adversario_id": "mourao",
+      "nome": "Paulo Mourão",
+      "detectado_em": "2026-06-12 23:13",
+      "tipo": "concentracao_doadores",
+      "severidade": 0.6823,
       "nivel": "alerta",
-      "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Blog Luiz Armando Costa, Portal O Norte, RR10 Notícias)"
+      "evidencia": "Base financeira concentrada: top-3 doadores = 99% das doações (firepower 0.69) → exposição de captura 0.68"
+    },
+    {
+      "adversario_id": "ataides",
+      "nome": "Ataídes Oliveira",
+      "detectado_em": "2026-06-12 23:13",
+      "tipo": "concentracao_doadores",
+      "severidade": 0.5265,
+      "nivel": "alerta",
+      "evidencia": "Base financeira concentrada: top-3 doadores = 95% das doações (firepower 0.56) → exposição de captura 0.53"
+    },
+    {
+      "adversario_id": "vicentinho",
+      "nome": "Vicentinho Júnior",
+      "detectado_em": "2026-06-12 23:13",
+      "tipo": "spike_negativo",
+      "severidade": 0.4751,
+      "nivel": "alerta",
+      "evidencia": "5 menções negativas em 4 veículo(s) nas últimas 72h (Blog Luiz Armando Costa, Folha do Jalapão, Jornal Opção Tocantins, Portal O Norte)"
     },
     {
       "adversario_id": "laurez",
       "nome": "Laurez Moreira",
-      "detectado_em": "2026-06-12 13:01",
+      "detectado_em": "2026-06-12 23:13",
       "tipo": "evento_judicial",
       "severidade": 0.15,
       "nivel": "alerta",
@@ -30,11 +66,14 @@
     }
   ],
   "resumo": {
-    "total_alertas": 3,
-    "criticos": 0,
+    "total_alertas": 7,
+    "criticos": 3,
     "por_adversario": {
-      "vicentinho": 1,
       "dorinha": 1,
+      "vicentinho": 2,
+      "katia": 1,
+      "mourao": 1,
+      "ataides": 1,
       "laurez": 1
     }
   }
