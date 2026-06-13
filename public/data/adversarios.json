@@ -1,5 +1,5 @@
 {
-  "data_atualizacao": "2026-06-13 19:52",
+  "data_atualizacao": "2026-06-13 23:00",
   "cargo": "Governador",
   "estado": "Tocantins",
   "vagas": 1,
@@ -28,7 +28,7 @@
       "capital_positivo": 0.619,
       "trajetoria_eleitoral": 0.7,
       "firepower_financeiro": 1.0,
-      "sentimento_liquido": 0.417,
+      "sentimento_liquido": 0.34,
       "chapa": {
         "vice": {
           "nome": null,
@@ -78,8 +78,8 @@
         }
       ],
       "ranking_caveat": null,
-      "score": 70.1,
-      "nivel_dinamico": "alta",
+      "score": 69.9,
+      "nivel_dinamico": "média",
       "confidence": 0.708,
       "confidence_dims": {
         "votos_2022": 1.0,
@@ -351,7 +351,7 @@
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.0,
-      "sentimento_liquido": 0.425,
+      "sentimento_liquido": 0.395,
       "chapa": {
         "vice": {
           "nome": null,
@@ -388,7 +388,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 29.1,
+      "score": 29.0,
       "nivel_dinamico": "baixa",
       "confidence": 0.369,
       "confidence_dims": {
@@ -526,8 +526,8 @@
   ],
   "total_candidatos": 7,
   "stats": {
-    "forca_alta": 1,
-    "forca_media": 2,
+    "forca_alta": 0,
+    "forca_media": 3,
     "forca_baixa": 4,
     "confidence_media": 0.606
   }
