@@ -1,7 +1,8 @@
 import { Card } from '../components/ui.jsx';
 import { useWW, fmtK } from '../lib/ui-helpers.js';
 import ConfidenceBadge, { ConfidenceDims } from '../components/ConfidenceBadge.jsx';
-import { Target, Newspaper, Eye, AlertTriangle } from 'lucide-react';
+import { Target, Newspaper, Eye, AlertTriangle, Download } from 'lucide-react';
+import { baixarCSV } from '../lib/csv.js';
 
 const FORCA_C = {
   alta:  { bg: 'rgba(239,68,68,0.1)',  c: '#ef4444' },
@@ -72,6 +73,12 @@ export default function InteligenciaCompetitivaPanel({ adversariosData, advMenti
   const { ranking = [], stats = {}, nomes_fronteira = [], total_candidatos, vagas, data_atualizacao, desistentes = [] } = adversariosData;
   const candidatos = advMentionsData?.candidatos || {};
 
+  const exportarRanking = () => {
+    const headers = ['id', 'nome', 'partido', 'bloco', 'score', 'votos_2022',
+      'taxa_engajamento_pct', 'sentimento_liquido', 'nivel_dinamico'];
+    baixarCSV('ranking_adversarios.csv', ranking, headers);
+  };
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
       {/* Header */}
@@ -100,7 +107,21 @@ export default function InteligenciaCompetitivaPanel({ adversariosData, advMenti
       <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'minmax(0,2fr) minmax(0,1fr)', gap: 20 }}>
         {/* Left: Horizontal Bar Chart */}
         <Card>
-          <SectionTitle icon={Target}>Ranking de Força Eleitoral</SectionTitle>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <SectionTitle icon={Target}>Ranking de Força Eleitoral</SectionTitle>
+            <button
+              onClick={exportarRanking}
+              title="Exportar ranking em CSV"
+              style={{
+                display: 'flex', alignItems: 'center', gap: 5, padding: '5px 10px',
+                borderRadius: 8, fontSize: 11, fontWeight: 700, cursor: 'pointer',
+                border: '1.5px solid rgba(26,39,68,0.15)', background: 'rgba(26,39,68,0.04)',
+                color: '#5A6478', fontFamily: 'inherit',
+              }}
+            >
+              <Download size={13} /> CSV
+            </button>
+          </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
             {ranking.map((c) => {
               const fc = FORCA_C[c.nivel_dinamico] || FORCA_C.baixa;

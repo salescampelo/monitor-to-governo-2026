@@ -3,8 +3,9 @@ import { useEffect, useMemo, useState } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { Map as MapIcon, BarChart3 } from 'lucide-react';
+import { Map as MapIcon, BarChart3, Download } from 'lucide-react';
 import { Card, Met, Bt } from '../components/ui.jsx';
+import { baixarCSV } from '../lib/csv.js';
 import { useWW } from '../lib/ui-helpers.js';
 import { fetchJ, URLS } from '../lib/fetch.js';
 
@@ -106,6 +107,19 @@ export default function TerritorioPanel() {
 
   useEffect(() => { fetchVuln().then(setVuln).catch(() => null); }, []);
   useEffect(() => { fetchEmendaRoi().then(setEroi).catch(() => null); }, []);
+
+  const exportarEmendaCSV = () => {
+    const linhas = (eroi?.municipios || []).map(m => ({
+      cod_ibge: m.cod_ibge,
+      municipio: m.municipio,
+      emenda_valor: m.emenda?.valor ?? 0,
+      distorcao_ratio: m.distorcao_fiscal?.ratio_receita ?? '',
+      valor_eleitoral_rank: m.valor_eleitoral?.rank ?? '',
+      leverage_flag: m.leverage?.flag ? 1 : 0,
+    }));
+    baixarCSV('emenda_roi_municipios.csv', linhas,
+      ['cod_ibge', 'municipio', 'emenda_valor', 'distorcao_ratio', 'valor_eleitoral_rank', 'leverage_flag']);
+  };
 
   const municipios = useMemo(() => data?.municipios || [], [data]);
   const selMuni = useMemo(() => municipios.find(m => m.cod_ibge === selected), [municipios, selected]);
@@ -386,6 +400,13 @@ export default function TerritorioPanel() {
 
       {modo === 'emenda_roi' && (
       <>
+      {eroi && (
+        <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+          <Bt color="#0B3D91" onClick={exportarEmendaCSV} title="Exportar municípios (emenda × ROI × fiscal) em CSV">
+            <Download size={13} /> CSV
+          </Bt>
+        </div>
+      )}
       {!eroi && <Card noHover><div style={{ padding: 16, color: 'var(--text-secondary)' }}>Carregando emenda × ROI × fiscal...</div></Card>}
       {eroi && (() => {
         const muns = eroi.municipios || [];

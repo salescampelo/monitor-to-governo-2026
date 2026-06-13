@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from 'react';
 import { supabase } from './lib/supabase.js';
 import { fetchJ, URLS } from './lib/fetch.js';
 import { CONFIG } from './lib/config.js';
@@ -12,7 +12,11 @@ import GeografiaPanel from './panels/GeografiaPanel.jsx';
 import RadarPanel from './panels/RadarPanel.jsx';
 import CoberturaPanel from './panels/CoberturaPanel.jsx';
 import TerritorioPanel from './panels/TerritorioPanel.jsx';
-import { Target, Users, MapPin, Radar, ShieldCheck, Map as MapaIcon } from 'lucide-react';
+import { Target, Users, MapPin, Radar, ShieldCheck, Map as MapaIcon, GitCompare } from 'lucide-react';
+
+// Lazy: ConfrontoPanel puxa recharts (~grande). Code-split mantém-no fora do
+// bundle principal — só baixa quando a aba Confronto é aberta.
+const ConfrontoPanel = lazy(() => import('./panels/ConfrontoPanel.jsx'));
 
 export default function App() {
   const [session, setSession] = useState(undefined);
@@ -124,6 +128,7 @@ export default function App() {
         <div style={{ display: 'flex', gap: 8, marginBottom: 20 }}>
           {[
             { key: 'inteligencia', label: 'Inteligência Competitiva', icon: Target },
+            { key: 'confronto', label: 'Confronto', icon: GitCompare },
             { key: 'radar', label: 'Radar', icon: Radar },
             { key: 'geografia', label: 'Geografia', icon: MapPin },
             { key: 'territorio', label: 'Território', icon: MapaIcon },
@@ -157,6 +162,14 @@ export default function App() {
           ) : (
             <PanelSkeleton rows={8} />
           )
+        )}
+        {activePanel === 'confronto' && (
+          <Suspense fallback={<PanelSkeleton rows={8} />}>
+            <ConfrontoPanel
+              adversariosData={adversariosData}
+              advMentionsData={advMentionsData}
+            />
+          </Suspense>
         )}
         {activePanel === 'radar' && <RadarPanel />}
         {activePanel === 'geografia' && <GeografiaPanel />}
