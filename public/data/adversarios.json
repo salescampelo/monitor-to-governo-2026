@@ -1,5 +1,5 @@
 {
-  "data_atualizacao": "2026-06-13 23:00",
+  "data_atualizacao": "2026-06-14 12:03",
   "cargo": "Governador",
   "estado": "Tocantins",
   "vagas": 1,
@@ -28,7 +28,7 @@
       "capital_positivo": 0.619,
       "trajetoria_eleitoral": 0.7,
       "firepower_financeiro": 1.0,
-      "sentimento_liquido": 0.34,
+      "sentimento_liquido": 0.308,
       "chapa": {
         "vice": {
           "nome": null,
@@ -78,7 +78,7 @@
         }
       ],
       "ranking_caveat": null,
-      "score": 69.9,
+      "score": 69.8,
       "nivel_dinamico": "média",
       "confidence": 0.708,
       "confidence_dims": {
@@ -166,7 +166,7 @@
       "capital_positivo": 0.444,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.852,
-      "sentimento_liquido": 0.448,
+      "sentimento_liquido": 0.453,
       "chapa": {
         "vice": {
           "nome": "Amélio Cayres",
@@ -212,65 +212,6 @@
       "ranking": 3
     },
     {
-      "id": "mourao",
-      "username": "paulomouraopt",
-      "nome": "Paulo Mourão",
-      "partido": "PT",
-      "bloco": "Esquerda",
-      "cargo_label": "Candidato PT",
-      "nivel_base": "média",
-      "descricao": "Candidato natural da esquerda no Tocantins. Cargo final (Governo ou Senado) depende do PT nacional.",
-      "abreviacao": "PM",
-      "seguidores": 0,
-      "taxa_engajamento_pct": 0,
-      "media_likes_recentes": 0,
-      "data_coleta": "",
-      "votos_2022": 88143,
-      "cargo_2022": "governo",
-      "sobreposicao": 0.813,
-      "is_mandato_atual": false,
-      "severidade_processual": 0.0,
-      "vetor_doadores": 0.0,
-      "capital_positivo": 0.0,
-      "trajetoria_eleitoral": 0.1,
-      "firepower_financeiro": 0.692,
-      "sentimento_liquido": 0.2,
-      "chapa": {
-        "vice": {
-          "nome": null,
-          "status": "n/a — cargo do candidato indefinido"
-        },
-        "senado": [],
-        "coligacao": [
-          "PT",
-          "PV",
-          "PCdoB (federação)"
-        ]
-      },
-      "cargo_pretendido_status": "indefinido",
-      "trust_score": 1.0,
-      "trust_score_motivo": null,
-      "trust_score_revisao": null,
-      "vetor_reputacional_recente": [],
-      "ranking_caveat": null,
-      "score": 37.8,
-      "nivel_dinamico": "baixa",
-      "confidence": 0.694,
-      "confidence_dims": {
-        "votos_2022": 1.0,
-        "seguidores": 0.0,
-        "sobreposicao": 0.85,
-        "nivel_base": 1.0,
-        "engajamento": 0.0,
-        "mandato": 1.0,
-        "severidade": 0.9,
-        "vetor_doadores": 1.0,
-        "capital_positivo": 0.5,
-        "trajetoria": 0.85
-      },
-      "ranking": 4
-    },
-    {
       "id": "ataides",
       "username": "ataides.oliveira",
       "nome": "Ataídes Oliveira",
@@ -293,7 +234,7 @@
       "capital_positivo": 0.486,
       "trajetoria_eleitoral": 0.1,
       "firepower_financeiro": 0.556,
-      "sentimento_liquido": 0.5,
+      "sentimento_liquido": 0.667,
       "chapa": {
         "vice": {
           "nome": null,
@@ -311,7 +252,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 37.6,
+      "score": 38.1,
       "nivel_dinamico": "baixa",
       "confidence": 0.708,
       "confidence_dims": {
@@ -324,6 +265,65 @@
         "severidade": 0.9,
         "vetor_doadores": 1.0,
         "capital_positivo": 0.85,
+        "trajetoria": 0.85
+      },
+      "ranking": 4
+    },
+    {
+      "id": "mourao",
+      "username": "paulomouraopt",
+      "nome": "Paulo Mourão",
+      "partido": "PT",
+      "bloco": "Esquerda",
+      "cargo_label": "Candidato PT",
+      "nivel_base": "média",
+      "descricao": "Candidato natural da esquerda no Tocantins. Cargo final (Governo ou Senado) depende do PT nacional.",
+      "abreviacao": "PM",
+      "seguidores": 0,
+      "taxa_engajamento_pct": 0,
+      "media_likes_recentes": 0,
+      "data_coleta": "",
+      "votos_2022": 88143,
+      "cargo_2022": "governo",
+      "sobreposicao": 0.813,
+      "is_mandato_atual": false,
+      "severidade_processual": 0.0,
+      "vetor_doadores": 0.0,
+      "capital_positivo": 0.0,
+      "trajetoria_eleitoral": 0.1,
+      "firepower_financeiro": 0.692,
+      "sentimento_liquido": 0.167,
+      "chapa": {
+        "vice": {
+          "nome": null,
+          "status": "n/a — cargo do candidato indefinido"
+        },
+        "senado": [],
+        "coligacao": [
+          "PT",
+          "PV",
+          "PCdoB (federação)"
+        ]
+      },
+      "cargo_pretendido_status": "indefinido",
+      "trust_score": 1.0,
+      "trust_score_motivo": null,
+      "trust_score_revisao": null,
+      "vetor_reputacional_recente": [],
+      "ranking_caveat": null,
+      "score": 37.7,
+      "nivel_dinamico": "baixa",
+      "confidence": 0.694,
+      "confidence_dims": {
+        "votos_2022": 1.0,
+        "seguidores": 0.0,
+        "sobreposicao": 0.85,
+        "nivel_base": 1.0,
+        "engajamento": 0.0,
+        "mandato": 1.0,
+        "severidade": 0.9,
+        "vetor_doadores": 1.0,
+        "capital_positivo": 0.5,
         "trajetoria": 0.85
       },
       "ranking": 5
