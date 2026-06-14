@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-14 16:15",
-  "fonte": "adversarios.json (2026-06-14 16:15)",
+  "updated_at": "2026-06-14 16:21",
+  "fonte": "adversarios.json (2026-06-14 16:21)",
   "n_candidatos": 7,
-  "confidence_media": 0.606,
-  "dimensao_valor_mais_fraca": "seguidores",
+  "confidence_media": 0.785,
+  "dimensao_valor_mais_fraca": "capital_positivo",
   "dimensoes": [
     {
       "dim": "votos_2022",
@@ -18,10 +18,10 @@
       "dim": "seguidores",
       "peso": 0.15,
       "tipo": "valor",
-      "com_sinal": 0,
+      "com_sinal": 5,
       "n": 7,
-      "cobertura_pct": 0.0,
-      "conf_media": 0.0
+      "cobertura_pct": 71.4,
+      "conf_media": 0.714
     },
     {
       "dim": "sobreposicao",
@@ -45,10 +45,10 @@
       "dim": "engajamento",
       "peso": 0.1,
       "tipo": "valor",
-      "com_sinal": 0,
+      "com_sinal": 5,
       "n": 7,
-      "cobertura_pct": 0.0,
-      "conf_media": 0.0
+      "cobertura_pct": 71.4,
+      "conf_media": 0.714
     },
     {
       "dim": "mandato",
@@ -102,28 +102,29 @@
     {
       "id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "confidence": 0.708,
-      "dims_fracas": [
-        "seguidores",
-        "engajamento"
-      ]
+      "confidence": 0.958,
+      "dims_fracas": []
     },
     {
       "id": "katia",
       "nome": "Kátia Abreu",
-      "confidence": 0.708,
-      "dims_fracas": [
-        "seguidores",
-        "engajamento"
-      ]
+      "confidence": 0.958,
+      "dims_fracas": []
     },
     {
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "confidence": 0.708,
+      "confidence": 0.958,
+      "dims_fracas": []
+    },
+    {
+      "id": "laurez",
+      "nome": "Laurez Moreira",
+      "confidence": 0.619,
       "dims_fracas": [
-        "seguidores",
-        "engajamento"
+        "sobreposicao",
+        "votos_2022",
+        "trajetoria"
       ]
     },
     {
@@ -145,25 +146,11 @@
       ]
     },
     {
-      "id": "laurez",
-      "nome": "Laurez Moreira",
-      "confidence": 0.369,
-      "dims_fracas": [
-        "seguidores",
-        "sobreposicao",
-        "engajamento",
-        "votos_2022",
-        "trajetoria"
-      ]
-    },
-    {
       "id": "witer",
       "nome": "Witer Naves",
-      "confidence": 0.349,
+      "confidence": 0.599,
       "dims_fracas": [
-        "seguidores",
         "sobreposicao",
-        "engajamento",
         "votos_2022",
         "trajetoria"
       ]
