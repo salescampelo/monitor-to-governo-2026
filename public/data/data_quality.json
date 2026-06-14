@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-14 12:03",
-  "fonte": "adversarios.json (2026-06-14 12:03)",
+  "updated_at": "2026-06-14 15:57",
+  "fonte": "adversarios.json (2026-06-14 15:57)",
   "n_candidatos": 7,
   "confidence_media": 0.606,
   "dimensao_valor_mais_fraca": "seguidores",
@@ -127,18 +127,18 @@
       ]
     },
     {
-      "id": "ataides",
-      "nome": "Ataídes Oliveira",
-      "confidence": 0.708,
+      "id": "mourao",
+      "nome": "Paulo Mourão",
+      "confidence": 0.694,
       "dims_fracas": [
         "seguidores",
         "engajamento"
       ]
     },
     {
-      "id": "mourao",
-      "nome": "Paulo Mourão",
-      "confidence": 0.694,
+      "id": "ataides",
+      "nome": "Ataídes Oliveira",
+      "confidence": 0.708,
       "dims_fracas": [
         "seguidores",
         "engajamento"
