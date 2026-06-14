@@ -1,5 +1,5 @@
 {
-  "data_atualizacao": "2026-06-14 16:31",
+  "data_atualizacao": "2026-06-14 23:04",
   "cargo": "Governador",
   "estado": "Tocantins",
   "vagas": 1,
@@ -28,7 +28,7 @@
       "capital_positivo": 0.619,
       "trajetoria_eleitoral": 0.7,
       "firepower_financeiro": 1.0,
-      "sentimento_liquido": 0.652,
+      "sentimento_liquido": 0.63,
       "chapa": {
         "vice": {
           "nome": null,
@@ -118,7 +118,7 @@
       "capital_positivo": 0.37,
       "trajetoria_eleitoral": 0.3,
       "firepower_financeiro": 0.718,
-      "sentimento_liquido": 0.474,
+      "sentimento_liquido": 0.5,
       "chapa": {},
       "cargo_pretendido_status": "incerto",
       "trust_score": 1.0,
@@ -126,7 +126,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": "candidatura governador é cenário B; Senado é cenário A",
-      "score": 62.5,
+      "score": 62.6,
       "nivel_dinamico": "média",
       "confidence": 0.958,
       "confidence_dims": {
@@ -166,7 +166,7 @@
       "capital_positivo": 0.444,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.852,
-      "sentimento_liquido": 0.597,
+      "sentimento_liquido": 0.582,
       "chapa": {
         "vice": {
           "nome": "Amélio Cayres",
@@ -234,7 +234,7 @@
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.0,
-      "sentimento_liquido": 0.444,
+      "sentimento_liquido": 0.464,
       "chapa": {
         "vice": {
           "nome": null,
