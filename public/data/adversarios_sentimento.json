@@ -1,69 +1,69 @@
 {
-  "updated_at": "2026-06-16 15:16",
+  "updated_at": "2026-06-16 23:23",
   "adversarios": {
     "dorinha": {
-      "total": 43,
-      "positivos": 29,
-      "negativos": 0,
-      "neutros": 14,
-      "sentimento_liquido": 0.674,
-      "relevancia_media": 0.96
-    },
-    "vicentinho": {
-      "total": 62,
-      "positivos": 35,
-      "negativos": 5,
-      "neutros": 22,
-      "sentimento_liquido": 0.484,
-      "relevancia_media": 0.942
-    },
-    "laurez": {
-      "total": 27,
-      "positivos": 14,
+      "total": 33,
+      "positivos": 20,
       "negativos": 0,
       "neutros": 13,
-      "sentimento_liquido": 0.519,
-      "relevancia_media": 0.941
+      "sentimento_liquido": 0.606,
+      "relevancia_media": 0.94
+    },
+    "vicentinho": {
+      "total": 42,
+      "positivos": 19,
+      "negativos": 2,
+      "neutros": 21,
+      "sentimento_liquido": 0.405,
+      "relevancia_media": 0.925
+    },
+    "laurez": {
+      "total": 30,
+      "positivos": 16,
+      "negativos": 0,
+      "neutros": 14,
+      "sentimento_liquido": 0.533,
+      "relevancia_media": 0.947
     },
     "cinthia": {
-      "total": 8,
-      "positivos": 5,
-      "negativos": 0,
-      "neutros": 3,
-      "sentimento_liquido": 0.625,
-      "relevancia_media": 0.917
+      "total": 5,
+      "positivos": 2,
+      "negativos": 1,
+      "neutros": 2,
+      "sentimento_liquido": 0.2,
+      "relevancia_media": 0.905
     },
     "mourao": {
-      "total": 8,
-      "positivos": 2,
+      "total": 9,
+      "positivos": 5,
       "negativos": 0,
-      "neutros": 6,
-      "sentimento_liquido": 0.25,
-      "relevancia_media": 0.944
+      "neutros": 4,
+      "sentimento_liquido": 0.556,
+      "relevancia_media": 0.956
     },
     "katia": {
       "total": 13,
-      "positivos": 6,
-      "negativos": 0,
-      "neutros": 7,
+      "positivos": 7,
+      "negativos": 1,
+      "neutros": 5,
       "sentimento_liquido": 0.462,
-      "relevancia_media": 0.934
+      "relevancia_media": 0.935
     },
     "witer": {
-      "total": 3,
-      "positivos": 1,
+      "total": 2,
+      "positivos": 0,
       "negativos": 0,
       "neutros": 2,
-      "sentimento_liquido": 0.333,
-      "relevancia_media": 0.967
+      "sentimento_liquido": 0.0,
+      "relevancia_media": 0.913
     },
     "ataides": {
-      "total": 3,
-      "positivos": 2,
+      "total": 4,
+      "positivos": 1,
       "negativos": 1,
-      "neutros": 0,
-      "sentimento_liquido": 0.333,
-      "relevancia_media": 0.937
+      "neutros": 2,
+      "sentimento_liquido": 0.0,
+      "relevancia_media": 0.862
     }
   }
 }
