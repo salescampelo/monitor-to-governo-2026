@@ -12,11 +12,12 @@ import GeografiaPanel from './panels/GeografiaPanel.jsx';
 import RadarPanel from './panels/RadarPanel.jsx';
 import CoberturaPanel from './panels/CoberturaPanel.jsx';
 import TerritorioPanel from './panels/TerritorioPanel.jsx';
-import { Target, Users, MapPin, Radar, ShieldCheck, Map as MapaIcon, GitCompare } from 'lucide-react';
+import { Target, Users, MapPin, Radar, ShieldCheck, Map as MapaIcon, GitCompare, TrendingUp } from 'lucide-react';
 
 // Lazy: ConfrontoPanel puxa recharts (~grande). Code-split mantém-no fora do
 // bundle principal — só baixa quando a aba Confronto é aberta.
 const ConfrontoPanel = lazy(() => import('./panels/ConfrontoPanel.jsx'));
+const TendenciasPanel = lazy(() => import('./panels/TendenciasPanel.jsx'));
 
 export default function App() {
   const [session, setSession] = useState(undefined);
@@ -129,6 +130,7 @@ export default function App() {
           {[
             { key: 'inteligencia', label: 'Inteligência Competitiva', icon: Target },
             { key: 'confronto', label: 'Confronto', icon: GitCompare },
+            { key: 'tendencias', label: 'Tendências', icon: TrendingUp },
             { key: 'radar', label: 'Radar', icon: Radar },
             { key: 'geografia', label: 'Geografia', icon: MapPin },
             { key: 'territorio', label: 'Território', icon: MapaIcon },
@@ -169,6 +171,11 @@ export default function App() {
               adversariosData={adversariosData}
               advMentionsData={advMentionsData}
             />
+          </Suspense>
+        )}
+        {activePanel === 'tendencias' && (
+          <Suspense fallback={<PanelSkeleton rows={8} />}>
+            <TendenciasPanel />
           </Suspense>
         )}
         {activePanel === 'radar' && <RadarPanel />}
