@@ -15,6 +15,7 @@ export const URLS = {
   radar:               `${DATA_BASE}/radar_vulnerabilidade.json`,
   vetores:             `${DATA_BASE}/vetores_processuais.json`,
   dataQuality:         `${DATA_BASE}/data_quality.json`,
+  historico:           `${DATA_BASE}/historico.json`,
 };
 
 const FETCH_TIMEOUT = 10000;
