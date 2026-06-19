@@ -11,8 +11,8 @@ describe('parsePanel', () => {
     expect(parsePanel('')).toBe(DEFAULT_PANEL);
     expect(parsePanel('?foo=bar')).toBe(DEFAULT_PANEL);
   });
-  it('todas as 8 abas são reconhecidas', () => {
-    expect(VALID_PANELS.size).toBe(8);
+  it('todas as 9 abas são reconhecidas', () => {
+    expect(VALID_PANELS.size).toBe(9);
     for (const p of VALID_PANELS) expect(parsePanel(`?panel=${p}`)).toBe(p);
   });
 });

@@ -5,6 +5,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Map as MapIcon, BarChart3, Download } from 'lucide-react';
 import { Card, Met, Bt } from '../components/ui.jsx';
+import SnapshotBadge from '../components/SnapshotBadge.jsx';
 import { baixarCSV } from '../lib/csv.js';
 import { useWW } from '../lib/ui-helpers.js';
 import { fetchJ, URLS } from '../lib/fetch.js';
@@ -185,7 +186,7 @@ export default function TerritorioPanel() {
               </p>
             </div>
           </div>
-          <span style={{ fontSize: 11, color: 'var(--text-secondary)' }}>Atualizado em {data.data_atualizacao || '—'}</span>
+          <SnapshotBadge dataAtualizacao={data.data_atualizacao} />
         </div>
       </Card>
 

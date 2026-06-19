@@ -16,6 +16,8 @@ export const URLS = {
   vetores:             `${DATA_BASE}/vetores_processuais.json`,
   dataQuality:         `${DATA_BASE}/data_quality.json`,
   historico:           `${DATA_BASE}/historico.json`,
+  pesquisas:           `${DATA_BASE}/pesquisas_serie_governador.json`,
+  narrativa:           `${DATA_BASE}/narrativa_movimento.json`,
 };
 
 const FETCH_TIMEOUT = 10000;

@@ -19,6 +19,8 @@ const ALLOWED_FILES = new Set([
   'territorio_vulnerabilidade.json',
   'emenda_roi_municipio.json',
   'historico.json',
+  'pesquisas_serie_governador.json',
+  'narrativa_movimento.json',
 ]);
 
 export default async function handler(req, res) {

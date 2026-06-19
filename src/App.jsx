@@ -12,13 +12,15 @@ import { ErrorBoundary } from './components/ErrorBoundary.jsx';
 import LoginScreen from './components/LoginScreen.jsx';
 import AppHeader from './components/AppHeader.jsx';
 import BottomNav from './components/BottomNav.jsx';
+import EstadoCorridaFaixa from './components/EstadoCorridaFaixa.jsx';
 import InteligenciaCompetitivaPanel from './panels/InteligenciaCompetitivaPanel.jsx';
 import VicesPanel from './panels/VicesPanel.jsx';
 import GeografiaPanel from './panels/GeografiaPanel.jsx';
 import RadarPanel from './panels/RadarPanel.jsx';
 import CoberturaPanel from './panels/CoberturaPanel.jsx';
 import TerritorioPanel from './panels/TerritorioPanel.jsx';
-import { Target, Users, MapPin, Radar, ShieldCheck, Map as MapaIcon, GitCompare, TrendingUp } from 'lucide-react';
+import NarrativaPanel from './panels/NarrativaPanel.jsx';
+import { Target, Users, MapPin, Radar, ShieldCheck, Map as MapaIcon, GitCompare, TrendingUp, MessageSquareText } from 'lucide-react';
 
 // Lazy: ConfrontoPanel/TendenciasPanel puxam recharts (~grande). Code-split mantém-nos
 // fora do bundle principal — só baixam quando a aba é aberta.
@@ -34,6 +36,7 @@ const TABS = [
   { key: 'inteligencia', label: 'Inteligência Competitiva', icon: Target },
   { key: 'confronto',    label: 'Confronto',  icon: GitCompare },
   { key: 'tendencias',   label: 'Tendências', icon: TrendingUp },
+  { key: 'narrativa',    label: 'Narrativa',  icon: MessageSquareText },
   { key: 'radar',        label: 'Radar',      icon: Radar },
   { key: 'geografia',    label: 'Geografia',  icon: MapPin },
   { key: 'territorio',   label: 'Território', icon: MapaIcon },
@@ -47,6 +50,8 @@ export default function App() {
   const [adversariosData, setAdversariosData] = useState(null);
   const [advMentionsData, setAdvMentionsData] = useState(null);
   const [radarData, setRadarData] = useState(null);
+  const [pesquisasData, setPesquisasData] = useState(null);
+  const [narrativaData, setNarrativaData] = useState(null);
   const [refreshing, setRefreshing] = useState(false);
   const [activePanel, setActivePanel] = useState(() => getPanelFromUrl()); // Fase C: hidrata do deep-link
   const isMobile = useWW() < 768;
@@ -75,14 +80,18 @@ export default function App() {
       const fetcher = import.meta.env.DEV
         ? (u) => fetch(u).then(r => r.ok ? r.json() : null).catch(() => null)
         : fetchJ;
-      const [adv, advM, radar] = await Promise.all([
+      const [adv, advM, radar, pesq, narr] = await Promise.all([
         fetcher(URLS.adversarios),
         fetcher(URLS.adversariosMentions),
         fetcher(URLS.radar),
+        fetcher(URLS.pesquisas),
+        fetcher(URLS.narrativa),
       ]);
       if (adv) setAdversariosData(adv);
       if (advM) setAdvMentionsData(advM);
       if (radar) setRadarData(radar);
+      if (pesq) setPesquisasData(pesq);
+      if (narr) setNarrativaData(narr);
     } catch (err) {
       if (err.message?.includes('Sessão expirada')) {
         await supabase.auth.signOut();
@@ -111,6 +120,8 @@ export default function App() {
     setAdversariosData(null);
     setAdvMentionsData(null);
     setRadarData(null);
+    setPesquisasData(null);
+    setNarrativaData(null);
   };
 
   const daysToElection = useMemo(() => {
@@ -191,6 +202,7 @@ export default function App() {
 
         {activePanel === 'inteligencia' && (
           <SafePanel>
+            <EstadoCorridaFaixa pesquisasData={pesquisasData} />
             {adversariosData
               ? <InteligenciaCompetitivaPanel adversariosData={adversariosData} advMentionsData={advMentionsData} />
               : <PanelSkeleton rows={8} />}
@@ -198,6 +210,7 @@ export default function App() {
         )}
         {activePanel === 'confronto'  && <SafePanel><ConfrontoPanel adversariosData={adversariosData} advMentionsData={advMentionsData} /></SafePanel>}
         {activePanel === 'tendencias' && <SafePanel><TendenciasPanel /></SafePanel>}
+        {activePanel === 'narrativa'  && <SafePanel><NarrativaPanel narrativaData={narrativaData} /></SafePanel>}
         {activePanel === 'radar'      && <SafePanel><RadarPanel /></SafePanel>}
         {activePanel === 'geografia'  && <SafePanel><GeografiaPanel /></SafePanel>}
         {activePanel === 'territorio' && <SafePanel><TerritorioPanel /></SafePanel>}
