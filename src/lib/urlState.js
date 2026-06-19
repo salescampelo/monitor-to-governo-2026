@@ -4,7 +4,7 @@
 // ser testavel em node sem window; wrappers finos tocam window/history.
 
 export const VALID_PANELS = new Set([
-  'inteligencia', 'confronto', 'tendencias', 'narrativa', 'radar',
+  'inteligencia', 'confronto', 'tendencias', 'narrativa', 'imprensa', 'radar',
   'geografia', 'territorio', 'cobertura', 'vices',
 ]);
 export const DEFAULT_PANEL = 'inteligencia';

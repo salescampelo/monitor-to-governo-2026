@@ -20,7 +20,8 @@ import RadarPanel from './panels/RadarPanel.jsx';
 import CoberturaPanel from './panels/CoberturaPanel.jsx';
 import TerritorioPanel from './panels/TerritorioPanel.jsx';
 import NarrativaPanel from './panels/NarrativaPanel.jsx';
-import { Target, Users, MapPin, Radar, ShieldCheck, Map as MapaIcon, GitCompare, TrendingUp, MessageSquareText } from 'lucide-react';
+import ImprensaPanel from './panels/ImprensaPanel.jsx';
+import { Target, Users, MapPin, Radar, ShieldCheck, Map as MapaIcon, GitCompare, TrendingUp, MessageSquareText, Newspaper } from 'lucide-react';
 
 // Lazy: ConfrontoPanel/TendenciasPanel puxam recharts (~grande). Code-split mantém-nos
 // fora do bundle principal — só baixam quando a aba é aberta.
@@ -37,6 +38,7 @@ const TABS = [
   { key: 'confronto',    label: 'Confronto',  icon: GitCompare },
   { key: 'tendencias',   label: 'Tendências', icon: TrendingUp },
   { key: 'narrativa',    label: 'Narrativa',  icon: MessageSquareText },
+  { key: 'imprensa',     label: 'Imprensa',   icon: Newspaper },
   { key: 'radar',        label: 'Radar',      icon: Radar },
   { key: 'geografia',    label: 'Geografia',  icon: MapPin },
   { key: 'territorio',   label: 'Território', icon: MapaIcon },
@@ -211,6 +213,7 @@ export default function App() {
         {activePanel === 'confronto'  && <SafePanel><ConfrontoPanel adversariosData={adversariosData} advMentionsData={advMentionsData} /></SafePanel>}
         {activePanel === 'tendencias' && <SafePanel><TendenciasPanel /></SafePanel>}
         {activePanel === 'narrativa'  && <SafePanel><NarrativaPanel narrativaData={narrativaData} /></SafePanel>}
+        {activePanel === 'imprensa'   && <SafePanel><ImprensaPanel advMentionsData={advMentionsData} /></SafePanel>}
         {activePanel === 'radar'      && <SafePanel><RadarPanel /></SafePanel>}
         {activePanel === 'geografia'  && <SafePanel><GeografiaPanel /></SafePanel>}
         {activePanel === 'territorio' && <SafePanel><TerritorioPanel /></SafePanel>}

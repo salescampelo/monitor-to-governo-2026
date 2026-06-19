@@ -5,7 +5,9 @@ const DATA_BASE = '/api/data';
 export const URLS = {
   adversarios:         `${DATA_BASE}/adversarios.json`,
   adversariosMentions: `${DATA_BASE}/adversarios_mentions.json`,
-  social:              `${DATA_BASE}/social_metrics.json`,
+  // social_metrics.json NÃO é exposto: hoje tem 1 só data de coleta (usá-lo como série
+  // fabricaria tendência). A série real de seguidores/engajamento vive em historico.json
+  // e é plotada por TendenciasPanel. Religar como 2ª fonte só com >=2 datas acumuladas.
   vices:               `${DATA_BASE}/vices_config.json`,
   geoElectoral:        `${DATA_BASE}/geo_electoral.json`,
   territorioIndicadores: `${DATA_BASE}/territorio_indicadores.json`,

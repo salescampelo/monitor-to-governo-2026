@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {
   Target, GitCompare, TrendingUp, Radar,
-  MapPin, Map as MapaIcon, ShieldCheck, Users, MoreHorizontal, X, MessageSquareText,
+  MapPin, Map as MapaIcon, ShieldCheck, Users, MoreHorizontal, X, MessageSquareText, Newspaper,
 } from 'lucide-react';
 
 // Portado do monitor-pmto, sem prop-types e sem ADMIN_TABS (a majoritaria nao tem
@@ -16,6 +16,7 @@ const PRIMARY_TABS = [
 
 const MORE_TABS = [
   { id: 'narrativa',  label: 'Narrativa',  icon: MessageSquareText },
+  { id: 'imprensa',   label: 'Imprensa',   icon: Newspaper },
   { id: 'geografia',  label: 'Geografia',  icon: MapPin },
   { id: 'territorio', label: 'Território', icon: MapaIcon },
   { id: 'cobertura',  label: 'Cobertura',  icon: ShieldCheck },
