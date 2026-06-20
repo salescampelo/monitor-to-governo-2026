@@ -23,7 +23,10 @@ export function achatarMencoes(data) {
   const out = [];
   for (const [id, c] of Object.entries(cands)) {
     for (const m of (c.mentions || [])) {
-      out.push({ ...m, adversario_id: id, adversario_nome: c.nome || id, dia: _dia(m.published), ts: _ts(m.published) });
+      // C9: menção de portal pode não ter `published` — cai p/ captured_at, senão
+      // somem do gráfico de volume/dia e vão para o fim da ordenação.
+      const quando = m.published || m.captured_at;
+      out.push({ ...m, adversario_id: id, adversario_nome: c.nome || id, dia: _dia(quando), ts: _ts(quando) });
     }
   }
   return out;
@@ -38,7 +41,9 @@ export function aplicarFiltros(mencoes, f = FILTRO_INICIAL) {
       (f.sentimento === 'all' || m.sentimento === f.sentimento) &&
       (f.escopo === 'all' || m.escopo === f.escopo) &&
       (f.tipo === 'all' || m.tipo === f.tipo) &&
-      (f.relevancia === 'all' || String(m.relevancia_rotulo || '').toUpperCase() === 'DIRETA'))
+      // C6: respeita o valor real de f.relevancia em vez de hardcodar 'DIRETA' —
+      // evita bomba-relógio quando um novo valor de filtro for adicionado.
+      (f.relevancia === 'all' || (f.relevancia === 'direta' && String(m.relevancia_rotulo || '').toUpperCase() === 'DIRETA')))
     .sort((a, b) => b.ts - a.ts);
 }
 

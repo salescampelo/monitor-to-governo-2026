@@ -66,7 +66,7 @@ export default function App() {
       setUserEmail('dev@localhost');
       return;
     }
-    supabase.auth.getSession().then(({ data: { session: s } }) => setSession(s));
+    supabase.auth.getSession().then(({ data: { session: s } }) => { setSession(s); if (s) setUserEmail(s.user?.email ?? null); });
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, s) => {
       setSession(s);
       if (s) setUserEmail(s.user?.email);

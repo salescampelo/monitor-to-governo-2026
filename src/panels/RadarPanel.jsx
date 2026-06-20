@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
-import { Radar, AlertTriangle, Scale, TrendingDown, Newspaper } from 'lucide-react';
+import { Radar, AlertTriangle, Scale, TrendingDown, Newspaper, DollarSign } from 'lucide-react';
 import { Card, Met, Bd } from '../components/ui.jsx';
 import { useWW } from '../lib/ui-helpers.js';
 import { fetchJ, URLS } from '../lib/fetch.js';
@@ -20,6 +20,7 @@ const TIPO_CFG = {
   spike_negativo: { icon: Newspaper, label: 'Pico negativo', cor: '#B91C1C' },
   evento_judicial: { icon: Scale, label: 'Evento judicial', cor: '#7C3AED' },
   queda_engajamento: { icon: TrendingDown, label: 'Queda de engajamento', cor: '#0891B2' },
+  concentracao_doadores: { icon: DollarSign, label: 'Concentração de doadores', cor: '#92400E' },
 };
 const tipoCfg = (t) => TIPO_CFG[t] || { icon: AlertTriangle, label: t || '—', cor: '#64748b' };
 

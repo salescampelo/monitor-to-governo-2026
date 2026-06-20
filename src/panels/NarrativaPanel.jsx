@@ -8,11 +8,15 @@ import { tomLabel, sentimentoPct, nivelCor } from '../lib/narrativa.js';
 // resposta (isso reintroduziria candidato proprio). Sem PII: só manchetes/links.
 const SENT_COR = { Positivo: '#22c55e', Negativo: '#ef4444', Neutro: '#94a3b8' };
 
-const fmtData = (s) => (s ? s.replace(/^(\d{4})-(\d{2})-(\d{2}).*/, '$3/$2') : '');
+const fmtData = (s) => (s ? s.replace(/^(\d{4})-(\d{2})-(\d{2}).*/, '$3/$2/$1') : '');
 
 function AdversarioCard({ a, janela }) {
-  const pct = sentimentoPct(a.sentimento);
-  const tom = tomLabel(a.tom_liquido);
+  // C18: o card rotula a seção como "últimos {janela}d", então barra/chip/contagens
+  // usam o sentimento DA JANELA (campos _recente, já emitidos), não o agregado all-time.
+  // Fallback p/ all-time se um JSON antigo não trouxer os campos _recente.
+  const sr = a.sentimento_recente || a.sentimento;
+  const pct = sentimentoPct(sr);
+  const tom = tomLabel(a.tom_liquido_recente ?? a.tom_liquido);
   return (
     <Card style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 8 }}>
@@ -36,9 +40,9 @@ function AdversarioCard({ a, janela }) {
             <div style={{ width: `${pct.neg}%`, background: SENT_COR.Negativo }} />
           </div>
           <div style={{ display: 'flex', gap: 12, marginTop: 5, fontSize: 10, color: '#6B7280' }}>
-            <span style={{ color: SENT_COR.Positivo, fontWeight: 700 }}>{a.sentimento.positivo} pos</span>
-            <span style={{ fontWeight: 700 }}>{a.sentimento.neutro} neutro</span>
-            <span style={{ color: SENT_COR.Negativo, fontWeight: 700 }}>{a.sentimento.negativo} neg</span>
+            <span style={{ color: SENT_COR.Positivo, fontWeight: 700 }}>{sr.positivo} pos</span>
+            <span style={{ fontWeight: 700 }}>{sr.neutro} neutro</span>
+            <span style={{ color: SENT_COR.Negativo, fontWeight: 700 }}>{sr.negativo} neg</span>
           </div>
         </div>
       )}

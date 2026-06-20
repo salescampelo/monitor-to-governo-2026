@@ -27,6 +27,13 @@ describe('achatarMencoes', () => {
     expect(achatarMencoes(null)).toEqual([]);
     expect(achatarMencoes({ candidatos: {} })).toEqual([]);
   });
+  it('C9: menção sem published cai para captured_at (não some do volume/dia)', () => {
+    const ms = achatarMencoes({ candidatos: { x: { nome: 'X', mentions: [
+      { title: 'P', source: 'G', captured_at: '2026-06-12', hash: 'hp' }, // só captured_at
+    ] } } });
+    expect(ms[0].dia).toBe('2026-06-12');
+    expect(ms[0].ts).toBeGreaterThan(0);
+  });
 });
 
 describe('aplicarFiltros', () => {
