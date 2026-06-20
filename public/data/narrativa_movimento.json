@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-20 12:03",
+  "updated_at": "2026-06-20 23:03",
   "janela_dias": 7,
   "principio": "Movimento de narrativa DESCRITIVO: sentimento derivado de titulos de imprensa publica (classificador POS/NEG/Neutro) + alertas do radar. Sem PII de terceiros (sem autor/usuario/comentario privado).",
   "adversarios": [
     {
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "total_mencoes": 54,
-      "recentes": 54,
+      "total_mencoes": 49,
+      "recentes": 49,
       "sentimento": {
-        "positivo": 20,
-        "negativo": 3,
-        "neutro": 31
+        "positivo": 21,
+        "negativo": 4,
+        "neutro": 24
       },
       "sentimento_recente": {
-        "positivo": 20,
-        "negativo": 3,
-        "neutro": 31
+        "positivo": 21,
+        "negativo": 4,
+        "neutro": 24
       },
-      "tom_liquido": 0.315,
-      "tom_liquido_recente": 0.315,
+      "tom_liquido": 0.347,
+      "tom_liquido_recente": 0.347,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -30,7 +30,7 @@
         {
           "tipo": "spike_negativo",
           "nivel": "alerta",
-          "severidade": 0.4735,
+          "severidade": 0.4756,
           "evidencia": "5 menções negativas em 4 veículo(s) nas últimas 72h (Agência Tocantins, Folha do Jalapão, Jornal Opção | Tocantins, Portal O Norte)"
         }
       ],
@@ -61,20 +61,20 @@
     {
       "id": "ataides",
       "nome": "Ataídes Oliveira",
-      "total_mencoes": 33,
-      "recentes": 33,
+      "total_mencoes": 18,
+      "recentes": 18,
       "sentimento": {
-        "positivo": 4,
+        "positivo": 3,
         "negativo": 3,
-        "neutro": 26
+        "neutro": 12
       },
       "sentimento_recente": {
-        "positivo": 4,
+        "positivo": 3,
         "negativo": 3,
-        "neutro": 26
+        "neutro": 12
       },
-      "tom_liquido": 0.03,
-      "tom_liquido_recente": 0.03,
+      "tom_liquido": 0.0,
+      "tom_liquido_recente": 0.0,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -85,28 +85,28 @@
         {
           "tipo": "spike_negativo",
           "nivel": "alerta",
-          "severidade": 0.3253,
-          "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Blog Luiz Armando Costa, Portal O Norte)"
+          "severidade": 0.3746,
+          "evidencia": "4 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Blog Luiz Armando Costa, Portal O Norte)"
         }
       ],
       "destaques": [
         {
-          "title": "Governador Wanderlei Barbosa anuncia R$ 27 milhões em investimentos na saúde do Vale do Araguaia durante a entrega de novos leitos de UTI",
-          "url": "https://www.luizarmandocosta.com.br/noticia/governador-wanderlei-barbosa-anuncia-r-27-milhoes-em-investimentos-na-saude-do-vale-do-araguaia-durante-a-entrega-de-novos-leitos-de-uti/54485",
+          "title": "Vicentinho teria ultrapassado Dorinha, conforme pesquisa Vox neste sábado: 36,9% a 31,1%.  Instituto Vox, entretanto, foi às ruas dez dias antes do Real Time Big Data de ontem com intenções de votos captadas há três dias",
+          "url": "https://www.luizarmandocosta.com.br/noticia/vicentinho-teria-ultrapassado-dorinha-conforme-pesquisa-vox-neste-sabado-36-9-a-31-1-instituto-vox-entretanto-foi-as-ruas-dez-dias-antes-do-real-time-big-data-de-ontem-com-intencoes-de-votos-captadas-ha-tres-dias/54498",
           "source": "Blog Luiz Armando Costa",
           "data": "2026-06-20",
           "sentimento": "Neutro"
         },
         {
-          "title": "O Tribunal do Júri de Araguaína condenou Rejane Mendes da Silva e Lindiana Mendes da Silva pelo homicídio e pela ocultação de cadáver de José Paulo Couto, idoso com mais de 60 anos à época dos fatos. A decisão acolheu a tese da denúncia apresentada pelo",
-          "url": "https://www.luizarmandocosta.com.br/noticia/o-tribunal-do-juri-de-araguaina-condenou-rejane-mendes-da-silva-e-lindiana-mendes-da-silva-pelo-homicidio-e-pela-ocultacao-de-cadaver-de-jose-paulo-couto-idoso-com-mais-de-60-anos-a-epoca-dos-fatos-a-decisao-acolheu-a-tese-da-denuncia-apresentada-pelo/54483",
+          "title": "Unidades Corujinha ampliam acesso à saúde e registram mais de 31 mil atendimentos e procedimentos realizados",
+          "url": "https://www.luizarmandocosta.com.br/noticia/unidades-corujinha-ampliam-acesso-a-saude-e-registram-mais-de-31-mil-atendimentos-e-procedimentos-realizados/54503",
           "source": "Blog Luiz Armando Costa",
           "data": "2026-06-20",
-          "sentimento": "Negativo"
+          "sentimento": "Neutro"
         },
         {
-          "title": "Prefeitura realiza fiscalização programada em serviços de limpeza de parques e praias",
-          "url": "https://www.luizarmandocosta.com.br/noticia/prefeitura-realiza-fiscalizacao-programada-em-servicos-de-limpeza-de-parques-e-praias/54465",
+          "title": "Governador Wanderlei Barbosa anuncia R$ 27 milhões em investimentos na saúde do Vale do Araguaia durante a entrega de novos leitos de UTI",
+          "url": "https://www.luizarmandocosta.com.br/noticia/governador-wanderlei-barbosa-anuncia-r-27-milhoes-em-investimentos-na-saude-do-vale-do-araguaia-durante-a-entrega-de-novos-leitos-de-uti/54485",
           "source": "Blog Luiz Armando Costa",
           "data": "2026-06-20",
           "sentimento": "Neutro"
@@ -116,29 +116,22 @@
     {
       "id": "cinthia",
       "nome": "Cinthia Ribeiro",
-      "total_mencoes": 9,
-      "recentes": 9,
+      "total_mencoes": 7,
+      "recentes": 7,
       "sentimento": {
         "positivo": 1,
         "negativo": 2,
-        "neutro": 6
+        "neutro": 4
       },
       "sentimento_recente": {
         "positivo": 1,
         "negativo": 2,
-        "neutro": 6
+        "neutro": 4
       },
-      "tom_liquido": -0.111,
-      "tom_liquido_recente": -0.111,
+      "tom_liquido": -0.143,
+      "tom_liquido_recente": -0.143,
       "alertas": [],
       "destaques": [
-        {
-          "title": "Wanderlei entrega equipamentos à PM e inaugura Sala de Situação",
-          "url": "https://www.portalonorte.com.br/noticias/estado/wanderlei-entrega-equipamentos-a-pm-e-inaugura-sala-de-sitacao/141196/",
-          "source": "Portal O Norte",
-          "data": "2026-06-20",
-          "sentimento": "Neutro"
-        },
         {
           "title": "Governo entrega à PM  Sala da Corporação, 23 viaturas, 1,6 mil pistolas Glock e 140 carabinas",
           "url": "https://araguainanoticias.com.br/noticia/governo-entrega-a-pm-sala-da-corporacao-23-viaturas-1-6-mil-pistolas-glock-e-140-carabinas/44635",
@@ -147,31 +140,38 @@
           "sentimento": "Neutro"
         },
         {
-          "title": "Com investimento de mais de R$ 23 milhões, governador Wanderlei Barbosa entrega equipamentos à PM e inaugura Sala de Situação em Palmas",
+          "title": "SEGURANÇA PÚBLICACom investimento de mais de R$ 23 milhões, governador Wanderlei Barbosa entrega equipamentos à PM e inaugura Sala de Situação em Palmas",
           "url": "https://www.agenciatocantins.com.br/noticia/108577/com-investimento-de-mais-de-r-23-milhoes-governador-wanderlei-barbosa-entrega-equipamentos-a-pm-e-inaugura-sala-de-situacao-em-palmas",
           "source": "Agência Tocantins",
           "data": "2026-06-20",
           "sentimento": "Neutro"
+        },
+        {
+          "title": "Gurupi - TOHomem é condenado a mais de 58 anos de prisão por tripla tentativa de homicídio em Gurupi",
+          "url": "https://www.agenciatocantins.com.br/noticia/108575/homem-e-condenado-a-mais-de-58-anos-de-prisao-por-tripla-tentativa-de-homicidio-em-gurupi",
+          "source": "Agência Tocantins",
+          "data": "2026-06-20",
+          "sentimento": "Negativo"
         }
       ]
     },
     {
       "id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "total_mencoes": 73,
-      "recentes": 73,
+      "total_mencoes": 90,
+      "recentes": 90,
       "sentimento": {
-        "positivo": 25,
+        "positivo": 30,
         "negativo": 1,
-        "neutro": 47
+        "neutro": 59
       },
       "sentimento_recente": {
-        "positivo": 25,
+        "positivo": 30,
         "negativo": 1,
-        "neutro": 47
+        "neutro": 59
       },
-      "tom_liquido": 0.329,
-      "tom_liquido_recente": 0.329,
+      "tom_liquido": 0.322,
+      "tom_liquido_recente": 0.322,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -207,20 +207,20 @@
     {
       "id": "laurez",
       "nome": "Laurez Moreira",
-      "total_mencoes": 53,
-      "recentes": 53,
+      "total_mencoes": 48,
+      "recentes": 48,
       "sentimento": {
         "positivo": 22,
         "negativo": 0,
-        "neutro": 31
+        "neutro": 26
       },
       "sentimento_recente": {
         "positivo": 22,
         "negativo": 0,
-        "neutro": 31
+        "neutro": 26
       },
-      "tom_liquido": 0.415,
-      "tom_liquido_recente": 0.415,
+      "tom_liquido": 0.458,
+      "tom_liquido_recente": 0.458,
       "alertas": [
         {
           "tipo": "evento_judicial",
@@ -256,20 +256,20 @@
     {
       "id": "katia",
       "nome": "Kátia Abreu",
-      "total_mencoes": 13,
-      "recentes": 13,
+      "total_mencoes": 12,
+      "recentes": 12,
       "sentimento": {
         "positivo": 6,
         "negativo": 0,
-        "neutro": 7
+        "neutro": 6
       },
       "sentimento_recente": {
         "positivo": 6,
         "negativo": 0,
-        "neutro": 7
+        "neutro": 6
       },
-      "tom_liquido": 0.462,
-      "tom_liquido_recente": 0.462,
+      "tom_liquido": 0.5,
+      "tom_liquido_recente": 0.5,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -287,18 +287,18 @@
           "sentimento": "Neutro"
         },
         {
-          "title": "Eduardo Gomes é disparado o candidato ao Senado da preferência do eleitorado: 26% reelegeriam o Senador conforme o Real Big Data",
-          "url": "https://www.luizarmandocosta.com.br/noticia/eduardo-gomes-e-disparado-o-candidato-ao-senado-da-preferencia-do-eleitorado-26-reelegeriam-o-senador-conforme-o-real-big-data/54495",
-          "source": "Blog Luiz Armando Costa",
-          "data": "2026-06-20",
-          "sentimento": "Positivo"
-        },
-        {
           "title": "Com o ministro das Cidades, Porto Nacional entrega 100 moradias do Residencial Monsenhor Juraci, nesta quarta-feira",
           "url": "https://www.luizarmandocosta.com.br/noticia/com-o-ministro-das-cidades-porto-nacional-entrega-100-moradias-do-residencial-monsenhor-juraci-nesta-quarta-feira/54474",
           "source": "Blog Luiz Armando Costa",
           "data": "2026-06-20",
           "sentimento": "Neutro"
+        },
+        {
+          "title": "Iratã Abreu reforça aliança com Thiago Cerqueira e foca em Natividade",
+          "url": "https://t1noticias.com.br/politica/irata-abreu-reforca-alianca-com-thiago-cerqueira-e-foca-em-natividade/142177/",
+          "source": "T1 Notícias",
+          "data": "2026-06-20",
+          "sentimento": "Positivo"
         }
       ]
     },
@@ -397,6 +397,6 @@
   "resumo": {
     "adversarios": 8,
     "com_alerta_critico": 3,
-    "total_mencoes": 249
+    "total_mencoes": 238
   }
 }

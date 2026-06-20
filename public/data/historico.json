@@ -943,10 +943,10 @@
       "nome": "Professora Dorinha Seabra Rezende",
       "partido": "UB",
       "posicao": 1,
-      "score": 83.3,
+      "score": 84.0,
       "seguidores": 89956,
       "engajamento_pct": 0.94,
-      "sentimento_liquido": 0.384,
+      "sentimento_liquido": 0.644,
       "origem": "live"
     },
     {
@@ -955,10 +955,10 @@
       "nome": "Kátia Abreu",
       "partido": "PT",
       "posicao": 2,
-      "score": 62.8,
+      "score": 63.0,
       "seguidores": 63083,
       "engajamento_pct": 0.6,
-      "sentimento_liquido": 0.615,
+      "sentimento_liquido": 0.667,
       "origem": "live"
     },
     {
@@ -967,10 +967,10 @@
       "nome": "Vicentinho Júnior",
       "partido": "PSDB",
       "posicao": 3,
-      "score": 61.7,
+      "score": 61.8,
       "seguidores": 113748,
       "engajamento_pct": 0.77,
-      "sentimento_liquido": 0.407,
+      "sentimento_liquido": 0.449,
       "origem": "live"
     },
     {
@@ -979,10 +979,10 @@
       "nome": "Laurez Moreira",
       "partido": "PSD",
       "posicao": 4,
-      "score": 41.4,
+      "score": 41.6,
       "seguidores": 90104,
       "engajamento_pct": 0.18,
-      "sentimento_liquido": 0.491,
+      "sentimento_liquido": 0.542,
       "origem": "live"
     },
     {
@@ -991,10 +991,10 @@
       "nome": "Paulo Mourão",
       "partido": "PT",
       "posicao": 5,
-      "score": 39.4,
+      "score": 39.7,
       "seguidores": 0,
       "engajamento_pct": 0,
-      "sentimento_liquido": 0.727,
+      "sentimento_liquido": 0.818,
       "origem": "live"
     },
     {
@@ -1003,10 +1003,10 @@
       "nome": "Ataídes Oliveira",
       "partido": "DC",
       "posicao": 6,
-      "score": 37.7,
+      "score": 36.1,
       "seguidores": 0,
       "engajamento_pct": 0,
-      "sentimento_liquido": 0.515,
+      "sentimento_liquido": 0.0,
       "origem": "live"
     },
     {
@@ -1022,5 +1022,5 @@
       "origem": "live"
     }
   ],
-  "atualizado": "2026-06-20T09:03:41.445938-03:00"
+  "atualizado": "2026-06-20T20:03:34.194074-03:00"
 }
