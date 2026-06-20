@@ -1,4 +1,4 @@
-import { RefreshCw, LogOut, Calendar, Users, TrendingUp, Newspaper, AlertTriangle } from 'lucide-react';
+import { RefreshCw, LogOut, Calendar, Users, TrendingUp, Newspaper, ShieldAlert, Clock, Zap, ZapOff } from 'lucide-react';
 
 const getKpiColor = (type, value) => {
   switch (type) {
@@ -6,21 +6,27 @@ const getKpiColor = (type, value) => {
       if (value > 120) return '#22c55e';
       if (value > 60)  return '#eab308';
       return '#ef4444';
-    case 'candidatos': return '#FFFFFF';
-    case 'engajamento':
-      if (value >= 3)   return '#22c55e';
-      if (value >= 1.5) return '#f59e0b';
-      return '#ef4444';
     case 'imprensa':
       if (value >= 10) return '#22c55e';
       if (value >= 3)  return '#eab308';
       return 'rgba(255,255,255,0.5)';
-    case 'crises':
-      if (value === 0) return '#22c55e';
-      if (value <= 2)  return '#f59e0b';
-      return '#ef4444';
     default: return '#FFFFFF';
   }
+};
+
+// Idade da ultima coleta -> cor do chip. Verde <=12h, ambar >12h, vermelho >24h.
+// null = sem timestamp -> cinza ("—"), nunca um "0h" fabricado.
+const ageColor = (h) => {
+  if (h == null) return 'rgba(255,255,255,0.5)';
+  if (h > 24) return '#ef4444';
+  if (h > 12) return '#f59e0b';
+  return '#22c55e';
+};
+
+// Nome curto p/ caber no rotulo do chip (10px). Mantem o primeiro nome de campanha.
+const nomeCurto = (nome) => {
+  if (!nome) return '';
+  return nome.length > 16 ? `${nome.slice(0, 15)}…` : nome;
 };
 
 const KpiChip = ({ icon: I, value, label, color, compact }) => (
@@ -42,18 +48,55 @@ const KpiChip = ({ icon: I, value, label, color, compact }) => (
   </div>
 );
 
+// Chip "ultima coleta" (Fase D) — idade real derivada de updated_at; nunca inventa.
+const CollectaChip = ({ dataAgeHours, compact }) => {
+  const c = ageColor(dataAgeHours);
+  const txt = dataAgeHours == null
+    ? '—'
+    : dataAgeHours < 1 ? 'agora' : `há ${Math.round(dataAgeHours)}h`;
+  return (
+    <div title="Idade da última coleta sincronizada" style={{
+      display: 'flex', alignItems: 'center', gap: 5,
+      padding: compact ? '4px 8px' : '6px 12px', borderRadius: 8,
+      background: 'rgba(255,255,255,0.08)', border: `1px solid ${c}33`,
+      color: c, fontSize: 11, fontWeight: 700, whiteSpace: 'nowrap',
+    }}>
+      <Clock size={12} /> Coleta {txt}
+    </div>
+  );
+};
+
+const AutoRefreshToggle = ({ enabled, onToggle }) => (
+  <button
+    onClick={() => onToggle?.(!enabled)}
+    title={enabled ? 'Auto-atualização ligada (30 min)' : 'Auto-atualização desligada'}
+    aria-pressed={enabled}
+    style={{
+      display: 'flex', alignItems: 'center', gap: 5, padding: '6px 12px', borderRadius: 8,
+      background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)',
+      color: enabled ? '#22c55e' : 'rgba(255,255,255,0.5)', fontSize: 11, fontWeight: 700,
+      cursor: 'pointer', fontFamily: 'inherit',
+    }}
+  >
+    {enabled ? <Zap size={11} /> : <ZapOff size={11} />} Auto
+  </button>
+);
+
 export default function AppHeader({
   isMobile, refreshing = false, handleRefresh, userEmail = null, onLogout = null,
   lastUpdate = null, daysToElection = null, totalCandidatos = 8,
-  engajamentoMedio = 0, imprensa48h = 0, crises = 0,
+  adversarioEmAlta = null, imprensa48h = 0, vulnerabsCriticas = null, dataAgeHours = null,
+  autoRefreshEnabled = true, setAutoRefresh = null,
   raceOffice = 'Governador', raceState = 'Tocantins', raceYear = '2026',
 }) {
   const kpis = [
-    { icon: Calendar,       value: daysToElection ?? '—', label: 'DIAS P/ ELEIÇÃO',       color: getKpiColor('dias', daysToElection ?? 0) },
-    { icon: Users,          value: totalCandidatos,       label: 'CANDIDATOS',             color: getKpiColor('candidatos', totalCandidatos) },
-    { icon: TrendingUp,     value: `${(engajamentoMedio ?? 0).toFixed(1)}%`, label: 'ENGAJAMENTO MÉDIO', color: getKpiColor('engajamento', engajamentoMedio ?? 0) },
-    { icon: Newspaper,      value: imprensa48h ?? 0,      label: 'IMPRENSA 48H',           color: getKpiColor('imprensa', imprensa48h ?? 0) },
-    { icon: AlertTriangle,  value: crises ?? 0,           label: 'CRISES DETECTADAS',      color: getKpiColor('crises', crises ?? 0) },
+    { icon: Calendar,    value: daysToElection ?? '—',            label: 'DIAS P/ ELEIÇÃO', color: getKpiColor('dias', daysToElection ?? 0) },
+    { icon: Users,       value: totalCandidatos,                  label: 'CANDIDATOS',      color: '#FFFFFF' },
+    { icon: TrendingUp,  value: adversarioEmAlta ? `+${adversarioEmAlta.novos}` : '—',
+      label: adversarioEmAlta ? `↑ ${nomeCurto(adversarioEmAlta.nome)}` : 'SEM SURTO', color: '#FFFFFF' },
+    { icon: Newspaper,   value: imprensa48h ?? 0,                 label: 'IMPRENSA 48H',    color: getKpiColor('imprensa', imprensa48h ?? 0) },
+    { icon: ShieldAlert, value: vulnerabsCriticas ?? '—',         label: 'VULNERAB. CRÍTICAS',
+      color: vulnerabsCriticas == null ? 'rgba(255,255,255,0.5)' : '#FFFFFF' },
   ];
 
   if (isMobile) {
@@ -62,6 +105,7 @@ export default function AppHeader({
         <header style={{ background: 'linear-gradient(135deg, #0B3D91 0%, #061E4A 100%)', padding: '12px 16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', position: 'sticky', top: 0, zIndex: 200 }}>
           <span style={{ color: '#FFFFFF', fontSize: 15, fontWeight: 800 }}>Inteligência Eleitoral</span>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <CollectaChip dataAgeHours={dataAgeHours} compact />
             <button onClick={handleRefresh} disabled={refreshing} style={{ display: 'flex', alignItems: 'center', padding: 8, borderRadius: 8, background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.7)', cursor: refreshing ? 'wait' : 'pointer' }}>
               <RefreshCw size={16} style={{ animation: refreshing ? 'spin 1s linear infinite' : 'none' }} />
             </button>
@@ -78,6 +122,8 @@ export default function AppHeader({
   return (
     <header style={{ background: 'linear-gradient(135deg, #0B3D91 0%, #061E4A 100%)', padding: '32px 40px 28px', position: 'relative' }}>
       <div style={{ position: 'absolute', top: 16, right: 24, display: 'flex', alignItems: 'center', gap: 8 }}>
+        <CollectaChip dataAgeHours={dataAgeHours} />
+        <AutoRefreshToggle enabled={autoRefreshEnabled} onToggle={setAutoRefresh} />
         <button onClick={handleRefresh} disabled={refreshing} style={{ display: 'flex', alignItems: 'center', gap: 5, padding: '6px 12px', borderRadius: 8, background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.7)', fontSize: 11, fontWeight: 700, cursor: refreshing ? 'wait' : 'pointer', fontFamily: 'inherit' }}>
           <RefreshCw size={11} style={{ animation: refreshing ? 'spin 1s linear infinite' : 'none' }} />
           {refreshing ? '...' : 'Atualizar'}

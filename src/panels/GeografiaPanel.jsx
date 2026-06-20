@@ -4,6 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { MapPin, Target, ArrowUpDown } from 'lucide-react';
 import { Card, Met, Bt } from '../components/ui.jsx';
+import SnapshotBadge from '../components/SnapshotBadge.jsx';
 import { useWW, fmtK } from '../lib/ui-helpers.js';
 import { fetchJ, URLS } from '../lib/fetch.js';
 
@@ -176,7 +177,7 @@ export default function GeografiaPanel() {
               </p>
             </div>
           </div>
-          <span style={{ fontSize: 11, color: 'var(--text-secondary)' }}>Atualizado em {data.data_atualizacao || '—'}</span>
+          <SnapshotBadge dataAtualizacao={data.data_atualizacao} />
         </div>
       </Card>
 
