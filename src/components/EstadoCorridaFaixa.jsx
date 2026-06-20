@@ -55,8 +55,8 @@ export default function EstadoCorridaFaixa({ pesquisasData }) {
       <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
         {ultima.ranking.map((r, i) => (
           <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <span style={{ width: 150, fontSize: 12, fontWeight: 600, color: '#1A2744', textAlign: 'right', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{r.candidato}</span>
-            <div style={{ flex: 1, background: 'rgba(26,39,68,0.06)', borderRadius: 6, height: 16, position: 'relative' }}>
+            <span style={{ width: 'clamp(80px, 30%, 150px)', fontSize: 12, fontWeight: 600, color: '#1A2744', textAlign: 'right', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{r.candidato}</span>
+            <div aria-hidden="true" style={{ flex: 1, background: 'rgba(26,39,68,0.06)', borderRadius: 6, height: 16, position: 'relative' }}>
               <div style={{ width: `${(r.percentual / max) * 100}%`, background: i === 0 ? BAR : 'rgba(11,61,145,0.45)', height: '100%', borderRadius: 6 }} />
             </div>
             <span style={{ width: 48, fontSize: 12, fontWeight: 700, color: '#1A2744', fontVariantNumeric: 'tabular-nums' }}>{r.percentual.toFixed(1)}%</span>
@@ -69,7 +69,7 @@ export default function EstadoCorridaFaixa({ pesquisasData }) {
         {nComNumero != null && <span>{nComNumero} pesquisas com número</span>}
         {nLacunas > 0 && <span>· {nLacunas} suspensas sem número (lacuna)</span>}
         {aguardando.length > 0 && <span>· {aguardando.length} aguardando divulgação</span>}
-        <span style={{ color: '#9CA3AF' }}>· cenário estimulado; só números divulgados por fonte primária</span>
+        <span style={{ color: '#6B7280' }}>· cenário estimulado; só números divulgados por fonte primária</span>
       </div>
     </div>
   );

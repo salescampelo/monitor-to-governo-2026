@@ -34,7 +34,8 @@ function AdversarioCard({ a, janela }) {
       {/* Barra empilhada de sentimento dos títulos */}
       {pct.total > 0 && (
         <div>
-          <div style={{ display: 'flex', height: 14, borderRadius: 7, overflow: 'hidden', background: 'rgba(26,39,68,0.06)' }}>
+          <div role="img" aria-label={`Sentimento (${janela}d): ${sr.positivo} positivas, ${sr.neutro} neutras, ${sr.negativo} negativas`}
+            style={{ display: 'flex', height: 14, borderRadius: 7, overflow: 'hidden', background: 'rgba(26,39,68,0.06)' }}>
             <div style={{ width: `${pct.pos}%`, background: SENT_COR.Positivo }} />
             <div style={{ width: `${pct.neu}%`, background: SENT_COR.Neutro }} />
             <div style={{ width: `${pct.neg}%`, background: SENT_COR.Negativo }} />
@@ -66,7 +67,7 @@ function AdversarioCard({ a, janela }) {
               style={{ display: 'flex', gap: 8, alignItems: 'baseline', fontSize: 12, color: '#1A2744', textDecoration: 'none' }}>
               <span style={{ width: 8, height: 8, borderRadius: '50%', background: SENT_COR[d.sentimento] || '#94a3b8', flexShrink: 0, marginTop: 4 }} />
               <span style={{ flex: 1, lineHeight: 1.3 }}>{d.title}</span>
-              <span style={{ fontSize: 10, color: '#9CA3AF', whiteSpace: 'nowrap' }}>{d.source} · {fmtData(d.data)} <ExternalLink size={10} style={{ verticalAlign: 'middle' }} /></span>
+              <span style={{ fontSize: 10, color: '#6B7280', whiteSpace: 'nowrap' }}>{d.source} · {fmtData(d.data)} <ExternalLink size={10} style={{ verticalAlign: 'middle' }} /></span>
             </a>
           ))}
         </div>
@@ -93,7 +94,7 @@ export default function NarrativaPanel({ narrativaData }) {
       </Card>
 
       {principio && (
-        <p style={{ margin: 0, fontSize: 11, color: '#9CA3AF', fontStyle: 'italic' }}>{principio}</p>
+        <p style={{ margin: 0, fontSize: 11, color: '#6B7280', fontStyle: 'italic' }}>{principio}</p>
       )}
 
       {adversarios.length === 0 ? (

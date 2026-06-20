@@ -186,6 +186,7 @@ export default function App() {
               <button
                 key={key}
                 onClick={() => setActivePanel(key)}
+                aria-current={activePanel === key ? 'page' : undefined}
                 style={{
                   display: 'flex', alignItems: 'center', gap: 6,
                   padding: '8px 16px', borderRadius: 20, fontSize: 12, fontWeight: 700,
