@@ -20,7 +20,7 @@ function Seletor({ label, value, options, onChange }) {
   return (
     <label style={{ display: 'flex', flexDirection: 'column', gap: 3, fontSize: 10, fontWeight: 700, color: '#6B7280', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
       {label}
-      <select value={value} onChange={e => onChange(e.target.value)}
+      <select value={value} onChange={e => onChange(e.target.value)} name={label} aria-label={label}
         style={{ padding: '6px 10px', borderRadius: 8, border: '1.5px solid rgba(26,39,68,0.15)', background: '#fff', color: '#1A2744', fontSize: 12, fontWeight: 600, fontFamily: 'inherit', minWidth: 120 }}>
         <option value="all">Todos</option>
         {options.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
@@ -81,12 +81,12 @@ export default function ImprensaPanel({ advMentionsData }) {
         {/* Volume por dia */}
         <Card>
           <p style={{ margin: '0 0 12px', fontSize: 12, fontWeight: 700, color: '#1A2744' }}>Volume por dia</p>
-          <div style={{ display: 'flex', alignItems: 'flex-end', gap: 4, height: 80 }}>
-            {porDia.length === 0 ? <span style={{ fontSize: 12, color: '#9CA3AF' }}>Sem menções no filtro.</span>
+          <div role="img" aria-label={`Volume de menções por dia: ${porDia.map(d => `${fmtDia(d.dia)} ${d.n}`).join(', ') || 'sem menções'}`} style={{ display: 'flex', alignItems: 'flex-end', gap: 4, height: 80 }}>
+            {porDia.length === 0 ? <span style={{ fontSize: 12, color: '#6B7280' }}>Sem menções no filtro.</span>
               : porDia.map(d => (
                 <div key={d.dia} title={`${d.dia}: ${d.n}`} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
                   <div style={{ width: '100%', height: `${(d.n / maxDia) * 60}px`, background: '#0B3D91', borderRadius: '4px 4px 0 0', minHeight: 2 }} />
-                  <span style={{ fontSize: 8, color: '#9CA3AF', whiteSpace: 'nowrap' }}>{fmtDia(d.dia)}</span>
+                  <span style={{ fontSize: 10, color: '#6B7280', whiteSpace: 'nowrap' }}>{fmtDia(d.dia)}</span>
                 </div>
               ))}
           </div>
@@ -117,12 +117,12 @@ export default function ImprensaPanel({ advMentionsData }) {
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <p style={{ margin: 0, fontSize: 13, lineHeight: 1.35 }}>{m.title}</p>
                   <div style={{ display: 'flex', gap: 6, marginTop: 3, flexWrap: 'wrap', alignItems: 'center' }}>
-                    <span style={{ fontSize: 10, color: '#9CA3AF' }}>{m.adversario_nome} · {m.source} · {fmtDataHora(m.published)}</span>
+                    <span style={{ fontSize: 10, color: '#6B7280' }}>{m.adversario_nome} · {m.source} · {fmtDataHora(m.published)}</span>
                     {m.tipo && <Bd color="#0B3D91">{m.tipo}</Bd>}
                     {m.relevancia_rotulo === 'DIRETA' && <Bd color="#7c3aed">direta</Bd>}
                   </div>
                 </div>
-                <ExternalLink size={12} style={{ color: '#9CA3AF', flexShrink: 0, marginTop: 3 }} />
+                <ExternalLink size={12} style={{ color: '#6B7280', flexShrink: 0, marginTop: 3 }} />
               </a>
             ))}
         </div>

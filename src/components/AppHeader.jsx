@@ -42,7 +42,7 @@ const KpiChip = ({ icon: I, value, label, color, compact }) => (
     <span style={{ fontSize: compact ? 18 : 28, fontWeight: 700, color, lineHeight: 1.1, fontVariantNumeric: 'tabular-nums', fontFamily: "'DM Sans',monospace", display: 'block' }}>
       {value}
     </span>
-    <div style={{ fontSize: compact ? 8 : 10, fontWeight: 600, color: 'rgba(255,255,255,0.6)', textTransform: 'uppercase', letterSpacing: '0.5px', marginTop: 3, lineHeight: 1.2 }}>
+    <div style={{ fontSize: compact ? 9 : 10, fontWeight: 600, color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.5px', marginTop: 3, lineHeight: 1.2 }}>
       {label}
     </div>
   </div>
@@ -106,10 +106,10 @@ export default function AppHeader({
           <span style={{ color: '#FFFFFF', fontSize: 15, fontWeight: 800 }}>Inteligência Eleitoral</span>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
             <CollectaChip dataAgeHours={dataAgeHours} compact />
-            <button onClick={handleRefresh} disabled={refreshing} style={{ display: 'flex', alignItems: 'center', padding: 8, borderRadius: 8, background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.7)', cursor: refreshing ? 'wait' : 'pointer' }}>
+            <button onClick={handleRefresh} disabled={refreshing} aria-label="Atualizar dados" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minWidth: 44, minHeight: 44, borderRadius: 8, background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.7)', cursor: refreshing ? 'wait' : 'pointer' }}>
               <RefreshCw size={16} style={{ animation: refreshing ? 'spin 1s linear infinite' : 'none' }} />
             </button>
-            {onLogout && <button onClick={onLogout} style={{ display: 'flex', alignItems: 'center', padding: 8, borderRadius: 8, background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.7)', cursor: 'pointer' }}><LogOut size={16} /></button>}
+            {onLogout && <button onClick={onLogout} aria-label="Sair" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minWidth: 44, minHeight: 44, borderRadius: 8, background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.7)', cursor: 'pointer' }}><LogOut size={16} /></button>}
           </div>
         </header>
         <div style={{ background: 'linear-gradient(135deg, #061E4A 0%, #041233 100%)', padding: '10px 16px', overflowX: 'auto', display: 'flex', gap: 8, scrollbarWidth: 'none' }}>
