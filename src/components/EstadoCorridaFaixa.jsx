@@ -18,6 +18,10 @@ export default function EstadoCorridaFaixa({ pesquisasData }) {
     return d > 0 ? d : 0;
   }, []);
 
+  // Ainda carregando (pesquisasData null) -> não renderiza, p/ não PISCAR a mensagem
+  // de lacuna antes do fetch resolver (a11y/UX). Distinto de vazio-confirmado abaixo.
+  if (pesquisasData == null) return null;
+
   // Sem pesquisa divulgada -> some o bloco de pesquisa (não inventa), mas mantém o
   // countdown, que é factual.
   if (!resumo) {
