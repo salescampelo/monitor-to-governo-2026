@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-19 22:47",
-  "total_new": 93,
+  "updated_at": "2026-06-20 12:00",
+  "total_new": 90,
   "run_stats": {
     "queries_rss": 20,
-    "entries_rss_raw": 220
+    "entries_rss_raw": 216
   },
   "history_summary": {
-    "last_7d": 93,
-    "last_30d": 93
+    "last_7d": 90,
+    "last_30d": 90
   }
 }
