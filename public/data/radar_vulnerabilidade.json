@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-20 23:03",
+  "updated_at": "2026-06-21 12:18",
   "alertas": [
     {
       "adversario_id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "detectado_em": "2026-06-20 23:03",
+      "detectado_em": "2026-06-21 12:18",
       "tipo": "concentracao_doadores",
       "severidade": 0.947,
       "nivel": "critico",
@@ -13,7 +13,7 @@
     {
       "adversario_id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "detectado_em": "2026-06-20 23:03",
+      "detectado_em": "2026-06-21 12:18",
       "tipo": "concentracao_doadores",
       "severidade": 0.7532,
       "nivel": "critico",
@@ -22,7 +22,7 @@
     {
       "adversario_id": "katia",
       "nome": "Kátia Abreu",
-      "detectado_em": "2026-06-20 23:03",
+      "detectado_em": "2026-06-21 12:18",
       "tipo": "concentracao_doadores",
       "severidade": 0.7123,
       "nivel": "critico",
@@ -31,7 +31,7 @@
     {
       "adversario_id": "mourao",
       "nome": "Paulo Mourão",
-      "detectado_em": "2026-06-20 23:03",
+      "detectado_em": "2026-06-21 12:18",
       "tipo": "concentracao_doadores",
       "severidade": 0.6823,
       "nivel": "alerta",
@@ -40,7 +40,7 @@
     {
       "adversario_id": "ataides",
       "nome": "Ataídes Oliveira",
-      "detectado_em": "2026-06-20 23:03",
+      "detectado_em": "2026-06-21 12:18",
       "tipo": "concentracao_doadores",
       "severidade": 0.5265,
       "nivel": "alerta",
@@ -49,25 +49,25 @@
     {
       "adversario_id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "detectado_em": "2026-06-20 23:03",
+      "detectado_em": "2026-06-21 12:18",
       "tipo": "spike_negativo",
-      "severidade": 0.4756,
+      "severidade": 0.3688,
       "nivel": "alerta",
-      "evidencia": "5 menções negativas em 4 veículo(s) nas últimas 72h (Agência Tocantins, Folha do Jalapão, Jornal Opção | Tocantins, Portal O Norte)"
+      "evidencia": "4 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Folha do Jalapão, Jornal Opção | Tocantins)"
     },
     {
       "adversario_id": "ataides",
       "nome": "Ataídes Oliveira",
-      "detectado_em": "2026-06-20 23:03",
+      "detectado_em": "2026-06-21 12:18",
       "tipo": "spike_negativo",
-      "severidade": 0.3746,
+      "severidade": 0.3253,
       "nivel": "alerta",
-      "evidencia": "4 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Blog Luiz Armando Costa, Portal O Norte)"
+      "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Blog Luiz Armando Costa, Portal O Norte)"
     },
     {
       "adversario_id": "laurez",
       "nome": "Laurez Moreira",
-      "detectado_em": "2026-06-20 23:03",
+      "detectado_em": "2026-06-21 12:18",
       "tipo": "evento_judicial",
       "severidade": 0.15,
       "nivel": "alerta",

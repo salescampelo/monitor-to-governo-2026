@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-20 23:03",
+  "updated_at": "2026-06-21 12:18",
   "janela_dias": 7,
   "principio": "Movimento de narrativa DESCRITIVO: sentimento derivado de titulos de imprensa publica (classificador POS/NEG/Neutro) + alertas do radar. Sem PII de terceiros (sem autor/usuario/comentario privado).",
   "adversarios": [
     {
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "total_mencoes": 49,
-      "recentes": 49,
+      "total_mencoes": 43,
+      "recentes": 43,
       "sentimento": {
-        "positivo": 21,
-        "negativo": 4,
-        "neutro": 24
+        "positivo": 19,
+        "negativo": 3,
+        "neutro": 21
       },
       "sentimento_recente": {
-        "positivo": 21,
-        "negativo": 4,
-        "neutro": 24
+        "positivo": 19,
+        "negativo": 3,
+        "neutro": 21
       },
-      "tom_liquido": 0.347,
-      "tom_liquido_recente": 0.347,
+      "tom_liquido": 0.372,
+      "tom_liquido_recente": 0.372,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -30,8 +30,8 @@
         {
           "tipo": "spike_negativo",
           "nivel": "alerta",
-          "severidade": 0.4756,
-          "evidencia": "5 menções negativas em 4 veículo(s) nas últimas 72h (Agência Tocantins, Folha do Jalapão, Jornal Opção | Tocantins, Portal O Norte)"
+          "severidade": 0.3688,
+          "evidencia": "4 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Folha do Jalapão, Jornal Opção | Tocantins)"
         }
       ],
       "destaques": [
@@ -39,42 +39,42 @@
           "title": "Vicentinho reage a críticas por encontro com Vinicius Pires e diz que fiscalização das UPAs não pode ser alvo de constrangimento",
           "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOMTZ5NEJNcWdhSFBlLWRXQlM5dU1Ed2YwcldSQWVUalh1Ykh4TlYyTjZFbHZ5YVpLbnpJeHhOVzJ0Qm1TN1pzb0ZRMDdnUTVfbGYwNFh6b3BILXVMaFVRTGR5aDZQQ1RjOEVlQ3VKQlVfZG1kclRwem1TMUIyLXo3dHcxRFZWRkdGLTdxVTJFS080RXY4aEx3YzNUZ096TktVRFpMTFdFU3BLMVNNWWtycTVwNk9nb19QeXpuVFl0WFNtMWpFWkZKV2dhQllES2RlRjJYUktiTWNDcmdaaWJyWnVjWUpLZG5vUDF0bHpKQXlpOWEteXhDbUh1UDY2djkxRzhPS2xfdkVsMGREOW5qZEVaZWVIanZCbHRXVHNNaw?oc=5",
           "source": "Jornal Opção | Tocantins",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Negativo"
         },
         {
           "title": "Vicentinho e Amélio encerram caravana por 20 cidades e ampliam apoios no sul e sudeste do Tocantins",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaU5hTWsxVDhzanY1Z01oVlZvcDZRU0xyYXMyT1VUd1JJTDNDVGdNU3VKdTQxekFadXJfeXFpN2hxdkVIMl9sam8tOW9vU0hwdlFWSTc4ZXRXMUF3STYzWDRKbGF2N19jLUJHcFVINmotT3J6Z3pRRGp1WHhxRGhBVG9YVHFsT3pzVEU4T2o4cklHSHpqNHBvdE1iMjZhMzlaTlBkV3UzWUEwV0U5Q2swRS16SlhOSkNDTEsxTENid3hWVXQ0NEpiVGpWSmNFSlJXMFg2U0lBTHR0MWJvaVE?oc=5",
           "source": "Diário Tocantinense",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Positivo"
         },
         {
-          "title": "Ao lado do pré-candidato ao governo, Vicentinho Júnior, Osires Damaso cumpre agenda do sudeste do Estado",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd1dpRGV4VEk0MlNMLTc4ZGZyOHNoX1c1VHNUbW44eUdHVHJ6alp4bG9DOGFQVWlNOHhtcWwzOHQ3QzIwdGpfbmppWmdKOFZVMUJkOS16ajdHbVQwZTczb3NuYU9KMXNJRUxOcGNBWWxpNEU2dFdHS2hBWXZzdk5Nc1R4VXBDdWNMcldxTE1DelRrYk55UkE5c0lkVkVnVXpiU3JTeHgwcXQyd3I5U29WREU2a2Vqekh0M0w5dWVUTzhLbHhOdnN2UXFwMGxpVVlvNG9mdElhTHU?oc=5",
-          "source": "Cleber Toledo",
-          "data": "2026-06-20",
-          "sentimento": "Positivo"
+          "title": "Vicentinho envia ao TO mais de R$ 24,6 mi para infra, segurança, educação e assistência social",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVml6RFpqaC1aaDRyT1NnSm1YTmZZVUZlWXY4empPanFPQUwwOHJUcHJTYWRKajRvbl9JZ3JkcjJCWlhYMlRPa3dFYzkzN0EzUGgzOC01MTQ4eHdjNDFuUmFFWE5SNmZrSGNpcERiekx2UEVoZkJTeDd6OUZkdHZxeUZIUi1fbTBJT2VMQ0RheUFZVkxXcGVfVWIwQW1CRmNlMzJ4WHBXZmg0UXpHSW9YMDJJNTk5c3djRHdTUw?oc=5",
+          "source": "T1 Notícias",
+          "data": "2026-06-21",
+          "sentimento": "Neutro"
         }
       ]
     },
     {
       "id": "ataides",
       "nome": "Ataídes Oliveira",
-      "total_mencoes": 18,
-      "recentes": 18,
+      "total_mencoes": 16,
+      "recentes": 16,
       "sentimento": {
         "positivo": 3,
-        "negativo": 3,
-        "neutro": 12
+        "negativo": 2,
+        "neutro": 11
       },
       "sentimento_recente": {
         "positivo": 3,
-        "negativo": 3,
-        "neutro": 12
+        "negativo": 2,
+        "neutro": 11
       },
-      "tom_liquido": 0.0,
-      "tom_liquido_recente": 0.0,
+      "tom_liquido": 0.062,
+      "tom_liquido_recente": 0.062,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -85,31 +85,31 @@
         {
           "tipo": "spike_negativo",
           "nivel": "alerta",
-          "severidade": 0.3746,
-          "evidencia": "4 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Blog Luiz Armando Costa, Portal O Norte)"
+          "severidade": 0.3253,
+          "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Blog Luiz Armando Costa, Portal O Norte)"
         }
       ],
       "destaques": [
         {
-          "title": "Vicentinho teria ultrapassado Dorinha, conforme pesquisa Vox neste sábado: 36,9% a 31,1%.  Instituto Vox, entretanto, foi às ruas dez dias antes do Real Time Big Data de ontem com intenções de votos captadas há três dias",
-          "url": "https://www.luizarmandocosta.com.br/noticia/vicentinho-teria-ultrapassado-dorinha-conforme-pesquisa-vox-neste-sabado-36-9-a-31-1-instituto-vox-entretanto-foi-as-ruas-dez-dias-antes-do-real-time-big-data-de-ontem-com-intencoes-de-votos-captadas-ha-tres-dias/54498",
-          "source": "Blog Luiz Armando Costa",
-          "data": "2026-06-20",
-          "sentimento": "Neutro"
-        },
-        {
           "title": "Unidades Corujinha ampliam acesso à saúde e registram mais de 31 mil atendimentos e procedimentos realizados",
           "url": "https://www.luizarmandocosta.com.br/noticia/unidades-corujinha-ampliam-acesso-a-saude-e-registram-mais-de-31-mil-atendimentos-e-procedimentos-realizados/54503",
           "source": "Blog Luiz Armando Costa",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Neutro"
         },
         {
           "title": "Governador Wanderlei Barbosa anuncia R$ 27 milhões em investimentos na saúde do Vale do Araguaia durante a entrega de novos leitos de UTI",
           "url": "https://www.luizarmandocosta.com.br/noticia/governador-wanderlei-barbosa-anuncia-r-27-milhoes-em-investimentos-na-saude-do-vale-do-araguaia-durante-a-entrega-de-novos-leitos-de-uti/54485",
           "source": "Blog Luiz Armando Costa",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Neutro"
+        },
+        {
+          "title": "O Tribunal do Júri de Araguaína condenou Rejane Mendes da Silva e Lindiana Mendes da Silva pelo homicídio e pela ocultação de cadáver de José Paulo Couto, idoso com mais de 60 anos à época dos fatos. A decisão acolheu a tese da denúncia apresentada pelo",
+          "url": "https://www.luizarmandocosta.com.br/noticia/o-tribunal-do-juri-de-araguaina-condenou-rejane-mendes-da-silva-e-lindiana-mendes-da-silva-pelo-homicidio-e-pela-ocultacao-de-cadaver-de-jose-paulo-couto-idoso-com-mais-de-60-anos-a-epoca-dos-fatos-a-decisao-acolheu-a-tese-da-denuncia-apresentada-pelo/54483",
+          "source": "Blog Luiz Armando Costa",
+          "data": "2026-06-21",
+          "sentimento": "Negativo"
         }
       ]
     },
@@ -136,21 +136,21 @@
           "title": "Governo entrega à PM  Sala da Corporação, 23 viaturas, 1,6 mil pistolas Glock e 140 carabinas",
           "url": "https://araguainanoticias.com.br/noticia/governo-entrega-a-pm-sala-da-corporacao-23-viaturas-1-6-mil-pistolas-glock-e-140-carabinas/44635",
           "source": "Araguaína Notícias",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Neutro"
         },
         {
           "title": "SEGURANÇA PÚBLICACom investimento de mais de R$ 23 milhões, governador Wanderlei Barbosa entrega equipamentos à PM e inaugura Sala de Situação em Palmas",
           "url": "https://www.agenciatocantins.com.br/noticia/108577/com-investimento-de-mais-de-r-23-milhoes-governador-wanderlei-barbosa-entrega-equipamentos-a-pm-e-inaugura-sala-de-situacao-em-palmas",
           "source": "Agência Tocantins",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Neutro"
         },
         {
           "title": "Gurupi - TOHomem é condenado a mais de 58 anos de prisão por tripla tentativa de homicídio em Gurupi",
           "url": "https://www.agenciatocantins.com.br/noticia/108575/homem-e-condenado-a-mais-de-58-anos-de-prisao-por-tripla-tentativa-de-homicidio-em-gurupi",
           "source": "Agência Tocantins",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Negativo"
         }
       ]
@@ -158,20 +158,20 @@
     {
       "id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "total_mencoes": 90,
-      "recentes": 90,
+      "total_mencoes": 75,
+      "recentes": 75,
       "sentimento": {
-        "positivo": 30,
+        "positivo": 26,
         "negativo": 1,
-        "neutro": 59
+        "neutro": 48
       },
       "sentimento_recente": {
-        "positivo": 30,
+        "positivo": 26,
         "negativo": 1,
-        "neutro": 59
+        "neutro": 48
       },
-      "tom_liquido": 0.322,
-      "tom_liquido_recente": 0.322,
+      "tom_liquido": 0.333,
+      "tom_liquido_recente": 0.333,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -185,21 +185,21 @@
           "title": "Recordistas no Ranking, Eduardo Gomes e Dorinha são mais uma vez eleitos Cabeças do Congresso este ano",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORkZDdF96akVrQ2JrZG9pWmtjYlN0aG5sMjhScUZGTnJjVF91U21DUlBoMWxzNFN2QTVTWkFmNkMzVWFlcDNHUENwTS1ndndTd0hTSjFKYVJmaGlMZzl0NFNUV1ZlaHRYLVV2YjBZWS10MnBMdk1IcnhUWU1TSEs0d1ZvWFhRQUtIRV9Gb0FRcFpLSjZtVVFUQlBFOFlLNV9wc29OSmdOSHFYcFNpeUpJOC1NQW5weWNQZTYxNlJSdDhlcGtSZDg5cGVaRmtYX3lOWHpfTVBvSFo0QQ?oc=5",
           "source": "Gazeta do Cerrado",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Neutro"
         },
         {
           "title": "Articulação de Dorinha garante mais de 520 moradias para famílias rurais, indígenas e quilombolas no Tocantins",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNclNJQnpFSWdHVVpNSUNuMExsY3BaQzNpcVR3WHdCTjR1VmNhb1QzNHVkTlhMUmZHYWZxMWNDa3NPM0J5emxSWlVOMFVPWXRRYWhRM1pFaG9Db2JVZFByMlppY3hRekx1ZjRaUGNwSmZDa09ISENpQVo3R0FpUEludGhyMHY4ckNXQzJzNlpsclhvZDFYUk42Z3VtVVV5a2U2ZFlyejVGZnBORTBJZTQ4MTJIcl9fbTZNcUJ3N0lZc3NYN0Jobk0xNVNKb3Jfb3I5czdMd09JYjQ5MVo4U0htNkdXNGdpQQ?oc=5",
           "source": "Gazeta do Cerrado",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Neutro"
         },
         {
           "title": "Projeto relatado por Dorinha garante incentivo à qualificação de mais de 22 mil profissionais da educação no Tocantins",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMjBWejBuajBZTktMd0dxcVcyZThBMm1BQ2t1WlBfaHdYM2J4MkdHV0lTVEdMNGsxcWNQY3NvdnZ3RklkSTN1YURCN21xSTZrZjlmRGtYS2RLcW0yYkdkY2x0VERlbkg4QWtKRV9CT0NSNE5WSVhhZUt4X1VLQUFweWE3andSMWNhX192Y0VMemxtdXNuREJrMUVPR056UXpENDNWNGFOR3VkNGFGbW00RWlVZVFiZVlVTmdScVpTQmpFVUprclpoMmw4aHJua2JWRTBuUDA5QUpzV0sxZ2MxUG1WVHRrWWM?oc=5",
           "source": "Surgiu",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Neutro"
         }
       ]
@@ -207,20 +207,20 @@
     {
       "id": "laurez",
       "nome": "Laurez Moreira",
-      "total_mencoes": 48,
-      "recentes": 48,
+      "total_mencoes": 42,
+      "recentes": 42,
       "sentimento": {
-        "positivo": 22,
-        "negativo": 0,
-        "neutro": 26
+        "positivo": 18,
+        "negativo": 1,
+        "neutro": 23
       },
       "sentimento_recente": {
-        "positivo": 22,
-        "negativo": 0,
-        "neutro": 26
+        "positivo": 18,
+        "negativo": 1,
+        "neutro": 23
       },
-      "tom_liquido": 0.458,
-      "tom_liquido_recente": 0.458,
+      "tom_liquido": 0.405,
+      "tom_liquido_recente": 0.405,
       "alertas": [
         {
           "tipo": "evento_judicial",
@@ -234,21 +234,21 @@
           "title": "PT bate o martelo e anuncia apoio a Laurez Moreira para governador do Tocantins",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGdNM05COVBHWDVVQlNsQjIxa0FlWFlBckswZ0g4Q2hJSHNiNVQ3cU1pMkt3NVNTajNMby1RczNERWRKaDdlOUl2cDVUT1I0bzlZS25JMVdsUUlWOUN2Xy1sZGQ5UENFUXBLLVd0cThFMzJGUEpKSkVlR0tZS3VUcHRuQ0o4MGlPdDZZX1BxODM1ZGt6dFNUZDVpRUVYd3QwbTh4OEltU25TUWVUZzdidnhZZ2hBZ9IBuwFBVV95cUxPb1kxOUdUcVRmRkNlcHJHZmFBVzJEZG54dEJ6Qno5ZkhveTRQZTU1V0ctNTdxWVg2ZnNiUmYzbDhDVzNwSTY4aE9NaThCUUdnMG9xMEZ1MGJjWmlENVlIZTloY18xbWRiQXAxNTcwOTZ3WWlkN1JpSk9mLXRsUFd6alg2UlExb2pQYXVZa19ETGIwSEZHUmY1aGc1amE5SnBpdTA3ZU8waUpXdnB4M1l2akhkWFRVVWFRdEtz?oc=5",
           "source": "jornalprimeirapaginato.com",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Positivo"
         },
         {
           "title": "PT decide apoiar Laurez na disputa pelo Governo do Tocantins e lança Paulo Mourão ao Senado",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN1BWV3pDczlqRzZZSkN0RnI0TV9xWDBjTV9wMWtWZzlJeHFMTG5ySTZ3SS1ROHhOd2kwaWVJRGlYaG9GcFdoY3huV1Nac1dmZHZSbVhKTXJQR2QzUlJqZFdaUjZLLWVEYldwbl9uUV9EOTVPZlNyMWtsV2NmNjdmTVFKbzZPODB5V0hUdzJXTFdrbU1NVGJ4RVFWVnZyTTBUbVNHUUFfOXYzQmhKNVVNYUg5U3FIVTdfUEV3S0I2UmdIejVPOUJwTjNYMlVGaVVoWkJZTWhR?oc=5",
           "source": "afnoticias.com.br",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Positivo"
         },
         {
           "title": "Laurez Moreira consegue nova vitória e Justiça mantém estrutura da Vice-Governadoria",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa09lYUhjNlpiajQ0RDVzaWh4dFVoVXp0Q1g5MHVJTVdLSVVzdUhfcjBkdXh0VGRvdlk5RldEQmg3V1dyV0thbEVLeVgzMWVOZWdFVHlUa0JvLXhfbEJMenhqTEsyU0dGN0FuMXplUmRBV3pyOUxWOVdReWRLUmVXWmFISWNRZEVCcU1xWVFCT0o0bzRSc0xzNzFyWjhkbjlxRjJVQmF1VVF6WS1IdVp4VjlmLVRFOEM5X3JaRGZsdw?oc=5",
           "source": "Sou de Palmas",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Neutro"
         }
       ]
@@ -256,20 +256,20 @@
     {
       "id": "katia",
       "nome": "Kátia Abreu",
-      "total_mencoes": 12,
-      "recentes": 12,
+      "total_mencoes": 11,
+      "recentes": 11,
       "sentimento": {
         "positivo": 6,
         "negativo": 0,
-        "neutro": 6
+        "neutro": 5
       },
       "sentimento_recente": {
         "positivo": 6,
         "negativo": 0,
-        "neutro": 6
+        "neutro": 5
       },
-      "tom_liquido": 0.5,
-      "tom_liquido_recente": 0.5,
+      "tom_liquido": 0.545,
+      "tom_liquido_recente": 0.545,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -280,24 +280,24 @@
       ],
       "destaques": [
         {
-          "title": "PT Nacional entra no jogo de 2026 e monta chapa com Laurez ao Governo, Paulo Mourão e Irajá ao Senado no Tocantins sob coordenação de Kátia Abreu",
-          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYW5XNTBXclRXT3liZDJaQThxbjhLWDdqTWpoaGpEM1E1WXE1ejMycjVnSFNxdUItelRpWjYzX2JtdHVhMS1mRVdkYXRfY2hXek45c1VaYWV4U05DLS1UY0Q2Wk9aMnQ1R2FjR0hPdF9sZTlNclNRU21wSGRoOF9BSU94V3Q2TUR3Q3RLZDB6UUd6R1M5RDNma0t0a1luaTN6Q3BxNWpsWlp0RU0xX0RjdXg1ZEU2VnpQY3prTjZvUkw2UUlLODh0ZUtaM0hoTFk1NzJkR0FqVjVQUkRMU0JLUUFmNFlhb2wtSlBQM2VMNnI2RTdTT3lNeS1XNXNtQ0VYT1FEQXVNeFVuTGkzeTZiU1VfR1dzVEo1V1E?oc=5",
-          "source": "Diário Tocantinense",
-          "data": "2026-06-20",
-          "sentimento": "Neutro"
-        },
-        {
           "title": "Com o ministro das Cidades, Porto Nacional entrega 100 moradias do Residencial Monsenhor Juraci, nesta quarta-feira",
           "url": "https://www.luizarmandocosta.com.br/noticia/com-o-ministro-das-cidades-porto-nacional-entrega-100-moradias-do-residencial-monsenhor-juraci-nesta-quarta-feira/54474",
           "source": "Blog Luiz Armando Costa",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Neutro"
         },
         {
           "title": "Iratã Abreu reforça aliança com Thiago Cerqueira e foca em Natividade",
           "url": "https://t1noticias.com.br/politica/irata-abreu-reforca-alianca-com-thiago-cerqueira-e-foca-em-natividade/142177/",
           "source": "T1 Notícias",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
+          "sentimento": "Positivo"
+        },
+        {
+          "title": "Pesquisa RealTime Big Data indica liderança de Dorinha Seabra na disputa pelo governo do Tocantins",
+          "url": "https://atitudeto.com.br/politica/pesquisa-realtime-big-data-indica-lideranca-de-dorinha-seabra-na-disputa-pelo-governo-do-tocantins/",
+          "source": "Atitude Tocantins",
+          "data": "2026-06-21",
           "sentimento": "Positivo"
         }
       ]
@@ -305,20 +305,20 @@
     {
       "id": "mourao",
       "nome": "Paulo Mourão",
-      "total_mencoes": 11,
-      "recentes": 11,
+      "total_mencoes": 9,
+      "recentes": 9,
       "sentimento": {
-        "positivo": 7,
+        "positivo": 6,
         "negativo": 0,
-        "neutro": 4
+        "neutro": 3
       },
       "sentimento_recente": {
-        "positivo": 7,
+        "positivo": 6,
         "negativo": 0,
-        "neutro": 4
+        "neutro": 3
       },
-      "tom_liquido": 0.636,
-      "tom_liquido_recente": 0.636,
+      "tom_liquido": 0.667,
+      "tom_liquido_recente": 0.667,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -332,21 +332,21 @@
           "title": "PT decide apoiar Laurez na disputa pelo Governo do Tocantins e lança Paulo Mourão ao Senado",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN1BWV3pDczlqRzZZSkN0RnI0TV9xWDBjTV9wMWtWZzlJeHFMTG5ySTZ3SS1ROHhOd2kwaWVJRGlYaG9GcFdoY3huV1Nac1dmZHZSbVhKTXJQR2QzUlJqZFdaUjZLLWVEYldwbl9uUV9EOTVPZlNyMWtsV2NmNjdmTVFKbzZPODB5V0hUdzJXTFdrbU1NVGJ4RVFWVnZyTTBUbVNHUUFfOXYzQmhKNVVNYUg5U3FIVTdfUEV3S0I2UmdIejVPOUJwTjNYMlVGaVVoWkJZTWhR?oc=5",
           "source": "afnoticias.com.br",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Positivo"
         },
         {
-          "title": "PT Nacional entra no jogo de 2026 e monta chapa com Laurez ao Governo, Paulo Mourão e Irajá ao Senado no Tocantins sob coordenação de Kátia Abreu",
-          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYW5XNTBXclRXT3liZDJaQThxbjhLWDdqTWpoaGpEM1E1WXE1ejMycjVnSFNxdUItelRpWjYzX2JtdHVhMS1mRVdkYXRfY2hXek45c1VaYWV4U05DLS1UY0Q2Wk9aMnQ1R2FjR0hPdF9sZTlNclNRU21wSGRoOF9BSU94V3Q2TUR3Q3RLZDB6UUd6R1M5RDNma0t0a1luaTN6Q3BxNWpsWlp0RU0xX0RjdXg1ZEU2VnpQY3prTjZvUkw2UUlLODh0ZUtaM0hoTFk1NzJkR0FqVjVQUkRMU0JLUUFmNFlhb2wtSlBQM2VMNnI2RTdTT3lNeS1XNXNtQ0VYT1FEQXVNeFVuTGkzeTZiU1VfR1dzVEo1V1E?oc=5",
-          "source": "Diário Tocantinense",
-          "data": "2026-06-20",
-          "sentimento": "Neutro"
+          "title": "PT sela aliança com Laurez e confirma Irajá e Paulo Mourão na chapa majoritária",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZEJ4YTNTMGROSUdCb0pjUHpPU2lnY0tTYXFyYzNXN2lTRUhPNnBzYWNNNGxiWEpkLV8xVUgwVlJzc0s5QVdHRUNaZG94NEtwM0hMQVVIa0dYM2pYU21VNWpZQU5GSjFNdTlmaFI0WmZrZTJWSTdWcG9pcThub1NFMmJiT2Mzb1RZMkpSTXRoRWRTZkVILURBMlJZV3JCMVJHc0lSVDgxcWwzemxhUTFkalhqVUowU1R0ZGYwU0dLRQ?oc=5",
+          "source": "Folha Capital",
+          "data": "2026-06-21",
+          "sentimento": "Positivo"
         },
         {
-          "title": "PT fecha apoio a Laurez Moreira para o Governo do Tocantins e indica Paulo Mourão ao Senado",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeHlhVnYzVEtEUWxnQ20wSTVleHctM1NOaUFzRTAwR19obHg3YXlFMjBDem14ZWR5VWN0LU02bC1SWXlGdjVFN2R1cV9DUTRmSEFUanJuWnlDNXF6VkFZT0p5cWszTk04cE9sdHkxeHdUV2ZSWWk5NEVpVmlrVDZrS1E1Szd2UXUzV000QUMxR1hWQVRMTkZjVGlWckpOMUw0T1BCeTI2anBsWFBYUVNxb2FBdlVnVDNRNnFzOGNsc2RVSlBh?oc=5",
-          "source": "Portal O Girassol",
-          "data": "2026-06-20",
+          "title": "PT fecha apoio a Laurez e articulação com PSD avança com chapa formada por Irajá e Paulo Mourão",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMWpVNmVtbUh3Rkg0Z25TOWd0OXFxSWl5dFY2U2xLN3VLallORW9PdVF0cW54b2o5bkJLcE9HZHpPVnNfVlE2OVY0ZnhVNE9lYkZ3UU9kWmh1VWJycmtiOTJYM2VDczJBc214clN2dHVEN0s0WmF6ODZ1UHU2T3U0Q1VaU0RkdDNiZDlJV1RGYm5RNFBLYmRPSUo3MS03emlWY0F5bFJWbnR3TnhOckNhdEJKc2dLQjhWckpUdWZ2Q0ZXZEhJbzAtT2lDUVBvZ0Jhb1V1QXpGZnlocDE3R3E1RG9TMEgxQQ?oc=5",
+          "source": "Jornal Opção | Tocantins",
+          "data": "2026-06-21",
           "sentimento": "Positivo"
         }
       ]
@@ -374,21 +374,21 @@
           "title": "Pesquisa RealTime Big Data indica liderança de Dorinha Seabra na disputa pelo governo do Tocantins",
           "url": "https://atitudeto.com.br/politica/pesquisa-realtime-big-data-indica-lideranca-de-dorinha-seabra-na-disputa-pelo-governo-do-tocantins/",
           "source": "Atitude Tocantins",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Positivo"
         },
         {
           "title": "Dorinha aparece com 33% das intenções de voto para o Governo, aponta pesquisa RealTime Big Data",
           "url": "https://araguainanoticias.com.br/noticia/dorinha-aparece-com-33-das-intencoes-de-voto-para-o-governo-aponta-pesquisa-realtime-big-data/44644",
           "source": "Araguaína Notícias",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Neutro"
         },
         {
           "title": "ELEIÇÕES 2026Pesquisa RealTime Big Data: Dorinha lidera em todos os cenários para o Governo do Tocantins",
           "url": "https://www.agenciatocantins.com.br/noticia/108590/pesquisa-realtime-big-data-dorinha-lidera-em-todos-os-cenarios-para-o-governo-do-tocantins",
           "source": "Agência Tocantins",
-          "data": "2026-06-20",
+          "data": "2026-06-21",
           "sentimento": "Positivo"
         }
       ]
@@ -397,6 +397,6 @@
   "resumo": {
     "adversarios": 8,
     "com_alerta_critico": 3,
-    "total_mencoes": 238
+    "total_mencoes": 206
   }
 }

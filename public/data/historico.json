@@ -1020,7 +1020,91 @@
       "engajamento_pct": 6.85,
       "sentimento_liquido": 0.667,
       "origem": "live"
+    },
+    {
+      "data": "2026-06-21",
+      "id": "dorinha",
+      "nome": "Professora Dorinha Seabra Rezende",
+      "partido": "UB",
+      "posicao": 1,
+      "score": 84.1,
+      "seguidores": 89956,
+      "engajamento_pct": 0.94,
+      "sentimento_liquido": 0.667,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-21",
+      "id": "katia",
+      "nome": "Kátia Abreu",
+      "partido": "PT",
+      "posicao": 2,
+      "score": 63.2,
+      "seguidores": 63083,
+      "engajamento_pct": 0.6,
+      "sentimento_liquido": 0.727,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-21",
+      "id": "vicentinho",
+      "nome": "Vicentinho Júnior",
+      "partido": "PSDB",
+      "posicao": 3,
+      "score": 61.9,
+      "seguidores": 113748,
+      "engajamento_pct": 0.77,
+      "sentimento_liquido": 0.488,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-21",
+      "id": "laurez",
+      "nome": "Laurez Moreira",
+      "partido": "PSD",
+      "posicao": 4,
+      "score": 41.4,
+      "seguidores": 90104,
+      "engajamento_pct": 0.18,
+      "sentimento_liquido": 0.5,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-21",
+      "id": "mourao",
+      "nome": "Paulo Mourão",
+      "partido": "PT",
+      "posicao": 5,
+      "score": 39.9,
+      "seguidores": 0,
+      "engajamento_pct": 0,
+      "sentimento_liquido": 0.889,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-21",
+      "id": "ataides",
+      "nome": "Ataídes Oliveira",
+      "partido": "DC",
+      "posicao": 6,
+      "score": 36.3,
+      "seguidores": 0,
+      "engajamento_pct": 0,
+      "sentimento_liquido": 0.062,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-21",
+      "id": "witer",
+      "nome": "Witer Naves",
+      "partido": "PSOL",
+      "posicao": 7,
+      "score": 28.2,
+      "seguidores": 1591,
+      "engajamento_pct": 6.85,
+      "sentimento_liquido": 0.667,
+      "origem": "live"
     }
   ],
-  "atualizado": "2026-06-20T20:03:34.194074-03:00"
+  "atualizado": "2026-06-21T09:18:13.169156-03:00"
 }
