@@ -1027,10 +1027,10 @@
       "nome": "Professora Dorinha Seabra Rezende",
       "partido": "UB",
       "posicao": 1,
-      "score": 84.1,
+      "score": 84.3,
       "seguidores": 89956,
       "engajamento_pct": 0.94,
-      "sentimento_liquido": 0.667,
+      "sentimento_liquido": 0.725,
       "origem": "live"
     },
     {
@@ -1051,10 +1051,10 @@
       "nome": "Vicentinho Júnior",
       "partido": "PSDB",
       "posicao": 3,
-      "score": 61.9,
+      "score": 62.0,
       "seguidores": 113748,
       "engajamento_pct": 0.77,
-      "sentimento_liquido": 0.488,
+      "sentimento_liquido": 0.537,
       "origem": "live"
     },
     {
@@ -1075,10 +1075,10 @@
       "nome": "Paulo Mourão",
       "partido": "PT",
       "posicao": 5,
-      "score": 39.9,
+      "score": 40.2,
       "seguidores": 0,
       "engajamento_pct": 0,
-      "sentimento_liquido": 0.889,
+      "sentimento_liquido": 1.0,
       "origem": "live"
     },
     {
@@ -1087,10 +1087,10 @@
       "nome": "Ataídes Oliveira",
       "partido": "DC",
       "posicao": 6,
-      "score": 36.3,
+      "score": 36.1,
       "seguidores": 0,
       "engajamento_pct": 0,
-      "sentimento_liquido": 0.062,
+      "sentimento_liquido": 0.0,
       "origem": "live"
     },
     {
@@ -1106,5 +1106,5 @@
       "origem": "live"
     }
   ],
-  "atualizado": "2026-06-21T09:18:13.169156-03:00"
+  "atualizado": "2026-06-21T20:06:46.332803-03:00"
 }

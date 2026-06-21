@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-21 12:18",
+  "updated_at": "2026-06-21 23:06",
   "janela_dias": 7,
   "principio": "Movimento de narrativa DESCRITIVO: sentimento derivado de titulos de imprensa publica (classificador POS/NEG/Neutro) + alertas do radar. Sem PII de terceiros (sem autor/usuario/comentario privado).",
   "adversarios": [
     {
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "total_mencoes": 43,
-      "recentes": 43,
+      "total_mencoes": 41,
+      "recentes": 41,
       "sentimento": {
-        "positivo": 19,
+        "positivo": 17,
         "negativo": 3,
         "neutro": 21
       },
       "sentimento_recente": {
-        "positivo": 19,
+        "positivo": 17,
         "negativo": 3,
         "neutro": 21
       },
-      "tom_liquido": 0.372,
-      "tom_liquido_recente": 0.372,
+      "tom_liquido": 0.341,
+      "tom_liquido_recente": 0.341,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -30,8 +30,8 @@
         {
           "tipo": "spike_negativo",
           "nivel": "alerta",
-          "severidade": 0.3688,
-          "evidencia": "4 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Folha do Jalapão, Jornal Opção | Tocantins)"
+          "severidade": 0.262,
+          "evidencia": "3 menções negativas em 2 veículo(s) nas últimas 72h (Agência Tocantins, Jornal Opção | Tocantins)"
         }
       ],
       "destaques": [
@@ -59,168 +59,22 @@
       ]
     },
     {
-      "id": "ataides",
-      "nome": "Ataídes Oliveira",
-      "total_mencoes": 16,
-      "recentes": 16,
-      "sentimento": {
-        "positivo": 3,
-        "negativo": 2,
-        "neutro": 11
-      },
-      "sentimento_recente": {
-        "positivo": 3,
-        "negativo": 2,
-        "neutro": 11
-      },
-      "tom_liquido": 0.062,
-      "tom_liquido_recente": 0.062,
-      "alertas": [
-        {
-          "tipo": "concentracao_doadores",
-          "nivel": "alerta",
-          "severidade": 0.5265,
-          "evidencia": "Base financeira concentrada: top-3 doadores = 95% das doações (firepower 0.56) → exposição de captura 0.53"
-        },
-        {
-          "tipo": "spike_negativo",
-          "nivel": "alerta",
-          "severidade": 0.3253,
-          "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Blog Luiz Armando Costa, Portal O Norte)"
-        }
-      ],
-      "destaques": [
-        {
-          "title": "Unidades Corujinha ampliam acesso à saúde e registram mais de 31 mil atendimentos e procedimentos realizados",
-          "url": "https://www.luizarmandocosta.com.br/noticia/unidades-corujinha-ampliam-acesso-a-saude-e-registram-mais-de-31-mil-atendimentos-e-procedimentos-realizados/54503",
-          "source": "Blog Luiz Armando Costa",
-          "data": "2026-06-21",
-          "sentimento": "Neutro"
-        },
-        {
-          "title": "Governador Wanderlei Barbosa anuncia R$ 27 milhões em investimentos na saúde do Vale do Araguaia durante a entrega de novos leitos de UTI",
-          "url": "https://www.luizarmandocosta.com.br/noticia/governador-wanderlei-barbosa-anuncia-r-27-milhoes-em-investimentos-na-saude-do-vale-do-araguaia-durante-a-entrega-de-novos-leitos-de-uti/54485",
-          "source": "Blog Luiz Armando Costa",
-          "data": "2026-06-21",
-          "sentimento": "Neutro"
-        },
-        {
-          "title": "O Tribunal do Júri de Araguaína condenou Rejane Mendes da Silva e Lindiana Mendes da Silva pelo homicídio e pela ocultação de cadáver de José Paulo Couto, idoso com mais de 60 anos à época dos fatos. A decisão acolheu a tese da denúncia apresentada pelo",
-          "url": "https://www.luizarmandocosta.com.br/noticia/o-tribunal-do-juri-de-araguaina-condenou-rejane-mendes-da-silva-e-lindiana-mendes-da-silva-pelo-homicidio-e-pela-ocultacao-de-cadaver-de-jose-paulo-couto-idoso-com-mais-de-60-anos-a-epoca-dos-fatos-a-decisao-acolheu-a-tese-da-denuncia-apresentada-pelo/54483",
-          "source": "Blog Luiz Armando Costa",
-          "data": "2026-06-21",
-          "sentimento": "Negativo"
-        }
-      ]
-    },
-    {
-      "id": "cinthia",
-      "nome": "Cinthia Ribeiro",
-      "total_mencoes": 7,
-      "recentes": 7,
-      "sentimento": {
-        "positivo": 1,
-        "negativo": 2,
-        "neutro": 4
-      },
-      "sentimento_recente": {
-        "positivo": 1,
-        "negativo": 2,
-        "neutro": 4
-      },
-      "tom_liquido": -0.143,
-      "tom_liquido_recente": -0.143,
-      "alertas": [],
-      "destaques": [
-        {
-          "title": "Governo entrega à PM  Sala da Corporação, 23 viaturas, 1,6 mil pistolas Glock e 140 carabinas",
-          "url": "https://araguainanoticias.com.br/noticia/governo-entrega-a-pm-sala-da-corporacao-23-viaturas-1-6-mil-pistolas-glock-e-140-carabinas/44635",
-          "source": "Araguaína Notícias",
-          "data": "2026-06-21",
-          "sentimento": "Neutro"
-        },
-        {
-          "title": "SEGURANÇA PÚBLICACom investimento de mais de R$ 23 milhões, governador Wanderlei Barbosa entrega equipamentos à PM e inaugura Sala de Situação em Palmas",
-          "url": "https://www.agenciatocantins.com.br/noticia/108577/com-investimento-de-mais-de-r-23-milhoes-governador-wanderlei-barbosa-entrega-equipamentos-a-pm-e-inaugura-sala-de-situacao-em-palmas",
-          "source": "Agência Tocantins",
-          "data": "2026-06-21",
-          "sentimento": "Neutro"
-        },
-        {
-          "title": "Gurupi - TOHomem é condenado a mais de 58 anos de prisão por tripla tentativa de homicídio em Gurupi",
-          "url": "https://www.agenciatocantins.com.br/noticia/108575/homem-e-condenado-a-mais-de-58-anos-de-prisao-por-tripla-tentativa-de-homicidio-em-gurupi",
-          "source": "Agência Tocantins",
-          "data": "2026-06-21",
-          "sentimento": "Negativo"
-        }
-      ]
-    },
-    {
-      "id": "dorinha",
-      "nome": "Professora Dorinha Seabra Rezende",
-      "total_mencoes": 75,
-      "recentes": 75,
-      "sentimento": {
-        "positivo": 26,
-        "negativo": 1,
-        "neutro": 48
-      },
-      "sentimento_recente": {
-        "positivo": 26,
-        "negativo": 1,
-        "neutro": 48
-      },
-      "tom_liquido": 0.333,
-      "tom_liquido_recente": 0.333,
-      "alertas": [
-        {
-          "tipo": "concentracao_doadores",
-          "nivel": "critico",
-          "severidade": 0.947,
-          "evidencia": "Base financeira concentrada: top-3 doadores = 95% das doações (firepower 1.00) → exposição de captura 0.95"
-        }
-      ],
-      "destaques": [
-        {
-          "title": "Recordistas no Ranking, Eduardo Gomes e Dorinha são mais uma vez eleitos Cabeças do Congresso este ano",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORkZDdF96akVrQ2JrZG9pWmtjYlN0aG5sMjhScUZGTnJjVF91U21DUlBoMWxzNFN2QTVTWkFmNkMzVWFlcDNHUENwTS1ndndTd0hTSjFKYVJmaGlMZzl0NFNUV1ZlaHRYLVV2YjBZWS10MnBMdk1IcnhUWU1TSEs0d1ZvWFhRQUtIRV9Gb0FRcFpLSjZtVVFUQlBFOFlLNV9wc29OSmdOSHFYcFNpeUpJOC1NQW5weWNQZTYxNlJSdDhlcGtSZDg5cGVaRmtYX3lOWHpfTVBvSFo0QQ?oc=5",
-          "source": "Gazeta do Cerrado",
-          "data": "2026-06-21",
-          "sentimento": "Neutro"
-        },
-        {
-          "title": "Articulação de Dorinha garante mais de 520 moradias para famílias rurais, indígenas e quilombolas no Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNclNJQnpFSWdHVVpNSUNuMExsY3BaQzNpcVR3WHdCTjR1VmNhb1QzNHVkTlhMUmZHYWZxMWNDa3NPM0J5emxSWlVOMFVPWXRRYWhRM1pFaG9Db2JVZFByMlppY3hRekx1ZjRaUGNwSmZDa09ISENpQVo3R0FpUEludGhyMHY4ckNXQzJzNlpsclhvZDFYUk42Z3VtVVV5a2U2ZFlyejVGZnBORTBJZTQ4MTJIcl9fbTZNcUJ3N0lZc3NYN0Jobk0xNVNKb3Jfb3I5czdMd09JYjQ5MVo4U0htNkdXNGdpQQ?oc=5",
-          "source": "Gazeta do Cerrado",
-          "data": "2026-06-21",
-          "sentimento": "Neutro"
-        },
-        {
-          "title": "Projeto relatado por Dorinha garante incentivo à qualificação de mais de 22 mil profissionais da educação no Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMjBWejBuajBZTktMd0dxcVcyZThBMm1BQ2t1WlBfaHdYM2J4MkdHV0lTVEdMNGsxcWNQY3NvdnZ3RklkSTN1YURCN21xSTZrZjlmRGtYS2RLcW0yYkdkY2x0VERlbkg4QWtKRV9CT0NSNE5WSVhhZUt4X1VLQUFweWE3andSMWNhX192Y0VMemxtdXNuREJrMUVPR056UXpENDNWNGFOR3VkNGFGbW00RWlVZVFiZVlVTmdScVpTQmpFVUprclpoMmw4aHJua2JWRTBuUDA5QUpzV0sxZ2MxUG1WVHRrWWM?oc=5",
-          "source": "Surgiu",
-          "data": "2026-06-21",
-          "sentimento": "Neutro"
-        }
-      ]
-    },
-    {
       "id": "laurez",
       "nome": "Laurez Moreira",
       "total_mencoes": 42,
       "recentes": 42,
       "sentimento": {
-        "positivo": 18,
+        "positivo": 19,
         "negativo": 1,
-        "neutro": 23
+        "neutro": 22
       },
       "sentimento_recente": {
-        "positivo": 18,
+        "positivo": 19,
         "negativo": 1,
-        "neutro": 23
+        "neutro": 22
       },
-      "tom_liquido": 0.405,
-      "tom_liquido_recente": 0.405,
+      "tom_liquido": 0.429,
+      "tom_liquido_recente": 0.429,
       "alertas": [
         {
           "tipo": "evento_judicial",
@@ -250,6 +104,110 @@
           "source": "Sou de Palmas",
           "data": "2026-06-21",
           "sentimento": "Neutro"
+        }
+      ]
+    },
+    {
+      "id": "ataides",
+      "nome": "Ataídes Oliveira",
+      "total_mencoes": 14,
+      "recentes": 14,
+      "sentimento": {
+        "positivo": 2,
+        "negativo": 1,
+        "neutro": 11
+      },
+      "sentimento_recente": {
+        "positivo": 2,
+        "negativo": 1,
+        "neutro": 11
+      },
+      "tom_liquido": 0.071,
+      "tom_liquido_recente": 0.071,
+      "alertas": [
+        {
+          "tipo": "concentracao_doadores",
+          "nivel": "alerta",
+          "severidade": 0.5265,
+          "evidencia": "Base financeira concentrada: top-3 doadores = 95% das doações (firepower 0.56) → exposição de captura 0.53"
+        },
+        {
+          "tipo": "spike_negativo",
+          "nivel": "alerta",
+          "severidade": 0.3245,
+          "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Blog Luiz Armando Costa, Jornal Opção Tocantins, Portal O Norte)"
+        }
+      ],
+      "destaques": [
+        {
+          "title": "Unidades Corujinha ampliam acesso à saúde e registram mais de 31 mil atendimentos e procedimentos realizados",
+          "url": "https://www.luizarmandocosta.com.br/noticia/unidades-corujinha-ampliam-acesso-a-saude-e-registram-mais-de-31-mil-atendimentos-e-procedimentos-realizados/54503",
+          "source": "Blog Luiz Armando Costa",
+          "data": "2026-06-21",
+          "sentimento": "Neutro"
+        },
+        {
+          "title": "Governador Wanderlei Barbosa anuncia R$ 27 milhões em investimentos na saúde do Vale do Araguaia durante a entrega de novos leitos de UTI",
+          "url": "https://www.luizarmandocosta.com.br/noticia/governador-wanderlei-barbosa-anuncia-r-27-milhoes-em-investimentos-na-saude-do-vale-do-araguaia-durante-a-entrega-de-novos-leitos-de-uti/54485",
+          "source": "Blog Luiz Armando Costa",
+          "data": "2026-06-21",
+          "sentimento": "Neutro"
+        },
+        {
+          "title": "O Tribunal do Júri de Araguaína condenou Rejane Mendes da Silva e Lindiana Mendes da Silva pelo homicídio e pela ocultação de cadáver de José Paulo Couto, idoso com mais de 60 anos à época dos fatos. A decisão acolheu a tese da denúncia apresentada pelo",
+          "url": "https://www.luizarmandocosta.com.br/noticia/o-tribunal-do-juri-de-araguaina-condenou-rejane-mendes-da-silva-e-lindiana-mendes-da-silva-pelo-homicidio-e-pela-ocultacao-de-cadaver-de-jose-paulo-couto-idoso-com-mais-de-60-anos-a-epoca-dos-fatos-a-decisao-acolheu-a-tese-da-denuncia-apresentada-pelo/54483",
+          "source": "Blog Luiz Armando Costa",
+          "data": "2026-06-21",
+          "sentimento": "Negativo"
+        }
+      ]
+    },
+    {
+      "id": "dorinha",
+      "nome": "Professora Dorinha Seabra Rezende",
+      "total_mencoes": 69,
+      "recentes": 69,
+      "sentimento": {
+        "positivo": 26,
+        "negativo": 0,
+        "neutro": 43
+      },
+      "sentimento_recente": {
+        "positivo": 26,
+        "negativo": 0,
+        "neutro": 43
+      },
+      "tom_liquido": 0.377,
+      "tom_liquido_recente": 0.377,
+      "alertas": [
+        {
+          "tipo": "concentracao_doadores",
+          "nivel": "critico",
+          "severidade": 0.947,
+          "evidencia": "Base financeira concentrada: top-3 doadores = 95% das doações (firepower 1.00) → exposição de captura 0.95"
+        }
+      ],
+      "destaques": [
+        {
+          "title": "Recordistas no Ranking, Eduardo Gomes e Dorinha são mais uma vez eleitos Cabeças do Congresso este ano",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORkZDdF96akVrQ2JrZG9pWmtjYlN0aG5sMjhScUZGTnJjVF91U21DUlBoMWxzNFN2QTVTWkFmNkMzVWFlcDNHUENwTS1ndndTd0hTSjFKYVJmaGlMZzl0NFNUV1ZlaHRYLVV2YjBZWS10MnBMdk1IcnhUWU1TSEs0d1ZvWFhRQUtIRV9Gb0FRcFpLSjZtVVFUQlBFOFlLNV9wc29OSmdOSHFYcFNpeUpJOC1NQW5weWNQZTYxNlJSdDhlcGtSZDg5cGVaRmtYX3lOWHpfTVBvSFo0QQ?oc=5",
+          "source": "Gazeta do Cerrado",
+          "data": "2026-06-21",
+          "sentimento": "Neutro"
+        },
+        {
+          "title": "Articulação de Dorinha garante mais de 520 moradias para famílias rurais, indígenas e quilombolas no Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNclNJQnpFSWdHVVpNSUNuMExsY3BaQzNpcVR3WHdCTjR1VmNhb1QzNHVkTlhMUmZHYWZxMWNDa3NPM0J5emxSWlVOMFVPWXRRYWhRM1pFaG9Db2JVZFByMlppY3hRekx1ZjRaUGNwSmZDa09ISENpQVo3R0FpUEludGhyMHY4ckNXQzJzNlpsclhvZDFYUk42Z3VtVVV5a2U2ZFlyejVGZnBORTBJZTQ4MTJIcl9fbTZNcUJ3N0lZc3NYN0Jobk0xNVNKb3Jfb3I5czdMd09JYjQ5MVo4U0htNkdXNGdpQQ?oc=5",
+          "source": "Gazeta do Cerrado",
+          "data": "2026-06-21",
+          "sentimento": "Neutro"
+        },
+        {
+          "title": "Professora aposentada relembra gestão de Dorinha e destaca legado na educação do sudeste do Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeHhnZFc5ZXB1ZWdhb1hBYjliMkd6d2NVOFVlSmtZWWFnaWRuaUJDU1FRRjN4X1drM1VVV3dsN05hUVE2dzdhUnI5OVNVRC1aNmFuMk1tVjJ5MHFiRVFaTFVmM0xQTWd2TEhObXE0bi11cm9INVdDSm9MRTEzRm5WTnNJSGVweTk0dHozWkkxd21MU2ZZX2VYR0Q1VDB6cVZBQThRMV9XcUd6OFZSMlk4aURXUHBMNW5lZTFWc0Rrc3g3VWdXb2JIcnJqWHREbF8wdTVtUU83bWtJeGg2WUpHMw?oc=5",
+          "source": "Diário Tocantinense",
+          "data": "2026-06-21",
+          "sentimento": "Positivo"
         }
       ]
     },
@@ -305,20 +263,20 @@
     {
       "id": "mourao",
       "nome": "Paulo Mourão",
-      "total_mencoes": 9,
-      "recentes": 9,
+      "total_mencoes": 8,
+      "recentes": 8,
       "sentimento": {
         "positivo": 6,
         "negativo": 0,
-        "neutro": 3
+        "neutro": 2
       },
       "sentimento_recente": {
         "positivo": 6,
         "negativo": 0,
-        "neutro": 3
+        "neutro": 2
       },
-      "tom_liquido": 0.667,
-      "tom_liquido_recente": 0.667,
+      "tom_liquido": 0.75,
+      "tom_liquido_recente": 0.75,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -346,6 +304,48 @@
           "title": "PT fecha apoio a Laurez e articulação com PSD avança com chapa formada por Irajá e Paulo Mourão",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMWpVNmVtbUh3Rkg0Z25TOWd0OXFxSWl5dFY2U2xLN3VLallORW9PdVF0cW54b2o5bkJLcE9HZHpPVnNfVlE2OVY0ZnhVNE9lYkZ3UU9kWmh1VWJycmtiOTJYM2VDczJBc214clN2dHVEN0s0WmF6ODZ1UHU2T3U0Q1VaU0RkdDNiZDlJV1RGYm5RNFBLYmRPSUo3MS03emlWY0F5bFJWbnR3TnhOckNhdEJKc2dLQjhWckpUdWZ2Q0ZXZEhJbzAtT2lDUVBvZ0Jhb1V1QXpGZnlocDE3R3E1RG9TMEgxQQ?oc=5",
           "source": "Jornal Opção | Tocantins",
+          "data": "2026-06-21",
+          "sentimento": "Positivo"
+        }
+      ]
+    },
+    {
+      "id": "cinthia",
+      "nome": "Cinthia Ribeiro",
+      "total_mencoes": 5,
+      "recentes": 5,
+      "sentimento": {
+        "positivo": 1,
+        "negativo": 0,
+        "neutro": 4
+      },
+      "sentimento_recente": {
+        "positivo": 1,
+        "negativo": 0,
+        "neutro": 4
+      },
+      "tom_liquido": 0.2,
+      "tom_liquido_recente": 0.2,
+      "alertas": [],
+      "destaques": [
+        {
+          "title": "Governo entrega à PM  Sala da Corporação, 23 viaturas, 1,6 mil pistolas Glock e 140 carabinas",
+          "url": "https://araguainanoticias.com.br/noticia/governo-entrega-a-pm-sala-da-corporacao-23-viaturas-1-6-mil-pistolas-glock-e-140-carabinas/44635",
+          "source": "Araguaína Notícias",
+          "data": "2026-06-21",
+          "sentimento": "Neutro"
+        },
+        {
+          "title": "SEGURANÇA PÚBLICACom investimento de mais de R$ 23 milhões, governador Wanderlei Barbosa entrega equipamentos à PM e inaugura Sala de Situação em Palmas",
+          "url": "https://www.agenciatocantins.com.br/noticia/108577/com-investimento-de-mais-de-r-23-milhoes-governador-wanderlei-barbosa-entrega-equipamentos-a-pm-e-inaugura-sala-de-situacao-em-palmas",
+          "source": "Agência Tocantins",
+          "data": "2026-06-21",
+          "sentimento": "Neutro"
+        },
+        {
+          "title": "POLÍTICA REGIONALMatopiba: Dorinha propõe que Ministério da Integração assuma competência e pede fórum regional em Palmas",
+          "url": "https://www.agenciatocantins.com.br/noticia/107960/matopiba-dorinha-propoe-que-ministerio-da-integracao-assuma-competencia-e-pede-forum-regional-em-palmas",
+          "source": "Agência Tocantins",
           "data": "2026-06-21",
           "sentimento": "Positivo"
         }
@@ -397,6 +397,6 @@
   "resumo": {
     "adversarios": 8,
     "com_alerta_critico": 3,
-    "total_mencoes": 206
+    "total_mencoes": 193
   }
 }

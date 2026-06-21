@@ -1,5 +1,5 @@
 {
-  "data_atualizacao": "2026-06-21 12:18",
+  "data_atualizacao": "2026-06-21 23:06",
   "cargo": "Governador",
   "estado": "Tocantins",
   "vagas": 1,
@@ -28,7 +28,7 @@
       "capital_positivo": 0.619,
       "trajetoria_eleitoral": 0.7,
       "firepower_financeiro": 1.0,
-      "sentimento_liquido": 0.667,
+      "sentimento_liquido": 0.725,
       "chapa": {
         "vice": {
           "nome": null,
@@ -78,7 +78,7 @@
         }
       ],
       "ranking_caveat": null,
-      "score": 84.1,
+      "score": 84.3,
       "nivel_dinamico": "alta",
       "confidence": 0.958,
       "confidence_dims": {
@@ -166,7 +166,7 @@
       "capital_positivo": 0.444,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.852,
-      "sentimento_liquido": 0.488,
+      "sentimento_liquido": 0.537,
       "chapa": {
         "vice": {
           "nome": "Amélio Cayres",
@@ -194,7 +194,7 @@
       "trust_score_revisao": "2026-06-04",
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 61.9,
+      "score": 62.0,
       "nivel_dinamico": "média",
       "confidence": 0.958,
       "confidence_dims": {
@@ -311,7 +311,7 @@
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.1,
       "firepower_financeiro": 0.692,
-      "sentimento_liquido": 0.889,
+      "sentimento_liquido": 1.0,
       "chapa": {
         "vice": {
           "nome": null,
@@ -330,8 +330,8 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 39.9,
-      "nivel_dinamico": "baixa",
+      "score": 40.2,
+      "nivel_dinamico": "média",
       "confidence": 0.694,
       "confidence_dims": {
         "votos_2022": 1.0,
@@ -370,7 +370,7 @@
       "capital_positivo": 0.486,
       "trajetoria_eleitoral": 0.1,
       "firepower_financeiro": 0.556,
-      "sentimento_liquido": 0.062,
+      "sentimento_liquido": 0.0,
       "chapa": {
         "vice": {
           "nome": null,
@@ -388,7 +388,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 36.3,
+      "score": 36.1,
       "nivel_dinamico": "baixa",
       "confidence": 0.708,
       "confidence_dims": {
@@ -527,8 +527,8 @@
   "total_candidatos": 7,
   "stats": {
     "forca_alta": 1,
-    "forca_media": 3,
-    "forca_baixa": 3,
+    "forca_media": 4,
+    "forca_baixa": 2,
     "confidence_media": 0.785
   }
 }

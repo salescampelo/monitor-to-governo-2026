@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-06-21 12:18",
+  "updated_at": "2026-06-21 23:06",
   "adversarios": {
     "dorinha": {
-      "total": 75,
-      "positivos": 51,
-      "negativos": 1,
-      "neutros": 23,
-      "sentimento_liquido": 0.667,
-      "relevancia_media": 0.91
+      "total": 69,
+      "positivos": 50,
+      "negativos": 0,
+      "neutros": 19,
+      "sentimento_liquido": 0.725,
+      "relevancia_media": 0.918
     },
     "vicentinho": {
-      "total": 43,
+      "total": 41,
       "positivos": 25,
-      "negativos": 4,
-      "neutros": 14,
-      "sentimento_liquido": 0.488,
-      "relevancia_media": 0.917
+      "negativos": 3,
+      "neutros": 13,
+      "sentimento_liquido": 0.537,
+      "relevancia_media": 0.924
     },
     "laurez": {
       "total": 42,
@@ -23,23 +23,23 @@
       "negativos": 2,
       "neutros": 17,
       "sentimento_liquido": 0.5,
-      "relevancia_media": 0.942
+      "relevancia_media": 0.94
     },
     "cinthia": {
-      "total": 7,
-      "positivos": 1,
-      "negativos": 2,
-      "neutros": 4,
-      "sentimento_liquido": -0.143,
-      "relevancia_media": 0.866
+      "total": 5,
+      "positivos": 2,
+      "negativos": 0,
+      "neutros": 3,
+      "sentimento_liquido": 0.4,
+      "relevancia_media": 0.925
     },
     "mourao": {
-      "total": 9,
+      "total": 8,
       "positivos": 8,
       "negativos": 0,
-      "neutros": 1,
-      "sentimento_liquido": 0.889,
-      "relevancia_media": 0.933
+      "neutros": 0,
+      "sentimento_liquido": 1.0,
+      "relevancia_media": 0.938
     },
     "katia": {
       "total": 11,
@@ -47,7 +47,7 @@
       "negativos": 0,
       "neutros": 3,
       "sentimento_liquido": 0.727,
-      "relevancia_media": 0.936
+      "relevancia_media": 0.941
     },
     "witer": {
       "total": 3,
@@ -58,12 +58,12 @@
       "relevancia_media": 0.937
     },
     "ataides": {
-      "total": 16,
-      "positivos": 4,
+      "total": 14,
+      "positivos": 3,
       "negativos": 3,
-      "neutros": 9,
-      "sentimento_liquido": 0.062,
-      "relevancia_media": 0.872
+      "neutros": 8,
+      "sentimento_liquido": 0.0,
+      "relevancia_media": 0.894
     }
   }
 }
