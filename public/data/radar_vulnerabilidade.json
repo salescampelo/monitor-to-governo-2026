@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-21 23:06",
+  "updated_at": "2026-06-22 15:30",
   "alertas": [
     {
       "adversario_id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "detectado_em": "2026-06-21 23:06",
+      "detectado_em": "2026-06-22 15:30",
       "tipo": "concentracao_doadores",
       "severidade": 0.947,
       "nivel": "critico",
@@ -13,7 +13,7 @@
     {
       "adversario_id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "detectado_em": "2026-06-21 23:06",
+      "detectado_em": "2026-06-22 15:30",
       "tipo": "concentracao_doadores",
       "severidade": 0.7532,
       "nivel": "critico",
@@ -22,7 +22,7 @@
     {
       "adversario_id": "katia",
       "nome": "Kátia Abreu",
-      "detectado_em": "2026-06-21 23:06",
+      "detectado_em": "2026-06-22 15:30",
       "tipo": "concentracao_doadores",
       "severidade": 0.7123,
       "nivel": "critico",
@@ -31,7 +31,7 @@
     {
       "adversario_id": "mourao",
       "nome": "Paulo Mourão",
-      "detectado_em": "2026-06-21 23:06",
+      "detectado_em": "2026-06-22 15:30",
       "tipo": "concentracao_doadores",
       "severidade": 0.6823,
       "nivel": "alerta",
@@ -40,34 +40,25 @@
     {
       "adversario_id": "ataides",
       "nome": "Ataídes Oliveira",
-      "detectado_em": "2026-06-21 23:06",
+      "detectado_em": "2026-06-22 15:30",
       "tipo": "concentracao_doadores",
       "severidade": 0.5265,
       "nivel": "alerta",
       "evidencia": "Base financeira concentrada: top-3 doadores = 95% das doações (firepower 0.56) → exposição de captura 0.53"
     },
     {
-      "adversario_id": "ataides",
-      "nome": "Ataídes Oliveira",
-      "detectado_em": "2026-06-21 23:06",
-      "tipo": "spike_negativo",
-      "severidade": 0.3245,
-      "nivel": "alerta",
-      "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Blog Luiz Armando Costa, Jornal Opção Tocantins, Portal O Norte)"
-    },
-    {
       "adversario_id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "detectado_em": "2026-06-21 23:06",
+      "detectado_em": "2026-06-22 15:30",
       "tipo": "spike_negativo",
-      "severidade": 0.262,
+      "severidade": 0.3743,
       "nivel": "alerta",
-      "evidencia": "3 menções negativas em 2 veículo(s) nas últimas 72h (Agência Tocantins, Jornal Opção | Tocantins)"
+      "evidencia": "4 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Araguaína Notícias, Jornal Opção Tocantins)"
     },
     {
       "adversario_id": "laurez",
       "nome": "Laurez Moreira",
-      "detectado_em": "2026-06-21 23:06",
+      "detectado_em": "2026-06-22 15:30",
       "tipo": "evento_judicial",
       "severidade": 0.15,
       "nivel": "alerta",
@@ -75,14 +66,14 @@
     }
   ],
   "resumo": {
-    "total_alertas": 8,
+    "total_alertas": 7,
     "criticos": 3,
     "por_adversario": {
       "dorinha": 1,
       "vicentinho": 2,
       "katia": 1,
       "mourao": 1,
-      "ataides": 2,
+      "ataides": 1,
       "laurez": 1
     }
   }
