@@ -1195,22 +1195,10 @@
       "nome": "Professora Dorinha Seabra Rezende",
       "partido": "UB",
       "posicao": 1,
-      "score": 83.1,
+      "score": 83.7,
       "seguidores": 89180,
       "engajamento_pct": 0.99,
-      "sentimento_liquido": 0.413,
-      "origem": "live"
-    },
-    {
-      "data": "2026-06-23",
-      "id": "katia",
-      "nome": "Kátia Abreu",
-      "partido": "PT",
-      "posicao": 2,
-      "score": 62.8,
-      "seguidores": 63072,
-      "engajamento_pct": 0.57,
-      "sentimento_liquido": 0.667,
+      "sentimento_liquido": 0.594,
       "origem": "live"
     },
     {
@@ -1218,11 +1206,23 @@
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
       "partido": "PSDB",
-      "posicao": 3,
-      "score": 61.6,
+      "posicao": 2,
+      "score": 61.9,
       "seguidores": 114241,
       "engajamento_pct": 0.71,
-      "sentimento_liquido": 0.45,
+      "sentimento_liquido": 0.545,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-23",
+      "id": "katia",
+      "nome": "Kátia Abreu",
+      "partido": "PT",
+      "posicao": 3,
+      "score": 61.7,
+      "seguidores": 63072,
+      "engajamento_pct": 0.57,
+      "sentimento_liquido": 0.28,
       "origem": "live"
     },
     {
@@ -1231,10 +1231,10 @@
       "nome": "Laurez Moreira",
       "partido": "PSD",
       "posicao": 4,
-      "score": 41.4,
+      "score": 41.6,
       "seguidores": 90132,
       "engajamento_pct": 0.21,
-      "sentimento_liquido": 0.482,
+      "sentimento_liquido": 0.564,
       "origem": "live"
     },
     {
@@ -1243,10 +1243,10 @@
       "nome": "Paulo Mourão",
       "partido": "PT",
       "posicao": 5,
-      "score": 39.9,
+      "score": 40.1,
       "seguidores": 0,
       "engajamento_pct": 0,
-      "sentimento_liquido": 0.9,
+      "sentimento_liquido": 0.938,
       "origem": "live"
     },
     {
@@ -1255,10 +1255,10 @@
       "nome": "Ataídes Oliveira",
       "partido": "DC",
       "posicao": 6,
-      "score": 37.4,
+      "score": 38.8,
       "seguidores": 0,
       "engajamento_pct": 0,
-      "sentimento_liquido": 0.429,
+      "sentimento_liquido": 0.88,
       "origem": "live"
     },
     {
@@ -1274,5 +1274,5 @@
       "origem": "live"
     }
   ],
-  "atualizado": "2026-06-23T09:40:52.634296-03:00"
+  "atualizado": "2026-06-23T20:04:54.382827-03:00"
 }
