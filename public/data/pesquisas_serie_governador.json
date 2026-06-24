@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-06-19T16:06:00",
+  "gerado_em": "2026-06-24T16:43:31",
   "metrica": "Governador TO 2026 — 1o cenario estimulado (espontaneo p/ TO-02251)",
   "principio": "no-fabricacao: so numeros divulgados por fonte primaria; suspensas sem numero = lacuna",
-  "referencia_media_dorinha": 28.69,
+  "referencia_media_dorinha": 29.59,
   "referencia_base": [
     "(ago/2025)",
     "(out/2025)",
@@ -10,9 +10,10 @@
     "TO-02299/2026",
     "TO-01693/2026",
     "TO-01843/2026",
-    "TO-05379/2026"
+    "TO-05379/2026",
+    "TO-07317/2026"
   ],
-  "n_pesquisas_com_numero": 8,
+  "n_pesquisas_com_numero": 9,
   "lacunas_suspensas_sem_numero": [
     {
       "protocolo": "TO-06700/2026",
@@ -62,7 +63,7 @@
       "protocolo": "TO-03623/2026",
       "instituto": "Instituto Vox Tocantins",
       "campo": "05-09/jun",
-      "motivo": "AGUARDANDO divulgacao prevista 20/jun (instituto inedito)"
+      "motivo": "AGUARDANDO: previsto 20/jun, mas em 24/jun ainda sem numero em imprensa primaria (instituto inedito)"
     }
   ],
   "serie": [
@@ -710,6 +711,66 @@
       "entrevistas": 1600,
       "margem": 2.0,
       "fonte": "gazetadopovo.com.br (junho-2026) + r7 (19062026)"
+    },
+    {
+      "data_termino": "2026-06-22",
+      "data_divulgacao": "2026-06-24",
+      "instituto": "Parana Pesquisas",
+      "protocolo": "TO-07317/2026",
+      "tipo": "estimulado",
+      "cenario": "1o",
+      "status": "divulgada",
+      "ciclo": 2026,
+      "candidato": "Ataides Oliveira",
+      "percentual": 6.9,
+      "entrevistas": 1340,
+      "margem": 2.7,
+      "fonte": "gazetadopovo.com.br/.../parana-pesquisas-governador-senado-tocantins-junho-2026 + atitudeto + exame + band + poder360 (24/jun)"
+    },
+    {
+      "data_termino": "2026-06-22",
+      "data_divulgacao": "2026-06-24",
+      "instituto": "Parana Pesquisas",
+      "protocolo": "TO-07317/2026",
+      "tipo": "estimulado",
+      "cenario": "1o",
+      "status": "divulgada",
+      "ciclo": 2026,
+      "candidato": "Dorinha",
+      "percentual": 35.9,
+      "entrevistas": 1340,
+      "margem": 2.7,
+      "fonte": "gazetadopovo.com.br/.../parana-pesquisas-governador-senado-tocantins-junho-2026 + atitudeto + exame + band + poder360 (24/jun)"
+    },
+    {
+      "data_termino": "2026-06-22",
+      "data_divulgacao": "2026-06-24",
+      "instituto": "Parana Pesquisas",
+      "protocolo": "TO-07317/2026",
+      "tipo": "estimulado",
+      "cenario": "1o",
+      "status": "divulgada",
+      "ciclo": 2026,
+      "candidato": "Laurez Moreira",
+      "percentual": 8.8,
+      "entrevistas": 1340,
+      "margem": 2.7,
+      "fonte": "gazetadopovo.com.br/.../parana-pesquisas-governador-senado-tocantins-junho-2026 + atitudeto + exame + band + poder360 (24/jun)"
+    },
+    {
+      "data_termino": "2026-06-22",
+      "data_divulgacao": "2026-06-24",
+      "instituto": "Parana Pesquisas",
+      "protocolo": "TO-07317/2026",
+      "tipo": "estimulado",
+      "cenario": "1o",
+      "status": "divulgada",
+      "ciclo": 2026,
+      "candidato": "Vicentinho Jr",
+      "percentual": 33.3,
+      "entrevistas": 1340,
+      "margem": 2.7,
+      "fonte": "gazetadopovo.com.br/.../parana-pesquisas-governador-senado-tocantins-junho-2026 + atitudeto + exame + band + poder360 (24/jun)"
     }
   ]
 }
