@@ -1,5 +1,5 @@
 {
-  "data_atualizacao": "2026-06-23 23:04",
+  "data_atualizacao": "2026-06-24 12:25",
   "cargo": "Governador",
   "estado": "Tocantins",
   "vagas": 1,
@@ -28,7 +28,7 @@
       "capital_positivo": 0.619,
       "trajetoria_eleitoral": 0.7,
       "firepower_financeiro": 1.0,
-      "sentimento_liquido": 0.594,
+      "sentimento_liquido": 0.635,
       "chapa": {
         "vice": {
           "nome": null,
@@ -78,7 +78,7 @@
         }
       ],
       "ranking_caveat": null,
-      "score": 83.7,
+      "score": 83.8,
       "nivel_dinamico": "alta",
       "confidence": 0.958,
       "confidence_dims": {
@@ -118,7 +118,7 @@
       "capital_positivo": 0.444,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.852,
-      "sentimento_liquido": 0.545,
+      "sentimento_liquido": 0.596,
       "chapa": {
         "vice": {
           "nome": "Amélio Cayres",
@@ -146,7 +146,7 @@
       "trust_score_revisao": "2026-06-04",
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 61.9,
+      "score": 62.0,
       "nivel_dinamico": "média",
       "confidence": 0.958,
       "confidence_dims": {
@@ -186,7 +186,7 @@
       "capital_positivo": 0.37,
       "trajetoria_eleitoral": 0.3,
       "firepower_financeiro": 0.718,
-      "sentimento_liquido": 0.28,
+      "sentimento_liquido": 0.368,
       "chapa": {},
       "cargo_pretendido_status": "incerto",
       "trust_score": 1.0,
@@ -194,7 +194,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": "candidatura governador é cenário B; Senado é cenário A",
-      "score": 61.7,
+      "score": 61.9,
       "nivel_dinamico": "média",
       "confidence": 0.958,
       "confidence_dims": {
@@ -234,7 +234,7 @@
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.0,
-      "sentimento_liquido": 0.564,
+      "sentimento_liquido": 0.642,
       "chapa": {
         "vice": {
           "nome": null,
@@ -271,7 +271,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 41.6,
+      "score": 41.8,
       "nivel_dinamico": "média",
       "confidence": 0.619,
       "confidence_dims": {
@@ -311,7 +311,7 @@
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.1,
       "firepower_financeiro": 0.692,
-      "sentimento_liquido": 0.938,
+      "sentimento_liquido": 1.0,
       "chapa": {
         "vice": {
           "nome": null,
@@ -330,7 +330,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 40.1,
+      "score": 40.2,
       "nivel_dinamico": "média",
       "confidence": 0.694,
       "confidence_dims": {
@@ -370,7 +370,7 @@
       "capital_positivo": 0.486,
       "trajetoria_eleitoral": 0.1,
       "firepower_financeiro": 0.556,
-      "sentimento_liquido": 0.88,
+      "sentimento_liquido": 0.846,
       "chapa": {
         "vice": {
           "nome": null,
@@ -388,7 +388,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 38.8,
+      "score": 38.7,
       "nivel_dinamico": "baixa",
       "confidence": 0.708,
       "confidence_dims": {
