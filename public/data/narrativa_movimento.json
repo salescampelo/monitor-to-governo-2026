@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-24 21:08",
+  "updated_at": "2026-06-24 21:53",
   "janela_dias": 7,
   "principio": "Movimento de narrativa DESCRITIVO: sentimento derivado de titulos de imprensa publica (classificador POS/NEG/Neutro) + alertas do radar. Sem PII de terceiros (sem autor/usuario/comentario privado).",
   "adversarios": [
     {
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "total_mencoes": 57,
-      "recentes": 57,
+      "total_mencoes": 58,
+      "recentes": 58,
       "sentimento": {
-        "positivo": 16,
+        "positivo": 15,
         "negativo": 7,
-        "neutro": 34
+        "neutro": 36
       },
       "sentimento_recente": {
-        "positivo": 16,
+        "positivo": 15,
         "negativo": 7,
-        "neutro": 34
+        "neutro": 36
       },
-      "tom_liquido": 0.158,
-      "tom_liquido_recente": 0.158,
+      "tom_liquido": 0.138,
+      "tom_liquido_recente": 0.138,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -61,20 +61,20 @@
     {
       "id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "total_mencoes": 70,
-      "recentes": 70,
+      "total_mencoes": 71,
+      "recentes": 71,
       "sentimento": {
         "positivo": 21,
         "negativo": 0,
-        "neutro": 49
+        "neutro": 50
       },
       "sentimento_recente": {
         "positivo": 21,
         "negativo": 0,
-        "neutro": 49
+        "neutro": 50
       },
-      "tom_liquido": 0.3,
-      "tom_liquido_recente": 0.3,
+      "tom_liquido": 0.296,
+      "tom_liquido_recente": 0.296,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -85,7 +85,7 @@
       ],
       "destaques": [
         {
-          "title": "Dorinha promete volta do Salão do Livro no Tocantins",
+          "title": "Dorinha promete retomada do Salão do Livro no Tocantins caso assuma governo do Estado",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZEd2SXZ6cmVvTzV4eVpESUZBT29Lczkzc1plVmdSY21TNE1GdklOZGQxTkpzT0k2ZUUxT0RqMF9NM2NtQXNBd25OdjNkdUN6eDZkMTAwREpQZ2JGbndZNS1abGQ2bmJ3ekFoSEktZVZzMHBTWW5jbEVQbjZ1emZiYVJLbTlYY3BnYWVWYkswbnBnSXdNUy1mZm5vRVlob3R0TXdzREJOeVFsX1JBNGlaNDBpNmo1Z3R2bEZB?oc=5",
           "source": "Surgiu",
           "data": "2026-06-24",
@@ -99,9 +99,9 @@
           "sentimento": "Neutro"
         },
         {
-          "title": "Vicentinho Jr. tem 44,1% e Dorinha 42,5% em 2º turno para o Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZW01dUNmSjczTS16dlNOZlhNel95Z1JybHBQdWgtdHhaUkJobVpOTnpqamRLa1h1VXNOSnFZR1lGMDkzbWtRcjQ5NUJQLXR2S3lobXNXbENzdzIyQmsyRndralZadDdST3FLT0JwakJYODBpbXJidS1WamM1czFCd2pXdzlmQnFjbjhUX0hYY09rZ011cFlnVDdsY2dmVE9RUUhteVBtMEN3RzRzbndvM1NzVzRoaXZCdjZIT2ZMTzRyNVXSAcMBQVVfeXFMT2VtNXVDZko3M00tenZTTmZYTXpfeWdScmxwUHVoLXR4WlJCaG1aTk56ampkS2tYdVVzTkpxWUdZRjA5M21rUXI0OTVCUC10dkt5aG1zV2xDc3cyMkJrMkZ3a2pWWnQ3Uk9xS09CcGpCWDgwaW1yYnUtVmpjNXMxQndqV3c5ZkJxY244VF9IWGNPa2dNdXBZZ1Q3bGNnZlRPUVFIbXlQbTBDd0c0c253bzNTc1c0aGl2QnY2SE9mTE80cjVV?oc=5",
-          "source": "Diário do Poder",
+          "title": "Paraná Pesquisas aponta empate técnico entre Dorinha e Vicentinho Júnior na disputa pelo governo do Tocantins",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPemtld0J0LU9IT3BOOF9MT21MbkZiazdlM1Fnc3AtZU9UZnRVbllCTE5FN09ULXlrTnlGTnJBd2xWcmVnTDY0VnBaTFF3YzlRd1hzZVdFejJKT2NMT0h4ZTNvZzdrTE5NSlNYOXRhOTJYYUdwM1BSOEpaWEMtcHc3ZDlPMW1xMU13M1hpODVocVdtNFFKSDdfdl9HelBwcWxfMURienk2elF3anBlYmhDU1B3Rm44S1h0UGs1Xy1zN3VjYmFjaEhCLUdYSHZZNXJ4VFRpMmc0Wm9nSGN6?oc=5",
+          "source": "Atitude Tocantins",
           "data": "2026-06-24",
           "sentimento": "Neutro"
         }
@@ -110,20 +110,20 @@
     {
       "id": "laurez",
       "nome": "Laurez Moreira",
-      "total_mencoes": 57,
-      "recentes": 57,
+      "total_mencoes": 58,
+      "recentes": 58,
       "sentimento": {
-        "positivo": 28,
+        "positivo": 30,
         "negativo": 0,
-        "neutro": 29
+        "neutro": 28
       },
       "sentimento_recente": {
-        "positivo": 28,
+        "positivo": 30,
         "negativo": 0,
-        "neutro": 29
+        "neutro": 28
       },
-      "tom_liquido": 0.491,
-      "tom_liquido_recente": 0.491,
+      "tom_liquido": 0.517,
+      "tom_liquido_recente": 0.517,
       "alertas": [
         {
           "tipo": "evento_judicial",
@@ -211,17 +211,17 @@
       "total_mencoes": 22,
       "recentes": 22,
       "sentimento": {
-        "positivo": 7,
+        "positivo": 8,
         "negativo": 0,
-        "neutro": 15
+        "neutro": 14
       },
       "sentimento_recente": {
-        "positivo": 7,
+        "positivo": 8,
         "negativo": 0,
-        "neutro": 15
+        "neutro": 14
       },
-      "tom_liquido": 0.318,
-      "tom_liquido_recente": 0.318,
+      "tom_liquido": 0.364,
+      "tom_liquido_recente": 0.364,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -257,20 +257,20 @@
     {
       "id": "mourao",
       "nome": "Paulo Mourão",
-      "total_mencoes": 15,
-      "recentes": 15,
+      "total_mencoes": 16,
+      "recentes": 16,
       "sentimento": {
-        "positivo": 11,
+        "positivo": 12,
         "negativo": 0,
         "neutro": 4
       },
       "sentimento_recente": {
-        "positivo": 11,
+        "positivo": 12,
         "negativo": 0,
         "neutro": 4
       },
-      "tom_liquido": 0.733,
-      "tom_liquido_recente": 0.733,
+      "tom_liquido": 0.75,
+      "tom_liquido_recente": 0.75,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -377,6 +377,6 @@
   "resumo": {
     "adversarios": 8,
     "com_alerta_critico": 3,
-    "total_mencoes": 250
+    "total_mencoes": 254
   }
 }

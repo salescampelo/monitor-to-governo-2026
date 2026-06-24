@@ -1279,10 +1279,10 @@
       "nome": "Professora Dorinha Seabra Rezende",
       "partido": "UB",
       "posicao": 1,
-      "score": 82.8,
+      "score": 82.7,
       "seguidores": 89180,
       "engajamento_pct": 0.99,
-      "sentimento_liquido": 0.3,
+      "sentimento_liquido": 0.282,
       "origem": "live"
     },
     {
@@ -1291,10 +1291,10 @@
       "nome": "Vicentinho Júnior",
       "partido": "PSDB",
       "posicao": 2,
-      "score": 60.9,
+      "score": 60.8,
       "seguidores": 114241,
       "engajamento_pct": 0.71,
-      "sentimento_liquido": 0.211,
+      "sentimento_liquido": 0.19,
       "origem": "live"
     },
     {
@@ -1303,10 +1303,10 @@
       "nome": "Laurez Moreira",
       "partido": "PSD",
       "posicao": 3,
-      "score": 41.9,
+      "score": 42.0,
       "seguidores": 90132,
       "engajamento_pct": 0.21,
-      "sentimento_liquido": 0.667,
+      "sentimento_liquido": 0.69,
       "origem": "live"
     },
     {
@@ -1334,5 +1334,5 @@
       "origem": "live"
     }
   ],
-  "atualizado": "2026-06-24T18:08:24.461658-03:00"
+  "atualizado": "2026-06-24T18:53:54.934774-03:00"
 }
