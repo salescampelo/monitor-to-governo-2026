@@ -1,5 +1,5 @@
 {
-  "data_atualizacao": "2026-06-24 12:25",
+  "data_atualizacao": "2026-06-24 21:08",
   "cargo": "Governador",
   "estado": "Tocantins",
   "vagas": 1,
@@ -28,7 +28,7 @@
       "capital_positivo": 0.619,
       "trajetoria_eleitoral": 0.7,
       "firepower_financeiro": 1.0,
-      "sentimento_liquido": 0.635,
+      "sentimento_liquido": 0.3,
       "chapa": {
         "vice": {
           "nome": null,
@@ -78,7 +78,7 @@
         }
       ],
       "ranking_caveat": null,
-      "score": 83.8,
+      "score": 82.8,
       "nivel_dinamico": "alta",
       "confidence": 0.958,
       "confidence_dims": {
@@ -118,7 +118,7 @@
       "capital_positivo": 0.444,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.852,
-      "sentimento_liquido": 0.596,
+      "sentimento_liquido": 0.211,
       "chapa": {
         "vice": {
           "nome": "Amélio Cayres",
@@ -146,7 +146,7 @@
       "trust_score_revisao": "2026-06-04",
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 62.0,
+      "score": 60.9,
       "nivel_dinamico": "média",
       "confidence": 0.958,
       "confidence_dims": {
@@ -164,54 +164,6 @@
       "ranking": 2
     },
     {
-      "id": "katia",
-      "username": "senadorakatiaabreu",
-      "nome": "Kátia Abreu",
-      "partido": "PT",
-      "bloco": "Esquerda",
-      "cargo_label": "Senadora",
-      "nivel_base": "alta",
-      "descricao": "Filiou-se ao PT em 04/04/2026. Cargo final dependerá de barganha por palanque de Lula. Senado mais provável.",
-      "abreviacao": "KA",
-      "seguidores": 63072,
-      "taxa_engajamento_pct": 0.57,
-      "media_likes_recentes": 325.3,
-      "data_coleta": "2026-06-22",
-      "votos_2022": 145104,
-      "cargo_2022": "senado",
-      "sobreposicao": 0.842,
-      "is_mandato_atual": true,
-      "severidade_processual": 0.0,
-      "vetor_doadores": 0.0,
-      "capital_positivo": 0.37,
-      "trajetoria_eleitoral": 0.3,
-      "firepower_financeiro": 0.718,
-      "sentimento_liquido": 0.368,
-      "chapa": {},
-      "cargo_pretendido_status": "incerto",
-      "trust_score": 1.0,
-      "trust_score_motivo": null,
-      "trust_score_revisao": null,
-      "vetor_reputacional_recente": [],
-      "ranking_caveat": "candidatura governador é cenário B; Senado é cenário A",
-      "score": 61.9,
-      "nivel_dinamico": "média",
-      "confidence": 0.958,
-      "confidence_dims": {
-        "votos_2022": 1.0,
-        "seguidores": 1.0,
-        "sobreposicao": 0.85,
-        "nivel_base": 1.0,
-        "engajamento": 1.0,
-        "mandato": 1.0,
-        "severidade": 0.9,
-        "vetor_doadores": 1.0,
-        "capital_positivo": 0.85,
-        "trajetoria": 0.85
-      },
-      "ranking": 3
-    },
-    {
       "id": "laurez",
       "username": "laurezmoreira",
       "nome": "Laurez Moreira",
@@ -219,7 +171,7 @@
       "bloco": "Independente",
       "cargo_label": "Vice-governador",
       "nivel_base": "alta",
-      "descricao": "Vice-governador atual do Tocantins. Pré-candidato confirmado ao governo.",
+      "descricao": "Vice-governador atual do Tocantins (continuidade do governo Wanderlei). Pré-candidato ao governo. Em 23/06/2026 recebeu o APOIO OFICIAL DO PT — palanque de Lula.",
       "abreviacao": "LM",
       "seguidores": 90132,
       "taxa_engajamento_pct": 0.21,
@@ -234,21 +186,20 @@
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.0,
-      "sentimento_liquido": 0.642,
+      "sentimento_liquido": 0.667,
       "chapa": {
         "vice": {
           "nome": null,
           "status": "indefinido",
           "nomes_em_disputa": [
-            "Cinthia Ribeiro (foi p/ Vicentinho)",
             "Irajá Abreu",
-            "nome do PT em negociação"
+            "nome do PT/centro-esquerda"
           ]
         },
         "senado": [
           {
-            "nome": "Mauro Carlesse",
-            "partido": "PSD",
+            "nome": "Paulo Mourão",
+            "partido": "PT",
             "status": "confirmado"
           },
           {
@@ -260,7 +211,9 @@
         "coligacao": [
           "PSD",
           "PDT",
-          "buscando PT"
+          "PT",
+          "PV",
+          "PCdoB (federação Brasil da Esperança)"
         ],
         "lancada_em": "2026-05-14",
         "local_lancamento": "Clube da Caixa, Gurupi (parte Senado)"
@@ -271,7 +224,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 41.8,
+      "score": 41.9,
       "nivel_dinamico": "média",
       "confidence": 0.619,
       "confidence_dims": {
@@ -286,66 +239,7 @@
         "capital_positivo": 0.5,
         "trajetoria": 0.3
       },
-      "ranking": 4
-    },
-    {
-      "id": "mourao",
-      "username": "paulomouraopt",
-      "nome": "Paulo Mourão",
-      "partido": "PT",
-      "bloco": "Esquerda",
-      "cargo_label": "Candidato PT",
-      "nivel_base": "média",
-      "descricao": "Candidato natural da esquerda no Tocantins. Cargo final (Governo ou Senado) depende do PT nacional.",
-      "abreviacao": "PM",
-      "seguidores": 0,
-      "taxa_engajamento_pct": 0,
-      "media_likes_recentes": 0,
-      "data_coleta": "",
-      "votos_2022": 88143,
-      "cargo_2022": "governo",
-      "sobreposicao": 0.813,
-      "is_mandato_atual": false,
-      "severidade_processual": 0.0,
-      "vetor_doadores": 0.0,
-      "capital_positivo": 0.0,
-      "trajetoria_eleitoral": 0.1,
-      "firepower_financeiro": 0.692,
-      "sentimento_liquido": 1.0,
-      "chapa": {
-        "vice": {
-          "nome": null,
-          "status": "n/a — cargo do candidato indefinido"
-        },
-        "senado": [],
-        "coligacao": [
-          "PT",
-          "PV",
-          "PCdoB (federação)"
-        ]
-      },
-      "cargo_pretendido_status": "indefinido",
-      "trust_score": 1.0,
-      "trust_score_motivo": null,
-      "trust_score_revisao": null,
-      "vetor_reputacional_recente": [],
-      "ranking_caveat": null,
-      "score": 40.2,
-      "nivel_dinamico": "média",
-      "confidence": 0.694,
-      "confidence_dims": {
-        "votos_2022": 1.0,
-        "seguidores": 0.0,
-        "sobreposicao": 0.85,
-        "nivel_base": 1.0,
-        "engajamento": 0.0,
-        "mandato": 1.0,
-        "severidade": 0.9,
-        "vetor_doadores": 1.0,
-        "capital_positivo": 0.5,
-        "trajetoria": 0.85
-      },
-      "ranking": 5
+      "ranking": 3
     },
     {
       "id": "ataides",
@@ -370,7 +264,7 @@
       "capital_positivo": 0.486,
       "trajetoria_eleitoral": 0.1,
       "firepower_financeiro": 0.556,
-      "sentimento_liquido": 0.846,
+      "sentimento_liquido": 0.875,
       "chapa": {
         "vice": {
           "nome": null,
@@ -388,7 +282,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 38.7,
+      "score": 38.8,
       "nivel_dinamico": "baixa",
       "confidence": 0.708,
       "confidence_dims": {
@@ -403,7 +297,7 @@
         "capital_positivo": 0.85,
         "trajetoria": 0.85
       },
-      "ranking": 6
+      "ranking": 4
     },
     {
       "id": "witer",
@@ -473,7 +367,7 @@
         "capital_positivo": 0.5,
         "trajetoria": 0.3
       },
-      "ranking": 7
+      "ranking": 5
     }
   ],
   "desistentes": [
@@ -484,6 +378,22 @@
       "motivo": "Apoia Vicentinho Júnior. Migrou para pré-candidatura a Deputada Federal.",
       "apoia_governador": "vicentinho",
       "cargo_atual": "Deputada Federal"
+    },
+    {
+      "nome": "Paulo Mourão",
+      "cand_key": "mourao",
+      "desistente_em": "2026-06-23",
+      "motivo": "Definido candidato ao Senado pelo PT/Lula na chapa de Laurez (com Irajá Abreu/PSD).",
+      "apoia_governador": "laurez",
+      "cargo_atual": "Senador"
+    },
+    {
+      "nome": "Kátia Abreu",
+      "cand_key": "katia",
+      "desistente_em": "2026-06-23",
+      "motivo": "PT fechou com Laurez (palanque de Lula); Kátia fora da majoritária — coordenará a campanha de Lula no TO.",
+      "apoia_governador": "laurez",
+      "cargo_atual": "Coordenação da campanha de Lula no TO (sem cargo eletivo)"
     }
   ],
   "nomes_fronteira": [
@@ -515,7 +425,7 @@
       "nome": "Mauro Carlesse",
       "partido": "PSD",
       "username": "mauro.carlesse",
-      "nota": "Confirmado para Senado na chapa Laurez."
+      "nota": "Desistiu da pré-candidatura ao Senado em 12/06/2026 (isolado pela articulação PSD-PT). Vaga preenchida por Paulo Mourão (PT)."
     },
     {
       "nome": "Eli Borges",
@@ -524,11 +434,11 @@
       "nota": "Pastor Assembleiano, presidente Frente Evangélica Câmara. Filiou-se Republicanos 01/04/2026. Confirmado para Senado na chapa Dorinha."
     }
   ],
-  "total_candidatos": 7,
+  "total_candidatos": 5,
   "stats": {
     "forca_alta": 1,
-    "forca_media": 4,
+    "forca_media": 2,
     "forca_baixa": 2,
-    "confidence_media": 0.785
+    "confidence_media": 0.768
   }
 }

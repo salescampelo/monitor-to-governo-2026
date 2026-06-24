@@ -1,43 +1,43 @@
 {
-  "updated_at": "2026-06-24 12:25",
-  "fonte": "adversarios.json (2026-06-24 12:25)",
-  "n_candidatos": 7,
-  "confidence_media": 0.785,
-  "dimensao_valor_mais_fraca": "capital_positivo",
+  "updated_at": "2026-06-24 21:08",
+  "fonte": "adversarios.json (2026-06-24 21:08)",
+  "n_candidatos": 5,
+  "confidence_media": 0.768,
+  "dimensao_valor_mais_fraca": "trajetoria",
   "dimensoes": [
     {
       "dim": "votos_2022",
       "peso": 0.25,
       "tipo": "valor",
-      "com_sinal": 5,
-      "n": 7,
-      "cobertura_pct": 71.4,
-      "conf_media": 0.8
+      "com_sinal": 3,
+      "n": 5,
+      "cobertura_pct": 60.0,
+      "conf_media": 0.72
     },
     {
       "dim": "seguidores",
       "peso": 0.15,
       "tipo": "valor",
-      "com_sinal": 5,
-      "n": 7,
-      "cobertura_pct": 71.4,
-      "conf_media": 0.714
+      "com_sinal": 4,
+      "n": 5,
+      "cobertura_pct": 80.0,
+      "conf_media": 0.8
     },
     {
       "dim": "sobreposicao",
       "peso": 0.15,
       "tipo": "valor",
-      "com_sinal": 5,
-      "n": 7,
-      "cobertura_pct": 71.4,
-      "conf_media": 0.607
+      "com_sinal": 3,
+      "n": 5,
+      "cobertura_pct": 60.0,
+      "conf_media": 0.51
     },
     {
       "dim": "nivel_base",
       "peso": 0.1,
       "tipo": "estrutural",
-      "com_sinal": 7,
-      "n": 7,
+      "com_sinal": 5,
+      "n": 5,
       "cobertura_pct": 100.0,
       "conf_media": 1.0
     },
@@ -45,17 +45,17 @@
       "dim": "engajamento",
       "peso": 0.1,
       "tipo": "valor",
-      "com_sinal": 5,
-      "n": 7,
-      "cobertura_pct": 71.4,
-      "conf_media": 0.714
+      "com_sinal": 4,
+      "n": 5,
+      "cobertura_pct": 80.0,
+      "conf_media": 0.8
     },
     {
       "dim": "mandato",
       "peso": 0.05,
       "tipo": "estrutural",
-      "com_sinal": 7,
-      "n": 7,
+      "com_sinal": 5,
+      "n": 5,
       "cobertura_pct": 100.0,
       "conf_media": 1.0
     },
@@ -64,8 +64,8 @@
       "peso": 0.08,
       "tipo": "risco",
       "com_sinal": 2,
-      "n": 7,
-      "cobertura_pct": 28.6,
+      "n": 5,
+      "cobertura_pct": 40.0,
       "conf_media": 0.9,
       "nota": "0 = limpo/sem sanção (determinado, não ausente)"
     },
@@ -74,28 +74,28 @@
       "peso": 0.04,
       "tipo": "risco",
       "com_sinal": 0,
-      "n": 7,
+      "n": 5,
       "cobertura_pct": 0.0,
-      "conf_media": 0.929,
+      "conf_media": 0.9,
       "nota": "0 = limpo/sem sanção (determinado, não ausente)"
     },
     {
       "dim": "capital_positivo",
       "peso": 0.04,
       "tipo": "valor",
-      "com_sinal": 4,
-      "n": 7,
-      "cobertura_pct": 57.1,
-      "conf_media": 0.7
+      "com_sinal": 3,
+      "n": 5,
+      "cobertura_pct": 60.0,
+      "conf_media": 0.71
     },
     {
       "dim": "trajetoria",
       "peso": 0.04,
       "tipo": "traj",
-      "com_sinal": 4,
-      "n": 7,
-      "cobertura_pct": 57.1,
-      "conf_media": 0.693
+      "com_sinal": 2,
+      "n": 5,
+      "cobertura_pct": 40.0,
+      "conf_media": 0.63
     }
   ],
   "por_candidato": [
@@ -112,12 +112,6 @@
       "dims_fracas": []
     },
     {
-      "id": "katia",
-      "nome": "Kátia Abreu",
-      "confidence": 0.958,
-      "dims_fracas": []
-    },
-    {
       "id": "laurez",
       "nome": "Laurez Moreira",
       "confidence": 0.619,
@@ -125,15 +119,6 @@
         "sobreposicao",
         "votos_2022",
         "trajetoria"
-      ]
-    },
-    {
-      "id": "mourao",
-      "nome": "Paulo Mourão",
-      "confidence": 0.694,
-      "dims_fracas": [
-        "seguidores",
-        "engajamento"
       ]
     },
     {
