@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-24 21:53",
+  "updated_at": "2026-06-24 23:03",
   "janela_dias": 7,
   "principio": "Movimento de narrativa DESCRITIVO: sentimento derivado de titulos de imprensa publica (classificador POS/NEG/Neutro) + alertas do radar. Sem PII de terceiros (sem autor/usuario/comentario privado).",
   "adversarios": [
     {
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "total_mencoes": 58,
-      "recentes": 58,
+      "total_mencoes": 59,
+      "recentes": 59,
       "sentimento": {
         "positivo": 15,
         "negativo": 7,
-        "neutro": 36
+        "neutro": 37
       },
       "sentimento_recente": {
         "positivo": 15,
         "negativo": 7,
-        "neutro": 36
+        "neutro": 37
       },
-      "tom_liquido": 0.138,
-      "tom_liquido_recente": 0.138,
+      "tom_liquido": 0.136,
+      "tom_liquido_recente": 0.136,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -61,20 +61,20 @@
     {
       "id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "total_mencoes": 71,
-      "recentes": 71,
+      "total_mencoes": 72,
+      "recentes": 72,
       "sentimento": {
         "positivo": 21,
         "negativo": 0,
-        "neutro": 50
+        "neutro": 51
       },
       "sentimento_recente": {
         "positivo": 21,
         "negativo": 0,
-        "neutro": 50
+        "neutro": 51
       },
-      "tom_liquido": 0.296,
-      "tom_liquido_recente": 0.296,
+      "tom_liquido": 0.292,
+      "tom_liquido_recente": 0.292,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -113,17 +113,17 @@
       "total_mencoes": 58,
       "recentes": 58,
       "sentimento": {
-        "positivo": 30,
+        "positivo": 29,
         "negativo": 0,
-        "neutro": 28
+        "neutro": 29
       },
       "sentimento_recente": {
-        "positivo": 30,
+        "positivo": 29,
         "negativo": 0,
-        "neutro": 28
+        "neutro": 29
       },
-      "tom_liquido": 0.517,
-      "tom_liquido_recente": 0.517,
+      "tom_liquido": 0.5,
+      "tom_liquido_recente": 0.5,
       "alertas": [
         {
           "tipo": "evento_judicial",
@@ -142,7 +142,7 @@
         },
         {
           "title": "Laurez Moreira participa de plenária com ministro Luiz Marinho e lideranças sindicais em Palmas",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMXh3aUZxSkJCeWkxdUV3aDJaWmhiRVJrMld5d1dGMzNhcERDVTFSZnRrTUZqYm5LRHZvSFdSemFVZDA3Mm55bklNdGc0TWprTzE2U050b2hUMHFPWjlLQ29Dc1ZEdTF1alVieXhJYlBVUDB5WDEzT2xmZEZrdmh0WWQxbmVpLXBzV1ZFeFhJT05sM1FBR1RXZ1pFb2NvSTVPcDZ3Z2xsVGxoUzFHVWRxdlNYMkV4bVlRNGVPTnNVZi1MZWMtRjhJN0tKX3czWHVNbS1abg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQU1RNMk1memdGT2oxOE94eGJPd0pJdHBBQWxqSF8zV21HQWVtNEdmbXFOUmllSGFBNUdDeDg2R2xlX2hlYkhOYWpUVURCZG1aZ2ZfRmpFenJYZFNCOFA2S1dnZWg3cUQwMkpXc1FmZkVIeGdKWlI0eUc3V1NRMzNlWHJMS3R5dDVxTk9vNTJlOGc0bmx3Nl9vYzBCNGhhZDlMRDRCMHUwT1RDc200Q2thSkQ3c0VGaVpCaU1BQ3ZscjVCa2xjWjRN?oc=5",
           "source": "T1 Notícias",
           "data": "2026-06-24",
           "sentimento": "Positivo"
@@ -377,6 +377,6 @@
   "resumo": {
     "adversarios": 8,
     "com_alerta_critico": 3,
-    "total_mencoes": 254
+    "total_mencoes": 256
   }
 }
