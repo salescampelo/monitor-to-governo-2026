@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-06-24 23:03",
+  "updated_at": "2026-06-25 12:27",
   "adversarios": {
     "dorinha": {
-      "total": 72,
+      "total": 68,
       "positivos": 22,
       "negativos": 2,
-      "neutros": 48,
-      "sentimento_liquido": 0.278,
-      "relevancia_media": 0.948
+      "neutros": 44,
+      "sentimento_liquido": 0.294,
+      "relevancia_media": 0.941
     },
     "vicentinho": {
-      "total": 59,
-      "positivos": 20,
+      "total": 56,
+      "positivos": 14,
       "negativos": 8,
-      "neutros": 31,
-      "sentimento_liquido": 0.203,
-      "relevancia_media": 0.915
+      "neutros": 34,
+      "sentimento_liquido": 0.107,
+      "relevancia_media": 0.914
     },
     "laurez": {
-      "total": 58,
-      "positivos": 39,
+      "total": 48,
+      "positivos": 35,
       "negativos": 0,
-      "neutros": 19,
-      "sentimento_liquido": 0.672,
-      "relevancia_media": 0.937
+      "neutros": 13,
+      "sentimento_liquido": 0.729,
+      "relevancia_media": 0.941
     },
     "cinthia": {
-      "total": 4,
+      "total": 5,
       "positivos": 3,
       "negativos": 0,
-      "neutros": 1,
-      "sentimento_liquido": 0.75,
-      "relevancia_media": 0.834
+      "neutros": 2,
+      "sentimento_liquido": 0.6,
+      "relevancia_media": 0.83
     },
     "mourao": {
       "total": 16,
@@ -42,12 +42,12 @@
       "relevancia_media": 0.982
     },
     "katia": {
-      "total": 22,
-      "positivos": 10,
+      "total": 20,
+      "positivos": 9,
       "negativos": 0,
-      "neutros": 12,
-      "sentimento_liquido": 0.455,
-      "relevancia_media": 0.981
+      "neutros": 11,
+      "sentimento_liquido": 0.45,
+      "relevancia_media": 0.978
     },
     "witer": {
       "total": 1,
@@ -58,12 +58,12 @@
       "relevancia_media": 1.0
     },
     "ataides": {
-      "total": 24,
-      "positivos": 21,
+      "total": 6,
+      "positivos": 4,
       "negativos": 0,
-      "neutros": 3,
-      "sentimento_liquido": 0.875,
-      "relevancia_media": 0.996
+      "neutros": 2,
+      "sentimento_liquido": 0.667,
+      "relevancia_media": 0.983
     }
   }
 }
