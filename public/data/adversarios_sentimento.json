@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-06-25 12:27",
+  "updated_at": "2026-06-25 23:13",
   "adversarios": {
     "dorinha": {
-      "total": 68,
-      "positivos": 22,
-      "negativos": 2,
-      "neutros": 44,
-      "sentimento_liquido": 0.294,
-      "relevancia_media": 0.941
+      "total": 60,
+      "positivos": 39,
+      "negativos": 1,
+      "neutros": 20,
+      "sentimento_liquido": 0.633,
+      "relevancia_media": 0.956
     },
     "vicentinho": {
-      "total": 56,
-      "positivos": 14,
-      "negativos": 8,
-      "neutros": 34,
-      "sentimento_liquido": 0.107,
-      "relevancia_media": 0.914
+      "total": 65,
+      "positivos": 30,
+      "negativos": 4,
+      "neutros": 31,
+      "sentimento_liquido": 0.4,
+      "relevancia_media": 0.935
     },
     "laurez": {
-      "total": 48,
-      "positivos": 35,
+      "total": 58,
+      "positivos": 31,
       "negativos": 0,
-      "neutros": 13,
-      "sentimento_liquido": 0.729,
-      "relevancia_media": 0.941
+      "neutros": 27,
+      "sentimento_liquido": 0.534,
+      "relevancia_media": 0.943
     },
     "cinthia": {
-      "total": 5,
-      "positivos": 3,
+      "total": 7,
+      "positivos": 2,
       "negativos": 0,
-      "neutros": 2,
-      "sentimento_liquido": 0.6,
-      "relevancia_media": 0.83
+      "neutros": 5,
+      "sentimento_liquido": 0.286,
+      "relevancia_media": 0.959
     },
     "mourao": {
-      "total": 16,
-      "positivos": 16,
+      "total": 13,
+      "positivos": 12,
       "negativos": 0,
-      "neutros": 0,
-      "sentimento_liquido": 1.0,
-      "relevancia_media": 0.982
+      "neutros": 1,
+      "sentimento_liquido": 0.923,
+      "relevancia_media": 0.992
     },
     "katia": {
-      "total": 20,
-      "positivos": 9,
+      "total": 18,
+      "positivos": 5,
       "negativos": 0,
-      "neutros": 11,
-      "sentimento_liquido": 0.45,
-      "relevancia_media": 0.978
+      "neutros": 13,
+      "sentimento_liquido": 0.278,
+      "relevancia_media": 0.979
     },
     "witer": {
-      "total": 1,
-      "positivos": 1,
+      "total": 2,
+      "positivos": 2,
       "negativos": 0,
       "neutros": 0,
       "sentimento_liquido": 1.0,

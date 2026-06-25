@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-25 12:27",
+  "updated_at": "2026-06-25 23:13",
   "alertas": [
     {
       "adversario_id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "detectado_em": "2026-06-25 12:27",
+      "detectado_em": "2026-06-25 23:13",
       "tipo": "concentracao_doadores",
       "severidade": 0.947,
       "nivel": "critico",
@@ -13,7 +13,7 @@
     {
       "adversario_id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "detectado_em": "2026-06-25 12:27",
+      "detectado_em": "2026-06-25 23:13",
       "tipo": "concentracao_doadores",
       "severidade": 0.7532,
       "nivel": "critico",
@@ -22,25 +22,16 @@
     {
       "adversario_id": "katia",
       "nome": "Kátia Abreu",
-      "detectado_em": "2026-06-25 12:27",
+      "detectado_em": "2026-06-25 23:13",
       "tipo": "concentracao_doadores",
       "severidade": 0.7123,
       "nivel": "critico",
       "evidencia": "Base financeira concentrada: top-3 doadores = 99% das doações (firepower 0.72) → exposição de captura 0.71"
     },
     {
-      "adversario_id": "vicentinho",
-      "nome": "Vicentinho Júnior",
-      "detectado_em": "2026-06-25 12:27",
-      "tipo": "spike_negativo",
-      "severidade": 0.6933,
-      "nivel": "alerta",
-      "evidencia": "8 menções negativas em 5 veículo(s) nas últimas 72h (AF Notícias, Agência Tocantins, Araguaína Notícias, Atitude Tocantins)"
-    },
-    {
       "adversario_id": "mourao",
       "nome": "Paulo Mourão",
-      "detectado_em": "2026-06-25 12:27",
+      "detectado_em": "2026-06-25 23:13",
       "tipo": "concentracao_doadores",
       "severidade": 0.6823,
       "nivel": "alerta",
@@ -49,16 +40,25 @@
     {
       "adversario_id": "ataides",
       "nome": "Ataídes Oliveira",
-      "detectado_em": "2026-06-25 12:27",
+      "detectado_em": "2026-06-25 23:13",
       "tipo": "concentracao_doadores",
       "severidade": 0.5265,
       "nivel": "alerta",
       "evidencia": "Base financeira concentrada: top-3 doadores = 95% das doações (firepower 0.56) → exposição de captura 0.53"
     },
     {
+      "adversario_id": "vicentinho",
+      "nome": "Vicentinho Júnior",
+      "detectado_em": "2026-06-25 23:13",
+      "tipo": "spike_negativo",
+      "severidade": 0.3646,
+      "nivel": "alerta",
+      "evidencia": "4 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Atitude Tocantins, afnoticias.com.br)"
+    },
+    {
       "adversario_id": "laurez",
       "nome": "Laurez Moreira",
-      "detectado_em": "2026-06-25 12:27",
+      "detectado_em": "2026-06-25 23:13",
       "tipo": "evento_judicial",
       "severidade": 0.15,
       "nivel": "alerta",

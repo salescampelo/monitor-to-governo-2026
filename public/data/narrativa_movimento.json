@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-25 12:27",
+  "updated_at": "2026-06-25 23:13",
   "janela_dias": 7,
   "principio": "Movimento de narrativa DESCRITIVO: sentimento derivado de titulos de imprensa publica (classificador POS/NEG/Neutro) + alertas do radar. Sem PII de terceiros (sem autor/usuario/comentario privado).",
   "adversarios": [
     {
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "total_mencoes": 56,
-      "recentes": 56,
+      "total_mencoes": 65,
+      "recentes": 65,
       "sentimento": {
-        "positivo": 12,
-        "negativo": 8,
-        "neutro": 36
+        "positivo": 15,
+        "negativo": 5,
+        "neutro": 45
       },
       "sentimento_recente": {
-        "positivo": 12,
-        "negativo": 8,
-        "neutro": 36
+        "positivo": 15,
+        "negativo": 5,
+        "neutro": 45
       },
-      "tom_liquido": 0.071,
-      "tom_liquido_recente": 0.071,
+      "tom_liquido": 0.154,
+      "tom_liquido_recente": 0.154,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -30,8 +30,8 @@
         {
           "tipo": "spike_negativo",
           "nivel": "alerta",
-          "severidade": 0.6933,
-          "evidencia": "8 menções negativas em 5 veículo(s) nas últimas 72h (AF Notícias, Agência Tocantins, Araguaína Notícias, Atitude Tocantins)"
+          "severidade": 0.3646,
+          "evidencia": "4 menções negativas em 3 veículo(s) nas últimas 72h (Agência Tocantins, Atitude Tocantins, afnoticias.com.br)"
         }
       ],
       "destaques": [
@@ -61,20 +61,20 @@
     {
       "id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "total_mencoes": 68,
-      "recentes": 68,
+      "total_mencoes": 60,
+      "recentes": 60,
       "sentimento": {
-        "positivo": 19,
+        "positivo": 16,
         "negativo": 1,
-        "neutro": 48
+        "neutro": 43
       },
       "sentimento_recente": {
-        "positivo": 19,
+        "positivo": 16,
         "negativo": 1,
-        "neutro": 48
+        "neutro": 43
       },
-      "tom_liquido": 0.265,
-      "tom_liquido_recente": 0.265,
+      "tom_liquido": 0.25,
+      "tom_liquido_recente": 0.25,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -85,13 +85,6 @@
       ],
       "destaques": [
         {
-          "title": "Em visita a Gurupi, senadora Dorinha contesta empate em pesquisas e defende liberdade de imprensa no Tocantins",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdjNXc3d6UUFSUnZsRjcxWmZGcll1UEdJU2FGLTdhemhCbDRqVF95S0k2VHlydWhMUWJPcTFCUGdlNXdLNGN0TlhCQVhsUV9FOU00QU5TRDJnaWlneHZmSE54RFE0emZfTmgwRlppZ2w5UmpvUDIxSlc0SnJFWE9MTU83Tk1PUmk4U0x4VjAyUjNCd0NfSWxtRDU0YTRyM0k2QTJhLTZUZFIzNkl2NGdQdnNBa1hTVVJDVndsc3Juel83UjR1dG5vNHVFRVFfVEY2MUVKWmt4VV95UC1E?oc=5",
-          "source": "Atitude Tocantins",
-          "data": "2026-06-25",
-          "sentimento": "Neutro"
-        },
-        {
           "title": "Paraná Pesquisas aponta empate técnico entre Dorinha e Vicentinho na disputa pelo Governo do Tocantins",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaFBKMFIwbEJjMkpTYWNlM2xaS194OVRtZDhtZEg2Q2xKemc1QXphSm9kY3FDSC1Ea0lPM2o0ME9iSXNrdjlQU0pRcDZCVms1aWFmakQwS1BRRUM2dEczSXZBUHd4Q0ZFZDNlRXVtQW5CMk5EYkdFUDhIS3RSWi15YWI3ckTSAYoBQVVfeXFMTWpnTlVDTEtDM25CM2tBbGlueDQwaTVuaGdRMkUxSlFGdzFDbVpNNHRnMVMyUlZNLTZXdGNsWVZvUThVOXdnZVJiRFNvZGlCU1hLdmdiQWZpOUo1Mkg1TFVyZFJia011STlQdTNyZy1CUGZuQTlnVlV4QW1VX1VHOWViZUxGZzJDcjd3?oc=5",
           "source": "jm notícia",
@@ -99,9 +92,16 @@
           "sentimento": "Neutro"
         },
         {
-          "title": "Dorinha promete retomada do Salão do Livro no Tocantins caso assuma governo do Estado",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZEd2SXZ6cmVvTzV4eVpESUZBT29Lczkzc1plVmdSY21TNE1GdklOZGQxTkpzT0k2ZUUxT0RqMF9NM2NtQXNBd25OdjNkdUN6eDZkMTAwREpQZ2JGbndZNS1abGQ2bmJ3ekFoSEktZVZzMHBTWW5jbEVQbjZ1emZiYVJLbTlYY3BnYWVWYkswbnBnSXdNUy1mZm5vRVlob3R0TXdzREJOeVFsX1JBNGlaNDBpNmo1Z3R2bEZB?oc=5",
-          "source": "Surgiu",
+          "title": "Dorinha e Vicentinho empatam em todos os cenários ao governo do Tocantins, diz Paraná Pesquisas",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVVdJbEZ1SUMzWlNQai1XRnVCOUVuSHBYSjU1djVIODVxQnFVUlQ0QzVIWHdISFZkX2dPaXdRT2xTMzJZZTR2UUx4OEtTNm1udXRnTlo1d1lPZVNVMjlNS3hxNVNtQW04dDQxVWtHN1BLQWZZdDdFdV9hNFE4a2FsdkpkZ04tV2JnejUwQzlTUjJSWlZnemFIaWFQZVhmVk1wWFo3Q00xMnNNMmxDMC00bS1scGNHRS1ld3dBM2VKeUJrY1U?oc=5",
+          "source": "Folha do Jalapão -",
+          "data": "2026-06-25",
+          "sentimento": "Neutro"
+        },
+        {
+          "title": "Dorinha e Vicentinho empatam em todos os cenários ao Governo do Tocantins, aponta pesquisa",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSkJkRi01MWFBcmFiY1pDbDFha1kxWDR2dS0tbUROMlV3dlB1WTczb0VGZkk4bGpGUG0ybnRVWnJNRTh6d084bDczWU1CTjFwLWdCRnU4eEtfVjVrblpFZkwyWTBESktUbXBGUnI1WXVCS0x2M3pvZ1Z2OGtyUC1LRDdsSzRqZGRhVDBFVE9ma2ZyekFuWXBVQm9WM2VGMUNGS3BnUy0xUnRaeHZFZTZaYWxETGpEQVZBdmtxQUp6a1VLUQ?oc=5",
+          "source": "afnoticias.com.br",
           "data": "2026-06-25",
           "sentimento": "Neutro"
         }
@@ -110,20 +110,20 @@
     {
       "id": "laurez",
       "nome": "Laurez Moreira",
-      "total_mencoes": 48,
-      "recentes": 48,
+      "total_mencoes": 58,
+      "recentes": 58,
       "sentimento": {
-        "positivo": 28,
+        "positivo": 26,
         "negativo": 0,
-        "neutro": 20
+        "neutro": 32
       },
       "sentimento_recente": {
-        "positivo": 28,
+        "positivo": 26,
         "negativo": 0,
-        "neutro": 20
+        "neutro": 32
       },
-      "tom_liquido": 0.583,
-      "tom_liquido_recente": 0.583,
+      "tom_liquido": 0.448,
+      "tom_liquido_recente": 0.448,
       "alertas": [
         {
           "tipo": "evento_judicial",
@@ -159,20 +159,20 @@
     {
       "id": "katia",
       "nome": "Kátia Abreu",
-      "total_mencoes": 20,
-      "recentes": 20,
+      "total_mencoes": 18,
+      "recentes": 18,
       "sentimento": {
-        "positivo": 7,
+        "positivo": 4,
         "negativo": 0,
-        "neutro": 13
+        "neutro": 14
       },
       "sentimento_recente": {
-        "positivo": 7,
+        "positivo": 4,
         "negativo": 0,
-        "neutro": 13
+        "neutro": 14
       },
-      "tom_liquido": 0.35,
-      "tom_liquido_recente": 0.35,
+      "tom_liquido": 0.222,
+      "tom_liquido_recente": 0.222,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -208,20 +208,20 @@
     {
       "id": "mourao",
       "nome": "Paulo Mourão",
-      "total_mencoes": 16,
-      "recentes": 16,
+      "total_mencoes": 13,
+      "recentes": 13,
       "sentimento": {
-        "positivo": 12,
+        "positivo": 10,
         "negativo": 0,
-        "neutro": 4
+        "neutro": 3
       },
       "sentimento_recente": {
-        "positivo": 12,
+        "positivo": 10,
         "negativo": 0,
-        "neutro": 4
+        "neutro": 3
       },
-      "tom_liquido": 0.75,
-      "tom_liquido_recente": 0.75,
+      "tom_liquido": 0.769,
+      "tom_liquido_recente": 0.769,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -255,22 +255,64 @@
       ]
     },
     {
+      "id": "cinthia",
+      "nome": "Cinthia Ribeiro",
+      "total_mencoes": 7,
+      "recentes": 7,
+      "sentimento": {
+        "positivo": 2,
+        "negativo": 0,
+        "neutro": 5
+      },
+      "sentimento_recente": {
+        "positivo": 2,
+        "negativo": 0,
+        "neutro": 5
+      },
+      "tom_liquido": 0.286,
+      "tom_liquido_recente": 0.286,
+      "alertas": [],
+      "destaques": [
+        {
+          "title": "Esposa de Vicentinho mobiliza mulheres do Bico em caravana e defende protagonismo feminino: Cínthia também participa",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVkRibmYwbGtZVnZmaWpCNWdHT3BjdkdVMGthSFBFWjFZQlRhUVBKTFRNakZHOFUyLXZWSkVSemsxUS1sakNTdE9BM2oyV3hZcS1tV2VjZ2hlSG9ZbGlqYzF5YlkzOWNSdDN1QU0tc1NrTnZjd2pla1JwSF81eHk0SlNXMEpnc1pmbUFCRkg2YjFsaFh4STZhQ0kxSXlsS0FhMVJJWWxScUItZ2thTUdHTkgwU25jaTZBVTlfNmlwck94TzA3dUItV3ZTRWRrTjJkdXJCT1B6SmlnV3Jta3ZRQlJpbzhhck94Q3otQw?oc=5",
+          "source": "Gazeta do Cerrado",
+          "data": "2026-06-25",
+          "sentimento": "Positivo"
+        },
+        {
+          "title": "PESQUISA ELEITORALGomes e Alexandre lideram disputa ao Senado; Irajá é o mais rejeitado",
+          "url": "https://www.portalonorte.com.br/politica/gomes-e-alexandre-lideram-disputa-ao-senado-iraja-e-o-mais-rejeitado/141314/",
+          "source": "Portal O Norte",
+          "data": "2026-06-25",
+          "sentimento": "Neutro"
+        },
+        {
+          "title": "Governador assina projeto de R$ 21 milhões para sinalização viária em 62 municípios do TO",
+          "url": "https://araguainanoticias.com.br/noticia/governador-assina-projeto-com-investimento-de-r-21-milhoes-para-sinalizacao-viaria-em-62-municipios-do-to/44700",
+          "source": "Araguaína Notícias",
+          "data": "2026-06-25",
+          "sentimento": "Neutro"
+        }
+      ]
+    },
+    {
       "id": "ataides",
       "nome": "Ataídes Oliveira",
       "total_mencoes": 6,
       "recentes": 6,
       "sentimento": {
-        "positivo": 2,
+        "positivo": 1,
         "negativo": 0,
-        "neutro": 4
+        "neutro": 5
       },
       "sentimento_recente": {
-        "positivo": 2,
+        "positivo": 1,
         "negativo": 0,
-        "neutro": 4
+        "neutro": 5
       },
-      "tom_liquido": 0.333,
-      "tom_liquido_recente": 0.333,
+      "tom_liquido": 0.167,
+      "tom_liquido_recente": 0.167,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -295,73 +337,31 @@
           "sentimento": "Neutro"
         },
         {
-          "title": "Prefeito de Piraquê declara apoio à pré-candidatura de Dorinha ao Governo do Estado",
-          "url": "https://t1noticias.com.br/politica/prefeito-de-piraque-declara-apoio-a-pre-candidatura-de-dorinha-ao-governo-do-estado/142234/",
-          "source": "T1 Notícias",
-          "data": "2026-06-25",
-          "sentimento": "Positivo"
-        }
-      ]
-    },
-    {
-      "id": "cinthia",
-      "nome": "Cinthia Ribeiro",
-      "total_mencoes": 5,
-      "recentes": 5,
-      "sentimento": {
-        "positivo": 3,
-        "negativo": 0,
-        "neutro": 2
-      },
-      "sentimento_recente": {
-        "positivo": 3,
-        "negativo": 0,
-        "neutro": 2
-      },
-      "tom_liquido": 0.6,
-      "tom_liquido_recente": 0.6,
-      "alertas": [],
-      "destaques": [
-        {
-          "title": "Esposa de Vicentinho mobiliza mulheres do Bico em caravana e defende protagonismo feminino: Cínthia também participa",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVkRibmYwbGtZVnZmaWpCNWdHT3BjdkdVMGthSFBFWjFZQlRhUVBKTFRNakZHOFUyLXZWSkVSemsxUS1sakNTdE9BM2oyV3hZcS1tV2VjZ2hlSG9ZbGlqYzF5YlkzOWNSdDN1QU0tc1NrTnZjd2pla1JwSF81eHk0SlNXMEpnc1pmbUFCRkg2YjFsaFh4STZhQ0kxSXlsS0FhMVJJWWxScUItZ2thTUdHTkgwU25jaTZBVTlfNmlwck94TzA3dUItV3ZTRWRrTjJkdXJCT1B6SmlnV3Jta3ZRQlJpbzhhck94Q3otQw?oc=5",
-          "source": "Gazeta do Cerrado",
-          "data": "2026-06-25",
-          "sentimento": "Positivo"
-        },
-        {
-          "title": "Doze Escolas da Rede Municipal levarão cultura, criatividade e tradição ao 34º Arraiá da Capital",
-          "url": "https://conexaoto.com.br/2026/06/24/doze-escolas-da-rede-municipal-levarao-cultura-criatividade-e-tradicao-ao-34o-arraia-da-capital",
-          "source": "Conexão Tocantins",
+          "title": "\"CHEGA DE BURACOS!\"Ataídes apresenta proposta para recuperar rodovias e estradas vicinais",
+          "url": "https://www.portalonorte.com.br/politica/ataides-apresenta-proposta-para-recuperar-rodovias-e-estradas-vicinais/141227/",
+          "source": "Portal O Norte",
           "data": "2026-06-25",
           "sentimento": "Neutro"
-        },
-        {
-          "title": "POLÍTICA REGIONALMatopiba: Dorinha propõe que Ministério da Integração assuma competência e pede fórum regional em Palmas",
-          "url": "https://www.agenciatocantins.com.br/noticia/107960/matopiba-dorinha-propoe-que-ministerio-da-integracao-assuma-competencia-e-pede-forum-regional-em-palmas",
-          "source": "Agência Tocantins",
-          "data": "2026-06-25",
-          "sentimento": "Positivo"
         }
       ]
     },
     {
       "id": "witer",
       "nome": "Witer Naves",
-      "total_mencoes": 1,
-      "recentes": 1,
+      "total_mencoes": 2,
+      "recentes": 2,
       "sentimento": {
         "positivo": 1,
         "negativo": 0,
-        "neutro": 0
+        "neutro": 1
       },
       "sentimento_recente": {
         "positivo": 1,
         "negativo": 0,
-        "neutro": 0
+        "neutro": 1
       },
-      "tom_liquido": 1.0,
-      "tom_liquido_recente": 1.0,
+      "tom_liquido": 0.5,
+      "tom_liquido_recente": 0.5,
       "alertas": [],
       "destaques": [
         {
@@ -370,6 +370,13 @@
           "source": "Agência Tocantins",
           "data": "2026-06-25",
           "sentimento": "Positivo"
+        },
+        {
+          "title": "Disputa pela vice revela estágio de cada projeto ao Palácio Araguaia",
+          "url": "https://tocantins.jornalopcao.com.br/politica/disputa-pela-vice-revela-estagio-de-cada-projeto-ao-palacio-araguaia-592477/",
+          "source": "Jornal Opção Tocantins",
+          "data": "2026-06-25",
+          "sentimento": "Neutro"
         }
       ]
     }
@@ -377,6 +384,6 @@
   "resumo": {
     "adversarios": 8,
     "com_alerta_critico": 3,
-    "total_mencoes": 220
+    "total_mencoes": 229
   }
 }
