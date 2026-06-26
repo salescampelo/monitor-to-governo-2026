@@ -1392,7 +1392,67 @@
       "engajamento_pct": 7.5,
       "sentimento_liquido": 1.0,
       "origem": "live"
+    },
+    {
+      "data": "2026-06-26",
+      "id": "dorinha",
+      "nome": "Professora Dorinha Seabra Rezende",
+      "partido": "UB",
+      "posicao": 1,
+      "score": 83.2,
+      "seguidores": 88937,
+      "engajamento_pct": 0.87,
+      "sentimento_liquido": 0.5,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-26",
+      "id": "vicentinho",
+      "nome": "Vicentinho Júnior",
+      "partido": "PSDB",
+      "posicao": 2,
+      "score": 61.6,
+      "seguidores": 114303,
+      "engajamento_pct": 0.79,
+      "sentimento_liquido": 0.422,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-26",
+      "id": "laurez",
+      "nome": "Laurez Moreira",
+      "partido": "PSD",
+      "posicao": 3,
+      "score": 41.5,
+      "seguidores": 90071,
+      "engajamento_pct": 0.28,
+      "sentimento_liquido": 0.517,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-26",
+      "id": "ataides",
+      "nome": "Ataídes Oliveira",
+      "partido": "DC",
+      "posicao": 4,
+      "score": 38.1,
+      "seguidores": 0,
+      "engajamento_pct": 0,
+      "sentimento_liquido": 0.667,
+      "origem": "live"
+    },
+    {
+      "data": "2026-06-26",
+      "id": "witer",
+      "nome": "Witer Naves",
+      "partido": "PSOL",
+      "posicao": 5,
+      "score": 29.2,
+      "seguidores": 1592,
+      "engajamento_pct": 7.5,
+      "sentimento_liquido": 1.0,
+      "origem": "live"
     }
   ],
-  "atualizado": "2026-06-25T20:13:36.139012-03:00"
+  "atualizado": "2026-06-26T09:17:33.700725-03:00"
 }
