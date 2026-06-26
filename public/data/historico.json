@@ -1402,7 +1402,7 @@
       "score": 83.2,
       "seguidores": 88937,
       "engajamento_pct": 0.87,
-      "sentimento_liquido": 0.5,
+      "sentimento_liquido": 0.49,
       "origem": "live"
     },
     {
@@ -1411,10 +1411,10 @@
       "nome": "Vicentinho Júnior",
       "partido": "PSDB",
       "posicao": 2,
-      "score": 61.6,
+      "score": 61.5,
       "seguidores": 114303,
       "engajamento_pct": 0.79,
-      "sentimento_liquido": 0.422,
+      "sentimento_liquido": 0.377,
       "origem": "live"
     },
     {
@@ -1423,10 +1423,10 @@
       "nome": "Laurez Moreira",
       "partido": "PSD",
       "posicao": 3,
-      "score": 41.5,
+      "score": 41.6,
       "seguidores": 90071,
       "engajamento_pct": 0.28,
-      "sentimento_liquido": 0.517,
+      "sentimento_liquido": 0.55,
       "origem": "live"
     },
     {
@@ -1435,10 +1435,10 @@
       "nome": "Ataídes Oliveira",
       "partido": "DC",
       "posicao": 4,
-      "score": 38.1,
+      "score": 36.6,
       "seguidores": 0,
       "engajamento_pct": 0,
-      "sentimento_liquido": 0.667,
+      "sentimento_liquido": 0.143,
       "origem": "live"
     },
     {
@@ -1454,5 +1454,5 @@
       "origem": "live"
     }
   ],
-  "atualizado": "2026-06-26T09:17:33.700725-03:00"
+  "atualizado": "2026-06-26T20:01:34.207144-03:00"
 }
