@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-27 11:41",
+  "updated_at": "2026-06-27 23:00",
   "janela_dias": 7,
   "principio": "Movimento de narrativa DESCRITIVO: sentimento derivado de titulos de imprensa publica (classificador POS/NEG/Neutro) + alertas do radar. Sem PII de terceiros (sem autor/usuario/comentario privado).",
   "adversarios": [
     {
       "id": "vicentinho",
       "nome": "Vicentinho Júnior",
-      "total_mencoes": 60,
-      "recentes": 60,
+      "total_mencoes": 46,
+      "recentes": 46,
       "sentimento": {
-        "positivo": 11,
-        "negativo": 4,
-        "neutro": 45
+        "positivo": 13,
+        "negativo": 3,
+        "neutro": 30
       },
       "sentimento_recente": {
-        "positivo": 11,
-        "negativo": 4,
-        "neutro": 45
+        "positivo": 13,
+        "negativo": 3,
+        "neutro": 30
       },
-      "tom_liquido": 0.117,
-      "tom_liquido_recente": 0.117,
+      "tom_liquido": 0.217,
+      "tom_liquido_recente": 0.217,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -30,8 +30,8 @@
         {
           "tipo": "spike_negativo",
           "nivel": "alerta",
-          "severidade": 0.5224,
-          "evidencia": "6 menções negativas em 4 veículo(s) nas últimas 72h (Agência Tocantins, Atitude Tocantins, Jornal Opção Tocantins, afnoticias.com.br)"
+          "severidade": 0.4734,
+          "evidencia": "5 menções negativas em 4 veículo(s) nas últimas 72h (Agência Tocantins, Atitude Tocantins, Jornal Opção Tocantins, afnoticias.com.br)"
         }
       ],
       "destaques": [
@@ -61,33 +61,33 @@
     {
       "id": "cinthia",
       "nome": "Cinthia Ribeiro",
-      "total_mencoes": 19,
-      "recentes": 19,
+      "total_mencoes": 14,
+      "recentes": 14,
       "sentimento": {
-        "positivo": 3,
-        "negativo": 2,
-        "neutro": 14
+        "positivo": 2,
+        "negativo": 3,
+        "neutro": 9
       },
       "sentimento_recente": {
-        "positivo": 3,
-        "negativo": 2,
-        "neutro": 14
+        "positivo": 2,
+        "negativo": 3,
+        "neutro": 9
       },
-      "tom_liquido": 0.053,
-      "tom_liquido_recente": 0.053,
+      "tom_liquido": -0.071,
+      "tom_liquido_recente": -0.071,
       "alertas": [
         {
           "tipo": "spike_negativo",
           "nivel": "alerta",
           "severidade": 0.3149,
-          "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Cleber Toledo, Gazeta do Cerrado, Jornal Opção Tocantins)"
+          "evidencia": "3 menções negativas em 3 veículo(s) nas últimas 72h (Cleber Toledo, Gazeta do Cerrado, Portal O Norte)"
         }
       ],
       "destaques": [
         {
-          "title": "Esposa de Vicentinho mobiliza mulheres do Bico em caravana e defende protagonismo feminino: Cínthia também participa",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVkRibmYwbGtZVnZmaWpCNWdHT3BjdkdVMGthSFBFWjFZQlRhUVBKTFRNakZHOFUyLXZWSkVSemsxUS1sakNTdE9BM2oyV3hZcS1tV2VjZ2hlSG9ZbGlqYzF5YlkzOWNSdDN1QU0tc1NrTnZjd2pla1JwSF81eHk0SlNXMEpnc1pmbUFCRkg2YjFsaFh4STZhQ0kxSXlsS0FhMVJJWWxScUItZ2thTUdHTkgwU25jaTZBVTlfNmlwck94TzA3dUItV3ZTRWRrTjJkdXJCT1B6SmlnV3Jta3ZRQlJpbzhhck94Q3otQw?oc=5",
-          "source": "Gazeta do Cerrado",
+          "title": "Política | Cínthia Ribeiro participa da Caravana do PSDB Mulher com lideranças em Porto Nacional",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcE1qOGRYeFNTLVkwUUQ5WldXb2toWHNfcDFaZHc2ZDBjTDk0WW1HeThIZGwtU3YxdkROZzJZQ0dmUXdlWmNneVJKVXYyUXhxNFJVMWxjWWlpdHdqVTdVSzRUamNXaXB5cXhUanhWY1k1NE5DX21nSTlJMWpuT0FCZzRaTjVIUGYtMWNYZ1loYnhmSEhKNTNySzI3cXNJNkFucUJJdEtLcm5IZy0tTzc4LTlRXzNZRTVscE01WjhocnAxTGhVMVFZ?oc=5",
+          "source": "T1 Notícias",
           "data": "2026-06-27",
           "sentimento": "Positivo"
         },
@@ -110,20 +110,20 @@
     {
       "id": "dorinha",
       "nome": "Professora Dorinha Seabra Rezende",
-      "total_mencoes": 71,
-      "recentes": 71,
+      "total_mencoes": 65,
+      "recentes": 65,
       "sentimento": {
-        "positivo": 12,
+        "positivo": 21,
         "negativo": 0,
-        "neutro": 59
+        "neutro": 44
       },
       "sentimento_recente": {
-        "positivo": 12,
+        "positivo": 21,
         "negativo": 0,
-        "neutro": 59
+        "neutro": 44
       },
-      "tom_liquido": 0.169,
-      "tom_liquido_recente": 0.169,
+      "tom_liquido": 0.323,
+      "tom_liquido_recente": 0.323,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -143,7 +143,7 @@
         {
           "title": "Dorinha promete retomada do Salão do Livro no Tocantins caso assuma governo do Estado",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZEd2SXZ6cmVvTzV4eVpESUZBT29Lczkzc1plVmdSY21TNE1GdklOZGQxTkpzT0k2ZUUxT0RqMF9NM2NtQXNBd25OdjNkdUN6eDZkMTAwREpQZ2JGbndZNS1abGQ2bmJ3ekFoSEktZVZzMHBTWW5jbEVQbjZ1emZiYVJLbTlYY3BnYWVWYkswbnBnSXdNUy1mZm5vRVlob3R0TXdzREJOeVFsX1JBNGlaNDBpNmo1Z3R2bEZB?oc=5",
-          "source": "Surgiu",
+          "source": "surgiu.com.br",
           "data": "2026-06-27",
           "sentimento": "Neutro"
         },
@@ -159,20 +159,20 @@
     {
       "id": "laurez",
       "nome": "Laurez Moreira",
-      "total_mencoes": 42,
-      "recentes": 42,
+      "total_mencoes": 48,
+      "recentes": 48,
       "sentimento": {
-        "positivo": 18,
+        "positivo": 24,
         "negativo": 0,
         "neutro": 24
       },
       "sentimento_recente": {
-        "positivo": 18,
+        "positivo": 24,
         "negativo": 0,
         "neutro": 24
       },
-      "tom_liquido": 0.429,
-      "tom_liquido_recente": 0.429,
+      "tom_liquido": 0.5,
+      "tom_liquido_recente": 0.5,
       "alertas": [
         {
           "tipo": "evento_judicial",
@@ -208,20 +208,20 @@
     {
       "id": "katia",
       "nome": "Kátia Abreu",
-      "total_mencoes": 19,
-      "recentes": 19,
+      "total_mencoes": 13,
+      "recentes": 13,
       "sentimento": {
-        "positivo": 4,
+        "positivo": 2,
         "negativo": 0,
-        "neutro": 15
+        "neutro": 11
       },
       "sentimento_recente": {
-        "positivo": 4,
+        "positivo": 2,
         "negativo": 0,
-        "neutro": 15
+        "neutro": 11
       },
-      "tom_liquido": 0.211,
-      "tom_liquido_recente": 0.211,
+      "tom_liquido": 0.154,
+      "tom_liquido_recente": 0.154,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -257,20 +257,20 @@
     {
       "id": "mourao",
       "nome": "Paulo Mourão",
-      "total_mencoes": 10,
-      "recentes": 10,
+      "total_mencoes": 9,
+      "recentes": 9,
       "sentimento": {
-        "positivo": 8,
+        "positivo": 7,
         "negativo": 0,
         "neutro": 2
       },
       "sentimento_recente": {
-        "positivo": 8,
+        "positivo": 7,
         "negativo": 0,
         "neutro": 2
       },
-      "tom_liquido": 0.8,
-      "tom_liquido_recente": 0.8,
+      "tom_liquido": 0.778,
+      "tom_liquido_recente": 0.778,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -306,20 +306,20 @@
     {
       "id": "ataides",
       "nome": "Ataídes Oliveira",
-      "total_mencoes": 6,
-      "recentes": 6,
+      "total_mencoes": 5,
+      "recentes": 5,
       "sentimento": {
         "positivo": 1,
         "negativo": 0,
-        "neutro": 5
+        "neutro": 4
       },
       "sentimento_recente": {
         "positivo": 1,
         "negativo": 0,
-        "neutro": 5
+        "neutro": 4
       },
-      "tom_liquido": 0.167,
-      "tom_liquido_recente": 0.167,
+      "tom_liquido": 0.2,
+      "tom_liquido_recente": 0.2,
       "alertas": [
         {
           "tipo": "concentracao_doadores",
@@ -332,7 +332,7 @@
         {
           "title": "Ataídes Oliveira critica atraso em obra do Hospital Geral de Gurupi e aponta custo de R$ 180 milhões",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOb0FCenlOOWJRRVktdWo5UkoxUmtkcWd0aTdIRGJpUVVZMTBvNWtyUU5FZE1xVUlqWklsR2xJNXpmQ0NyV3YzckhRUUIwQmdWMkNqZUFkVmk4aHZPYzFXTVdQR0daSWtTYzFRXzBXVjdhakozdk9PbjF4NzlsVnRTZTliVC1ncXhtbGlSSUdMN3FUV3RTeGdZRkNzZ2o0dDVjSUpyQVZxSkg0aWFxTkRDdDE3QUpGNFlGSjNEN3pySHpmSFkzWFNCRE1iVnJlQQ?oc=5",
-          "source": "Surgiu",
+          "source": "surgiu.com.br",
           "data": "2026-06-27",
           "sentimento": "Neutro"
         },
@@ -384,6 +384,6 @@
   "resumo": {
     "adversarios": 8,
     "com_alerta_critico": 3,
-    "total_mencoes": 228
+    "total_mencoes": 201
   }
 }
