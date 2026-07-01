@@ -1,5 +1,5 @@
 {
-  "data_atualizacao": "2026-06-27 23:00",
+  "data_atualizacao": "2026-07-01 12:31",
   "cargo": "Governador",
   "estado": "Tocantins",
   "vagas": 1,
@@ -15,10 +15,10 @@
       "nivel_base": "alta",
       "descricao": "Líder nas pesquisas Real Big Time (dez/2025, ~42%). Apoio do governador Wanderlei Barbosa. Forte em todo o estado.",
       "abreviacao": "PD",
-      "seguidores": 88937,
-      "taxa_engajamento_pct": 0.87,
-      "media_likes_recentes": 626.1,
-      "data_coleta": "2026-06-25",
+      "seguidores": 87700,
+      "taxa_engajamento_pct": 0.46,
+      "media_likes_recentes": 308.2,
+      "data_coleta": "2026-07-01",
       "votos_2022": 395408,
       "cargo_2022": "senado",
       "sobreposicao": 0.906,
@@ -28,7 +28,7 @@
       "capital_positivo": 0.619,
       "trajetoria_eleitoral": 0.7,
       "firepower_financeiro": 1.0,
-      "sentimento_liquido": 0.538,
+      "sentimento_liquido": 0.0,
       "chapa": {
         "vice": {
           "nome": null,
@@ -78,7 +78,7 @@
         }
       ],
       "ranking_caveat": null,
-      "score": 83.3,
+      "score": 80.9,
       "nivel_dinamico": "alta",
       "confidence": 0.958,
       "confidence_dims": {
@@ -105,10 +105,10 @@
       "nivel_base": "alta",
       "descricao": "Oficializou pré-candidatura em janeiro/2026. Trocou Progressistas → PSDB. Base no interior. Preside PSDB-TO.",
       "abreviacao": "VJ",
-      "seguidores": 114303,
-      "taxa_engajamento_pct": 0.79,
-      "media_likes_recentes": 810.6,
-      "data_coleta": "2026-06-25",
+      "seguidores": 114734,
+      "taxa_engajamento_pct": 0.74,
+      "media_likes_recentes": 764.3,
+      "data_coleta": "2026-07-01",
       "votos_2022": 55292,
       "cargo_2022": "federal",
       "sobreposicao": 0.592,
@@ -118,7 +118,7 @@
       "capital_positivo": 0.444,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.852,
-      "sentimento_liquido": 0.326,
+      "sentimento_liquido": 0.0,
       "chapa": {
         "vice": {
           "nome": "Amélio Cayres",
@@ -146,7 +146,7 @@
       "trust_score_revisao": "2026-06-04",
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 61.3,
+      "score": 60.3,
       "nivel_dinamico": "média",
       "confidence": 0.958,
       "confidence_dims": {
@@ -173,10 +173,10 @@
       "nivel_base": "alta",
       "descricao": "Vice-governador atual do Tocantins (continuidade do governo Wanderlei). Pré-candidato ao governo. Em 23/06/2026 recebeu o APOIO OFICIAL DO PT — palanque de Lula.",
       "abreviacao": "LM",
-      "seguidores": 90071,
-      "taxa_engajamento_pct": 0.28,
-      "media_likes_recentes": 191.9,
-      "data_coleta": "2026-06-25",
+      "seguidores": 90011,
+      "taxa_engajamento_pct": 0.15,
+      "media_likes_recentes": 105.8,
+      "data_coleta": "2026-07-01",
       "votos_2022": 0,
       "cargo_2022": "governo",
       "sobreposicao": 0.0,
@@ -186,7 +186,7 @@
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.0,
-      "sentimento_liquido": 0.688,
+      "sentimento_liquido": 0.0,
       "chapa": {
         "vice": {
           "nome": null,
@@ -225,8 +225,8 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 42.1,
-      "nivel_dinamico": "média",
+      "score": 39.8,
+      "nivel_dinamico": "baixa",
       "confidence": 0.619,
       "confidence_dims": {
         "votos_2022": 0.3,
@@ -255,7 +255,7 @@
       "seguidores": 0,
       "taxa_engajamento_pct": 0,
       "media_likes_recentes": 0,
-      "data_coleta": "",
+      "data_coleta": "2026-07-01",
       "votos_2022": 69420,
       "cargo_2022": "senado",
       "sobreposicao": 0.827,
@@ -265,7 +265,7 @@
       "capital_positivo": 0.486,
       "trajetoria_eleitoral": 0.1,
       "firepower_financeiro": 0.556,
-      "sentimento_liquido": 0.2,
+      "sentimento_liquido": 0.0,
       "chapa": {
         "vice": {
           "nome": null,
@@ -283,7 +283,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 36.7,
+      "score": 36.1,
       "nivel_dinamico": "baixa",
       "confidence": 0.708,
       "confidence_dims": {
@@ -323,7 +323,7 @@
       "capital_positivo": 0.0,
       "trajetoria_eleitoral": 0.5,
       "firepower_financeiro": 0.0,
-      "sentimento_liquido": 1.0,
+      "sentimento_liquido": 0.0,
       "chapa": {
         "vice": {
           "nome": null,
@@ -353,7 +353,7 @@
       "trust_score_revisao": null,
       "vetor_reputacional_recente": [],
       "ranking_caveat": null,
-      "score": 29.2,
+      "score": 26.2,
       "nivel_dinamico": "baixa",
       "confidence": 0.599,
       "confidence_dims": {
@@ -438,8 +438,8 @@
   "total_candidatos": 5,
   "stats": {
     "forca_alta": 1,
-    "forca_media": 2,
-    "forca_baixa": 2,
+    "forca_media": 1,
+    "forca_baixa": 3,
     "confidence_media": 0.768
   }
 }
